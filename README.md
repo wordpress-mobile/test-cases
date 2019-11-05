@@ -8,4 +8,4 @@ Different combination of test cases gathered together for different purposes. Se
 
 # Test Cases
 
-See all [test cases](/test-cases).
+Test cases include steps about how to run a test scenario. See [test cases](/test-cases).
