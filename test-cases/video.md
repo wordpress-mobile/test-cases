@@ -35,7 +35,7 @@ Steps are same with [image block TC004](https://github.com/wordpress-mobile/gute
 
 ##### TC005
 
-**Close post with an ongoing image upload**
+**Close post with an ongoing video upload**
 
 Steps are same with [image block TC005](https://github.com/wordpress-mobile/gutenberg-tests/blob/master/test-cases/image.md#tc005) except for the difference in UI:
 
