@@ -31,35 +31,23 @@ Use same same steps on Media-Text block: [video block TC002](https://github.com/
 
 ##### TC003-i
 
-**Add Caption**
-
-Use same same steps on Media-Text block: [image block TC003](https://github.com/wordpress-mobile/gutenberg-tests/blob/master/test-cases/image.md#tc003)
-
-##### TC003-v
-
-**Add Caption**
-
-Use same same steps on Media-Text block: [video block TC003](https://github.com/wordpress-mobile/gutenberg-tests/blob/master/test-cases/video.md#tc003)
-
-##### TC004-i
-
 **Close/Re-open post with an ongoing image upload**
 
 Use same same steps on Media-Text block: [image block TC004](https://github.com/wordpress-mobile/gutenberg-tests/blob/master/test-cases/image.md#tc004)
 
-##### TC004-v
+##### TC003-v
 
 **Close/Re-open post with an ongoing video upload**
 
 Use same same steps on Media-Text block: [video block TC004](https://github.com/wordpress-mobile/gutenberg-tests/blob/master/test-cases/video.md#tc004)
 
-##### TC005-i
+##### TC004-i
 
 **Close post with an ongoing image upload**
 
 Use same same steps on Media-Text block: [image block TC005](https://github.com/wordpress-mobile/gutenberg-tests/blob/master/test-cases/image.md#tc005) 
 
-##### TC005-v
+##### TC004-v
 
 **Close post with an ongoing video upload**
 
