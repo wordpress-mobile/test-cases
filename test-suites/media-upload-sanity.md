@@ -12,6 +12,11 @@ WordPress iOS:
 - [ ] Video block - Close/Re-open post with an ongoing video upload - [steps](https://github.com/wordpress-mobile/gutenberg-tests/blob/master/test-cases/video.md#tc004)
 - [ ] Video block - Close post with an ongoing video upload - [steps](https://github.com/wordpress-mobile/gutenberg-tests/blob/master/test-cases/video.md#tc005)
 
+- [ ] Media Text block - Close/Re-open post with an ongoing image upload - [steps](https://github.com/wordpress-mobile/gutenberg-tests/blob/master/test-cases/media-text.md#tc003-i)
+- [ ] Media Text block - Close/Re-open post with an ongoing video upload - [steps](https://github.com/wordpress-mobile/gutenberg-tests/blob/master/test-cases/media-text.md#tc003-v)
+- [ ] Media Text block - Close post with an ongoing image upload - [steps](https://github.com/wordpress-mobile/gutenberg-tests/blob/master/test-cases/media-text.md#tc004-i)
+- [ ] Media Text block - Close post with an ongoing video upload - [steps](https://github.com/wordpress-mobile/gutenberg-tests/blob/master/test-cases/media-text.md#tc004-v)
+
 WordPress Android:
 
 - [ ] Simultaneous uploads - [steps](https://github.com/wordpress-mobile/gutenberg-tests/blob/master/test-cases/media-interaction.md#tc001)
@@ -25,3 +30,8 @@ WordPress Android:
 - [ ] Video block - Insert video from device (cancel) - [steps](https://github.com/wordpress-mobile/gutenberg-tests/blob/master/test-cases/video.md#tc002)
 - [ ] Video block - Close/Re-open post with an ongoing video upload - [steps](https://github.com/wordpress-mobile/gutenberg-tests/blob/master/test-cases/video.md#tc004)
 - [ ] Video block - Close post with an ongoing video upload - [steps](https://github.com/wordpress-mobile/gutenberg-tests/blob/master/test-cases/video.md#tc005)
+
+- [ ] Media Text block - Close/Re-open post with an ongoing image upload - [steps](https://github.com/wordpress-mobile/gutenberg-tests/blob/master/test-cases/media-text.md#tc003-i)
+- [ ] Media Text block - Close/Re-open post with an ongoing video upload - [steps](https://github.com/wordpress-mobile/gutenberg-tests/blob/master/test-cases/media-text.md#tc003-v)
+- [ ] Media Text block - Close post with an ongoing image upload - [steps](https://github.com/wordpress-mobile/gutenberg-tests/blob/master/test-cases/media-text.md#tc004-i)
+- [ ] Media Text block - Close post with an ongoing video upload - [steps](https://github.com/wordpress-mobile/gutenberg-tests/blob/master/test-cases/media-text.md#tc004-v)
