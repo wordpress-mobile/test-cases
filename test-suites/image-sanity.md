@@ -1,5 +1,6 @@
 WordPress iOS:
 
+- [ ] Simultaneous uploads - [steps](https://github.com/wordpress-mobile/gutenberg-tests/blob/master/test-cases/media-interaction.md#tc001)
 - [ ] Image block - Insert image from device (failing) - [steps](https://github.com/wordpress-mobile/gutenberg-tests/blob/master/test-cases/image.md#tc001)
 - [ ] Image block - Insert image from device (cancel) - [steps](https://github.com/wordpress-mobile/gutenberg-tests/blob/master/test-cases/image.md#tc002)
 - [ ] Image block - Add Caption - [steps](https://github.com/wordpress-mobile/gutenberg-tests/blob/master/test-cases/image.md#tc003)
@@ -9,6 +10,7 @@ WordPress iOS:
 
 WordPress Android:
 
+- [ ] Simultaneous uploads - [steps](https://github.com/wordpress-mobile/gutenberg-tests/blob/master/test-cases/media-interaction.md#tc001)
 - [ ] Image block - Insert image from device (failing) - [steps](https://github.com/wordpress-mobile/gutenberg-tests/blob/master/test-cases/image.md#tc001)
 - [ ] Image block - Insert image from device (cancel) - [steps](https://github.com/wordpress-mobile/gutenberg-tests/blob/master/test-cases/image.md#tc002)
 - [ ] Image block - Add Caption - [steps](https://github.com/wordpress-mobile/gutenberg-tests/blob/master/test-cases/image.md#tc003)
