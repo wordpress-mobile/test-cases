@@ -1,0 +1,10 @@
+[
+	{
+		"regex":"src/index.native.js",
+		"testFile": "image.md"
+	},
+	{
+		"regex":"src/util.native.js",
+		"testFile": "video.md"
+	}
+]
