@@ -1,10 +1,10 @@
 [
 	{
 		"regex":"gutenberg/packages/block-library/src/image/edit.native.js",
-		"testFile": "image-sanity.md"
+		"testFile": "gutenberg/image-sanity.md"
 	},
 	{
 		"regex":"src/util.native.js",
-		"testFile": "media-upload-sanity.md"
+		"testFile": "gutenberg/media-upload-sanity.md"
 	}
 ]
