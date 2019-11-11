@@ -1,6 +1,6 @@
 # Intro
 
-Test case repository for Gutenberg editor used in the WordPress mobile app
+Test case repository for WordPress mobile app
 
 # Test Suites
 
