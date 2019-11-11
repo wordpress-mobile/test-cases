@@ -9,7 +9,7 @@ A site with premium or business plan
 
 **Insert video from device (failing)**
 
-Steps are same with [image block TC001](https://github.com/wordpress-mobile/gutenberg-tests/blob/master/test-cases/image.md#tc001) except for the difference in UI:
+Steps are same with [image block TC001](https://github.com/wordpress-mobile/test-cases/blob/master/test-cases/gutenberg/image.md#tc001) except for the difference in UI:
 
 ![Upload failed](resources/video-upload-failed.png)
 
@@ -17,19 +17,19 @@ Steps are same with [image block TC001](https://github.com/wordpress-mobile/gute
 
 **Insert video from device (cancel)**
 
-Same with [image block TC002](https://github.com/wordpress-mobile/gutenberg-tests/blob/master/test-cases/image.md#tc002) 
+Same with [image block TC002](https://github.com/wordpress-mobile/test-cases/blob/master/test-cases/gutenberg/image.md#tc002) 
 
 ##### TC003
 
 **Add Caption**
 
-Same with [image block TC003](https://github.com/wordpress-mobile/gutenberg-tests/blob/master/test-cases/image.md#tc003)
+Same with [image block TC003](https://github.com/wordpress-mobile/test-cases/blob/master/test-cases/gutenberg/image.md#tc003)
 
 ##### TC004
 
 **Close/Re-open post with an ongoing video upload**
 
-Steps are same with [image block TC004](https://github.com/wordpress-mobile/gutenberg-tests/blob/master/test-cases/image.md#tc004) except for the difference in UI:
+Steps are same with [image block TC004](https://github.com/wordpress-mobile/test-cases/blob/master/test-cases/gutenberg/image.md#tc004) except for the difference in UI:
 
 ![Upload progress](resources/upload-progress-video.png)
 
@@ -37,7 +37,7 @@ Steps are same with [image block TC004](https://github.com/wordpress-mobile/gute
 
 **Close post with an ongoing video upload**
 
-Steps are same with [image block TC005](https://github.com/wordpress-mobile/gutenberg-tests/blob/master/test-cases/image.md#tc005) except for the difference in UI:
+Steps are same with [image block TC005](https://github.com/wordpress-mobile/test-cases/blob/master/test-cases/gutenberg/image.md#tc005) except for the difference in UI:
 
 ![Upload progress](resources/upload-progress-video.png)
 
