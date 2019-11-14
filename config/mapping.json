@@ -4,7 +4,7 @@
 		"testFile": "gutenberg/image-sanity.md"
 	},
 	{
-		"regex":"src/util.native.js",
-		"testFile": "gutenberg/media-upload-sanity.md"
+		"regex":"gutenberg/packages/block-library/src/video/edit.native.js",
+		"testFile": "gutenberg/video-sanity.md"
 	}
 ]
