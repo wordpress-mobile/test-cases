@@ -12,15 +12,15 @@
 		"testFile": "gutenberg/media-upload-sanity.md"
 	},
 	{
-		"regex":".*/Gutenberg/Processors/GutenbergImgUploadProcessor.swift",
+		"regex":".*\/Gutenberg\/Processors\/GutenbergImgUploadProcessor.swift",
 		"testFile": "gutenberg/img-upload-processor.md"
 	},
 	{
-		"regex":".*/Gutenberg/Processors/GutenbergVideoUploadProcessor.swift",
+		"regex":".*\/Gutenberg\/Processors\/GutenbergVideoUploadProcessor.swift",
 		"testFile": "gutenberg/video-upload-processor.md"
 	},
 	{
-		"regex":".*/Gutenberg/Processors/GutenbergGalleryUploadProcessor.swift",
+		"regex":".*\/Gutenberg\/Processors\/GutenbergGalleryUploadProcessor.swift",
 		"testFile": "gutenberg/gallery-upload-processor.md"
 	}
 ]
