@@ -10,5 +10,17 @@
 	{
 		"regex":"gutenberg/packages/block-editor/src/components/media-upload/index.native.js",
 		"testFile": "gutenberg/media-upload-sanity.md"
+	},
+	{
+		"regex":".*/Gutenberg/Processors/GutenbergImgUploadProcessor.swift",
+		"testFile": "gutenberg/img-upload-processor.md"
+	},
+	{
+		"regex":".*/Gutenberg/Processors/GutenbergVideoUploadProcessor.swift",
+		"testFile": "gutenberg/video-upload-processor.md"
+	},
+	{
+		"regex":".*/Gutenberg/Processors/GutenbergGalleryUploadProcessor.swift",
+		"testFile": "gutenberg/gallery-upload-processor.md"
 	}
 ]
