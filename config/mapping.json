@@ -1,26 +1,26 @@
 [
 	{
 		"regex":"gutenberg/packages/block-library/src/image/edit.native.js",
-		"testFile": "gutenberg/image-sanity.md"
+		"testFile": ["gutenberg/image-basic.md", "gutenberg/image-upload.md"]
 	},
 	{
 		"regex":"gutenberg/packages/block-library/src/video/edit.native.js",
-		"testFile": "gutenberg/video-sanity.md"
+		"testFile": ["gutenberg/video-sanity.md", "gutenberg/video-upload.md"]
 	},
 	{
 		"regex":"gutenberg/packages/block-editor/src/components/media-upload/index.native.js",
-		"testFile": "gutenberg/media-upload-sanity.md"
+		"testFile": ["gutenberg/image-upload.md", "gutenberg/video-upload.md", "gutenberg/media-text-upload.md"]
 	},
 	{
 		"regex":".*/Gutenberg/Processors/GutenbergImgUploadProcessor.swift",
-		"testFile": "gutenberg/img-upload-processor.md"
+		"testFile": ["gutenberg/img-upload-processor.md", "gutenberg/multi-block-media-upload.md"]
 	},
 	{
 		"regex":".*/Gutenberg/Processors/GutenbergVideoUploadProcessor.swift",
-		"testFile": "gutenberg/video-upload-processor.md"
+		"testFile": ["gutenberg/video-upload-processor.md", "gutenberg/multi-block-media-upload.md"]
 	},
 	{
 		"regex":".*/Gutenberg/Processors/GutenbergGalleryUploadProcessor.swift",
-		"testFile": "gutenberg/gallery-upload-processor.md"
+		"testFile": ["gutenberg/gallery-upload-processor.md", "gutenberg/multi-block-media-upload.md"]
 	}
 ]
