@@ -1,2 +1,3 @@
 - [ ] Image block - Close post with an ongoing image upload - [steps](https://github.com/wordpress-mobile/test-cases/blob/master/test-cases/gutenberg/image.md#tc005)
 - [ ] Media Text block - Close post with an ongoing image upload - [steps](https://github.com/wordpress-mobile/test-cases/blob/master/test-cases/gutenberg/media-text.md#tc004-i)
+- [ ] Media Text block - Change media text order during upload and close the post - [steps](https://github.com/wordpress-mobile/test-cases/blob/master/test-cases/gutenberg/media-text.md#tc005-i)
