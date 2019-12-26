@@ -63,5 +63,5 @@ Use same same steps on Media-Text block: [video block TC005](https://github.com/
 - Leave the post before upload finishes
 - Wait until upload is finished
 - Reopen the post
-- Result: mediaId is wrong and it is still showing the upload id, this is also cauising a red screen on iOS since mediaId is making the block invalid.
+- Verify that Media Text block shows the uploaded image
 
