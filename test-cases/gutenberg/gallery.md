@@ -7,6 +7,29 @@ A site with premium or business plan
 
 ##### TC001
 
+**Close/Re-open post with an ongoing image upload**
+
+-   Add a gallery block and insert images from device
+-   While there’s an ongoing upload, close the post with publishing changes
+-   Verify that you see the upload progress in post summary
+![Progress](../resources/upload-progress-posts-list.png)
+-   Reopen the post while upload is ongoing
+-   Verify you still see the upload progress in the gallery block
+
+##### TC002
+
+**Close post with an ongoing image upload**
+
+-   Add a gallery block and insert images from device
+-   While there’s an ongoing upload, close the post with publishing changes
+-   Verify that you see the upload progress in post summary
+![Progress](../resources/upload-progress-posts-list.png)
+-   Wait until upload finishes
+-   Re-open the post
+-   Verify that Gallery block shows the uploaded images
+
+##### TC003
+
 **Add caption to gallery**
 
 -   Add a Gallery block
@@ -24,7 +47,7 @@ A site with premium or business plan
 -   Save the post
 -   Open it and expect to see the captions with their styles
 
-##### TC002
+##### TC004
 
 **Add caption to gallery images**
 

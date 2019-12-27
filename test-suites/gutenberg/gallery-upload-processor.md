@@ -1,0 +1,1 @@
+- [ ] Gallery block - Close post with an ongoing image upload - [steps](https://github.com/wordpress-mobile/test-cases/blob/master/test-cases/gutenberg/gallery.md#tc002)

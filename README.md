@@ -15,3 +15,7 @@ Different combination of test cases gathered together for different purposes. Se
 - [WordPress-iOS](https://github.com/wordpress-mobile/WordPress-iOS#build-instructions)
 - [WordPress-Android](https://github.com/wordpress-mobile/WordPress-Android#build-instructions)
 - [Gutenberg mobile](https://github.com/wordpress-mobile/gutenberg-mobile#getting-started)
+
+# Configuration
+
+- See [config](/config)
