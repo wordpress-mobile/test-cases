@@ -18,4 +18,5 @@ Different combination of test cases gathered together for different purposes. Se
 
 # Configuration
 
-- See [config](/config)
+- See [config](/config). If you want to easily test your updates to the mapping.json file you can use unit tests mentioned in the [Unit Tests section](https://github.com/wordpress-mobile/test-case-reminder-bot#unit-tests).
+
