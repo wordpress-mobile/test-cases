@@ -46,7 +46,6 @@ Part 5
 
 Part 6
 
-- [ ] Gallery block - Insert image from device (cancel) - steps
 - [ ] Gallery block - Settings: Column number - steps
 - [ ] Gallery block - Settings: Crop images - steps
 - [ ] Gallery block - Settings: Link to - steps
@@ -57,6 +56,7 @@ Part 7
 
 - [ ] Gallery block - Dark mode - steps
 - [ ] Gallery block - Try adding same images from WP Media library and moving the images around - steps
+- [ ] Gallery block - Insert image from device (cancel) - steps
 - [ ] Media Text block - Insert video from device (cancel) - [steps](https://github.com/wordpress-mobile/test-cases/blob/master/test-cases/gutenberg/media-text.md#tc002-v)
 - [ ] Media Text block - Insert image from device (cancel) - [steps](https://github.com/wordpress-mobile/test-cases/blob/master/test-cases/gutenberg/media-text.md#tc002-i)
 
