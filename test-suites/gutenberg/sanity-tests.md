@@ -16,9 +16,18 @@ Part 2
 - [ ] Media Text block - Close/Re-open post with an ongoing video upload - [steps](https://github.com/wordpress-mobile/test-cases/blob/master/test-cases/gutenberg/media-text.md#tc003-v)
 - [ ] Simultaneous uploads - [steps](https://github.com/wordpress-mobile/test-cases/blob/master/test-cases/gutenberg/media-interaction.md#tc001)
 
+Part 3 
+
+- [ ] Gallery block - Dark mode - steps
+- [ ] Shortcode block - Dark mode - steps
+- [ ] Media Text block - Dark mode - steps
+- [ ] Spacer block - Dark mode - steps
+- [ ] Button block - Dark mode - steps
+- [ ] Group - Dark mode - steps
+
 WordPress Android
 
-Part 3
+Part 4
 
 - [ ] Gallery block - Close/Re-open post with an ongoing image upload - [steps](https://github.com/wordpress-mobile/test-cases/blob/master/test-cases/gutenberg/gallery.md#tc001)
 - [ ] Gallery block - Close post with an ongoing image upload - [steps](https://github.com/wordpress-mobile/test-cases/blob/master/test-cases/gutenberg/gallery.md#tc002)
@@ -26,7 +35,7 @@ Part 3
 - [ ] Gallery block - Add Gallery Caption - [steps](https://github.com/wordpress-mobile/test-cases/blob/master/test-cases/gutenberg/gallery.md#tc003)
 - [ ] Gallery block - Add Gallery Image Caption - [steps](https://github.com/wordpress-mobile/test-cases/blob/master/test-cases/gutenberg/gallery.md#tc004)
 
-Part 4
+Part 5
 
 - [ ] Media Text block - Insert image from device (failing) - [steps](https://github.com/wordpress-mobile/test-cases/blob/master/test-cases/gutenberg/media-text.md#tc001-i)
 - [ ] Media Text block - Insert video from device (failing) - [steps](https://github.com/wordpress-mobile/test-cases/blob/master/test-cases/gutenberg/media-text.md#tc001-v)
@@ -36,25 +45,18 @@ Part 4
 
 Either iOS or Android:
 
-Part 5
-
-- [ ] Shortcode block - Add a youtube link - steps
-- [ ] Shortcode block - Dark mode - steps
-- [ ] Media Text block - Media & Text alignment - steps
-- [ ] Media Text block - Vertical alignment - steps
-- [ ] Media Text block - Dark mode - steps
-
 Part 6
 
+- [ ] Shortcode block - Add a youtube link - steps
+- [ ] Media Text block - Media & Text alignment - steps
+- [ ] Media Text block - Vertical alignment - steps
+- [ ] Spacer block - Settings: Height in pixels - steps
 - [ ] Gallery block - Settings: Column number - steps
 - [ ] Gallery block - Settings: Crop images - steps
-- [ ] Gallery block - Settings: Link to - steps
-- [ ] Spacer block - Settings: Height in pixels - steps
-- [ ] Spacer block - Dark mode - steps
 
 Part 7
 
-- [ ] Gallery block - Dark mode - steps
+- [ ] Gallery block - Settings: Link to - steps
 - [ ] Gallery block - Try adding same images from WP Media library and moving the images around - steps
 - [ ] Gallery block - Insert image from device (cancel) - steps
 - [ ] Media Text block - Insert video from device (cancel) - [steps](https://github.com/wordpress-mobile/test-cases/blob/master/test-cases/gutenberg/media-text.md#tc002-v)
@@ -74,7 +76,6 @@ Part 8
 Part 9
 
 - [ ] Button block - Button max width is calculated OK inside inner blocks(iOS only) - steps
-- [ ] Button block - Dark mode - steps
 - [ ] Button block - Settings: Open in new tab - steps
 - [ ] Button block - Settings: Link rel - steps
 - [ ] Button block - Settings: Link URL - steps
@@ -85,4 +86,3 @@ Part 10
 - [ ] Group - Navigating down in the hierarchy - steps
 - [ ] Group - Navigating up in the hierarchy - steps
 - [ ] Group - Nest more than 3 levels - steps
-- [ ] Group - Dark mode - steps
