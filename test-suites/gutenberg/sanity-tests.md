@@ -82,7 +82,7 @@ Part 9
 
 Part 10
 
-- [ ] Group - Navigating down - steps
-- [ ] Group - Navigating up - steps
+- [ ] Group - Navigating down in the hierarchy - steps
+- [ ] Group - Navigating up in the hierarchy - steps
 - [ ] Group - Nest more than 3 levels - steps
 - [ ] Group - Dark mode - steps
