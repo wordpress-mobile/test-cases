@@ -1,10 +1,15 @@
 WordPress iOS
 
+Part 1
+
 - [ ] Gallery block - Close/Re-open post with an ongoing image upload - [steps](https://github.com/wordpress-mobile/test-cases/blob/master/test-cases/gutenberg/gallery.md#tc001)
 - [ ] Gallery block - Close post with an ongoing image upload - [steps](https://github.com/wordpress-mobile/test-cases/blob/master/test-cases/gutenberg/gallery.md#tc002)
 - [ ] Gallery block - Insert image from device (failing) - steps
 - [ ] Gallery block - Add Gallery Caption - [steps](https://github.com/wordpress-mobile/test-cases/blob/master/test-cases/gutenberg/gallery.md#tc003)
 - [ ] Gallery block - Add Gallery Image Caption - [steps](https://github.com/wordpress-mobile/test-cases/blob/master/test-cases/gutenberg/gallery.md#tc004)
+
+Part 2
+
 - [ ] Media Text block - Insert image from device (failing) - [steps](https://github.com/wordpress-mobile/test-cases/blob/master/test-cases/gutenberg/media-text.md#tc001-i)
 - [ ] Media Text block - Insert video from device (failing) - [steps](https://github.com/wordpress-mobile/test-cases/blob/master/test-cases/gutenberg/media-text.md#tc001-v)
 - [ ] Media Text block - Close/Re-open post with an ongoing image upload - [steps](https://github.com/wordpress-mobile/test-cases/blob/master/test-cases/gutenberg/media-text.md#tc003-i)
@@ -13,11 +18,16 @@ WordPress iOS
 
 WordPress Android
 
+Part 3
+
 - [ ] Gallery block - Close/Re-open post with an ongoing image upload - [steps](https://github.com/wordpress-mobile/test-cases/blob/master/test-cases/gutenberg/gallery.md#tc001)
 - [ ] Gallery block - Close post with an ongoing image upload - [steps](https://github.com/wordpress-mobile/test-cases/blob/master/test-cases/gutenberg/gallery.md#tc002)
 - [ ] Gallery block - Insert image from device (failing) - steps
 - [ ] Gallery block - Add Gallery Caption - [steps](https://github.com/wordpress-mobile/test-cases/blob/master/test-cases/gutenberg/gallery.md#tc003)
 - [ ] Gallery block - Add Gallery Image Caption - [steps](https://github.com/wordpress-mobile/test-cases/blob/master/test-cases/gutenberg/gallery.md#tc004)
+
+Part 4
+
 - [ ] Media Text block - Insert image from device (failing) - [steps](https://github.com/wordpress-mobile/test-cases/blob/master/test-cases/gutenberg/media-text.md#tc001-i)
 - [ ] Media Text block - Insert video from device (failing) - [steps](https://github.com/wordpress-mobile/test-cases/blob/master/test-cases/gutenberg/media-text.md#tc001-v)
 - [ ] Media Text block - Close/Re-open post with an ongoing image upload - [steps](https://github.com/wordpress-mobile/test-cases/blob/master/test-cases/gutenberg/media-text.md#tc003-i)
@@ -26,17 +36,25 @@ WordPress Android
 
 Either iOS or Android:
 
+Part 5
+
 - [ ] Shortcode block - Add a youtube link - steps
 - [ ] Shortcode block - Dark mode - steps
-- [ ] Spacer block - Settings: Height in pixels - steps
-- [ ] Spacer block - Dark mode - steps
 - [ ] Media Text block - Media & Text alignment - steps
 - [ ] Media Text block - Vertical alignment - steps
 - [ ] Media Text block - Dark mode - steps
+
+Part 6
+
 - [ ] Gallery block - Insert image from device (cancel) - steps
 - [ ] Gallery block - Settings: Column number - steps
 - [ ] Gallery block - Settings: Crop images - steps
 - [ ] Gallery block - Settings: Link to - steps
+- [ ] Spacer block - Settings: Height in pixels - steps
+- [ ] Spacer block - Dark mode - steps
+
+Part 7
+
 - [ ] Gallery block - Dark mode - steps
 - [ ] Gallery block - Try adding same images from WP Media library and moving the images around - steps
 - [ ] Media Text block - Insert video from device (cancel) - [steps](https://github.com/wordpress-mobile/test-cases/blob/master/test-cases/gutenberg/media-text.md#tc002-v)
@@ -44,18 +62,25 @@ Either iOS or Android:
 
 Upcoming:
 
+Part 8
+
 - [ ] Button block - Custom colors are rendered OK for text - steps
 - [ ] Button block - Custom colors are rendered OK for background - steps
 - [ ] Button block - Theme colors fallback to gray background and white font - steps
 - [ ] Button block - New Buttons are created with the same initial color with web - steps
 - [ ] Button block - Gradient colors are working well - steps
 - [ ] Button block - Settings: Border radius - steps
+
+Part 9
+
 - [ ] Button block - Button max width is calculated OK inside inner blocks(iOS only) - steps
 - [ ] Button block - Dark mode - steps
 - [ ] Button block - Settings: Open in new tab - steps
 - [ ] Button block - Settings: Link rel - steps
 - [ ] Button block - Settings: Link URL - steps
 - [ ] Button block - Link in the clipboard is automaticially added into the empty URL field - steps
+
+Part 10
 
 - [ ] Group - Navigating down - steps
 - [ ] Group - Navigating up - steps
