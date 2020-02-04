@@ -66,9 +66,9 @@ Part 8
 
 - [ ] Button block - Custom colors are rendered OK for text - steps
 - [ ] Button block - Custom colors are rendered OK for background - steps
+- [ ] Button block - Gradient colors rendered OK for background - steps
 - [ ] Button block - Theme colors fallback to gray background and white font - steps
 - [ ] Button block - New Buttons are created with the same initial color with web - steps
-- [ ] Button block - Gradient colors are working well - steps
 - [ ] Button block - Settings: Border radius - steps
 
 Part 9
