@@ -67,26 +67,30 @@ Spacer-1
 
 Button-1
 
-- [ ] Button block - Custom colors are rendered OK for text - steps
-- [ ] Button block - Custom colors are rendered OK for background - steps
-- [ ] Button block - Gradient colors rendered OK for background - steps
+- [ ] Button block - Render custom text color - [steps](https://github.com/wordpress-mobile/test-cases/blob/master/test-cases/gutenberg/button.md#tc011)
+- [ ] Button block - Render custom background color - [steps](https://github.com/wordpress-mobile/test-cases/blob/master/test-cases/gutenberg/button.md#tc010)
+- [ ] Button block - Render gradient background color - [steps](https://github.com/wordpress-mobile/test-cases/blob/master/test-cases/gutenberg/button.md#tc012)
+- [ ] Button block - Check if selection / caret color matches font color - [steps](https://github.com/wordpress-mobile/test-cases/blob/master/test-cases/gutenberg/button.md#tc015)
 
 Button-2
 
-- [ ] Button block - Theme colors fallback to gray background and white font - steps
-- [ ] Button block - New Buttons are created with the same initial color with web - steps
-- [ ] Button block - Settings: Border radius - steps
+- [ ] Button block - Edit text styles - [steps](https://github.com/wordpress-mobile/test-cases/blob/master/test-cases/gutenberg/button.md#tc003)
+- [ ] Button block - Fallback to default colors in case theme colors are used - [steps](https://github.com/wordpress-mobile/test-cases/blob/master/test-cases/gutenberg/button.md#tc013)
+- [ ] Button block - New Buttons are created with the blue color - [steps](https://github.com/wordpress-mobile/test-cases/blob/master/test-cases/gutenberg/button.md#tc014)
+- [ ] Button block - Settings: Change Button border radius - [steps](https://github.com/wordpress-mobile/test-cases/blob/master/test-cases/gutenberg/button.md#tc009)
 
 Button-3
 
-- [ ] Button block - Settings: Open in new tab - steps
-- [ ] Button block - Settings: Link rel - steps
-- [ ] Button block - Settings: Link URL - steps
+- [ ] Button block - Settings: Open in new tab - [steps](https://github.com/wordpress-mobile/test-cases/blob/master/test-cases/gutenberg/button.md#tc005)
+- [ ] Button block - Settings: Link rel - [steps](https://github.com/wordpress-mobile/test-cases/blob/master/test-cases/gutenberg/button.md#tc006)
+- [ ] Button block - Settings: Link URL - [steps](https://github.com/wordpress-mobile/test-cases/blob/master/test-cases/gutenberg/button.md#tc004)
+- [ ] Button block - Settings: Remove link - [steps](https://github.com/wordpress-mobile/test-cases/blob/master/test-cases/gutenberg/button.md#tc008)
+- [ ] Button block - Settings: Synchronize with button options - [steps](https://github.com/wordpress-mobile/test-cases/blob/master/test-cases/gutenberg/button.md#tc007)
 
 Button-4
 
-- [ ] Button block - Link in the clipboard is automaticially added into the empty URL field - steps
-- [ ] Button block - Button max width is calculated OK inside inner blocks(iOS only) - steps
+- [ ] Button block - Link in the clipboard is automaticially added into the empty URL field - [steps](https://github.com/wordpress-mobile/test-cases/blob/master/test-cases/gutenberg/button.md#tc002)
+- [ ] Button block - Button max width is calculated OK inside inner blocks(iOS only) - [steps](https://github.com/wordpress-mobile/test-cases/blob/master/test-cases/gutenberg/button.md#tc001)
 
 Group-1
 
