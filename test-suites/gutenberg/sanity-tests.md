@@ -67,17 +67,17 @@ Spacer-1
 
 Button-1
 
-- [ ] Button block - Custom colors are rendered OK for text - [steps](https://github.com/wordpress-mobile/test-cases/blob/master/test-cases/gutenberg/button.md#tc011)
-- [ ] Button block - Custom colors are rendered OK for background - [steps](https://github.com/wordpress-mobile/test-cases/blob/master/test-cases/gutenberg/button.md#tc010)
-- [ ] Button block - Gradient colors rendered OK for background - [steps](https://github.com/wordpress-mobile/test-cases/blob/master/test-cases/gutenberg/button.md#tc012)
-- [ ] Button block - Caret / selection colors rendered OK for custom text color - [steps](https://github.com/wordpress-mobile/test-cases/blob/master/test-cases/gutenberg/button.md#tc015)
+- [ ] Button block - Render custom text color - [steps](https://github.com/wordpress-mobile/test-cases/blob/master/test-cases/gutenberg/button.md#tc011)
+- [ ] Button block - Render custom background color - [steps](https://github.com/wordpress-mobile/test-cases/blob/master/test-cases/gutenberg/button.md#tc010)
+- [ ] Button block - Render gradient background color - [steps](https://github.com/wordpress-mobile/test-cases/blob/master/test-cases/gutenberg/button.md#tc012)
+- [ ] Button block - Check if selection / caret color matches font color - [steps](https://github.com/wordpress-mobile/test-cases/blob/master/test-cases/gutenberg/button.md#tc015)
 
 Button-2
 
 - [ ] Button block - Edit text styles - [steps](https://github.com/wordpress-mobile/test-cases/blob/master/test-cases/gutenberg/button.md#tc003)
-- [ ] Button block - Theme colors fallback to gray background and white font - [steps](https://github.com/wordpress-mobile/test-cases/blob/master/test-cases/gutenberg/button.md#tc013)
+- [ ] Button block - Fallback to default colors in case theme colors are used - [steps](https://github.com/wordpress-mobile/test-cases/blob/master/test-cases/gutenberg/button.md#tc013)
 - [ ] Button block - New Buttons are created with the blue color - [steps](https://github.com/wordpress-mobile/test-cases/blob/master/test-cases/gutenberg/button.md#tc014)
-- [ ] Button block - Settings: Border radius - [steps](https://github.com/wordpress-mobile/test-cases/blob/master/test-cases/gutenberg/button.md#tc009)
+- [ ] Button block - Settings: Change Button border radius - [steps](https://github.com/wordpress-mobile/test-cases/blob/master/test-cases/gutenberg/button.md#tc009)
 
 Button-3
 

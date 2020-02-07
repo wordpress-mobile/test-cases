@@ -5,7 +5,7 @@
 
 ##### TC001
 
-### Expand / shrink RichText inside Button
+### Button max width is calculated OK inside inner blocks(iOS only)
 
 -   Add a Button block
 -   Start typing and removing characters
@@ -17,7 +17,7 @@
 
 ##### TC002
 
-### Copy link from a clipboard 
+### Link in the clipboard is automaticially added into the empty URL field
 
 -   Add a Button block
 -   Copy link into clipboard
@@ -42,7 +42,7 @@
 
 ##### TC004
 
-### Edit Button link settings - _add link_
+### Settings: Link URL
 
 -   Add a Button block
 -   Open link [settings](../resources/button-link-settings.png)
@@ -55,7 +55,7 @@
 
 ##### TC005
 
-### Edit Button link settings - _open in new tab_
+### Settings: Open in new tab
 
 -   Add a Button block
 -   Open link [settings](../resources/button-link-settings.png)
@@ -69,7 +69,7 @@
 
 ##### TC006
 
-### Edit Button link settings - _link rel_
+### Settings: Link rel
 
 -   Add a Button block
 -   Open link [settings](../resources/button-link-settings.png)
@@ -81,7 +81,7 @@
 
 ##### TC007
 
-### Synchronize link settings with button options
+### Settings: Synchronize with button options
 
 -   Add a Button block
 -   Open link [settings](../resources/button-link-settings.png)
@@ -95,7 +95,7 @@
 
 ##### TC008
 
-### Clear link settings
+### Settings: Remove link
 
 -   Add a Button block
 -   Open link [settings](../resources/button-link-settings.png)
@@ -110,7 +110,7 @@
 
 ##### TC009
 
-### Change Button border radius
+### Settings: Change Button border radius
 
 -   Add a Button block
 -   Open button [options](../resources/button-options.png)
@@ -162,12 +162,12 @@
 
 ##### TC013
 
-### Render fallback background and text colors
+### Fallback to default colors in case theme colors are used
 
 -   Open post on web
 -   Add a Button block
--   Choose the **regular** background color from the palette
--   Choose the **regular** text color from the palette
+-   Choose a background color from the **palette**
+-   Choose a text color from the **palette**
 -   Save the post
 -   Open the same post on mobile app
 -   Expect Button with gray background color and white text color
@@ -176,7 +176,7 @@
 
 ##### TC014
 
-### Render blue background color for new Button
+### New Buttons are created with the blue color
 
 -   Add a Button block
 -   Expect blue background color and white text
@@ -185,7 +185,7 @@
 
 ##### TC015
 
-### Render selection / caret color only for custom colors
+### Check if selection / caret color matches font color
 
 -   Open post on web
 -   Add a Button block
