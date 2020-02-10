@@ -76,8 +76,10 @@ Button-2
 
 - [ ] Button block - Edit text styles - [steps](https://github.com/wordpress-mobile/test-cases/blob/master/test-cases/gutenberg/button.md#tc003)
 - [ ] Button block - Fallback to default colors in case theme colors are used - [steps](https://github.com/wordpress-mobile/test-cases/blob/master/test-cases/gutenberg/button.md#tc013)
-- [ ] Button block - New Buttons are created with the blue color - [steps](https://github.com/wordpress-mobile/test-cases/blob/master/test-cases/gutenberg/button.md#tc014)
+- [ ] Button block - New Button is created with the gray color - [steps](https://github.com/wordpress-mobile/test-cases/blob/master/test-cases/gutenberg/button.md#tc014)
 - [ ] Button block - Settings: Change Button border radius - [steps](https://github.com/wordpress-mobile/test-cases/blob/master/test-cases/gutenberg/button.md#tc009)
+- [ ] Button block - The newly created button has set background color to the theme-default color in preview - [steps](https://github.com/wordpress-mobile/test-cases/blob/master/test-cases/gutenberg/button.md#tc016)
+- [ ] Button block - Tapping `delete` key removes block when Button is empty - [steps](https://github.com/wordpress-mobile/test-cases/blob/master/test-cases/gutenberg/button.md#tc017)
 
 Button-3
 
@@ -90,6 +92,7 @@ Button-3
 Button-4
 
 - [ ] Button block - Link in the clipboard is automaticially added into the empty URL field - [steps](https://github.com/wordpress-mobile/test-cases/blob/master/test-cases/gutenberg/button.md#tc002)
+- [ ] Button block - Toolbar link button is active when Button has link - [steps](https://github.com/wordpress-mobile/test-cases/blob/master/test-cases/gutenberg/button.md#tc018)
 - [ ] Button block - Button max width is calculated OK inside inner blocks(iOS only) - [steps](https://github.com/wordpress-mobile/test-cases/blob/master/test-cases/gutenberg/button.md#tc001)
 
 Group-1
