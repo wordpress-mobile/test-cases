@@ -125,8 +125,9 @@
 
 ### Render custom background color
 
--   Open post on web
 -   Add a Button block
+-   Save the post
+-   Open the same post on web
 -   Choose the **custom** background color from **picker**
 -   Save the post
 -   Open the same post on mobile app
@@ -138,8 +139,9 @@
 
 ### Render custom text color
 
--   Open post on web
 -   Add a Button block
+-   Save the post
+-   Open the same post on web
 -   Choose the **custom** text color from **picker**
 -   Save the post
 -   Open the same post on mobile app
@@ -151,8 +153,9 @@
 
 ### Render gradient background color
 
--   Open post on web
 -   Add a Button block
+-   Save the post
+-   Open the same post on web
 -   Choose the **gradient** background color from the palette
 -   Save the post
 -   Open the same post on mobile app
@@ -164,8 +167,9 @@
 
 ### Fallback to default colors in case theme colors are used
 
--   Open post on web
 -   Add a Button block
+-   Save the post
+-   Open the same post on web
 -   Choose a background color from the **palette**
 -   Choose a text color from the **palette**
 -   Save the post
@@ -187,8 +191,9 @@
 
 ### Check if selection / caret color matches font color
 
--   Open post on web
 -   Add a Button block
+-   Save the post
+-   Open the same post on web
 -   Choose the **custom** text color from **picker**
 -   Save the post
 -   Open the same post on mobile app
