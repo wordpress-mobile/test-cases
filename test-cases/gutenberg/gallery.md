@@ -107,8 +107,6 @@ Gallery block should allow uploading multiple images from the device.
 
 Gallery block should allow retrying failed uploads
 
-**Note:** :x: This is currently a [known issue under investigation](https://github.com/wordpress-mobile/gutenberg-mobile/issues/1852)
-
 **Steps:**
 
 * Add a gallery block and tap "Add Media"
@@ -196,8 +194,6 @@ Gallery block should allow uploading images from the camera.
 ### Choose from the free photo library
 
 Gallery block should allow uploading images from the free photo library.
-
-**Note:** :x: On iOS, I observed that only the first image is added to the gallery block, with the rest appended as image blocks.
 
 **Steps:**
 
