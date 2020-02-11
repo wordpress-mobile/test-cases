@@ -134,9 +134,7 @@ Gallery block should allow uploading multiple images after the editor is closed.
 * Select multiple images from the device and confirm the selection
 * While image are uploading, leave the editor
 * Verify that you see the upload progress in post summary:
-
-<img src="../resources/upload-progress-posts-list.png" width="360">
-
+  * <img src="../resources/upload-progress-posts-list.png" width="360" valign="middle">
 * Wait for uploads to complete while in the post list
 * Re-open the post with the gallery block
 
@@ -160,10 +158,7 @@ Gallery block should continue normally if the editor is closed and re-opened wit
 * Select multiple images from the device and confirm the selection
 * While image are uploading, leave the editor
 * Verify that you see the upload progress in post summary:
-
-<img src="../resources/upload-progress-posts-list.png" width="360">
-
-
+  * <img src="../resources/upload-progress-posts-list.png" width="360" valign="middle">
 * Re-open the post with the gallery block before uploads complete
 
 **Expected behavior:**
