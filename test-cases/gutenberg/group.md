@@ -21,7 +21,7 @@
 -   Check if `Group` block is empty and shows only `AppenderButton`
 
 Expected look:
- <<<SCREENSHOT>>
+![Progress](../resources/group-empty-block.png)
   
 --------------------------------------------------------------------------------
 
@@ -31,10 +31,11 @@ Expected look:
 
 -   Add a `Group` block 
 -   Check if `AppenderButton` renders properly
+-   Add another block inside `Group` and deselect
 -   Check if `AppenderButton` is align with the content
 
 Expected look:
- <<<SCREENSHOT>>
+![Progress](../resources/group-appender-alignment.png)
 
 --------------------------------------------------------------------------------
 
@@ -59,11 +60,17 @@ Expected look:
 -   Having `Group` block selected press on `DefaultAppender`
 -   Check if the block is added outside after the `Group`
 
+Expected look:
+![Progress](../resources/group-outer-separator-after.png)
+
 <br />
 
 -   Having `Group` block selected long press on `DefaultAppender`
 -   Select where you want to add block after or before
 -   Check if the block is added outside after/before the `Group`
+
+Expected look:
+![Progress](../resources/group-outer-separator-before.png)
 
 --------------------------------------------------------------------------------
 
@@ -76,11 +83,17 @@ Expected look:
 -   Having newly added block selected press on `DefaultAppender`
 -   Check if the block is added inside the `Group` after the selected block
 
+Expected look:
+![Progress](../resources/group-inner-separator-after.png)
+
 <br />
 
 -   Having newly added block selected long press on `DefaultAppender`
 -   Select where you want to add block after or before
 -   Check if the block is added inside the `Group` after/before the selected block
+
+Expected look:
+![Progress](../resources/group-inner-separator-before.png)
 
 --------------------------------------------------------------------------------
 
@@ -103,7 +116,7 @@ Expected look:
 -   Check if you are able to see `Group` placeholder
 
 Expected look:
- << SCREENSHOT >>
+![Progress](../resources/group-placeholder-root.png)
 
 --------------------------------------------------------------------------------
 
@@ -119,7 +132,9 @@ Expected look:
 -   After selecting last `Group` you should be able to see it's `AppenderButton`
 
 Expected look:
- << SCREENSHOT >>
+![Progress](../resources/group-placeholder-nest-1.png)
+
+![Progress](../resources/group-placeholder-nest-deep.png)
 
 --------------------------------------------------------------------------------
 
@@ -133,12 +148,18 @@ Expected look:
 -   Check if `Separator` is visible right below the title block
 -   Check if "Start writing" prompt is not visible
 
+Expected look:
+![Progress](../resources/group-separator-root.png)
+
 <br />
 
 -   Open new post
 -   Type some text in the "Start writing" prompt
 -   Press `DefaultAppender`
 -   Check if `Separator` is visible right below the `Paragraph` block
+
+Expected look:
+![Progress](../resources/group-separator-after-paragraph.png)
 
 <br />
 
@@ -147,6 +168,9 @@ Expected look:
 -   Select where you want to add block after or before
 -   Check if the `Separator` is render outside before/after the `Group`
 
+Expected look:
+![Progress](../resources/group-separator-before-paragraph.png)
+
 --------------------------------------------------------------------------------
 
 ##### TC011
@@ -154,10 +178,22 @@ Expected look:
 ### Insertion point (Separator) is show in correct place in Group
 
 -   Add a `Group` block 
+-   Press group `AppenderButton ( + )`
+-   Check if the `Separator` is render instead of `AppenderButton`
+
+Expected look:
+![Progress](../resources/group-inner-separator-root.png)
+
+<br />
+
+-   Add a `Group` block 
 -   Add block inside
 -   Select `Group` block
 -   Press group `AppenderButton ( + )`
 -   Check if the `Separator` is render after last block in the `Group`
+
+Expected look:
+![Progress](../resources/group-inner-separator-after.png)
 
 <br />
 
@@ -166,6 +202,9 @@ Expected look:
 -   Press `AppenderButton ( + )`
 -   Select where you want to add block after or before
 -   Check if the `Separator` is render after/before selected block in the `Group`
+
+Expected look:
+![Progress](../resources/group-inner-separator-before.png)
 
 --------------------------------------------------------------------------------
 
@@ -180,6 +219,9 @@ Expected look:
 -   Check if margins and paddings do not bounce when changing selection (exception is the trasition of the selected block connected with making space for FloatingToolbar)
 -   Check if there is no weird/unexpected extra free space around blocks
 
+Expected look:
+![Progress](../resources/group-border-styling.png)
+
 --------------------------------------------------------------------------------
 
 ##### TC013
@@ -191,7 +233,7 @@ Expected look:
 -   Check if there is no extra margins applied when nested empty `Group` blocks
 
 Expected look:
- << SCREENSHOT >>
+![Progress](../resources/group-placeholder-nest-1.png)
 
 --------------------------------------------------------------------------------
 
@@ -205,6 +247,11 @@ Expected look:
 -   Check if each time you change selection all blocks that are higher in hierarchy tree gets dimmed
 -   Select `Group` block
 -   Check if none block gets dimmed
+
+Expected look:
+![Progress](../resources/group-dimming-1.png)
+![Progress](../resources/group-dimming-2.png)
+![Progress](../resources/group-dimming-3.png)
 
 --------------------------------------------------------------------------------
 
@@ -224,25 +271,19 @@ Expected look:
 
 ##### TC016
 
-### Deep nesting is possible
-
--   Add a `Group` block 
--   Nest blocks inside multiple `Group` blocks (at least 3 levels deep)
--   Check if app do not crashes
-
---------------------------------------------------------------------------------
-
-##### TC017
-
 ### FloatingToolbar is render when group or it's child is selected
 
 -   Add a `Group` block 
 -   Prepare nested structure
--   CHeck if each time you select any block it renders `FloatingToolbar` above
+-   Check if each time you select any block it renders `FloatingToolbar` above
+
+Expected look:
+![Progress](../resources/group-floating-toolbar-root.png)
+![Progress](../resources/group-floating-toolbar-nested.png)
 
 --------------------------------------------------------------------------------
 
-##### TC018
+##### TC017
 
 ### Breadcrumbs on FloatingToolbar is properly displayed
 
@@ -252,9 +293,13 @@ Expected look:
 -   Check if each time you change selection `Breadcrumbs` show proper parent block
 -   Check if `Breadcrumbs` renders navigation up button
 
+Expected look:
+![Progress](../resources/breadcrumbs-root.png)
+![Progress](../resources/breadcrumbs-nested.png)
+
 --------------------------------------------------------------------------------
 
-##### TC019
+##### TC018
 
 ### Navigation up works as expected
 
@@ -267,7 +312,7 @@ Expected look:
 
 --------------------------------------------------------------------------------
 
-##### TC020
+##### TC019
 
 ### Navigation down works as expected
 
@@ -281,7 +326,7 @@ Expected look:
 
 --------------------------------------------------------------------------------
 
-##### TC021
+##### TC020
 
 ### Navigation in hierarchy works as expected
 
@@ -293,7 +338,7 @@ Expected look:
 
 --------------------------------------------------------------------------------
 
-##### TC022
+##### TC021
 
 ### Mover arrows changes the order of blocks in group
 
@@ -303,7 +348,7 @@ Expected look:
 
 --------------------------------------------------------------------------------
 
-##### TC023
+##### TC022
 
 ### Delete button removes the block from group and group block
 
@@ -319,7 +364,7 @@ Expected look:
 
 --------------------------------------------------------------------------------
 
-##### TC024
+##### TC023
 
 ### Ungroup button works as expected
 
@@ -331,7 +376,7 @@ Expected look:
 
 --------------------------------------------------------------------------------
 
-##### TC025
+##### TC024
 
 ### New block added to group gets focus immedately
 
@@ -343,7 +388,7 @@ Expected look:
 
 --------------------------------------------------------------------------------
 
-##### TC026
+##### TC025
 
 ### Check if in DarkMode all components gets proper colors (iOS)
 
