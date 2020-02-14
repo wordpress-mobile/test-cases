@@ -6,7 +6,7 @@
 
 ### Group block is visible in Inserter menu
 
--   CLick `AppenderButton ( + )`
+-   Click `AppenderButton ( + )`
 -   Check if the `Group` block is visible
 -   Check if you are able to press and add `Group` block
 
@@ -21,7 +21,7 @@
 -   Check if `Group` block is empty and shows only `AppenderButton`
 
 Expected look:
-![Progress](../resources/group-empty-block.png)
+![EmptyBlock](../resources/group-empty-block.png)
   
 --------------------------------------------------------------------------------
 
@@ -35,7 +35,7 @@ Expected look:
 -   Check if `AppenderButton` is align with the content
 
 Expected look:
-![Progress](../resources/group-appender-alignment.png)
+![AppenderAlignment](../resources/group-appender-alignment.png)
 
 --------------------------------------------------------------------------------
 
@@ -61,7 +61,7 @@ Expected look:
 -   Check if the block is added outside after the `Group`
 
 Expected look:
-![Progress](../resources/group-outer-separator-after.png)
+![SeparatorAfter](../resources/group-outer-separator-after.png)
 
 <br />
 
@@ -70,7 +70,7 @@ Expected look:
 -   Check if the block is added outside after/before the `Group`
 
 Expected look:
-![Progress](../resources/group-outer-separator-before.png)
+![SeparatorBefore](../resources/group-outer-separator-before.png)
 
 --------------------------------------------------------------------------------
 
@@ -84,7 +84,7 @@ Expected look:
 -   Check if the block is added inside the `Group` after the selected block
 
 Expected look:
-![Progress](../resources/group-inner-separator-after.png)
+![InnerSeparatorAfter](../resources/group-inner-separator-after.png)
 
 <br />
 
@@ -93,7 +93,7 @@ Expected look:
 -   Check if the block is added inside the `Group` after/before the selected block
 
 Expected look:
-![Progress](../resources/group-inner-separator-before.png)
+![InnerSeparatorBefore](../resources/group-inner-separator-before.png)
 
 --------------------------------------------------------------------------------
 
@@ -132,9 +132,9 @@ Expected look:
 -   After selecting last `Group` you should be able to see it's `AppenderButton`
 
 Expected look:
-![Progress](../resources/group-placeholder-nest-1.png)
+![PlaceholderNestes](../resources/group-placeholder-nest-1.png)
 
-![Progress](../resources/group-placeholder-nest-deep.png)
+![PlaceholderDeepNested](../resources/group-placeholder-nest-deep.png)
 
 --------------------------------------------------------------------------------
 
@@ -149,7 +149,7 @@ Expected look:
 -   Check if "Start writing" prompt is not visible
 
 Expected look:
-![Progress](../resources/group-separator-root.png)
+![SeparatorRoot](../resources/group-separator-root.png)
 
 <br />
 
@@ -159,7 +159,7 @@ Expected look:
 -   Check if `Separator` is visible right below the `Paragraph` block
 
 Expected look:
-![Progress](../resources/group-separator-after-paragraph.png)
+![SeparatorRootAfter](../resources/group-separator-after-paragraph.png)
 
 <br />
 
@@ -169,7 +169,7 @@ Expected look:
 -   Check if the `Separator` is render outside before/after the `Group`
 
 Expected look:
-![Progress](../resources/group-separator-before-paragraph.png)
+![SeparatorRootBefore](../resources/group-separator-before-paragraph.png)
 
 --------------------------------------------------------------------------------
 
@@ -182,7 +182,7 @@ Expected look:
 -   Check if the `Separator` is render instead of `AppenderButton`
 
 Expected look:
-![Progress](../resources/group-inner-separator-root.png)
+![InnerSeparatorRoot](../resources/group-inner-separator-root.png)
 
 <br />
 
@@ -193,7 +193,7 @@ Expected look:
 -   Check if the `Separator` is render after last block in the `Group`
 
 Expected look:
-![Progress](../resources/group-inner-separator-after.png)
+![InnerSeparatorAfter](../resources/group-inner-separator-after.png)
 
 <br />
 
@@ -204,7 +204,7 @@ Expected look:
 -   Check if the `Separator` is render after/before selected block in the `Group`
 
 Expected look:
-![Progress](../resources/group-inner-separator-before.png)
+![InnerSeparatorBefore](../resources/group-inner-separator-before.png)
 
 --------------------------------------------------------------------------------
 
@@ -220,7 +220,7 @@ Expected look:
 -   Check if there is no weird/unexpected extra free space around blocks
 
 Expected look:
-![Progress](../resources/group-border-styling.png)
+![BorderStyling](../resources/group-border-styling.png)
 
 --------------------------------------------------------------------------------
 
@@ -233,7 +233,7 @@ Expected look:
 -   Check if there is no extra margins applied when nested empty `Group` blocks
 
 Expected look:
-![Progress](../resources/group-placeholder-nest-1.png)
+![PlaceholderNested](../resources/group-placeholder-nest-1.png)
 
 --------------------------------------------------------------------------------
 
@@ -249,9 +249,9 @@ Expected look:
 -   Check if none block gets dimmed
 
 Expected look:
-![Progress](../resources/group-dimming-1.png)
-![Progress](../resources/group-dimming-2.png)
-![Progress](../resources/group-dimming-3.png)
+![Dimming1](../resources/group-dimming-1.png)
+![Dimming2](../resources/group-dimming-2.png)
+![Dimming3](../resources/group-dimming-3.png)
 
 --------------------------------------------------------------------------------
 
@@ -278,8 +278,8 @@ Expected look:
 -   Check if each time you select any block it renders `FloatingToolbar` above
 
 Expected look:
-![Progress](../resources/group-floating-toolbar-root.png)
-![Progress](../resources/group-floating-toolbar-nested.png)
+![FloatingToolbarRoot](../resources/group-floating-toolbar-root.png)
+![FloatingToolbarNested](../resources/group-floating-toolbar-nested.png)
 
 --------------------------------------------------------------------------------
 
@@ -294,8 +294,8 @@ Expected look:
 -   Check if `Breadcrumbs` renders navigation up button
 
 Expected look:
-![Progress](../resources/breadcrumbs-root.png)
-![Progress](../resources/breadcrumbs-nested.png)
+![BreadcrumbsRoot](../resources/breadcrumbs-root.png)
+![BreadcrumbsNested](../resources/breadcrumbs-nested.png)
 
 --------------------------------------------------------------------------------
 
