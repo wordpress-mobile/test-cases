@@ -20,7 +20,7 @@
 -   Check if `Group` block is selected
 -   Check if `Group` block is empty and shows only `AppenderButton`
 
-Expected look:
+Expected look:  
 ![EmptyBlock](../resources/group-empty-block.png)
   
 --------------------------------------------------------------------------------
@@ -34,7 +34,7 @@ Expected look:
 -   Add another block inside `Group` and deselect
 -   Check if `AppenderButton` is align with the content
 
-Expected look:
+Expected look:  
 ![AppenderAlignment](../resources/group-appender-alignment.png)
 
 --------------------------------------------------------------------------------
@@ -60,16 +60,16 @@ Expected look:
 -   Having `Group` block selected press on `DefaultAppender`
 -   Check if the block is added outside after the `Group`
 
-Expected look:
+Expected look:  
 ![SeparatorAfter](../resources/group-outer-separator-after.png)
 
-<br />
+  
 
 -   Having `Group` block selected long press on `DefaultAppender`
 -   Select where you want to add block after or before
 -   Check if the block is added outside after/before the `Group`
 
-Expected look:
+Expected look:  
 ![SeparatorBefore](../resources/group-outer-separator-before.png)
 
 --------------------------------------------------------------------------------
@@ -83,16 +83,16 @@ Expected look:
 -   Having newly added block selected press on `DefaultAppender`
 -   Check if the block is added inside the `Group` after the selected block
 
-Expected look:
+Expected look:  
 ![InnerSeparatorAfter](../resources/group-inner-separator-after.png)
 
-<br />
+  
 
 -   Having newly added block selected long press on `DefaultAppender`
 -   Select where you want to add block after or before
 -   Check if the block is added inside the `Group` after/before the selected block
 
-Expected look:
+Expected look:  
 ![InnerSeparatorBefore](../resources/group-inner-separator-before.png)
 
 --------------------------------------------------------------------------------
@@ -115,7 +115,7 @@ Expected look:
 -   Deselect
 -   Check if you are able to see `Group` placeholder
 
-Expected look:
+Expected look:  
 ![Progress](../resources/group-placeholder-root.png)
 
 --------------------------------------------------------------------------------
@@ -131,9 +131,9 @@ Expected look:
 -   Go down in the hierarchy observing if margins is keept (the whole UI should remain the same)
 -   After selecting last `Group` you should be able to see it's `AppenderButton`
 
-Expected look:
+Expected look:  
 ![PlaceholderNestes](../resources/group-placeholder-nest-1.png)
-
+  
 ![PlaceholderDeepNested](../resources/group-placeholder-nest-deep.png)
 
 --------------------------------------------------------------------------------
@@ -148,27 +148,27 @@ Expected look:
 -   Check if `Separator` is visible right below the title block
 -   Check if "Start writing" prompt is not visible
 
-Expected look:
+Expected look:  
 ![SeparatorRoot](../resources/group-separator-root.png)
 
-<br />
+  
 
 -   Open new post
 -   Type some text in the "Start writing" prompt
 -   Press `DefaultAppender`
 -   Check if `Separator` is visible right below the `Paragraph` block
 
-Expected look:
+Expected look:  
 ![SeparatorRootAfter](../resources/group-separator-after-paragraph.png)
 
-<br />
+  
 
 -   Add a `Group` block 
 -   Long press `DefaultAppender`
 -   Select where you want to add block after or before
 -   Check if the `Separator` is render outside before/after the `Group`
 
-Expected look:
+Expected look:  
 ![SeparatorRootBefore](../resources/group-separator-before-paragraph.png)
 
 --------------------------------------------------------------------------------
@@ -181,10 +181,10 @@ Expected look:
 -   Press group `AppenderButton ( + )`
 -   Check if the `Separator` is render instead of `AppenderButton`
 
-Expected look:
+Expected look:  
 ![InnerSeparatorRoot](../resources/group-inner-separator-root.png)
 
-<br />
+    
 
 -   Add a `Group` block 
 -   Add block inside
@@ -192,10 +192,10 @@ Expected look:
 -   Press group `AppenderButton ( + )`
 -   Check if the `Separator` is render after last block in the `Group`
 
-Expected look:
+Expected look:  
 ![InnerSeparatorAfter](../resources/group-inner-separator-after.png)
 
-<br />
+  
 
 -   Add a `Group` block 
 -   Add block inside and keep newly added block selected
@@ -203,7 +203,7 @@ Expected look:
 -   Select where you want to add block after or before
 -   Check if the `Separator` is render after/before selected block in the `Group`
 
-Expected look:
+Expected look:  
 ![InnerSeparatorBefore](../resources/group-inner-separator-before.png)
 
 --------------------------------------------------------------------------------
@@ -219,7 +219,7 @@ Expected look:
 -   Check if margins and paddings do not bounce when changing selection (exception is the trasition of the selected block connected with making space for FloatingToolbar)
 -   Check if there is no weird/unexpected extra free space around blocks
 
-Expected look:
+Expected look:  
 ![BorderStyling](../resources/group-border-styling.png)
 
 --------------------------------------------------------------------------------
@@ -232,7 +232,7 @@ Expected look:
 -   Nest multiple empty `Group` block
 -   Check if there is no extra margins applied when nested empty `Group` blocks
 
-Expected look:
+Expected look:  
 ![PlaceholderNested](../resources/group-placeholder-nest-1.png)
 
 --------------------------------------------------------------------------------
@@ -248,9 +248,11 @@ Expected look:
 -   Select `Group` block
 -   Check if none block gets dimmed
 
-Expected look:
+Expected look:  
 ![Dimming1](../resources/group-dimming-1.png)
+  
 ![Dimming2](../resources/group-dimming-2.png)
+  
 ![Dimming3](../resources/group-dimming-3.png)
 
 --------------------------------------------------------------------------------
@@ -277,8 +279,9 @@ Expected look:
 -   Prepare nested structure
 -   Check if each time you select any block it renders `FloatingToolbar` above
 
-Expected look:
+Expected look:  
 ![FloatingToolbarRoot](../resources/group-floating-toolbar-root.png)
+  
 ![FloatingToolbarNested](../resources/group-floating-toolbar-nested.png)
 
 --------------------------------------------------------------------------------
@@ -293,8 +296,9 @@ Expected look:
 -   Check if each time you change selection `Breadcrumbs` show proper parent block
 -   Check if `Breadcrumbs` renders navigation up button
 
-Expected look:
+Expected look:  
 ![BreadcrumbsRoot](../resources/breadcrumbs-root.png)
+  
 ![BreadcrumbsNested](../resources/breadcrumbs-nested.png)
 
 --------------------------------------------------------------------------------
@@ -357,7 +361,7 @@ Expected look:
 -   Selecting nested blocks
 -   Check if `Delete` button removes the selected block
 
-<br />
+  
 
 -   Select `Group`
 -   Check if `Delete` button removes the whole `Group` and it's children
