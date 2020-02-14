@@ -4,33 +4,10 @@
 
 ##### TC001
 
-### Group block is visible in Inserter menu
-
--   Click `AppenderButton ( + )`
--   Check if the `Group` block is visible
--   Check if you are able to press and add `Group` block
-
---------------------------------------------------------------------------------
-
-##### TC002
-
-### Group block after add is selected, empty and renders AppenderButton inside
-
--   Add a `Group` block 
--   Check if `Group` block is selected
--   Check if `Group` block is empty and shows only `AppenderButton`
-
-Expected look:  
-![EmptyBlock](../resources/group-empty-block.png)
-  
---------------------------------------------------------------------------------
-
-##### TC003
-
 ### AppenderButton is render properly
 
--   Add a `Group` block 
--   Check if `AppenderButton` renders properly
+-   Add a `Group` block
+-   Check if `AppenderButton` rendered
 -   Add another block inside `Group` and deselect
 -   Check if `AppenderButton` is align with the content
 
@@ -39,31 +16,16 @@ Expected look:
 
 --------------------------------------------------------------------------------
 
-##### TC004
-
-### Group AppenderButton allows to open Inserter and add new block to group
-
--   Add a `Group` block 
--   Check if you are able to open `Inserter` menu by press on `AppenderButton` inside `Group`
--   Check if the block is added inside the `Group` before the `AppenderButton`
--   Select a `Group` block once again
--   Check if you are able to add another block
--   Check if the block is added inside the `Group` before the `AppenderButton`
-
---------------------------------------------------------------------------------
-
-##### TC005
+##### TC002
 
 ### DefaultAppender allows to open Inserter and add block outside the group
 
--   Add a `Group` block 
+-   Add a `Group` block
 -   Having `Group` block selected press on `DefaultAppender`
 -   Check if the block is added outside after the `Group`
 
 Expected look:  
 ![SeparatorAfter](../resources/group-outer-separator-after.png)
-
-  
 
 -   Having `Group` block selected long press on `DefaultAppender`
 -   Select where you want to add block after or before
@@ -74,44 +36,21 @@ Expected look:
 
 --------------------------------------------------------------------------------
 
-##### TC006
+##### TC003
 
-### DefaultAppender allows to open Inserter and add block inside the group
+### Deep nesting is possible (iOS only)
 
--   Add a `Group` block 
--   Add block inside the `Group`
--   Having newly added block selected press on `DefaultAppender`
--   Check if the block is added inside the `Group` after the selected block
-
-Expected look:  
-![InnerSeparatorAfter](../resources/group-inner-separator-after.png)
-
-  
-
--   Having newly added block selected long press on `DefaultAppender`
--   Select where you want to add block after or before
--   Check if the block is added inside the `Group` after/before the selected block
-
-Expected look:  
-![InnerSeparatorBefore](../resources/group-inner-separator-before.png)
-
---------------------------------------------------------------------------------
-
-##### TC007
-
-### Deep nesting is possible
-
--   Add a `Group` block 
+-   Add a `Group` block
 -   Nest blocks inside multiple `Group` blocks (at least 3 levels deep)
 -   Check if app do not crashes
 
 --------------------------------------------------------------------------------
 
-##### TC008
+##### TC004
 
 ### Check if Group placeholder is render on RootList
 
--   Add a `Group` block 
+-   Add a `Group` block
 -   Deselect
 -   Check if you are able to see `Group` placeholder
 
@@ -120,11 +59,11 @@ Expected look:
 
 --------------------------------------------------------------------------------
 
-##### TC009
+##### TC005
 
 ### Check if Group placeholder is render in nested structure
 
--   Add a `Group` block 
+-   Add a `Group` block
 -   Nest some `Group` inside
 -   Select top-most `Group` block in hierarchy
 -   Check if you are able to see `Group` placeholder of nested blocks wrapped with dashed border
@@ -138,7 +77,7 @@ Expected look:
 
 --------------------------------------------------------------------------------
 
-##### TC010
+##### TC006
 
 ### Insertion point (Separator) is show in correct place in RootList
 
@@ -151,8 +90,6 @@ Expected look:
 Expected look:  
 ![SeparatorRoot](../resources/group-separator-root.png)
 
-  
-
 -   Open new post
 -   Type some text in the "Start writing" prompt
 -   Press `DefaultAppender`
@@ -161,9 +98,7 @@ Expected look:
 Expected look:  
 ![SeparatorRootAfter](../resources/group-separator-after-paragraph.png)
 
-  
-
--   Add a `Group` block 
+-   Add a `Group` block
 -   Long press `DefaultAppender`
 -   Select where you want to add block after or before
 -   Check if the `Separator` is render outside before/after the `Group`
@@ -173,20 +108,18 @@ Expected look:
 
 --------------------------------------------------------------------------------
 
-##### TC011
+##### TC007
 
 ### Insertion point (Separator) is show in correct place in Group
 
--   Add a `Group` block 
+-   Add a `Group` block
 -   Press group `AppenderButton ( + )`
 -   Check if the `Separator` is render instead of `AppenderButton`
 
 Expected look:  
 ![InnerSeparatorRoot](../resources/group-inner-separator-root.png)
 
-    
-
--   Add a `Group` block 
+-   Add a `Group` block
 -   Add block inside
 -   Select `Group` block
 -   Press group `AppenderButton ( + )`
@@ -195,9 +128,7 @@ Expected look:
 Expected look:  
 ![InnerSeparatorAfter](../resources/group-inner-separator-after.png)
 
-  
-
--   Add a `Group` block 
+-   Add a `Group` block
 -   Add block inside and keep newly added block selected
 -   Press `AppenderButton ( + )`
 -   Select where you want to add block after or before
@@ -208,11 +139,11 @@ Expected look:
 
 --------------------------------------------------------------------------------
 
-##### TC012
+##### TC008
 
 ### Nested block have proper border styling
 
--   Add a `Group` block 
+-   Add a `Group` block
 -   Nest some blocks inside
 -   Check if each selected block gets solid blue border
 -   Check if each first child gets dashed grey border
@@ -224,7 +155,7 @@ Expected look:
 
 --------------------------------------------------------------------------------
 
-##### TC013
+##### TC009
 
 ### Nested empty group block do not multiplicates margins
 
@@ -237,13 +168,13 @@ Expected look:
 
 --------------------------------------------------------------------------------
 
-##### TC014
+##### TC010
 
 ### Nested selection cause applying dimmed style on the rest of blocks
 
--   Add a `Group` block 
+-   Add a `Group` block
 -   Create some nested structure
--   Navigate in prepared structure
+-   Navigate down in the hierarchy
 -   Check if each time you change selection all blocks that are higher in hierarchy tree gets dimmed
 -   Select `Group` block
 -   Check if none block gets dimmed
@@ -257,12 +188,12 @@ Expected look:
 
 --------------------------------------------------------------------------------
 
-##### TC015
+##### TC011
 
-### Nested selection keeps dimmed style on post reopen
+### No extra margins applied when nesting empty group blocks
 
 -   Add new post
--   Add a `Group` block 
+-   Add a `Group` block
 -   Create some nested structure
 -   Select nested block to make some block gets dimmed
 -   Close post
@@ -271,11 +202,11 @@ Expected look:
 
 --------------------------------------------------------------------------------
 
-##### TC016
+##### TC012
 
 ### FloatingToolbar is render when group or it's child is selected
 
--   Add a `Group` block 
+-   Add a `Group` block
 -   Prepare nested structure
 -   Check if each time you select any block it renders `FloatingToolbar` above
 
@@ -286,11 +217,11 @@ Expected look:
 
 --------------------------------------------------------------------------------
 
-##### TC017
+##### TC013
 
 ### Breadcrumbs on FloatingToolbar is properly displayed
 
--   Add a `Group` block 
+-   Add a `Group` block
 -   Create nested structure
 -   Check if each time you change selection `Breadcrumbs` show proper block title and icon 
 -   Check if each time you change selection `Breadcrumbs` show proper parent block
@@ -303,11 +234,11 @@ Expected look:
 
 --------------------------------------------------------------------------------
 
-##### TC018
+##### TC014
 
 ### Navigation up works as expected
 
--   Add a `Group` block 
+-   Add a `Group` block
 -   Create nested structure
 -   Select deep nested block
 -   Press navigation up button on `Breadcrumb`
@@ -316,11 +247,11 @@ Expected look:
 
 --------------------------------------------------------------------------------
 
-##### TC019
+##### TC015
 
 ### Navigation down works as expected
 
--   Add a `Group` block 
+-   Add a `Group` block
 -   Create some nested structure ( at least 3 levels deep )
 -   Clear selection
 -   Press on the bottom-most block in hierarchy of added `Group`
@@ -330,49 +261,47 @@ Expected look:
 
 --------------------------------------------------------------------------------
 
-##### TC020
+##### TC016
 
 ### Navigation in hierarchy works as expected
 
--   Add a `Group` block 
+-   Add a `Group` block
 -   Create some nested structure ( at least 3 levels deep )
--   Select nested block 
+-   Select nested block
 -   Having nested block selected try to select block which is higher in the hierarchy (one, two and more levels above)
 -   Check if that block gets selected after press
 
 --------------------------------------------------------------------------------
 
-##### TC021
+##### TC017
 
 ### Mover arrows changes the order of blocks in group
 
--   Add a `Group` block 
+-   Add a `Group` block
 -   Create nested structure
 -   Check if using mover arrows change the order of blocks in `Group` as expected 
 
 --------------------------------------------------------------------------------
 
-##### TC022
+##### TC018
 
 ### Delete button removes the block from group and group block
 
--   Add a `Group` block 
+-   Add a `Group` block
 -   Create nested structure
 -   Selecting nested blocks
 -   Check if `Delete` button removes the selected block
-
-  
-
+ 
 -   Select `Group`
 -   Check if `Delete` button removes the whole `Group` and it's children
 
 --------------------------------------------------------------------------------
 
-##### TC023
+##### TC019
 
 ### Ungroup button works as expected
 
--   Add a `Group` block 
+-   Add a `Group` block
 -   Add blocks to `Group`
 -   Select `Group` block
 -   Press `Ungroup` button on the `MobileToolbar`
@@ -380,7 +309,7 @@ Expected look:
 
 --------------------------------------------------------------------------------
 
-##### TC024
+##### TC020
 
 ### New block added to group gets focus immedately
 
@@ -392,11 +321,11 @@ Expected look:
 
 --------------------------------------------------------------------------------
 
-##### TC025
+##### TC021
 
 ### Check if in DarkMode all components gets proper colors (iOS)
 
--   Add a `Group` block 
+-   Add a `Group` block
 -   Create nested structure
 -   Switch to DarkMode (iOS)
 -   Check if all components switch it's color schema to dark
