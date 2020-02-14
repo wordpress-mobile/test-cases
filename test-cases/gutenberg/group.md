@@ -297,9 +297,9 @@ Expected look:
 -   Check if `Breadcrumbs` renders navigation up button
 
 Expected look:  
-![BreadcrumbsRoot](../resources/breadcrumbs-root.png)
+![BreadcrumbsRoot](../resources/group-breadcrumbs-root.png)
   
-![BreadcrumbsNested](../resources/breadcrumbs-nested.png)
+![BreadcrumbsNested](../resources/group-breadcrumbs-nested.png)
 
 --------------------------------------------------------------------------------
 
@@ -384,7 +384,7 @@ Expected look:
 
 ### New block added to group gets focus immedately
 
--   Add a `Group` block 
+-   Add a `Group` block
 -   Add new block through `DefaultAppender`
 -   Check if block gets focus after add
 -   Add new block through `AppenderButton`
