@@ -162,7 +162,7 @@ Expected look:
 
 --------------------------------------------------------------------------------
 
-##### TC010
+##### TC009
 
 ### Nested selection cause applying dimmed style on the rest of blocks
 
@@ -182,7 +182,7 @@ Expected look:
 
 --------------------------------------------------------------------------------
 
-##### TC013
+##### TC010
 
 ### Breadcrumbs on FloatingToolbar is properly displayed
 
@@ -199,7 +199,7 @@ Expected look:
 
 --------------------------------------------------------------------------------
 
-##### TC014
+##### TC011
 
 ### Navigation up button works as expected
 
@@ -212,7 +212,7 @@ Expected look:
 
 --------------------------------------------------------------------------------
 
-##### TC015
+##### TC012
 
 ### Navigation down works as expected
 
@@ -226,7 +226,7 @@ Expected look:
 
 --------------------------------------------------------------------------------
 
-##### TC016
+##### TC013
 
 ### Cross navigation between blocks works as expected
 
@@ -238,7 +238,7 @@ Expected look:
 
 --------------------------------------------------------------------------------
 
-##### TC019
+##### TC014
 
 ### Ungroup button works as expected
 
@@ -250,7 +250,7 @@ Expected look:
 
 --------------------------------------------------------------------------------
 
-##### TC021
+##### TC015
 
 ### Check if in DarkMode all components gets proper colors (iOS)
 
@@ -261,4 +261,5 @@ Expected look:
 
 Expected look:
 ![DarkMode](../resources/group-dark-mode.png)
+
 --------------------------------------------------------------------------------
