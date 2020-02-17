@@ -7,7 +7,7 @@
 ### AppenderButton is render properly
 
 -   Add a `Group` block
--   Check if `AppenderButton` rendered
+-   Check if `AppenderButton` is rendered
 -   Add another block inside `Group` and deselect
 -   Check if `AppenderButton` is align with the content
 
