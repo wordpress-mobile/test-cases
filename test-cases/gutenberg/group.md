@@ -4,7 +4,7 @@
 
 ##### TC001
 
-### AppenderButton is render properly
+### AppenderButton is rendered
 
 -   Add a `Group` block
 -   Check if `AppenderButton` is rendered
@@ -72,8 +72,15 @@ Expected look:
 
 Expected look:  
 ![PlaceholderNestes](../resources/group-placeholder-nest-1.png)
-  
+ - Post title is not dimmed
+ - Navigation arrows is not visible
+ - Only selected block title and icon is visible in breadcrumbs
+
 ![PlaceholderDeepNested](../resources/group-placeholder-nest-deep.png)
+ - Post title is dimmed
+ - Navigation arrows is visible
+ - Navigation arrows are disable depending on order in block
+ - Show parent in breadcrumbs
 
 --------------------------------------------------------------------------------
 
@@ -155,19 +162,6 @@ Expected look:
 
 --------------------------------------------------------------------------------
 
-##### TC009
-
-### Nested empty group block do not multiplicates margins
-
--   Add a `Group` block
--   Nest multiple empty `Group` block
--   Check if there is no extra margins applied when nested empty `Group` blocks
-
-Expected look:  
-![PlaceholderNested](../resources/group-placeholder-nest-1.png)
-
---------------------------------------------------------------------------------
-
 ##### TC010
 
 ### Nested selection cause applying dimmed style on the rest of blocks
@@ -188,43 +182,14 @@ Expected look:
 
 --------------------------------------------------------------------------------
 
-##### TC011
-
-### No extra margins applied when nesting empty group blocks
-
--   Add new post
--   Add a `Group` block
--   Create some nested structure
--   Select nested block to make some block gets dimmed
--   Close post
--   Reopen post
--   Check if there is no block beeing selected and dimmed
-
---------------------------------------------------------------------------------
-
-##### TC012
-
-### FloatingToolbar is render when group or it's child is selected
-
--   Add a `Group` block
--   Prepare nested structure
--   Check if each time you select any block it renders `FloatingToolbar` above
-
-Expected look:  
-![FloatingToolbarRoot](../resources/group-floating-toolbar-root.png)
-  
-![FloatingToolbarNested](../resources/group-floating-toolbar-nested.png)
-
---------------------------------------------------------------------------------
-
 ##### TC013
 
 ### Breadcrumbs on FloatingToolbar is properly displayed
 
 -   Add a `Group` block
 -   Create nested structure
--   Check if each time you change selection `Breadcrumbs` show proper block title and icon 
--   Check if each time you change selection `Breadcrumbs` show proper parent block
+-   Check if each time you change selection `Breadcrumbs` show focused block title and focused block icon
+-   Check if each time you change selection `Breadcrumbs` show top most parent block icon
 -   Check if `Breadcrumbs` renders navigation up button
 
 Expected look:  
@@ -263,37 +228,13 @@ Expected look:
 
 ##### TC016
 
-### Navigating by tapping another block works as expected
+### Cross navigation between blocks works as expected
 
 -   Add a `Group` block
 -   Create some nested structure ( at least 3 levels deep )
 -   Select nested block
 -   Having nested block selected try to select block which is higher in the hierarchy (one, two and more levels above)
 -   Check if that block gets selected after press
-
---------------------------------------------------------------------------------
-
-##### TC017
-
-### Mover arrows changes the order of blocks in group
-
--   Add a `Group` block
--   Create nested structure
--   Check if using mover arrows change the order of blocks in `Group` as expected 
-
---------------------------------------------------------------------------------
-
-##### TC018
-
-### Delete button removes the block from group and group block
-
--   Add a `Group` block
--   Create nested structure
--   Selecting nested blocks
--   Check if `Delete` button removes the selected block
- 
--   Select `Group`
--   Check if `Delete` button removes the whole `Group` and it's children
 
 --------------------------------------------------------------------------------
 
@@ -309,18 +250,6 @@ Expected look:
 
 --------------------------------------------------------------------------------
 
-##### TC020
-
-### New block added to group gets focus immedately
-
--   Add a `Group` block
--   Add new block through `DefaultAppender`
--   Check if block gets focus after add
--   Add new block through `AppenderButton`
--   Check if block gets focus after add
-
---------------------------------------------------------------------------------
-
 ##### TC021
 
 ### Check if in DarkMode all components gets proper colors (iOS)
@@ -330,4 +259,6 @@ Expected look:
 -   Switch to DarkMode (iOS)
 -   Check if all components switch it's color schema to dark
 
+Expected look:
+![DarkMode](../resources/group-dark-mode.png)
 --------------------------------------------------------------------------------
