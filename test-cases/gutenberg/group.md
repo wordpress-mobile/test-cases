@@ -118,11 +118,11 @@ Expected look:
 ![MarginChild](../resources/group-margin-child.png)
  - Margin of `6px` left/right (beetwen content and dashed border)
 
-![PaddingContent](../resources/group-margin-root2.png)
- - Padding of `16px` left/right
+![MarginContent](../resources/group-margin-root-1.png)
+ - Margin of `16px` left/right
 
+Total space from screen edge to content should equals `16px` in each state (including solid and dashed border width in selection state)
 
- Total space from screen edge to content should equals `16px` in each state (including solid and dashed border width in selection state)
 --------------------------------------------------------------------------------
 
 ##### TC008
