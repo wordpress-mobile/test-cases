@@ -110,7 +110,7 @@ Expected look:
 
 ##### TC007
 
-### Insertion point (Separator) is show in correct place in Group
+### Insertion point (Separator) is shown in correct place in Group
 
 -   Add a `Group` block
 -   Press group `AppenderButton ( + )`
