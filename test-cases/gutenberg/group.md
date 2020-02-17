@@ -263,7 +263,7 @@ Expected look:
 
 ##### TC016
 
-### Navigation in hierarchy works as expected
+### Navigating by tapping another block works as expected
 
 -   Add a `Group` block
 -   Create some nested structure ( at least 3 levels deep )
