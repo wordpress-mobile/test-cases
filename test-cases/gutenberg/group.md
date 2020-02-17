@@ -114,7 +114,7 @@ Expected look:
 
 -   Add a `Group` block
 -   Press group `AppenderButton ( + )`
--   Check if the `Separator` is render instead of `AppenderButton`
+-   Check if the `Separator` is rendered instead of `AppenderButton`
 
 Expected look:  
 ![InnerSeparatorRoot](../resources/group-inner-separator-root.png)
