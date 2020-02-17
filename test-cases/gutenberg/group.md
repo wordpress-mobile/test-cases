@@ -86,68 +86,6 @@ Expected look:
 
 ##### TC006
 
-### Insertion point (Separator) is show in correct place in RootList
-
--   Open new post
--   See if "Start writing" prompt is visible
--   Press `DefaultAppender`
--   Check if `Separator` is visible right below the title block
--   Check if "Start writing" prompt is not visible
-
-Expected look:  
-![SeparatorRoot](../resources/group-separator-root.png)
-
--   Open new post
--   Type some text in the "Start writing" prompt
--   Press `DefaultAppender`
--   Check if `Separator` is visible right below the `Paragraph` block
-
-Expected look:  
-![SeparatorRootAfter](../resources/group-separator-after-paragraph.png)
-
--   Add a `Group` block
--   Long press `DefaultAppender`
--   Select where you want to add block after or before
--   Check if the `Separator` is render outside before/after the `Group`
-
-Expected look:  
-![SeparatorRootBefore](../resources/group-separator-before-paragraph.png)
-
---------------------------------------------------------------------------------
-
-##### TC007
-
-### Insertion point (Separator) is shown in correct place in Group
-
--   Add a `Group` block
--   Press group `AppenderButton ( + )`
--   Check if the `Separator` is rendered instead of `AppenderButton`
-
-Expected look:  
-![InnerSeparatorRoot](../resources/group-inner-separator-root.png)
-
--   Add a `Group` block
--   Add block inside
--   Select `Group` block
--   Press group `AppenderButton ( + )`
--   Check if the `Separator` is rendered after last block in the `Group`
-
-Expected look:  
-![InnerSeparatorAfter](../resources/group-inner-separator-after.png)
-
--   Add a `Group` block
--   Add block inside and keep newly added block selected
--   Press `AppenderButton ( + )`
--   Select where you want to add block after or before
--   Check if the `Separator` is rendered after/before selected block in the `Group`
-
-Expected look:  
-![InnerSeparatorBefore](../resources/group-inner-separator-before.png)
-
---------------------------------------------------------------------------------
-
-##### TC008
-
 ### Nested block have proper border styling
 
 -   Add a `Group` block
@@ -162,7 +100,7 @@ Expected look:
 
 --------------------------------------------------------------------------------
 
-##### TC009
+##### TC007
 
 ### Nested selection cause applying dimmed style on the rest of blocks
 
@@ -182,7 +120,7 @@ Expected look:
 
 --------------------------------------------------------------------------------
 
-##### TC010
+##### TC008
 
 ### Breadcrumbs on FloatingToolbar is properly displayed
 
@@ -199,7 +137,7 @@ Expected look:
 
 --------------------------------------------------------------------------------
 
-##### TC011
+##### TC009
 
 ### Navigation up button works as expected
 
@@ -212,7 +150,7 @@ Expected look:
 
 --------------------------------------------------------------------------------
 
-##### TC012
+##### TC010
 
 ### Navigation down works as expected
 
@@ -226,7 +164,7 @@ Expected look:
 
 --------------------------------------------------------------------------------
 
-##### TC013
+##### TC011
 
 ### Cross navigation between blocks works as expected
 
@@ -238,7 +176,7 @@ Expected look:
 
 --------------------------------------------------------------------------------
 
-##### TC014
+##### TC012
 
 ### Ungroup button works as expected
 
@@ -250,7 +188,7 @@ Expected look:
 
 --------------------------------------------------------------------------------
 
-##### TC015
+##### TC013
 
 ### Check if in DarkMode all components gets proper colors (iOS)
 
