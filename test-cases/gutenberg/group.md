@@ -304,7 +304,7 @@ Expected look:
 -   Add a `Group` block
 -   Add blocks to `Group`
 -   Select `Group` block
--   Press `Ungroup` button on the `MobileToolbar`
+-   Press `Ungroup` button on the block toolbar
 -   Check if `Group` block was delete and all of it's child are able to select directly after press
 
 --------------------------------------------------------------------------------
