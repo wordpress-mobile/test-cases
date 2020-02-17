@@ -222,7 +222,7 @@ Expected look:
 -   Switch to DarkMode (iOS)
 -   Check if all components switch it's color schema to dark
 
-Expected look: 
+Expected look:  
 ![DarkMode](../resources/group-dark-mode.png)
 
 --------------------------------------------------------------------------------
