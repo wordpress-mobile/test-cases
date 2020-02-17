@@ -236,7 +236,7 @@ Expected look:
 
 ##### TC014
 
-### Navigation up works as expected
+### Navigation up button works as expected
 
 -   Add a `Group` block
 -   Create nested structure
