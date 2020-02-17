@@ -92,8 +92,6 @@ Expected look:
 -   Nest some blocks inside
 -   Check if each selected block gets solid blue border
 -   Check if each first child gets dashed grey border
--   Check if margins and paddings do not bounce when changing selection (exception is the trasition of the selected block connected with making space for FloatingToolbar)
--   Check if there is no weird/unexpected extra free space around blocks
 
 Expected look:  
 ![BorderStyling](../resources/group-border-styling.png)
@@ -101,6 +99,33 @@ Expected look:
 --------------------------------------------------------------------------------
 
 ##### TC007
+
+### Nested block have proper margins values
+
+-   Add a `Group` block
+-   Nest some blocks inside
+-   Check if margins and paddings do not bounce when changing selection (exception is the trasition of the selected block connected with making space for FloatingToolbar)
+-   Check if there is no weird/unexpected extra free space around blocks
+-   Check the margins/paddings values
+
+Expected look:  
+![MarginRoot](../resources/group-margin-root.png)
+ - Margins of `3px` left/right (between screen edge and solid border)
+
+![MarginGroupChild](../resources/group-margin-inner-child-group.png)
+ - Margins of `5px` left/right (beetwen dashed border and solid border)
+
+![MarginChild](../resources/group-margin-child.png)
+ - Margin of `6px` left/right (beetwen content and dashed border)
+
+![PaddingContent](../resources/group-margin-root2.png)
+ - Padding of `16px` left/right
+
+
+ Total space from screen edge to content should equals `16px` in each state (including solid and dashed border width in selection state)
+--------------------------------------------------------------------------------
+
+##### TC008
 
 ### Nested selection cause applying dimmed style on the rest of blocks
 
@@ -120,7 +145,7 @@ Expected look:
 
 --------------------------------------------------------------------------------
 
-##### TC008
+##### TC009
 
 ### Breadcrumbs on FloatingToolbar is properly displayed
 
@@ -137,7 +162,7 @@ Expected look:
 
 --------------------------------------------------------------------------------
 
-##### TC009
+##### TC010
 
 ### Navigation up button works as expected
 
@@ -150,7 +175,7 @@ Expected look:
 
 --------------------------------------------------------------------------------
 
-##### TC010
+##### TC011
 
 ### Navigation down works as expected
 
@@ -164,7 +189,7 @@ Expected look:
 
 --------------------------------------------------------------------------------
 
-##### TC011
+##### TC012
 
 ### Cross navigation between blocks works as expected
 
@@ -176,7 +201,7 @@ Expected look:
 
 --------------------------------------------------------------------------------
 
-##### TC012
+##### TC013
 
 ### Ungroup button works as expected
 
@@ -188,7 +213,7 @@ Expected look:
 
 --------------------------------------------------------------------------------
 
-##### TC013
+##### TC014
 
 ### Check if in DarkMode all components gets proper colors (iOS)
 
