@@ -132,7 +132,7 @@ Expected look:
 -   Add block inside and keep newly added block selected
 -   Press `AppenderButton ( + )`
 -   Select where you want to add block after or before
--   Check if the `Separator` is render after/before selected block in the `Group`
+-   Check if the `Separator` is rendered after/before selected block in the `Group`
 
 Expected look:  
 ![InnerSeparatorBefore](../resources/group-inner-separator-before.png)
