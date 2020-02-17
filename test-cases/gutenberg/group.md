@@ -123,7 +123,7 @@ Expected look:
 -   Add block inside
 -   Select `Group` block
 -   Press group `AppenderButton ( + )`
--   Check if the `Separator` is render after last block in the `Group`
+-   Check if the `Separator` is rendered after last block in the `Group`
 
 Expected look:  
 ![InnerSeparatorAfter](../resources/group-inner-separator-after.png)
