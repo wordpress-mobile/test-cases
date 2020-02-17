@@ -305,7 +305,7 @@ Expected look:
 -   Add blocks to `Group`
 -   Select `Group` block
 -   Press `Ungroup` button on the block toolbar
--   Check if `Group` block was delete and all of it's child are able to select directly after press
+-   Check if `Group` block was deleted and each child block can now be selected directly
 
 --------------------------------------------------------------------------------
 
