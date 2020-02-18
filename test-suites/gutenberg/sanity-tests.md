@@ -5,8 +5,8 @@ Gallery-1
 
 Gallery-2
 
-- [ ] Gallery block - Insert image from device (failing) - steps
-- [ ] Gallery block - Insert image from device (cancel) - steps
+- [ ] Gallery block - Insert image from device (failing) - [steps](https://github.com/wordpress-mobile/test-cases/blob/master/test-cases/gutenberg/gallery.md#tc006)
+- [ ] Gallery block - Insert image from device (cancel) - [steps](https://github.com/wordpress-mobile/test-cases/blob/master/test-cases/gutenberg/gallery.md#tc011)
 
 Gallery-3
 
