@@ -42,7 +42,7 @@ Expected look:
 
 -   Add a `Group` block
 -   Nest blocks inside multiple `Group` blocks (at least 3 levels deep)
--   Check if app do not crashes
+-   Check if app do not crash
 
 --------------------------------------------------------------------------------
 
