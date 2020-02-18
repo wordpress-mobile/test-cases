@@ -48,7 +48,7 @@ Expected look:
 
 ##### TC004
 
-### Check if Group placeholder is render on RootList
+### Check if Group placeholder is visible for the unselected state
 
 -   Add a `Group` block
 -   Deselect
