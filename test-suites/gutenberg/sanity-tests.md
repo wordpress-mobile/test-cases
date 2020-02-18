@@ -12,7 +12,7 @@ Gallery-3
 
 - [ ] Gallery block - Add Gallery Caption - [steps](https://github.com/wordpress-mobile/test-cases/blob/master/test-cases/gutenberg/gallery.md#tc003)
 - [ ] Gallery block - Add Gallery Image Caption - [steps](https://github.com/wordpress-mobile/test-cases/blob/master/test-cases/gutenberg/gallery.md#tc004)
-- [ ] Gallery block - Try adding same images from WP Media library and moving the images around - steps
+- [ ] Gallery block - Try adding same images from WP Media library and moving the images around - [steps](https://github.com/wordpress-mobile/test-cases/blob/master/test-cases/gutenberg/gallery.md#tc012)
 
 Gallery-4
 
