@@ -157,7 +157,7 @@ Expected look:
 
 ##### TC010
 
-### Navigation down works as expected
+### Navigation down works according to parent-first approach
 
 -   Add a `Group` block
 -   Create some nested structure ( at least 3 levels deep )
