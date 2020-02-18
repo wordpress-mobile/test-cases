@@ -234,3 +234,21 @@ Gallery block should allow canceling image uploads.
 * A prompt for "Stop uploading" should be shown.
 * Confiriming should cancel the upload if the upload didn't finish.
 * Declining should allow the upload to continue.  
+
+--------------------------------------------------------------------------------
+
+##### TC012
+
+### Rearrange images in Gallery
+
+Gallery block should allow images to be rearranged in the gallery.
+
+**Steps:**
+
+* Add a gallery block and tap "Add Media"
+* Add serveral images through the various options
+* Select an image and change it's position.
+* Test with:
+    * Adding even and uneven image counts and rearranging the last image
+    * Leaving the editor and coming back in
+    * Validate order is reflected on the Web after saving
