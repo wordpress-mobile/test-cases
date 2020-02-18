@@ -18,26 +18,6 @@ Expected look:
 
 ##### TC002
 
-### DefaultAppender allows to open Inserter and add block outside the group
-
--   Add a `Group` block
--   Having `Group` block selected press on `DefaultAppender`
--   Check if the block is added outside after the `Group`
-
-Expected look:  
-![SeparatorAfter](../resources/group-outer-separator-after.png)
-
--   Having `Group` block selected long press on `DefaultAppender`
--   Select where you want to add block after or before
--   Check if the block is added outside after/before the `Group`
-
-Expected look:  
-![SeparatorBefore](../resources/group-outer-separator-before.png)
-
---------------------------------------------------------------------------------
-
-##### TC003
-
 ### Deep nesting is possible (iOS only)
 
 -   Add a `Group` block
@@ -46,7 +26,7 @@ Expected look:
 
 --------------------------------------------------------------------------------
 
-##### TC004
+##### TC003
 
 ### Check if Group placeholder is visible for the unselected state
 
@@ -59,7 +39,7 @@ Expected look:
 
 --------------------------------------------------------------------------------
 
-##### TC005
+##### TC004
 
 ### Check if Group placeholder is render in nested structure
 
@@ -84,7 +64,7 @@ Expected look:
 
 --------------------------------------------------------------------------------
 
-##### TC006
+##### TC005
 
 ### Nested block have proper border styling
 
@@ -98,34 +78,34 @@ Expected look:
 
 --------------------------------------------------------------------------------
 
-##### TC007
+##### TC006
 
 ### Nested block have proper margins values
 
 -   Add a `Group` block
 -   Nest some blocks inside
--   Check if margins and paddings do not bounce when changing selection (exception is the trasition of the selected block connected with making space for FloatingToolbar)
+-   Check if space aroun blocks do not bounce when changing selection (exception is the trasition of the selected block connected with making space for FloatingToolbar)
 -   Check if there is no weird/unexpected extra free space around blocks
--   Check the margins/paddings values
+-   Check the spaces values
 
 Expected look:  
-![MarginRoot](../resources/group-margin-root.png)
- - Margins of `3px` left/right (between screen edge and solid border)
+![SpaceRoot](../resources/group-margin-root.png)
+ - Space of `3px` left/right (between screen edge and solid border)
 
-![MarginGroupChild](../resources/group-margin-inner-child-group.png)
- - Margins of `5px` left/right (beetwen dashed border and solid border)
+![SpaceGroupChild](../resources/group-margin-inner-child-group.png)
+ - Space of `5px` left/right (beetwen dashed border and solid border)
 
-![MarginChild](../resources/group-margin-child.png)
- - Margin of `6px` left/right (beetwen content and dashed border)
+![SpaceChild](../resources/group-margin-child.png)
+ - Space of `6px` left/right (beetwen content and dashed border)
 
-![MarginContent](../resources/group-margin-root-1.png)
- - Margin of `16px` left/right
+![SpaceContent](../resources/group-margin-root-1.png)
+ - Space of `16px` left/right
 
 Total space from screen edge to content should equals `16px` in each state (including solid and dashed border width in selection state)
 
 --------------------------------------------------------------------------------
 
-##### TC008
+##### TC007
 
 ### Nested selection cause applying dimmed style on the rest of blocks
 
@@ -145,7 +125,7 @@ Expected look:
 
 --------------------------------------------------------------------------------
 
-##### TC009
+##### TC008
 
 ### Breadcrumbs on FloatingToolbar is properly displayed
 
@@ -162,7 +142,7 @@ Expected look:
 
 --------------------------------------------------------------------------------
 
-##### TC010
+##### TC009
 
 ### Navigation up button works as expected
 
@@ -175,7 +155,7 @@ Expected look:
 
 --------------------------------------------------------------------------------
 
-##### TC011
+##### TC010
 
 ### Navigation down works as expected
 
@@ -189,7 +169,7 @@ Expected look:
 
 --------------------------------------------------------------------------------
 
-##### TC012
+##### TC011
 
 ### Cross navigation between blocks works as expected
 
@@ -201,7 +181,7 @@ Expected look:
 
 --------------------------------------------------------------------------------
 
-##### TC013
+##### TC012
 
 ### Ungroup button works as expected
 
@@ -213,7 +193,7 @@ Expected look:
 
 --------------------------------------------------------------------------------
 
-##### TC014
+##### TC013
 
 ### Check if in DarkMode all components gets proper colors (iOS)
 
