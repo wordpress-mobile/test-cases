@@ -227,7 +227,7 @@ Gallery block should allow canceling image uploads.
 * Select "Choose from device" option
 * Select an image from the device and confirm the selection
 * While the image is uploading, tap the image
-<img src="../resources/gallery-upload-in-progress.png" width="360" valign="middle">
+<img src="../resources/gallery-upload-in-progress.jpg" width="360" valign="middle">
 
 **Expected behavior:**
 
