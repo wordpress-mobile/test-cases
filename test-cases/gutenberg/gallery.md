@@ -212,3 +212,25 @@ Gallery block should allow uploading images from the free photo library.
 * After each image upload has completed:
   * Image should not be dim
   * Image url scheme should be `https://` (not `file:///`) in HTML mode
+
+--------------------------------------------------------------------------------
+
+##### TC011
+
+### Choose from device (stay in editor) - Cancel upload
+
+Gallery block should allow canceling image uploads.
+
+**Steps:**
+
+* Add a gallery block and tap "Add Media"
+* Select "Choose from device" option
+* Select an image from the device and confirm the selection
+* While the image is uploading, tap the image
+<img src="../resources/gallery-upload-in-progress.png" width="360" valign="middle">
+
+**Expected behavior:**
+
+* A prompt for "Stop uploading" should be shown.
+* Confiriming should cancel the upload if the upload didn't finish.
+* Declining should allow the upload to continue.  
