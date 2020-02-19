@@ -97,6 +97,16 @@ Button-4
 
 Group-1
 
-- [ ] Group - Navigating down in the hierarchy - steps
-- [ ] Group - Navigating up in the hierarchy - steps
-- [ ] Group - Nest more than 3 levels - steps
+- [ ] Group - AppenderButton is rendered - [steps](https://github.com/wordpress-mobile/test-cases/blob/master/test-cases/gutenberg/group.md#tc001)
+- [ ] Group - Deep nesting is possible (iOS only) - [steps](https://github.com/wordpress-mobile/test-cases/blob/master/test-cases/gutenberg/group.md#tc002)
+- [ ] Group - Check if Group placeholder is visible for the unselected state - [steps](https://github.com/wordpress-mobile/test-cases/blob/master/test-cases/gutenberg/group.md#tc003)
+- [ ] Group - Check if Group placeholder is render in nested structure - [steps](https://github.com/wordpress-mobile/test-cases/blob/master/test-cases/gutenberg/group.md#tc004)
+- [ ] Group - Nested block have proper border styling - [steps](https://github.com/wordpress-mobile/test-cases/blob/master/test-cases/gutenberg/group.md#tc005)
+- [ ] Group - Nested block have proper margins values - [steps](https://github.com/wordpress-mobile/test-cases/blob/master/test-cases/gutenberg/group.md#tc006)
+- [ ] Group - Nested selection cause applying dimmed style on the rest of blocks - [steps](https://github.com/wordpress-mobile/test-cases/blob/master/test-cases/gutenberg/group.md#tc007)
+- [ ] Group - Breadcrumbs on FloatingToolbar is properly displayed - [steps](https://github.com/wordpress-mobile/test-cases/blob/master/test-cases/gutenberg/group.md#tc008)
+- [ ] Group - Navigation up button works as expected - [steps](https://github.com/wordpress-mobile/test-cases/blob/master/test-cases/gutenberg/group.md#tc009)
+- [ ] Group - Navigation down works according to parent-first approach - [steps](https://github.com/wordpress-mobile/test-cases/blob/master/test-cases/gutenberg/group.md#tc010)
+- [ ] Group - Cross navigation between blocks works as expected - [steps](https://github.com/wordpress-mobile/test-cases/blob/master/test-cases/gutenberg/group.md#tc011)
+- [ ] Group - Ungroup button works as expected - [steps](https://github.com/wordpress-mobile/test-cases/blob/master/test-cases/gutenberg/group.md#tc012)
+- [ ] Group - Check if in DarkMode all components gets proper colors (iOS) - [steps](https://github.com/wordpress-mobile/test-cases/blob/master/test-cases/gutenberg/group.md#tc013)
