@@ -8,7 +8,7 @@
 -   Add a cover block 
 -   Tap on Add Image
 -   The picker should show up with the `WordPress Media library` option
-![Progress](../resources/cover-7.png)
+![Cover media picker](../resources/cover-7.png)
 -   Select and image
 -   Expect to see the selected image in the Cover Block
 
@@ -21,7 +21,7 @@
 -   Add a cover block and select an image from the `WordPress Media library`
 -   Tap on the settings icon of the block
 -   Verify that the bottom sheet opens with the following settings
-![Progress](../resources/cover-1.png)
+![Cover settings](../resources/cover-1.png)
 -   Update the values using the sliders
 -   Verify that the Cover block changes accordingly
 
@@ -34,11 +34,11 @@
 -   Add a Cover block from the Web editor
 -   Select an image
 -   Decrease the height of the block and use the Focal point picker in the right sidebar, select any point
-![Progress](../resources/cover-2.png)
+![Web focal point picker](../resources/cover-2.png)
 -   Save the post
 -   Open the post from the app
 -   Expect to see the the Cover block with the image and the right focal point
-![Progress](../resources/cover-3.png)
+![Cover with focal point](../resources/cover-3.png)
 
 --------------------------------------------------------------------------------
 
@@ -51,13 +51,13 @@
 -   Type in any text
 -   Select the block
 -   Add a **custom** solid overlay color
-![Progress](../resources/cover-4.png)
+![Web overlay color setting](../resources/cover-4.png)
 -   Select the text
 -   Add a **custom** text color
-![Progress](../resources/cover-5.png)
+![Web text color setting](../resources/cover-5.png)
 -   Save the post
 -   Open the post from the app
 -   Expect to see the the Cover block with the image and color styles
-![Progress](../resources/cover-6.png)
+![Cover with color styles](../resources/cover-6.png)
 
 
