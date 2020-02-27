@@ -183,10 +183,10 @@
 
 ##### TC014
 
-### New Buttons are created with the blue color
+### New Button is created with the gray color
 
 -   Add a Button block
--   Expect blue background color and white text
+-   Expect gray background color and white text
 
 --------------------------------------------------------------------------------
 
@@ -202,3 +202,38 @@
 -   Open the same post on mobile app
 -   Observe caret / select text
 -   Expect Button caret / selection color to match the custom text color
+
+--------------------------------------------------------------------------------
+
+##### TC016
+
+### The newly created button has set background color to the theme-default color in preview
+
+-   Add a Button block
+-   Save the post
+-   Open a post e.g in preview mode
+-   Expect Button with background color consistent with theme-default color
+
+--------------------------------------------------------------------------------
+
+##### TC017
+
+### Tapping `delete` key removes block when Button is empty
+
+-   Add a Button block
+-   Type some characters
+-   Remove all characters
+-   Press `delete` key when Button is empty
+-   Expect Button is deleted
+
+--------------------------------------------------------------------------------
+
+##### TC018
+
+### Toolbar link button is active when Button has link
+
+-   Add a Button block
+-   Open link [settings](../resources/button-link-settings.png)
+-   Edit `Button URL` field and add link
+-   Close bottom-sheet
+-   Expect toolbar link button is active

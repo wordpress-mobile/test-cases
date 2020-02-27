@@ -107,8 +107,6 @@ Gallery block should allow uploading multiple images from the device.
 
 Gallery block should allow retrying failed uploads
 
-**Note:** :x: This is currently a [known issue under investigation](https://github.com/wordpress-mobile/gutenberg-mobile/issues/1852)
-
 **Steps:**
 
 * Add a gallery block and tap "Add Media"
@@ -135,6 +133,8 @@ Gallery block should allow uploading multiple images after the editor is closed.
 * Select "Choose from device" option
 * Select multiple images from the device and confirm the selection
 * While image are uploading, leave the editor
+* Verify that you see the upload progress in post summary:
+  * <img src="../resources/upload-progress-posts-list.png" width="360" valign="middle">
 * Wait for uploads to complete while in the post list
 * Re-open the post with the gallery block
 
@@ -157,6 +157,8 @@ Gallery block should continue normally if the editor is closed and re-opened wit
 * Select "Choose from device" option
 * Select multiple images from the device and confirm the selection
 * While image are uploading, leave the editor
+* Verify that you see the upload progress in post summary:
+  * <img src="../resources/upload-progress-posts-list.png" width="360" valign="middle">
 * Re-open the post with the gallery block before uploads complete
 
 **Expected behavior:**
@@ -197,8 +199,6 @@ Gallery block should allow uploading images from the camera.
 
 Gallery block should allow uploading images from the free photo library.
 
-**Note:** :x: On iOS, I observed that only the first image is added to the gallery block, with the rest appended as image blocks.
-
 **Steps:**
 
 * Add a gallery block and tap "Add Media"
@@ -212,3 +212,43 @@ Gallery block should allow uploading images from the free photo library.
 * After each image upload has completed:
   * Image should not be dim
   * Image url scheme should be `https://` (not `file:///`) in HTML mode
+
+--------------------------------------------------------------------------------
+
+##### TC011
+
+### Choose from device (stay in editor) - Cancel upload
+
+Gallery block should allow canceling image uploads.
+
+**Steps:**
+
+* Add a gallery block and tap "Add Media"
+* Select "Choose from device" option
+* Select an image from the device and confirm the selection
+* While the image is uploading, tap the image
+<img src="../resources/gallery-upload-in-progress.jpg" width="360" valign="middle">
+
+**Expected behavior:**
+
+* A prompt for "Stop uploading" should be shown.
+* Confiriming should cancel the upload if the upload didn't finish.
+* Declining should allow the upload to continue.  
+
+--------------------------------------------------------------------------------
+
+##### TC012
+
+### Rearrange images in Gallery
+
+Gallery block should allow images to be rearranged in the gallery.
+
+**Steps:**
+
+* Add a gallery block and tap "Add Media"
+* Add serveral images through the various options
+* Select an image and change it's position.
+* Test with:
+    * Adding even and uneven image counts and rearranging the last image
+    * Leaving the editor and coming back in
+    * Validate order is reflected on the Web after saving

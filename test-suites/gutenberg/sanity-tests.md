@@ -5,14 +5,14 @@ Gallery-1
 
 Gallery-2
 
-- [ ] Gallery block - Insert image from device (failing) - steps
-- [ ] Gallery block - Insert image from device (cancel) - steps
+- [ ] Gallery block - Insert image from device (failing) - [steps](https://github.com/wordpress-mobile/test-cases/blob/master/test-cases/gutenberg/gallery.md#tc006)
+- [ ] Gallery block - Insert image from device (cancel) - [steps](https://github.com/wordpress-mobile/test-cases/blob/master/test-cases/gutenberg/gallery.md#tc011)
 
 Gallery-3
 
 - [ ] Gallery block - Add Gallery Caption - [steps](https://github.com/wordpress-mobile/test-cases/blob/master/test-cases/gutenberg/gallery.md#tc003)
 - [ ] Gallery block - Add Gallery Image Caption - [steps](https://github.com/wordpress-mobile/test-cases/blob/master/test-cases/gutenberg/gallery.md#tc004)
-- [ ] Gallery block - Try adding same images from WP Media library and moving the images around - steps
+- [ ] Gallery block - Try adding same images from WP Media library and moving the images around - [steps](https://github.com/wordpress-mobile/test-cases/blob/master/test-cases/gutenberg/gallery.md#tc012)
 
 Gallery-4
 
@@ -76,8 +76,10 @@ Button-2
 
 - [ ] Button block - Edit text styles - [steps](https://github.com/wordpress-mobile/test-cases/blob/master/test-cases/gutenberg/button.md#tc003)
 - [ ] Button block - Fallback to default colors in case theme colors are used - [steps](https://github.com/wordpress-mobile/test-cases/blob/master/test-cases/gutenberg/button.md#tc013)
-- [ ] Button block - New Buttons are created with the blue color - [steps](https://github.com/wordpress-mobile/test-cases/blob/master/test-cases/gutenberg/button.md#tc014)
+- [ ] Button block - New Button is created with the gray color - [steps](https://github.com/wordpress-mobile/test-cases/blob/master/test-cases/gutenberg/button.md#tc014)
 - [ ] Button block - Settings: Change Button border radius - [steps](https://github.com/wordpress-mobile/test-cases/blob/master/test-cases/gutenberg/button.md#tc009)
+- [ ] Button block - The newly created button has set background color to the theme-default color in preview - [steps](https://github.com/wordpress-mobile/test-cases/blob/master/test-cases/gutenberg/button.md#tc016)
+- [ ] Button block - Tapping `delete` key removes block when Button is empty - [steps](https://github.com/wordpress-mobile/test-cases/blob/master/test-cases/gutenberg/button.md#tc017)
 
 Button-3
 
@@ -90,10 +92,21 @@ Button-3
 Button-4
 
 - [ ] Button block - Link from the clipboard is automaticially added into the empty URL field in link settings and button options - [steps](https://github.com/wordpress-mobile/test-cases/blob/master/test-cases/gutenberg/button.md#tc002)
+- [ ] Button block - Toolbar link button is active when Button has link - [steps](https://github.com/wordpress-mobile/test-cases/blob/master/test-cases/gutenberg/button.md#tc018)
 - [ ] Button block - Button max width is calculated OK inside inner blocks(iOS only) - [steps](https://github.com/wordpress-mobile/test-cases/blob/master/test-cases/gutenberg/button.md#tc001)
 
 Group-1
 
-- [ ] Group - Navigating down in the hierarchy - steps
-- [ ] Group - Navigating up in the hierarchy - steps
-- [ ] Group - Nest more than 3 levels - steps
+- [ ] Group - AppenderButton is rendered - [steps](https://github.com/wordpress-mobile/test-cases/blob/master/test-cases/gutenberg/group.md#tc001)
+- [ ] Group - Deep nesting is possible (iOS only) - [steps](https://github.com/wordpress-mobile/test-cases/blob/master/test-cases/gutenberg/group.md#tc002)
+- [ ] Group - Check if Group placeholder is visible for the unselected state - [steps](https://github.com/wordpress-mobile/test-cases/blob/master/test-cases/gutenberg/group.md#tc003)
+- [ ] Group - Check if Group placeholder is render in nested structure - [steps](https://github.com/wordpress-mobile/test-cases/blob/master/test-cases/gutenberg/group.md#tc004)
+- [ ] Group - Nested block have proper border styling - [steps](https://github.com/wordpress-mobile/test-cases/blob/master/test-cases/gutenberg/group.md#tc005)
+- [ ] Group - Nested block have proper margins values - [steps](https://github.com/wordpress-mobile/test-cases/blob/master/test-cases/gutenberg/group.md#tc006)
+- [ ] Group - Nested selection cause applying dimmed style on the rest of blocks - [steps](https://github.com/wordpress-mobile/test-cases/blob/master/test-cases/gutenberg/group.md#tc007)
+- [ ] Group - Breadcrumbs on FloatingToolbar is properly displayed - [steps](https://github.com/wordpress-mobile/test-cases/blob/master/test-cases/gutenberg/group.md#tc008)
+- [ ] Group - Navigation up button works as expected - [steps](https://github.com/wordpress-mobile/test-cases/blob/master/test-cases/gutenberg/group.md#tc009)
+- [ ] Group - Navigation down works according to parent-first approach - [steps](https://github.com/wordpress-mobile/test-cases/blob/master/test-cases/gutenberg/group.md#tc010)
+- [ ] Group - Cross navigation between blocks works as expected - [steps](https://github.com/wordpress-mobile/test-cases/blob/master/test-cases/gutenberg/group.md#tc011)
+- [ ] Group - Ungroup button works as expected - [steps](https://github.com/wordpress-mobile/test-cases/blob/master/test-cases/gutenberg/group.md#tc012)
+- [ ] Group - Check if in DarkMode all components gets proper colors (iOS) - [steps](https://github.com/wordpress-mobile/test-cases/blob/master/test-cases/gutenberg/group.md#tc013)
