@@ -17,12 +17,15 @@
 
 ##### TC002
 
-### Link in the clipboard is automaticially added into the empty URL field
+### Link from the clipboard is automaticially added into the empty URL field in link settings and button options
 
+-   Copy link into clipboard, e.g. `http://wordpress.com`
 -   Add a Button block
--   Copy link into clipboard
 -   Open link [settings](../resources/button-link-settings.png)
 -   Expect link from the clipboard to be automaticially added into the empty URL field
+-   Add second Button block
+-   Open button [options](../resources/button-options.png)
+-   Expect link from the clipboard to be automatically added into the empty URL field 
 
 --------------------------------------------------------------------------------
 
