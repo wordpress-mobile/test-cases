@@ -1,9 +1,11 @@
-
 # Splitting and merging - Test Cases
 
 #### **Precondition**
 
-Start from an empty post, and follow this starting steps on every test case:
+Start from an empty post.
+
+*Initial steps* 
+
 - Repeat the next steps on a Paragraph and Heading block
 - Write (or paste) a paragraph with a few lines
 - Set the caret by the half of the paragraph
@@ -57,5 +59,18 @@ Start from an empty post, and follow this starting steps on every test case:
 - Check that the blocks were merged.
 
 
+##### TC005
 
+**Splitting/merge list block**
+
+- Write some items on a list block
+- Put the caret by the half of them (at the end of the item) and press Enter to create a new item.
+- Press Enter again to split the block into two, with an empty paragraph block in the middle. The paragraph block at the middle should be focused.
+- Write something on that newly created paragraph block.
+- Move the cursor to the beginning of the paragraph block
+- Press delete to merge the paragraph block with the upper list block.
+- Check that the new word should be a new list item.
+- Move the caret to the beginning of the second list block.
+- Press delete once to merge it back into the first list block.
+- Check that everything was merged and there’s just one list block.
 
