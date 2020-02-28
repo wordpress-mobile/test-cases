@@ -63,7 +63,7 @@ Shortcode-1
 
 Spacer-1
 
-- [ ] Spacer block - Settings: Height in pixels - steps
+- [ ] Spacer block - Settings: Height in pixels - [steps](https://github.com/wordpress-mobile/test-cases/blob/master/test-cases/gutenberg/spacer.md#tc001)
 
 Button-1
 
