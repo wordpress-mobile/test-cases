@@ -10,7 +10,7 @@
 -   Check if `Gallery` block in Dark Mode looks like below
 
 Expected look:  
-![GalleryDarkMode](../resources/Gallery-dark-mode.png)
+![GalleryDarkMode](../resources/gallery-dark-mode.png)
 
 --------------------------------------------------------------------------------
 
