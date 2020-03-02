@@ -4,7 +4,7 @@
 
 ##### TC001
 
-### Gallery Block - Dark Mode Appearance (iOS only)
+### Gallery Block - Check if in DarkMode all components gets proper colors (iOS)
 
 -   Add a `Gallery` block
 -   Check if `Gallery` block in Dark Mode looks like below
@@ -16,7 +16,7 @@ Expected look:
 
 ##### TC002
 
-### Shortcode Block - Dark Mode Appearance (iOS only)
+### Shortcode Block - Check if in DarkMode all components gets proper colors (iOS)
 
 -   Add a `Shortcode` block
 -   Check if `Shortcode` block in Dark Mode looks like below
@@ -28,7 +28,7 @@ Expected look:
 
 ##### TC003
 
-### MediaText Block - Dark Mode Appearance (iOS only)
+### MediaText Block - Check if in DarkMode all components gets proper colors (iOS)
 
 -   Add a `MediaText` block
 -   Check if `MediaText` block in Dark Mode looks like below
@@ -40,7 +40,7 @@ Expected look:
 
 ##### TC004
 
-### Spacer Block - Dark Mode Appearance (iOS only)
+### Spacer Block - Check if in DarkMode all components gets proper colors (iOS)
 
 -   Add a `Spacer` block
 -   Check if `Spacer` block in Dark Mode looks like below
@@ -52,7 +52,7 @@ Expected look:
 
 ##### TC005
 
-### Button Block - Dark Mode Appearance (iOS only)
+### Button Block - Check if in DarkMode all components gets proper colors (iOS)
 
 -   Add a `Button` block
 -   Check if `Button` block in Dark Mode looks like below
@@ -64,7 +64,7 @@ Expected look:
 
 ##### TC006
 
-### Group Block - Dark Mode Appearance (iOS only)
+### Group Block - Check if in DarkMode all components gets proper colors (iOS)
 
 -   Add a `Group` block
 -   Check if `Group` block in Dark Mode looks like below
