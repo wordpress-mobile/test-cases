@@ -61,7 +61,7 @@ Expected look:
 
 ##### TC004
 
-### Settings: Check range of values
+### Settings: Available height range is correct
 
 -   Add a `Spacer` block
 -   Check if available `Spacer` height range to set via slider in options is between `20px` and `500px`
@@ -73,7 +73,7 @@ Expected look:
 
 ##### TC005
 
-### Settings: Check if height range extends when Spacer was saved in web version
+### Settings: Height range extends if Spacer comes from the web is higher than 500px
 
 -   Add a `Spacer` block via web version
 -   Set `Spacer` height to more than `500px` and save the post
