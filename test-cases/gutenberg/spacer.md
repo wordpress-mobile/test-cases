@@ -50,7 +50,7 @@ Expected look:
 -   Open mobile app
 -   Check if `Spacer` block is rendered with setted height
 -   Check if slider value in options is in the middle of available range
--   The max value should be twice as setted on webś
+-   The max value should be twice as setted on web
 -   The min value should be unchanged and equals `20px`
 
 Expected look:  
