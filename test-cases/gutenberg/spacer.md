@@ -8,7 +8,7 @@
 
 -   Add a `Spacer` block
 -   Check if `Spacer` is rendered
--   Check if app do not crash when open settings
+-   Check if app does not crash when open settings
 
 Expected look:  
 ![Spacer](../resources/spacer.png)
@@ -17,11 +17,19 @@ Expected look:
 
 ##### TC002
 
-### Settings: Adjusting spacer height with slider
+### Settings: Control spacer height using the slider
 
 -   Add a `Spacer` block
 -   Check if `Spacer` block is rendered with default height of `100px`
--   Change slider value under `Spacer` settings and measure if `Spacer` block has height setted via slider
+-   Change slider value under `Spacer` settings to e.g. `300px`
+-   Switch to HTML mode
+-   Expect height to be `300px` in `Spacer` style:
+
+```html
+<!-- wp:spacer {"height":300} -->
+<div style="height:300px" aria-hidden="true" class="wp-block-spacer"></div>
+<!-- /wp:spacer -->
+```
 
 Expected look:  
 ![SpacerHeight](../resources/spacer-height.png)
@@ -29,6 +37,29 @@ Expected look:
 --------------------------------------------------------------------------------
 
 ##### TC003
+
+### Settings: Control spacer height using the text input
+
+-   Add a `Spacer` block
+-   Check if `Spacer` block is rendered with default height of `100px`
+-   Expect text input value is rounded to `500px` after type greater value
+-   Expect text input value is rounded to `20px` after type lower value
+-   Change text input value under `Spacer` settings to e.g. `300px`
+-   Switch to HTML mode
+-   Expect height to be `300px` in `Spacer` style:
+
+```html
+<!-- wp:spacer {"height":300} -->
+<div style="height:300px" aria-hidden="true" class="wp-block-spacer"></div>
+<!-- /wp:spacer -->
+```
+
+Expected look:  
+![SpacerHeight](../resources/spacer-height.png)
+
+--------------------------------------------------------------------------------
+
+##### TC004
 
 ### Settings: Check range of values
 
@@ -40,12 +71,12 @@ Expected look:
 
 --------------------------------------------------------------------------------
 
-##### TC004
+##### TC005
 
 ### Settings: Check if height range extends when Spacer was saved in web version
 
 -   Add a `Spacer` block via web version
--   Set `Spacer` height to more that `500px` and save the post
+-   Set `Spacer` height to more than `500px` and save the post
 -   Save the post
 -   Open mobile app
 -   Check if `Spacer` block is rendered with setted height
@@ -58,7 +89,7 @@ Expected look:
 
 --------------------------------------------------------------------------------
 
-##### TC005
+##### TC006
 
 ### Spacer in horizontal layout works as expected
 
