@@ -4,10 +4,23 @@
 
 ##### TC001
 
-### Adjusting spacer height with slider
+### Spacer is rendered without crash
 
 -   Add a `Spacer` block
--   Check if `Spacer` block is rendered with default value of `100px`
+-   Check if `Spacer` is rendered
+-   Check if app do not crash when open settings
+
+Expected look:  
+![Spacer](../resources/spacer.png)
+
+--------------------------------------------------------------------------------
+
+##### TC002
+
+### Settings: Adjusting spacer height with slider
+
+-   Add a `Spacer` block
+-   Check if `Spacer` block is rendered with default height of `100px`
 -   Change slider value under `Spacer` settings and measure if `Spacer` block has height setted via slider
 
 Expected look:  
@@ -15,42 +28,42 @@ Expected look:
 
 --------------------------------------------------------------------------------
 
-##### TC002
+##### TC003
 
-### Check range of values
+### Settings: Check range of values
 
 -   Add a `Spacer` block
--   Check if minimum `Spacer` height to set via `Slider` in settings equals `20px`
--   Check if maximum `Spacer` height to set via `Slider` in settings equals `500px`
+-   Check if available `Spacer` height range to set via slider in options is between `20px` and `500px`
 
 Expected look:  
 ![SpacerRanges](../resources/spacer-max-height.png)
 
 --------------------------------------------------------------------------------
 
-##### TC003
+##### TC004
 
-### Check if posiible to set height range extends when setted value on web is more that 500px
+### Settings: Check if height range extends when Spacer was saved in web version
 
 -   Add a `Spacer` block via web version
 -   Set `Spacer` height to more that `500px` and save the post
--   Open mobile app and check if `Spacer` block is rendered with setted height
--   Check if slider value is the same as setted on web and the `Slider` is in the middle of the scale
--   The max value should be double like setted on web
--   The min value should be unchanged ane equals `20px`
+-   Save the post
+-   Open mobile app
+-   Check if `Spacer` block is rendered with setted height
+-   Check if slider value in options is in the middle of available range
+-   The max value should be twice as setted on webś
+-   The min value should be unchanged and equals `20px`
 
 Expected look:  
 ![SpacerExceedHeight](../resources/spacer-exceed-height.png)
 
 --------------------------------------------------------------------------------
 
-##### TC004
+##### TC005
 
-### Check behaviour in vertical and horizontal
+### Spacer in horizontal layout works as expected
 
 -   Add a `Spacer` block
--   Check if app do not crash when open settings
--   Check if `Spacer` has proper height after rtotate the device
--   Check previous test cases in horizontal layout
+-   Rotate the device to horizontal layout
+-   Check if `Spacer` has proper height according to settings
 
 --------------------------------------------------------------------------------

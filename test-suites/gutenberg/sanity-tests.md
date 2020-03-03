@@ -63,7 +63,11 @@ Shortcode-1
 
 Spacer-1
 
-- [ ] Spacer block - Settings: Height in pixels - [steps](https://github.com/wordpress-mobile/test-cases/blob/master/test-cases/gutenberg/spacer.md#tc001)
+- [ ] Spacer block - Spacer is rendered without crash - [steps](https://github.com/wordpress-mobile/test-cases/blob/master/test-cases/gutenberg/spacer.md#tc001)
+- [ ] Spacer block - Settings: Adjusting spacer height with slider - [steps](https://github.com/wordpress-mobile/test-cases/blob/master/test-cases/gutenberg/spacer.md#tc002)
+- [ ] Spacer block - Settings: Check range of values - [steps](https://github.com/wordpress-mobile/test-cases/blob/master/test-cases/gutenberg/spacer.md#tc003)
+- [ ] Spacer block - Settings: Check if height range extends when Spacer was saved in web version - [steps](https://github.com/wordpress-mobile/test-cases/blob/master/test-cases/gutenberg/spacer.md#tc004)
+- [ ] Spacer block - Spacer in horizontal layout works as expected - [steps](https://github.com/wordpress-mobile/test-cases/blob/master/test-cases/gutenberg/spacer.md#tc005)
 
 Button-1
 
