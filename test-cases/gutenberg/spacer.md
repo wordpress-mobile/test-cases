@@ -30,7 +30,7 @@ Expected look:
 
 ##### TC003
 
-### Settings: Check range of values
+### Settings: Available height range is correct
 
 -   Add a `Spacer` block
 -   Check if available `Spacer` height range to set via slider in options is between `20px` and `500px`
