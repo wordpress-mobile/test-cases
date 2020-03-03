@@ -42,7 +42,7 @@ Expected look:
 
 ##### TC004
 
-### Settings: Check if height range extends when Spacer was saved in web version
+### Settings: Height range extends if Spacer comes from the web is higher than 500px
 
 -   Add a `Spacer` block via web version
 -   Set `Spacer` height to more that `500px` and save the post
