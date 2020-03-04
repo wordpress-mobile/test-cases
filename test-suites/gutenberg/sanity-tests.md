@@ -46,15 +46,15 @@ MultipleUpload-1
 
 DarkMode-1(iOS)
 
-- [ ] Gallery block - Dark mode - steps
-- [ ] Shortcode block - Dark mode - steps
-- [ ] Media Text block - Dark mode - steps
+- [ ] Gallery block - Dark mode - [steps](https://github.com/wordpress-mobile/test-cases/blob/master/test-cases/gutenberg/darkmode.md#tc001)
+- [ ] Shortcode block - Dark mode - [steps](https://github.com/wordpress-mobile/test-cases/blob/master/test-cases/gutenberg/darkmode.md#tc002)
+- [ ] Media Text block - Dark mode - [steps](https://github.com/wordpress-mobile/test-cases/blob/master/test-cases/gutenberg/darkmode.md#tc003)
 
 DarkMode-2(iOS)
 
-- [ ] Spacer block - Dark mode - steps
-- [ ] Button block - Dark mode - steps
-- [ ] Group - Dark mode - steps
+- [ ] Spacer block - Dark mode - [steps](https://github.com/wordpress-mobile/test-cases/blob/master/test-cases/gutenberg/darkmode.md#tc004)
+- [ ] Button block - Dark mode - [steps](https://github.com/wordpress-mobile/test-cases/blob/master/test-cases/gutenberg/darkmode.md#tc005)
+- [ ] Group - Dark mode - [steps](https://github.com/wordpress-mobile/test-cases/blob/master/test-cases/gutenberg/darkmode.md#tc006)
 
 
 Shortcode-1
