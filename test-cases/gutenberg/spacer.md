@@ -82,7 +82,7 @@ Expected look:
 -   Check if `Spacer` block is rendered with set height
 -   Check if slider value in options is in the middle of available range
 -   The max value should be double as set on web
--   The min value should equals `20px`
+-   The min value should equal to `20px`
 
 Expected look:  
 ![SpacerExceedHeight](../resources/spacer-exceed-height.png)
