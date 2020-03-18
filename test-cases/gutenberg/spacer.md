@@ -80,8 +80,8 @@ Expected look:
 -   Save the post
 -   Open mobile app
 -   Check if `Spacer` block is rendered with set height
--   Check if slider value in options is in the middle of available range
--   The max value should be double as set on web
+-   Check if slider value in options is the max of available range
+-   The max value should be double equal to the height
 -   The min value should equal to `20px`
 
 Expected look:  
