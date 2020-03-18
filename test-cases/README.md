@@ -9,3 +9,4 @@ Gutenberg:
 - [Interaction between media related blocks](./gutenberg/media-interaction.md)
 - [Button block](./gutenberg/button.md)
 - [Group block](./gutenberg/group.md)
+- [Spacer block](./gutenberg/spacer.md)

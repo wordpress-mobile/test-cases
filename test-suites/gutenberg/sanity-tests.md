@@ -115,3 +115,4 @@ Group-1
 - [ ] Group - Cross navigation between blocks works as expected - [steps](https://github.com/wordpress-mobile/test-cases/blob/master/test-cases/gutenberg/group.md#tc011)
 - [ ] Group - Ungroup button works as expected - [steps](https://github.com/wordpress-mobile/test-cases/blob/master/test-cases/gutenberg/group.md#tc012)
 - [ ] Group - Check if in DarkMode all components gets proper colors (iOS) - [steps](https://github.com/wordpress-mobile/test-cases/blob/master/test-cases/gutenberg/group.md#tc013)
+- [ ] Group - Check if nested Placeholder block can be replaced - [steps](https://github.com/wordpress-mobile/test-cases/blob/master/test-cases/gutenberg/group.md#tc014)

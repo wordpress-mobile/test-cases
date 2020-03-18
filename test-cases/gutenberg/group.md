@@ -207,3 +207,16 @@ Expected look:
 ![DarkModeEmpty](../resources/group-dark-mode-empty.png)
 
 --------------------------------------------------------------------------------
+
+##### TC014
+
+### Check if nested Placeholder block can be replaced
+
+-   Open New Post (it is very important to start with blank post)
+-   Add a `Group` block
+-   Add empty `Paragraph` inside the created block
+-   Make sure that the created paragraph is empty and selected
+-   Press on `Inserter` button and select block to add
+-   The paragraph should be replaced by selected block
+
+--------------------------------------------------------------------------------
