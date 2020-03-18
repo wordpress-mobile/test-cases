@@ -71,5 +71,6 @@ Expected look:
 
 Expected look:  
 ![GroupDarkMode](../resources/group-dark-mode.png)
+![GroupDarkModeEmpty](../resources/group-dark-mode-empty.png)
 
 --------------------------------------------------------------------------------

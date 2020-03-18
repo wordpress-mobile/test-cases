@@ -204,6 +204,7 @@ Expected look:
 
 Expected look:  
 ![DarkMode](../resources/group-dark-mode.png)
+![DarkModeEmpty](../resources/group-dark-mode-empty.png)
 
 --------------------------------------------------------------------------------
 
