@@ -76,16 +76,14 @@ Expected look:
 ### Settings: Height range extends if Spacer comes from the web is higher than 500px
 
 -   Add a `Spacer` block via web version
--   Set `Spacer` height to more than `500px` (in given example `800px`)
+-   Set `Spacer` height to more than `500px` (in given example `1600px`)
 -   Save the post
 -   Open mobile app
 -   Check if `Spacer` block is rendered with set height
--   Check if slider value in options is in the middle of available range
--   The max value should be double as set on web (in given example `1600px`)
+-   The max value should be the value set on web (in given example `1600px`)
 -   The min value should equal to `20px`
 
 Expected look:  
-![SpacerExceedHeightMid](../resources/spacer-exceed-height-mid.png)
 ![SpacerExceedHeight](../resources/spacer-exceed-height.png)
 
 --------------------------------------------------------------------------------
