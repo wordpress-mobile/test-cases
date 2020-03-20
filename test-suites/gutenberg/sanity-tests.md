@@ -46,15 +46,15 @@ MultipleUpload-1
 
 DarkMode-1(iOS)
 
-- [ ] Gallery block - Dark mode - steps
-- [ ] Shortcode block - Dark mode - steps
-- [ ] Media Text block - Dark mode - steps
+- [ ] Gallery block - Dark mode - [steps](https://github.com/wordpress-mobile/test-cases/blob/master/test-cases/gutenberg/darkmode.md#tc001)
+- [ ] Shortcode block - Dark mode - [steps](https://github.com/wordpress-mobile/test-cases/blob/master/test-cases/gutenberg/darkmode.md#tc002)
+- [ ] Media Text block - Dark mode - [steps](https://github.com/wordpress-mobile/test-cases/blob/master/test-cases/gutenberg/darkmode.md#tc003)
 
 DarkMode-2(iOS)
 
-- [ ] Spacer block - Dark mode - steps
-- [ ] Button block - Dark mode - steps
-- [ ] Group - Dark mode - steps
+- [ ] Spacer block - Dark mode - [steps](https://github.com/wordpress-mobile/test-cases/blob/master/test-cases/gutenberg/darkmode.md#tc004)
+- [ ] Button block - Dark mode - [steps](https://github.com/wordpress-mobile/test-cases/blob/master/test-cases/gutenberg/darkmode.md#tc005)
+- [ ] Group - Dark mode - [steps](https://github.com/wordpress-mobile/test-cases/blob/master/test-cases/gutenberg/darkmode.md#tc006)
 
 
 Shortcode-1
@@ -63,7 +63,12 @@ Shortcode-1
 
 Spacer-1
 
-- [ ] Spacer block - Settings: Height in pixels - steps
+- [ ] Spacer block - Spacer is rendered without crash - [steps](https://github.com/wordpress-mobile/test-cases/blob/master/test-cases/gutenberg/spacer.md#tc001)
+- [ ] Spacer block - Settings: Control spacer height using the slider - [steps](https://github.com/wordpress-mobile/test-cases/blob/master/test-cases/gutenberg/spacer.md#tc002)
+- [ ] Spacer block - Settings: Control spacer height using the text input - [steps](https://github.com/wordpress-mobile/test-cases/blob/master/test-cases/gutenberg/spacer.md#tc003)
+- [ ] Spacer block - Settings: Available height range is correct - [steps](https://github.com/wordpress-mobile/test-cases/blob/master/test-cases/gutenberg/spacer.md#tc004)
+- [ ] Spacer block - Settings: Height range extends if Spacer comes from the web is higher than 500px - [steps](https://github.com/wordpress-mobile/test-cases/blob/master/test-cases/gutenberg/spacer.md#tc005)
+- [ ] Spacer block - Spacer in horizontal layout works as expected - [steps](https://github.com/wordpress-mobile/test-cases/blob/master/test-cases/gutenberg/spacer.md#tc006)
 
 Button-1
 
@@ -110,16 +115,17 @@ Group-1
 - [ ] Group - Cross navigation between blocks works as expected - [steps](https://github.com/wordpress-mobile/test-cases/blob/master/test-cases/gutenberg/group.md#tc011)
 - [ ] Group - Ungroup button works as expected - [steps](https://github.com/wordpress-mobile/test-cases/blob/master/test-cases/gutenberg/group.md#tc012)
 - [ ] Group - Check if in DarkMode all components gets proper colors (iOS) - [steps](https://github.com/wordpress-mobile/test-cases/blob/master/test-cases/gutenberg/group.md#tc013)
+- [ ] Group - Check if nested Placeholder block can be replaced - [steps](https://github.com/wordpress-mobile/test-cases/blob/master/test-cases/gutenberg/group.md#tc014)
 
 Cover-1
 
-- [ ] Cover block - Add image - [steps](https://github.com/wordpress-mobile/test-cases/blob/master/test-cases/gutenberg/cover.md#tc001)
-- [ ] Cover block - Change settings - [steps](https://github.com/wordpress-mobile/test-cases/blob/master/test-cases/gutenberg/cover.md#tc002)
-- [ ] Cover block - Focal point of an image - [steps](https://github.com/wordpress-mobile/test-cases/blob/master/test-cases/gutenberg/cover.md#tc003)
-- [ ] Cover block - Color styles - [steps](https://github.com/wordpress-mobile/test-cases/blob/master/test-cases/gutenberg/cover.md#tc004)
+- [ ] Cover - Adding an image works as expected - [steps](https://github.com/wordpress-mobile/test-cases/blob/master/test-cases/gutenberg/cover.md#tc001)
+- [ ] Cover - Change settings of the block works as expected - [steps](https://github.com/wordpress-mobile/test-cases/blob/master/test-cases/gutenberg/cover.md#tc002)
+- [ ] Cover - Setting a Focal point of an image works as expected - [steps](https://github.com/wordpress-mobile/test-cases/blob/master/test-cases/gutenberg/cover.md#tc003)
+- [ ] Cover - Setting Color styles works as expected - [steps](https://github.com/wordpress-mobile/test-cases/blob/master/test-cases/gutenberg/cover.md#tc004)
 
 Cover-2
 
-- [ ] Cover block - Video background - [steps](https://github.com/wordpress-mobile/test-cases/blob/master/test-cases/gutenberg/cover.md#tc005)
-- [ ] Cover block - Replace media - [steps](https://github.com/wordpress-mobile/test-cases/blob/master/test-cases/gutenberg/cover.md#tc006)
-- [ ] Cover block - Gradient Overlay - [steps](https://github.com/wordpress-mobile/test-cases/blob/master/test-cases/gutenberg/cover.md#tc007)
+- [ ] Cover - Adding a Video works as expected - [steps](https://github.com/wordpress-mobile/test-cases/blob/master/test-cases/gutenberg/cover.md#tc005)
+- [ ] Cover - Replacing the existing media works as expected - [steps](https://github.com/wordpress-mobile/test-cases/blob/master/test-cases/gutenberg/cover.md#tc006)
+- [ ] Cover - Setting a Gradient Overlay works as expected - [steps](https://github.com/wordpress-mobile/test-cases/blob/master/test-cases/gutenberg/cover.md#tc007)
