@@ -117,3 +117,9 @@ Cover-1
 - [ ] Cover block - Change settings - [steps](https://github.com/wordpress-mobile/test-cases/blob/master/test-cases/gutenberg/cover.md#tc002)
 - [ ] Cover block - Focal point of an image - [steps](https://github.com/wordpress-mobile/test-cases/blob/master/test-cases/gutenberg/cover.md#tc003)
 - [ ] Cover block - Color styles - [steps](https://github.com/wordpress-mobile/test-cases/blob/master/test-cases/gutenberg/cover.md#tc004)
+
+Cover-2
+
+- [ ] Cover block - Video background - [steps](https://github.com/wordpress-mobile/test-cases/blob/master/test-cases/gutenberg/cover.md#tc005)
+- [ ] Cover block - Replace media - [steps](https://github.com/wordpress-mobile/test-cases/blob/master/test-cases/gutenberg/cover.md#tc006)
+- [ ] Cover block - Gradient Overlay - [steps](https://github.com/wordpress-mobile/test-cases/blob/master/test-cases/gutenberg/cover.md#tc007)

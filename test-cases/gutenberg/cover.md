@@ -6,7 +6,7 @@
 ### Add image
 
 -   Add a cover block 
--   Tap on Add Image
+-   Tap on Add Image or Video
 -   The picker should show up with the `WordPress Media library` option
 ![Cover media picker](../resources/cover-7.png)
 -   Select and image
@@ -59,5 +59,49 @@
 -   Open the post from the app
 -   Expect to see the the Cover block with the image and color styles
 ![Cover with color styles](../resources/cover-6.png)
+
+
+--------------------------------------------------------------------------------
+
+##### TC005
+
+### Video background
+
+#### **Precondition**
+
+A site with premium or business plan
+
+-   Add a Cover block
+-   Tap on Add Image or Video
+-   Select a video
+-   Expect to see the video added and playing without sound
+
+--------------------------------------------------------------------------------
+
+##### TC006
+
+### Replace media
+
+-   Add a Cover block
+-   Tap on Add Image or Video
+-   Select an image
+-   Expect to see the image added
+-   Tap on the replace media option
+![Replace media](../resources/cover-8.png)
+-   Select another image
+-   Expect to see the new image
+
+--------------------------------------------------------------------------------
+
+##### TC007
+
+### Gradient overlay
+
+-   Add a Cover block from the Web editor
+-   Select a gradient background
+![Gradient setting](../resources/cover-9.png)
+-   Open the post from the app
+-   Expect to see the Cover block with the gradient as background
+![Cover with gradient](../resources/cover-10.png)
 
 
