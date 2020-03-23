@@ -29,7 +29,7 @@ A site with premium or business plan
 -   Tap option ‘Choose from device’ and choose an image
 -   While the upload is in progress tap on the image thumbnail
 -   You should see the below message:
-![Stop upload](../resources/cancel-upload.png)
+![Stop upload](../resources/cancel-upload.jpg)
 -   Tap Stop
 -   You should see the image block is cleared and placeholder is again visible
 
