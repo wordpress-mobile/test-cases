@@ -23,14 +23,14 @@ A site with premium or business plan
 
 ##### TC002
 
-**Insert image from device (cancel)**
+**Insert image from device (stop)**
 
 -   Tap on the Image block placeholder or edit button in the toolbar
 -   Tap option ‘Choose from device’ and choose an image
 -   While the upload is in progress tap on the image thumbnail
 -   You should see the below message:
-![Cancel upload](../resources/cancel-upload.png)
--   Tap cancel
+![Stop upload](../resources/cancel-upload.png)
+-   Tap Stop
 -   You should see the image block is cleared and placeholder is again visible
 
 ##### TC003
