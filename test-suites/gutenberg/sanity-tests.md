@@ -46,15 +46,15 @@ MultipleUpload-1
 
 DarkMode-1(iOS)
 
-- [ ] Gallery block - Dark mode - steps
-- [ ] Shortcode block - Dark mode - steps
-- [ ] Media Text block - Dark mode - steps
+- [ ] Gallery block - Dark mode - [steps](https://github.com/wordpress-mobile/test-cases/blob/master/test-cases/gutenberg/darkmode.md#tc001)
+- [ ] Shortcode block - Dark mode - [steps](https://github.com/wordpress-mobile/test-cases/blob/master/test-cases/gutenberg/darkmode.md#tc002)
+- [ ] Media Text block - Dark mode - [steps](https://github.com/wordpress-mobile/test-cases/blob/master/test-cases/gutenberg/darkmode.md#tc003)
 
 DarkMode-2(iOS)
 
-- [ ] Spacer block - Dark mode - steps
-- [ ] Button block - Dark mode - steps
-- [ ] Group - Dark mode - steps
+- [ ] Spacer block - Dark mode - [steps](https://github.com/wordpress-mobile/test-cases/blob/master/test-cases/gutenberg/darkmode.md#tc004)
+- [ ] Button block - Dark mode - [steps](https://github.com/wordpress-mobile/test-cases/blob/master/test-cases/gutenberg/darkmode.md#tc005)
+- [ ] Group - Dark mode - [steps](https://github.com/wordpress-mobile/test-cases/blob/master/test-cases/gutenberg/darkmode.md#tc006)
 
 
 Shortcode-1
@@ -63,7 +63,12 @@ Shortcode-1
 
 Spacer-1
 
-- [ ] Spacer block - Settings: Height in pixels - steps
+- [ ] Spacer block - Spacer is rendered without crash - [steps](https://github.com/wordpress-mobile/test-cases/blob/master/test-cases/gutenberg/spacer.md#tc001)
+- [ ] Spacer block - Settings: Control spacer height using the slider - [steps](https://github.com/wordpress-mobile/test-cases/blob/master/test-cases/gutenberg/spacer.md#tc002)
+- [ ] Spacer block - Settings: Control spacer height using the text input - [steps](https://github.com/wordpress-mobile/test-cases/blob/master/test-cases/gutenberg/spacer.md#tc003)
+- [ ] Spacer block - Settings: Available height range is correct - [steps](https://github.com/wordpress-mobile/test-cases/blob/master/test-cases/gutenberg/spacer.md#tc004)
+- [ ] Spacer block - Settings: Height range extends if Spacer comes from the web is higher than 500px - [steps](https://github.com/wordpress-mobile/test-cases/blob/master/test-cases/gutenberg/spacer.md#tc005)
+- [ ] Spacer block - Spacer in horizontal layout works as expected - [steps](https://github.com/wordpress-mobile/test-cases/blob/master/test-cases/gutenberg/spacer.md#tc006)
 
 Button-1
 
@@ -91,7 +96,7 @@ Button-3
 
 Button-4
 
-- [ ] Button block - Link from the clipboard is automaticially added into the empty URL field in link settings and button options - [steps](https://github.com/wordpress-mobile/test-cases/blob/master/test-cases/gutenberg/button.md#tc002)
+- [ ] Button block - Link from the clipboard is automatically added into the empty URL field in link settings and button options - [steps](https://github.com/wordpress-mobile/test-cases/blob/master/test-cases/gutenberg/button.md#tc002)
 - [ ] Button block - Toolbar link button is active when Button has link - [steps](https://github.com/wordpress-mobile/test-cases/blob/master/test-cases/gutenberg/button.md#tc018)
 - [ ] Button block - Button max width is calculated OK inside inner blocks(iOS only) - [steps](https://github.com/wordpress-mobile/test-cases/blob/master/test-cases/gutenberg/button.md#tc001)
 
@@ -110,3 +115,4 @@ Group-1
 - [ ] Group - Cross navigation between blocks works as expected - [steps](https://github.com/wordpress-mobile/test-cases/blob/master/test-cases/gutenberg/group.md#tc011)
 - [ ] Group - Ungroup button works as expected - [steps](https://github.com/wordpress-mobile/test-cases/blob/master/test-cases/gutenberg/group.md#tc012)
 - [ ] Group - Check if in DarkMode all components gets proper colors (iOS) - [steps](https://github.com/wordpress-mobile/test-cases/blob/master/test-cases/gutenberg/group.md#tc013)
+- [ ] Group - Check if nested Placeholder block can be replaced - [steps](https://github.com/wordpress-mobile/test-cases/blob/master/test-cases/gutenberg/group.md#tc014)

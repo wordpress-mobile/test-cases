@@ -17,12 +17,12 @@
 
 ##### TC002
 
-### Link from the clipboard is automaticially added into the empty URL field in link settings and button options
+### Link from the clipboard is automatically added into the empty URL field in link settings and button options
 
 -   Copy link into clipboard, e.g. `http://wordpress.com`
 -   Add a Button block
 -   Open link [settings](../resources/button-link-settings.png)
--   Expect link from the clipboard to be automaticially added into the empty URL field
+-   Expect link from the clipboard to be automatically added into the empty URL field
 -   Add second Button block
 -   Open button [options](../resources/button-options.png)
 -   Expect link from the clipboard to be automatically added into the empty URL field 
@@ -118,7 +118,7 @@
 -   Add a Button block
 -   Open button [options](../resources/button-options.png)
 -   Edit `Border Radius` moving slider
--   Expect Button border radius changed accrodingly to the value
+-   Expect Button border radius changed accordingly to the value
 -   Edit `Border Radius` typing border radius value in input
 -   Expect Button border radius changed accordingly to the value
 

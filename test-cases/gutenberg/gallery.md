@@ -232,7 +232,7 @@ Gallery block should allow canceling image uploads.
 **Expected behavior:**
 
 * A prompt for "Stop uploading" should be shown.
-* Confiriming should cancel the upload if the upload didn't finish.
+* Confirming should cancel the upload if the upload didn't finish.
 * Declining should allow the upload to continue.  
 
 --------------------------------------------------------------------------------
@@ -246,9 +246,32 @@ Gallery block should allow images to be rearranged in the gallery.
 **Steps:**
 
 * Add a gallery block and tap "Add Media"
-* Add serveral images through the various options
+* Add several images through the various options
 * Select an image and change it's position.
 * Test with:
     * Adding even and uneven image counts and rearranging the last image
     * Leaving the editor and coming back in
     * Validate order is reflected on the Web after saving
+    
+    
+--------------------------------------------------------------------------------
+    
+##### TC013
+
+### Choose from Other Apps (iOS Files App)
+
+Gallery block should allow uploading images from the iOS Files app.
+
+**Steps:**
+
+* Add a gallery block and tap "Add Media"
+* Select "Other Apps" option
+* Select multiple images from the Files app
+
+**Expected behavior:**
+
+* Gallery should show all images being uploaded as dimmed
+* Progress bars should be displayed indicating the upload progress
+* After each image upload has completed:
+  * Image should not be dim
+  * Image url scheme should be `https://` (not `file:///`) in HTML mode
