@@ -96,7 +96,7 @@ Button-3
 
 Button-4
 
-- [ ] Button block - Link in the clipboard is automaticially added into the empty URL field - [steps](https://github.com/wordpress-mobile/test-cases/blob/master/test-cases/gutenberg/button.md#tc002)
+- [ ] Button block - Link in the clipboard is automatically added into the empty URL field - [steps](https://github.com/wordpress-mobile/test-cases/blob/master/test-cases/gutenberg/button.md#tc002)
 - [ ] Button block - Toolbar link button is active when Button has link - [steps](https://github.com/wordpress-mobile/test-cases/blob/master/test-cases/gutenberg/button.md#tc018)
 - [ ] Button block - Button max width is calculated OK inside inner blocks(iOS only) - [steps](https://github.com/wordpress-mobile/test-cases/blob/master/test-cases/gutenberg/button.md#tc001)
 

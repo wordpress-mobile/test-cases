@@ -232,7 +232,7 @@ Gallery block should allow canceling image uploads.
 **Expected behavior:**
 
 * A prompt for "Stop uploading" should be shown.
-* Confiriming should cancel the upload if the upload didn't finish.
+* Confirming should cancel the upload if the upload didn't finish.
 * Declining should allow the upload to continue.  
 
 --------------------------------------------------------------------------------
@@ -246,7 +246,7 @@ Gallery block should allow images to be rearranged in the gallery.
 **Steps:**
 
 * Add a gallery block and tap "Add Media"
-* Add serveral images through the various options
+* Add several images through the various options
 * Select an image and change it's position.
 * Test with:
     * Adding even and uneven image counts and rearranging the last image

@@ -17,12 +17,12 @@
 
 ##### TC002
 
-### Link in the clipboard is automaticially added into the empty URL field
+### Link in the clipboard is automatically added into the empty URL field
 
 -   Add a Button block
 -   Copy link into clipboard
 -   Open link [settings](../resources/button-link-settings.png)
--   Expect link from the clipboard to be automaticially added into the empty URL field
+-   Expect link from the clipboard to be automatically added into the empty URL field
 
 --------------------------------------------------------------------------------
 
@@ -115,7 +115,7 @@
 -   Add a Button block
 -   Open button [options](../resources/button-options.png)
 -   Edit `Border Radius` moving slider
--   Expect Button border radius changed accrodingly to the value
+-   Expect Button border radius changed accordingly to the value
 -   Edit `Border Radius` typing border radius value in input
 -   Expect Button border radius changed accordingly to the value
 
