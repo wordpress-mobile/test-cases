@@ -116,3 +116,18 @@ Group-1
 - [ ] Group - Ungroup button works as expected - [steps](https://github.com/wordpress-mobile/test-cases/blob/master/test-cases/gutenberg/group.md#tc012)
 - [ ] Group - Check if in DarkMode all components gets proper colors (iOS) - [steps](https://github.com/wordpress-mobile/test-cases/blob/master/test-cases/gutenberg/group.md#tc013)
 - [ ] Group - Check if nested Placeholder block can be replaced - [steps](https://github.com/wordpress-mobile/test-cases/blob/master/test-cases/gutenberg/group.md#tc014)
+
+Cover-1
+
+- [ ] Cover - Add image background from WordPress Media library - [steps](https://github.com/wordpress-mobile/test-cases/blob/master/test-cases/gutenberg/cover.md#tc001)
+- [ ] Cover - Change Minimum height in pixels - [steps](https://github.com/wordpress-mobile/test-cases/blob/master/test-cases/gutenberg/cover.md#tc002)
+- [ ] Cover - Change Background Opacity - [steps](https://github.com/wordpress-mobile/test-cases/blob/master/test-cases/gutenberg/cover.md#tc009)
+- [ ] Cover - Image focal point is rendered properly - [steps](https://github.com/wordpress-mobile/test-cases/blob/master/test-cases/gutenberg/cover.md#tc003)
+- [ ] Cover - Custom color is rendered properly - [steps](https://github.com/wordpress-mobile/test-cases/blob/master/test-cases/gutenberg/cover.md#tc004)
+
+Cover-2
+
+- [ ] Cover - Add Video Background from WordPress Media library - [steps](https://github.com/wordpress-mobile/test-cases/blob/master/test-cases/gutenberg/cover.md#tc005)
+- [ ] Cover - Replace media - [steps](https://github.com/wordpress-mobile/test-cases/blob/master/test-cases/gutenberg/cover.md#tc006)
+- [ ] Cover - Gradient background is rendered properly - [steps](https://github.com/wordpress-mobile/test-cases/blob/master/test-cases/gutenberg/cover.md#tc007)
+- [ ] Cover - Gradient overlay is rendered properly - [steps](https://github.com/wordpress-mobile/test-cases/blob/master/test-cases/gutenberg/cover.md#tc008)
