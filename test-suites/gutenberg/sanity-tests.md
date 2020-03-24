@@ -119,13 +119,15 @@ Group-1
 
 Cover-1
 
-- [ ] Cover - Adding an image works as expected - [steps](https://github.com/wordpress-mobile/test-cases/blob/master/test-cases/gutenberg/cover.md#tc001)
-- [ ] Cover - Change settings of the block works as expected - [steps](https://github.com/wordpress-mobile/test-cases/blob/master/test-cases/gutenberg/cover.md#tc002)
-- [ ] Cover - Setting a Focal point of an image works as expected - [steps](https://github.com/wordpress-mobile/test-cases/blob/master/test-cases/gutenberg/cover.md#tc003)
-- [ ] Cover - Setting Color styles works as expected - [steps](https://github.com/wordpress-mobile/test-cases/blob/master/test-cases/gutenberg/cover.md#tc004)
+- [ ] Cover - Add image background from WordPress Media library - [steps](https://github.com/wordpress-mobile/test-cases/blob/master/test-cases/gutenberg/cover.md#tc001)
+- [ ] Cover - Change Minimum height in pixels - [steps](https://github.com/wordpress-mobile/test-cases/blob/master/test-cases/gutenberg/cover.md#tc002)
+- [ ] Cover - Change Background Opacity - [steps](https://github.com/wordpress-mobile/test-cases/blob/master/test-cases/gutenberg/cover.md#tc009)
+- [ ] Cover - Image focal point is rendered properly - [steps](https://github.com/wordpress-mobile/test-cases/blob/master/test-cases/gutenberg/cover.md#tc003)
+- [ ] Cover - Custom color is rendered properly - [steps](https://github.com/wordpress-mobile/test-cases/blob/master/test-cases/gutenberg/cover.md#tc004)
 
 Cover-2
 
-- [ ] Cover - Adding a Video works as expected - [steps](https://github.com/wordpress-mobile/test-cases/blob/master/test-cases/gutenberg/cover.md#tc005)
-- [ ] Cover - Replacing the existing media works as expected - [steps](https://github.com/wordpress-mobile/test-cases/blob/master/test-cases/gutenberg/cover.md#tc006)
-- [ ] Cover - Setting a Gradient Overlay works as expected - [steps](https://github.com/wordpress-mobile/test-cases/blob/master/test-cases/gutenberg/cover.md#tc007)
+- [ ] Cover - Add Video Background from WordPress Media library - [steps](https://github.com/wordpress-mobile/test-cases/blob/master/test-cases/gutenberg/cover.md#tc005)
+- [ ] Cover - Replace media - [steps](https://github.com/wordpress-mobile/test-cases/blob/master/test-cases/gutenberg/cover.md#tc006)
+- [ ] Cover - Gradient background is rendered properly - [steps](https://github.com/wordpress-mobile/test-cases/blob/master/test-cases/gutenberg/cover.md#tc007)
+- [ ] Cover - Gradient overlay is rendered properly - [steps](https://github.com/wordpress-mobile/test-cases/blob/master/test-cases/gutenberg/cover.md#tc008)

@@ -3,10 +3,10 @@
 
 ##### TC001
 
-### Add image
+### Add image background from WordPress Media library
 
 -   Add a cover block 
--   Tap on Add Image or Video
+-   Tap on Placeholder
 -   The picker should show up with the `WordPress Media library` option
 
 ![Cover media picker](../resources/cover-7.png)
@@ -17,21 +17,22 @@
 
 ##### TC002
 
-### Change settings
+### Change Minimum height in pixels
 
 -   Add a cover block and select an image from the `WordPress Media library`
 -   Tap on the settings icon of the block
--   Verify that the bottom sheet opens with the following settings
+-   Verify that the bottom sheet opens with the Minimum height in pixels setting
 
-![Cover settings](../resources/cover-1.png)
--   Update the values using the sliders
--   Verify that the Cover block changes accordingly
+![Minimum height in pixels](../resources/cover-1.png)
+-   Update the value using the slider
+-   Close the bottom sheet
+-   Expect to see the cover with the new height value
 
 --------------------------------------------------------------------------------
 
 ##### TC003
 
-### Focal point of an image
+### Image focal point is rendered properly
 
 -   Add a Cover block from the Web editor
 -   Select an image
@@ -48,7 +49,7 @@
 
 ##### TC004
 
-### Color styles
+### Custom color is rendered properly
 
 -   Add a Cover block from the Web editor
 -   Select an image
@@ -72,14 +73,14 @@
 
 ##### TC005
 
-### Video background
+### Add Video Background from WordPress Media library
 
 #### **Precondition**
 
 A site with premium or business plan
 
 -   Add a Cover block
--   Tap on Add Image or Video
+-   Tap on Placeholder
 -   Select a video
 -   Expect to see the video added and playing without sound
 
@@ -90,7 +91,7 @@ A site with premium or business plan
 ### Replace media
 
 -   Add a Cover block
--   Tap on Add Image or Video
+-   Tap on Placeholder
 -   Select an image
 -   Expect to see the image added
 -   Tap on the replace media option
@@ -103,7 +104,7 @@ A site with premium or business plan
 
 ##### TC007
 
-### Gradient overlay
+### Gradient background is rendered properly
 
 -   Add a Cover block from the Web editor
 -   Select a gradient background
@@ -114,4 +115,33 @@ A site with premium or business plan
 
 ![Cover with gradient](../resources/cover-10.png)
 
+--------------------------------------------------------------------------------
 
+##### TC008
+
+### Gradient overlay is rendered properly
+
+-   Add a Cover block from the Web editor
+-   Select an image as a background
+-   Select a gradient overlay
+
+![Gradient setting](../resources/cover-9.png)
+-   Open the post from the app
+-   Expect to see the Cover block with the image and the gradient on top as an overlay
+
+![Cover with gradient](../resources/cover-12.png)
+
+--------------------------------------------------------------------------------
+
+##### TC009
+
+### Change Background Opacity
+
+-   Add a cover block and select an image from the `WordPress Media library`
+-   Tap on the settings icon of the block
+-   Verify that the bottom sheet opens with the Background Opacity setting
+
+![Background Opacity](../resources/cover-11.png)
+-   Update the value using the slider
+-   Close the bottom sheet
+-   Expect to see the cover with the new overlay opacity value
