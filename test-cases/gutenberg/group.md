@@ -52,12 +52,12 @@ Expected look:
 
 Expected look:  
 ![PlaceholderNestes](../resources/group-placeholder-nest-1.png)
- - Post title is not dimmed
+ - Post title **is not** dimmed
  - Navigation arrows is not visible
- - Only selected block title and icon is visible in breadcrumbs
+ - Only selected block title is visible in breadcrumbs
 
 ![PlaceholderDeepNested](../resources/group-placeholder-nest-deep.png)
- - Post title is dimmed
+ - Post title **is not** dimmed
  - Navigation arrows is visible
  - Navigation arrows are disable depending on order in block
  - Show parent in breadcrumbs
@@ -107,21 +107,18 @@ Total space from screen edge to content should equals `16px` in each state (incl
 
 ##### TC007
 
-### Nested selection cause applying dimmed style on the rest of blocks
+### Nested selection do not cause applying dimmed style on the rest of blocks
 
 -   Add a `Group` block
 -   Create some nested structure
 -   Navigate down in the hierarchy
--   Check if each time you change selection all blocks that are higher in hierarchy tree gets dimmed
--   Select `Group` block
--   Check if none block gets dimmed
+-   Expect blocks **do not** gets dimmed when navigating in hierarchy
 
 Expected look:  
-![Dimming1](../resources/group-dimming-1.png)
+![Dimming1](../resources/group-dimming-1-off.png)
   
 ![Dimming2](../resources/group-dimming-2.png)
   
-![Dimming3](../resources/group-dimming-3.png)
 
 --------------------------------------------------------------------------------
 
@@ -131,9 +128,10 @@ Expected look:
 
 -   Add a `Group` block
 -   Create nested structure
--   Check if each time you change selection `Breadcrumbs` show focused block title and focused block icon
--   Check if each time you change selection `Breadcrumbs` show top most parent block icon
--   Check if `Breadcrumbs` renders navigation up button
+-   Expect only selected block title is visible in `Breadcrumbs` on root list level
+-   Expect focused block title and focused block icon is visible in `Breadcrumbs` on deeper levels
+-   Expect top most parent block icon is visible in `Breadcrumbs` on deeper levels
+-   Expect `Breadcrumbs` renders navigation up button on deeper levels
 
 Expected look:  
 ![BreadcrumbsRoot](../resources/group-breadcrumbs-root.png)
@@ -150,8 +148,8 @@ Expected look:
 -   Create nested structure
 -   Select deep nested block
 -   Press navigation up button on `Breadcrumb`
--   Check if each time you press navigation up button the selection moves to parent block
--   Check if border and dim styles changes accordingly
+-   Expect each time you press navigation up button the selection moves to parent block
+-   Expect border changes accordingly
 
 --------------------------------------------------------------------------------
 
