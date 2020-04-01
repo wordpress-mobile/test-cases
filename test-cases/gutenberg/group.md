@@ -110,7 +110,7 @@ Total space from screen edge to content should equals `16px` in each state (incl
 -   Add a `Group` block
 -   Create nested structure
 -   Expect only selected block title is visible in `Breadcrumbs` on root list level
--   Expect focused block title and focused block icon is visible in `Breadcrumbs` on deeper levels
+-   Expect focused block title and focused block icon are visible in `Breadcrumbs` on deeper levels
 -   Expect top most parent block icon is visible in `Breadcrumbs` on deeper levels
 -   Expect `Breadcrumbs` renders navigation up button on deeper levels
 
