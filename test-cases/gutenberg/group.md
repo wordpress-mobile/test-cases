@@ -52,12 +52,10 @@ Expected look:
 
 Expected look:  
 ![PlaceholderNestes](../resources/group-placeholder-nest-1.png)
- - Post title **is not** dimmed
  - Navigation arrows is not visible
  - Only selected block title is visible in breadcrumbs
 
 ![PlaceholderDeepNested](../resources/group-placeholder-nest-deep.png)
- - Post title **is not** dimmed
  - Navigation arrows is visible
  - Navigation arrows are disable depending on order in block
  - Show parent in breadcrumbs
@@ -102,23 +100,6 @@ Expected look:
  - Space of `16px` left/right
 
 Total space from screen edge to content should equals `16px` in each state (including solid and dashed border width in selection state)
-
---------------------------------------------------------------------------------
-
-##### TC007
-
-### Nested selection do not cause applying dimmed style on the rest of blocks
-
--   Add a `Group` block
--   Create some nested structure
--   Navigate down in the hierarchy
--   Expect blocks **do not** gets dimmed when navigating in hierarchy
-
-Expected look:  
-![Dimming1](../resources/group-dimming-1-off.png)
-  
-![Dimming2](../resources/group-dimming-2.png)
-  
 
 --------------------------------------------------------------------------------
 
