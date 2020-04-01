@@ -18,7 +18,7 @@ Thest the next steps on:
   - *Quote*: `<p>` tags per paragraph.
   - *Quote citation*: `<br>` ending lines.
   - *Verse*: `<br>` ending lines.
-  - *Prefirnatted*: `<br>` ending lines.
+  - *Preformatted*: `<br>` ending lines.
   - *Code*: (Invisible `\n`) new line character.
   - *Captions (Image, Video, Gallery)*: `<br>` ending lines.
 
