@@ -11,12 +11,25 @@ A site with premium or business plan
 
 ### Close/Re-open post with an ongoing image upload
 
--   Add a gallery block and insert images from device
--   While there’s an ongoing upload, close the post with publishing changes
--   Verify that you see the upload progress in post summary
-![Progress](../resources/upload-progress-posts-list.png)
--   Reopen the post while upload is ongoing
--   Verify you still see the upload progress in the gallery block
+Gallery block should continue normally if the editor is closed and re-opened with ongoing uploads.
+
+**Steps:**
+
+* Add a gallery block and tap "Add Media"
+* Select "Choose from device" option
+* Select multiple images from the device and confirm the selection
+* While image are uploading, leave the editor
+* Verify that you see the upload progress in post summary:
+  * <img src="../resources/upload-progress-posts-list.png" width="360" valign="middle">
+* Re-open the post with the gallery block before uploads complete
+
+**Expected behavior:**
+
+* Gallery should show all images being uploaded as dimmed
+* Progress bars should be displayed indicating the upload progress
+* After each image upload has completed:
+  * Image should not be dim
+  * Image url scheme should be `https://` (not `file:///`) in HTML mode
 
 --------------------------------------------------------------------------------
 
@@ -24,14 +37,23 @@ A site with premium or business plan
 
 ### Close post with an ongoing image upload
 
--   Add a gallery block and insert images from device
--   While there’s an ongoing upload, close the post with publishing changes
--   Verify that you see the upload progress in post summary
-![Progress](../resources/upload-progress-posts-list.png)
--   Wait until upload finishes
--   Re-open the post
--   Verify that Gallery block shows the uploaded images
+Gallery block should allow uploading multiple images after the editor is closed.
 
+**Steps:**
+
+* Add a gallery block and tap "Add Media"
+* Select "Choose from device" option
+* Select multiple images from the device and confirm the selection
+* While image are uploading, leave the editor
+* Verify that you see the upload progress in post summary:
+  * <img src="../resources/upload-progress-posts-list.png" width="360" valign="middle">
+* Wait for uploads to complete while in the post list
+* Re-open the post with the gallery block
+
+**Expected behavior:**
+
+* Gallery should show all completed uploads
+* The images' url schemes should be `https://` (not `file:///`) in HTML mode
 
 --------------------------------------------------------------------------------
 
@@ -123,56 +145,6 @@ Gallery block should allow retrying failed uploads
 
 ##### TC007
 
-### Choose from device (leave the editor) - Successful upload
-
-Gallery block should allow uploading multiple images after the editor is closed.
-
-**Steps:**
-
-* Add a gallery block and tap "Add Media"
-* Select "Choose from device" option
-* Select multiple images from the device and confirm the selection
-* While image are uploading, leave the editor
-* Verify that you see the upload progress in post summary:
-  * <img src="../resources/upload-progress-posts-list.png" width="360" valign="middle">
-* Wait for uploads to complete while in the post list
-* Re-open the post with the gallery block
-
-**Expected behavior:**
-
-* Gallery should show all completed uploads
-* The images' url schemes should be `https://` (not `file:///`) in HTML mode
-
---------------------------------------------------------------------------------
-
-##### TC008
-
-### Choose from device (close and re-open the editor with ongoing uploads)
-
-Gallery block should continue normally if the editor is closed and re-opened with ongoing uploads.
-
-**Steps:**
-
-* Add a gallery block and tap "Add Media"
-* Select "Choose from device" option
-* Select multiple images from the device and confirm the selection
-* While image are uploading, leave the editor
-* Verify that you see the upload progress in post summary:
-  * <img src="../resources/upload-progress-posts-list.png" width="360" valign="middle">
-* Re-open the post with the gallery block before uploads complete
-
-**Expected behavior:**
-
-* Gallery should show all images being uploaded as dimmed
-* Progress bars should be displayed indicating the upload progress
-* After each image upload has completed:
-  * Image should not be dim
-  * Image url scheme should be `https://` (not `file:///`) in HTML mode
-
---------------------------------------------------------------------------------
-
-##### TC009
-
 ### Take a photo
 
 Gallery block should allow uploading images from the camera.
@@ -193,7 +165,7 @@ Gallery block should allow uploading images from the camera.
 
 --------------------------------------------------------------------------------
 
-##### TC010
+##### TC008
 
 ### Choose from the free photo library
 
@@ -215,7 +187,7 @@ Gallery block should allow uploading images from the free photo library.
 
 --------------------------------------------------------------------------------
 
-##### TC011
+##### TC009
 
 ### Choose from device (stay in editor) - Cancel upload
 
@@ -237,7 +209,7 @@ Gallery block should allow canceling image uploads.
 
 --------------------------------------------------------------------------------
 
-##### TC012
+##### TC010
 
 ### Rearrange images in Gallery
 
@@ -252,11 +224,11 @@ Gallery block should allow images to be rearranged in the gallery.
     * Adding even and uneven image counts and rearranging the last image
     * Leaving the editor and coming back in
     * Validate order is reflected on the Web after saving
-    
-    
+
+
 --------------------------------------------------------------------------------
-    
-##### TC013
+
+##### TC011
 
 ### Choose from Other Apps (iOS Files App)
 
