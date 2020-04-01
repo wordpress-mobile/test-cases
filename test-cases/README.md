@@ -11,3 +11,4 @@ Gutenberg:
 - [Group block](./gutenberg/group.md)
 - [Spacer block](./gutenberg/spacer.md)
 - [Cover block](./gutenberg/cover.md)
+- [Columns block](./gutenberg/columns.md)
