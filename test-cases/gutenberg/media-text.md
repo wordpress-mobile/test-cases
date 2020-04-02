@@ -65,3 +65,59 @@ Use same same steps on Media-Text block: [video block TC005](https://github.com/
 - Reopen the post
 - Verify that Media Text block shows the uploaded image
 
+--------------------------------------------------------------------------------
+
+##### TC006
+
+### Media & Text alignment
+
+1. Add a Media & Text block
+2. Add an image from the media library
+3. Add some text
+4. Tap the media & text alignment buttons to switch their order
+5. Rotate the device to landscape mode
+6. Repeat step 4
+
+**Expected:**
+
+The media and text should change positions based on the alignment setting.
+
+<details>
+<summary>Screenshots</summary>
+
+Setting | Portrait | Landscape
+-|-|-
+Media first | ![Media first portrait](../resources/media-text-media-first-portrait.png) | ![Media first landscape](../resources/media-text-media-first-landscape.png)
+Text first | ![Text first portrait](../resources/media-text-text-first-portrait.png) | ![Text first landscape](../resources/media-text-text-first-landscape.png)
+
+</details>
+
+--------------------------------------------------------------------------------
+
+##### TC007
+
+### Vertical alignment
+
+1. Add a Media & Text block
+2. Add an image from the media library
+3. Add some text
+4. Rotate the device to landscape mode
+5. Tap the vertical alignment button and try each of the settings
+  1. Tap "Vertically Align Top"
+  2. Tap "Vertically Align Middle"
+  3. Tap "Vertically Align Bottom"
+
+**Expected:**
+
+The text should vertically align beside the image based on the setting.
+
+<details>
+<summary>Screenshots</summary>
+
+Setting | Screenshot
+-|-
+Vertically Align Top| ![Vertically align top](../resources/media-text-vertical-alignment-top.png)
+Vertically Align Middle| ![Vertically align top](../resources/media-text-vertical-alignment-middle.png)
+Vertically Align Bottom| ![Vertically align top](../resources/media-text-vertical-alignment-bottom.png)
+
+</details>

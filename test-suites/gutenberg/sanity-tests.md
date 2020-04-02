@@ -37,8 +37,8 @@ MediaText-3
 
 MediaText-4
 
-- [ ] Media Text block - Media & Text alignment - steps
-- [ ] Media Text block - Vertical alignment - steps
+- [ ] Media Text block - Media & Text alignment - [steps](https://github.com/wordpress-mobile/test-cases/blob/master/test-cases/gutenberg/media-text.md#tc006)
+- [ ] Media Text block - Vertical alignment - [steps](https://github.com/wordpress-mobile/test-cases/blob/master/test-cases/gutenberg/media-text.md#tc007)
 
 MultipleUpload-1
 
