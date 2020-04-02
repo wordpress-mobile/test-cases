@@ -59,7 +59,7 @@ DarkMode-2(iOS)
 
 Shortcode-1
 
-- [ ] Shortcode block - Add a youtube link - steps
+- [ ] Shortcode block - Add a youtube link - [steps](https://github.com/wordpress-mobile/test-cases/blob/master/test-cases/gutenberg/shortcode.md#tc001)
 
 Spacer-1
 
