@@ -14,7 +14,7 @@ Have a rich-text based component with content (Paragraph, Heading, Quote, Media 
 - Press strikethrough button and write strikethrough text.
 
 **Known Issues**
-- Strikethrough formatting uses a different tag depending on how it is applied and strikethrough button does not always reflect state: [#729](https://github.com/wordpress-mobile/gutenberg-mobile/issues/729).
+- **[Android]** Strikethrough formatting uses a different tag depending on how it is applied and strikethrough button does not always reflect state: [#729](https://github.com/wordpress-mobile/gutenberg-mobile/issues/729).
 
 
 ##### TC002
@@ -74,7 +74,6 @@ Have a rich-text based component with content (Paragraph, Heading, Quote, Media 
 - On a rich-text based component, add bold, italic, strikethrough and link formatted text, both combined and on different words.
 Move the cursor around
 - Check that the proper format buttons get selected when the cursor get under a formatted word.
-
 
 
 

@@ -41,7 +41,7 @@ Start from an empty post.
 - Check that the blocks were merged.
 
 **Known Issues**
-- Does not merge on Android after deleting either styled text or a selection containing multiple charaacters (instead of single characters): [#1873](https://github.com/wordpress-mobile/gutenberg-mobile/issues/1873#issuecomment-608070758).
+- **[Android]** Does not merge on Android after deleting either styled text or a selection containing multiple charaacters (instead of single characters): [#1873](https://github.com/wordpress-mobile/gutenberg-mobile/issues/1873#issuecomment-608070758).
 
 
 ##### TC004
