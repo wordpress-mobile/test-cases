@@ -44,19 +44,6 @@ Expected look:
 
 ##### TC004
 
-### Adding Column with Inserter (currently disabled)
-
-- Add a `Columns` block
-- Select one of the `Column`
-- Expect `Inserter` to be **disabled**
-
-Expected look:  
-![Inserter](../resources/columns-inserter.png)
-
---------------------------------------------------------------------------------
-
-##### TC005
-
 ### Adding and removing Column with BottomSheet Stepper control
 
 - Add a `Columns` block
@@ -66,7 +53,7 @@ Expected look:
 
 --------------------------------------------------------------------------------
 
-##### TC006
+##### TC005
 
 ### Max limit of Column number
 
@@ -76,7 +63,7 @@ Expected look:
 
 --------------------------------------------------------------------------------
 
-##### TC007
+##### TC006
 
 ### Min limit of Column number
 
@@ -90,7 +77,7 @@ Expected look:
 
 --------------------------------------------------------------------------------
 
-##### TC008
+##### TC007
 
 ### Removing Column with remove button
 
@@ -105,7 +92,7 @@ Exception:
 
 --------------------------------------------------------------------------------
 
-##### TC009
+##### TC008
 
 ### Removing the only one left Column with remove button
 
@@ -116,7 +103,7 @@ Exception:
 
 --------------------------------------------------------------------------------
 
-##### TC010
+##### TC009
 
 ### Changing alignment on Columns
 
@@ -128,7 +115,7 @@ Exception:
 
 --------------------------------------------------------------------------------
 
-##### TC011
+##### TC010
 
 ### Changing alignment on individual Columnn
 
@@ -144,7 +131,7 @@ Exception:
 
 --------------------------------------------------------------------------------
 
-##### TC012
+##### TC011
 
 ### Alignment attribute is properly passed when adding Column
 
@@ -155,7 +142,7 @@ Exception:
 
 --------------------------------------------------------------------------------
 
-##### TC013
+##### TC012
 
 ### Deep nesting is possible (iOS only)
 
@@ -165,7 +152,7 @@ Exception:
 
 --------------------------------------------------------------------------------
 
-##### TC014
+##### TC013
 
 ### Appearance in vertical device position (vertical layout)
 
@@ -187,7 +174,7 @@ Expected look:
 
 --------------------------------------------------------------------------------
 
-##### TC015
+##### TC014
 
 ### Appearance in horizontal device position (horizontal layout)
 
@@ -209,7 +196,7 @@ Expected look:
 
 --------------------------------------------------------------------------------
 
-##### TC016
+##### TC015
 
 ### Mover direction
 
@@ -229,7 +216,7 @@ Expected look:
 
 --------------------------------------------------------------------------------
 
-##### TC017
+##### TC016
 
 ### Check if Column placeholder is render in nested structure
 
@@ -249,7 +236,7 @@ Expected look:
 
 --------------------------------------------------------------------------------
 
-##### TC018
+##### TC017
 
 ### Unselected Column placeholder is streched to content in nested structure
 
@@ -271,7 +258,7 @@ Expected look:
 
 --------------------------------------------------------------------------------
 
-##### TC019
+##### TC018
 
 ### Check if in DarkMode all components gets proper colors (iOS)
 
