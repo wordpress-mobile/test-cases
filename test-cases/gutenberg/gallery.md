@@ -31,6 +31,10 @@ Gallery block should continue normally if the editor is closed and re-opened wit
   * Image should not be dim
   * Image url scheme should be `https://` (not `file:///`) in HTML mode
 
+##### Known issue:
+
+If the user leaves the editor and returns while the image is uploading, _and_ the upload finishes before the React Native editor has fully loaded, the upload completion event is missed, resulting in a UI state indicating a failed upload, even when the upload has completed.
+
 --------------------------------------------------------------------------------
 
 ##### TC002
