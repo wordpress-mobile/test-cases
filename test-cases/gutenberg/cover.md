@@ -145,3 +145,53 @@ A site with premium or business plan
 -   Update the value using the slider
 -   Close the bottom sheet
 -   Expect to see the cover with the new overlay opacity value
+
+--------------------------------------------------------------------------------
+
+##### TC010
+
+### Close/Re-open post with an ongoing image upload
+
+Cover block should continue normally if the editor is closed and re-opened with ongoing uploads.
+
+**Steps:**
+
+* Add a cover block and tap on placeholder
+* Select "Choose from device" option
+* Select an image from the device and confirm the selection
+* While image is uploading, leave the editor
+* Verify that you see the upload progress in post summary:
+  * <img src="../resources/upload-progress-posts-list.png" width="360" valign="middle">
+* Re-open the post with the cover block before uploads complete
+
+**Expected behavior:**
+
+* Cover should show the image being uploaded
+* A progress bar should be displayed indicating the upload progress
+* After the image upload has completed, the image url scheme should be `https://` (not `file:///`) in HTML mode
+
+--------------------------------------------------------------------------------
+
+##### TC011
+
+### Close post with an ongoing image upload
+
+Cover block should allow uploading an image after the editor is closed.
+
+**Steps:**
+
+* Add a Cover block and tap placeholder
+* Select "Choose from device" option
+* Select an image from the device and confirm the selection
+* While image is uploading, leave the editor
+* Verify that you see the upload progress in post summary:
+  * <img src="../resources/upload-progress-posts-list.png" width="360" valign="middle">
+* Wait for the upload to complete while in the post list
+* Re-open the post with the Cover block
+
+**Expected behavior:**
+
+* Cover should show all completed uploads
+* The image url scheme should be `https://` (not `file:///`) in HTML mode
+
+--------------------------------------------------------------------------------
