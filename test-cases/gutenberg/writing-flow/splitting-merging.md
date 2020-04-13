@@ -31,6 +31,8 @@ Start from an empty post.
 - Press delete once again to merge the blocks.
 - Check that the blocks were merged.
 
+**Known Issues**
+- **[Android]** Described on https://github.com/wordpress-mobile/WordPress-Android/pull/11572#issuecomment-607352657, also noted on [this ticket](https://github.com/wordpress-mobile/gutenberg-mobile/issues/1873#issue-561855507).
 
 ##### TC003
 
@@ -52,6 +54,8 @@ Start from an empty post.
 - Press delete to remove the empty block.
 - Check that the previous block was selected.
 
+**Known Issues**
+- **[Android]** Described on https://github.com/wordpress-mobile/WordPress-Android/pull/11572#issuecomment-607352657, also noted on [this ticket](https://github.com/wordpress-mobile/gutenberg-mobile/issues/1873#issue-561855507).
 
 ##### TC005
 
