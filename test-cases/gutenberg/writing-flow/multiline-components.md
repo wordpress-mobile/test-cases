@@ -22,4 +22,5 @@ Thest the next steps on:
   - *Code*: (Invisible `\n`) new line character.
   - *Captions (Image, Video, Gallery)*: `<br>` ending lines.
 
-
+**Known Issues**
+- **[Android]** Multiline captions are not working as expected. [#1651](https://github.com/wordpress-mobile/gutenberg-mobile/issues/1651)
