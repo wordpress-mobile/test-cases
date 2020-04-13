@@ -76,4 +76,5 @@ Move the cursor around
 - Check that the proper format buttons get selected when the cursor get under a formatted word.
 
 
-
+**Known Issues**
+- **[Android]** Strikethrough button might not be highlighted in some cases. [#729](https://github.com/wordpress-mobile/gutenberg-mobile/issues/729)
