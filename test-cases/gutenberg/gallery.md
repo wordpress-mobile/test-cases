@@ -34,6 +34,7 @@ Gallery block should continue normally if the editor is closed and re-opened wit
 ##### Known issue:
 
 If the user leaves the editor and returns while the image is uploading, _and_ the upload finishes before the React Native editor has fully loaded, the upload completion event is missed, resulting in a UI state indicating a failed upload, even when the upload has completed.
+- [Invalid image URL after Close/Re-opening Gallery multiple times during upload of multiple images](https://github.com/wordpress-mobile/gutenberg-mobile/issues/2154)
 
 --------------------------------------------------------------------------------
 
