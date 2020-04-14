@@ -78,6 +78,7 @@ Move the cursor around
 
 **Known Issues**
 - **[Android]** Strikethrough button might not be highlighted in some cases. [#729](https://github.com/wordpress-mobile/gutenberg-mobile/issues/729)
+- Formating buttons aren’t updated accordingly when text is deleted [#2154](https://github.com/wordpress-mobile/gutenberg-mobile/issues/2154)
 
 ##### TC008
 
