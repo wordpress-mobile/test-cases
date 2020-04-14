@@ -3,9 +3,9 @@
 
 Thest the next steps on:
 - Quote block
-- Verse block
-- Preformatted block
-- Code block
+- Verse block (DEV only)
+- Preformatted block 
+- Code block (DEV only)
 - Image/video/gallery block caption.
 
 ##### TC001
