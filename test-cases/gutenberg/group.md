@@ -174,11 +174,11 @@ Expected look:
 
 ##### TC013
 
-### Check if in DarkMode all components gets proper colors (iOS)
+### Check if in DarkMode all components gets proper colors
 
 -   Add a `Group` block
 -   Create nested structure
--   Switch to DarkMode (iOS)
+-   Switch to DarkMode
 -   Check if all components switch it's color schema to dark
 
 Expected look:  
