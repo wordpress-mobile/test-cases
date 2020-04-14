@@ -4,7 +4,7 @@
 
 ##### TC001
 
-### Gallery Block - Check if in DarkMode all components gets proper colors (iOS)
+### Gallery Block - Check if in DarkMode all components gets proper colors
 
 -   Add a `Gallery` block
 -   Check if `Gallery` block in Dark Mode looks like below
@@ -16,7 +16,7 @@ Expected look:
 
 ##### TC002
 
-### Shortcode Block - Check if in DarkMode all components gets proper colors (iOS)
+### Shortcode Block - Check if in DarkMode all components gets proper colors
 
 -   Add a `Shortcode` block
 -   Check if `Shortcode` block in Dark Mode looks like below
@@ -28,7 +28,7 @@ Expected look:
 
 ##### TC003
 
-### MediaText Block - Check if in DarkMode all components gets proper colors (iOS)
+### MediaText Block - Check if in DarkMode all components gets proper colors
 
 -   Add a `MediaText` block
 -   Check if `MediaText` block in Dark Mode looks like below
@@ -40,7 +40,7 @@ Expected look:
 
 ##### TC004
 
-### Spacer Block - Check if in DarkMode all components gets proper colors (iOS)
+### Spacer Block - Check if in DarkMode all components gets proper colors
 
 -   Add a `Spacer` block
 -   Check if `Spacer` block in Dark Mode looks like below
@@ -52,7 +52,7 @@ Expected look:
 
 ##### TC005
 
-### Button Block - Check if in DarkMode all components gets proper colors (iOS)
+### Button Block - Check if in DarkMode all components gets proper colors
 
 -   Add a `Button` block
 -   Check if `Button` block in Dark Mode looks like below
@@ -64,7 +64,7 @@ Expected look:
 
 ##### TC006
 
-### Group Block - Check if in DarkMode all components gets proper colors (iOS)
+### Group Block - Check if in DarkMode all components gets proper colors
 
 -   Add a `Group` block
 -   Check if `Group` block in Dark Mode looks like below
@@ -77,7 +77,7 @@ Expected look:
 
 ##### TC007
 
-### Columns Block - Check if in DarkMode all components gets proper colors (iOS)
+### Columns Block - Check if in DarkMode all components gets proper colors
 
 -   Add a `Columns` block
 -   Check if `Columns` block in Dark Mode looks like below

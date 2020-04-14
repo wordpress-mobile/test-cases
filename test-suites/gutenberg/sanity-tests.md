@@ -44,13 +44,13 @@ MultipleUpload-1
 
 - [ ] Simultaneous uploads - [steps](https://github.com/wordpress-mobile/test-cases/blob/master/test-cases/gutenberg/media-interaction.md#tc001)
 
-DarkMode-1(iOS)
+DarkMode-1
 
 - [ ] Gallery block - Dark mode - [steps](https://github.com/wordpress-mobile/test-cases/blob/master/test-cases/gutenberg/darkmode.md#tc001)
 - [ ] Shortcode block - Dark mode - [steps](https://github.com/wordpress-mobile/test-cases/blob/master/test-cases/gutenberg/darkmode.md#tc002)
 - [ ] Media Text block - Dark mode - [steps](https://github.com/wordpress-mobile/test-cases/blob/master/test-cases/gutenberg/darkmode.md#tc003)
 
-DarkMode-2(iOS)
+DarkMode-2
 
 - [ ] Spacer block - Dark mode - [steps](https://github.com/wordpress-mobile/test-cases/blob/master/test-cases/gutenberg/darkmode.md#tc004)
 - [ ] Button block - Dark mode - [steps](https://github.com/wordpress-mobile/test-cases/blob/master/test-cases/gutenberg/darkmode.md#tc005)
@@ -113,7 +113,7 @@ Group-1
 - [ ] Group - Navigation down works according to parent-first approach - [steps](https://github.com/wordpress-mobile/test-cases/blob/master/test-cases/gutenberg/group.md#tc010)
 - [ ] Group - Cross navigation between blocks works as expected - [steps](https://github.com/wordpress-mobile/test-cases/blob/master/test-cases/gutenberg/group.md#tc011)
 - [ ] Group - Ungroup button works as expected - [steps](https://github.com/wordpress-mobile/test-cases/blob/master/test-cases/gutenberg/group.md#tc012)
-- [ ] Group - Check if in DarkMode all components gets proper colors (iOS) - [steps](https://github.com/wordpress-mobile/test-cases/blob/master/test-cases/gutenberg/group.md#tc013)
+- [ ] Group - Check if in DarkMode all components gets proper colors - [steps](https://github.com/wordpress-mobile/test-cases/blob/master/test-cases/gutenberg/group.md#tc013)
 - [ ] Group - Check if nested Placeholder block can be replaced - [steps](https://github.com/wordpress-mobile/test-cases/blob/master/test-cases/gutenberg/group.md#tc014)
 
 Cover-1
@@ -156,4 +156,4 @@ Columns - 2
 
 Columns - 3
 <!--- other category --->
-- [ ] Columns - Check if in DarkMode all components gets proper colors (iOS) - [steps](https://github.com/wordpress-mobile/test-cases/blob/master/test-cases/gutenberg/columns.md#tc018)
+- [ ] Columns - Check if in DarkMode all components gets proper colors - [steps](https://github.com/wordpress-mobile/test-cases/blob/master/test-cases/gutenberg/columns.md#tc018)
