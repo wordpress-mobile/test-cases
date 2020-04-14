@@ -75,7 +75,7 @@ Gallery block should allow uploading multiple images after the editor is closed.
     - Strikethrough
     - Expect all to work correctly
     
-(Note: Underline text is only rendered if it is set by a .com site, the Underline format button is not available in mobile.)
+(Note: Underlined text is only rendered if it is set by a .com site, the Underline format button is not available in mobile.)
 
 ![Gallery Caption Styles](../resources/gallery-caption-4.png)
 
