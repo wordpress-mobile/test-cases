@@ -78,3 +78,15 @@ Move the cursor around
 
 **Known Issues**
 - **[Android]** Strikethrough button might not be highlighted in some cases. [#729](https://github.com/wordpress-mobile/gutenberg-mobile/issues/729)
+
+##### TC008
+
+**Test formatting doesn't remove leading or trailing whitespace**
+
+- Add a text block, paragraph for example
+- Type some spaces, then write some text
+- Select the text and apply one format, for example, bold
+- Check that the white spaces aren't removed.
+
+**Known Issues**
+- **[Android]**  This is not yet fixed on Android [See Comment](https://github.com/wordpress-mobile/gutenberg-mobile/pull/2127#issuecomment-610679832)
