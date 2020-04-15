@@ -203,6 +203,8 @@
 -   Observe caret / select text
 -   Expect Button caret / selection color to match the custom text color
 
+**_Note:_** This may work if running on Android API 28+ do to restrctions that will be handled as part of [Issue #1787](https://github.com/wordpress-mobile/gutenberg-mobile/issues/1787)
+
 --------------------------------------------------------------------------------
 
 ##### TC016
