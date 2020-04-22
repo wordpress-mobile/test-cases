@@ -75,7 +75,7 @@ Gallery block should allow uploading multiple images after the editor is closed.
     - Italic
     - Strikethrough
     - Expect all to work correctly
-    
+
 (Note: Underlined text is only rendered if it is set by a .com site, the Underline format button is not available in mobile.)
 
 ![Gallery Caption Styles](../resources/gallery-caption-4.png)
@@ -254,3 +254,103 @@ Gallery block should allow uploading images from the iOS Files app.
 * After each image upload has completed:
   * Image should not be dim
   * Image url scheme should be `https://` (not `file:///`) in HTML mode
+
+--------------------------------------------------------------------------------
+
+##### TC012
+
+### Settings - Link to
+
+**Precondition:** these steps should be tested via a self-hosted site
+
+Gallery images should respect the `Link to` setting
+
+**Steps:**
+
+* Add a gallery block and tap "Add Media"
+* Add some images from the media library
+* Tap the block settings icon ⚙️ :gear:
+* Tap `Link to` setting
+* For each of the settings
+  * <img src="../../test-cases/resources/gallery-settings-link-to.png" width="360">
+  * Select the setting
+  * Tap `...` menu -> "Preview"
+  * Open in the browser
+  * Tap an image
+
+**Expected behavior:**
+
+Setting | Expectation
+-|-
+Attachment Page | The browser should visit the attachment page for the image
+Media File | The browser should visit the image location directly
+None | The image should not be linked
+
+**Note:** On .com sites, the behavior may be different:
+
+In that case, the steps above will show different results (e.g. all images will be displayed in a carousel when tapped). Adjust the last step to long-press the image instead of tapping it.
+
+**Expected behavior:**
+
+The Media File option will show a "save link as" option. Attachment Page and None options will not show this option on long-press.
+
+--------------------------------------------------------------------------------
+
+##### TC013
+
+### Settings - Columns
+
+Gallery block should display images in columns, limited to 2 in portrait
+
+**Steps:**
+
+* Add a gallery block and tap "Add Media"
+* Add some images from the media library (at least 3)
+* Tap the block settings icon ⚙️ :gear:
+* Tap `Columns` setting
+* Set columns to 3 (might be the default)
+* Observe visible columns
+* Rotate to landscape orientation
+* Observe visible columns
+
+**Expected behavior:**
+
+In portrait, a maximum of 2 columns are visible (even when set to 3)
+In landscape, 3 columns are visible
+Images in the last row expand horizontally to fill the width of the block
+
+Portrait | Landscape
+-|-
+![3 columns in portrait](../../test-cases/resources/gallery-settings-columns-portrait-3.png) | ![3 columns in landscape](../../test-cases/resources/gallery-settings-columns-landscape-3.png)|
+
+* Rotate to portrait
+* Set columns to 1
+* Observe visible columns
+
+**Expected behavior:**
+
+In portrait, 1 columns is visible
+Images expand horizontally to fill the width of the block
+
+<img src="../../test-cases/resources/gallery-settings-columns-portrait-1.png" width="360">
+
+--------------------------------------------------------------------------------
+
+##### TC014
+
+### Settings - Crop images
+
+Gallery block should allow cropped or uncropped images
+
+**Steps:**
+
+* Add a gallery block and tap "Add Media"
+* Add some images from the media library (at least 3)
+* Tap the block settings icon ⚙️ :gear:
+* Tap `Crop` setting (to toggle crop off)
+
+**Expected behavior:**
+
+Gallery should show all images fully (uncropped)
+
+<img src="../../test-cases/resources/gallery-settings-crop.png" width="360">

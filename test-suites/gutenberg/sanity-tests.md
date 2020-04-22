@@ -16,9 +16,9 @@ Gallery-3
 
 Gallery-4
 
-- [ ] Gallery block - Settings: Link to - steps
-- [ ] Gallery block - Settings: Column number - steps
-- [ ] Gallery block - Settings: Crop images - steps
+- [ ] Gallery block - Settings: Link to - [steps](https://github.com/wordpress-mobile/test-cases/blob/master/test-cases/gutenberg/gallery.md#tc012)
+- [ ] Gallery block - Settings: Column number - [steps](https://github.com/wordpress-mobile/test-cases/blob/master/test-cases/gutenberg/gallery.md#tc013)
+- [ ] Gallery block - Settings: Crop images - [steps](https://github.com/wordpress-mobile/test-cases/blob/master/test-cases/gutenberg/gallery.md#tc014)
 
 MediaText-1
 
