@@ -261,6 +261,8 @@ Gallery block should allow uploading images from the iOS Files app.
 
 ### Settings - Link to
 
+**Precondition:** these steps should be tested via a self-hosted site
+
 Gallery images should respect the `Link to` setting
 
 **Steps:**
@@ -272,18 +274,25 @@ Gallery images should respect the `Link to` setting
 * For each of the settings
   * <img src="../../test-cases/resources/gallery-settings-link-to.png" width="360">
   * Select the setting
-  * Switch to HTML view
-  * Verify the HTML content
+  * Tap `...` menu -> "Preview"
+  * Open in the browser
+  * Tap an image
 
 **Expected behavior:**
 
-The HTML of the images:
-
 Setting | Expectation
 -|-
-Attachment Page | In json: `"linkTo":"attachment"`
-Media File | In json: `"linkTo":"media"`, `<a>` tag wraps `<img>` tag
-None | No `"linkTo"` in json
+Attachment Page | The browser should visit the attachment page for the image
+Media File | The browser should visit the image location directly
+None | The image should not be linked
+
+**Note:** On .com sites, the behavior may be different:
+
+In that case, the steps above will show different results (e.g. all images will be displayed in a carousel when tapped). Adjust the last step to long-press the image instead of tapping it.
+
+**Expected behavior:**
+
+The Media File option will show a "save link as" option. Attachment Page and None options will not show this option on long-press.
 
 --------------------------------------------------------------------------------
 
