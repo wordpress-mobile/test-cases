@@ -19,7 +19,7 @@
 
 - Add a verse block
 - Type some text, tap the alignment option in the toolbar and expect a bottom sheet to be shown with alignment options
-- Choosing an alignment option should apply that to the post 
+- Choosing an alignment option should apply that to the block's content 
 
 --------------------------------------------------------------------------------
 
@@ -42,4 +42,5 @@
 - Add a paragraph block and type some text into it
 - Add a verse block and add some text to it
 - Position the cursor at the start of the verse block
-- Tap backspace until the content of the verse block is merged into the paragraph block content
+- Tap backspace until the blocks merge
+- Expect the content of the verse block to be appended to the paragraph block content
