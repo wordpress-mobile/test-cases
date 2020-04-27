@@ -223,7 +223,7 @@ Expected look:
 - Add a `Columns` block
 - Nest some `Columns` inside one of the `Column`
 - Select top-most `Columns` block in hierarchy
-- Check if you are able to see `Column` placeholder of nested blocks wrapped with dashed border
+- Check if you are able to see `Column` placeholder of nested blocks wrapped with dashed border when the parent is selected
 - Select one of the `Column`
 - Expect to see it's `AppenderButton` after selecting last `Column`  
 
