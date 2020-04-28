@@ -5,7 +5,7 @@
 
 ##### TC001
 
-### Buttons is added with focused Button with gray background color and white text color
+### Buttons block is added with focused Button with gray background color and white text color
 
 -   Add `Buttons` block
 -   Expect to see focused `Button` inside `Buttons` block
@@ -30,17 +30,6 @@
 
 ##### TC003
 
-### Add another Button inside Buttons using an inline appender
-
--   Add `Buttons` block
--   Press an inline appender
--   Expect a new `Button` is automatically added and focused
--   Expect Buttons are displayed side-by-side
-
---------------------------------------------------------------------------------
-
-##### TC004
-
 ### Add another Button inside Buttons using inserter
 
 -   Add `Buttons` block
@@ -52,48 +41,31 @@
 
 --------------------------------------------------------------------------------
 
-##### TC005
+##### TC004
 
-### Removing Button along with Buttons using the trash button
+### Removing Button along with Buttons block
 
 -   Add `Buttons` block
 -   Expect focused `Button` inside `Buttons`
 -   Press trash button
--   Expect `ADD BLOCK HERE` line isn't displayed
 -   Expect `Button` is removed along with whole `Buttons` container
-
---------------------------------------------------------------------------------
-
-##### TC006
-
-### Removing Button along with Buttons deleting all characters
-
--   Add `Buttons` block
+-   Add new `Buttons` block
 -   Expect focused `Button` inside `Buttons`
 -   Type something
--   Press trash button
 -   Delete all of the text from `Button`
 -   Expect `Button` is removed along with whole `Buttons` container
 
 --------------------------------------------------------------------------------
 
-##### TC007
+##### TC005
 
-### Removing exactly one Button (when Buttons contain more of them) using the trash button
+### Removing exactly one Button (when Buttons contain more of them)
 
 -   Add `Buttons` block
 -   Press an inline appender
 -   Expect a new `Button` is added and focused
 -   Press trash button
 -   Expect current `Button` is removed and the previous `Button` is focused
-
---------------------------------------------------------------------------------
-
-##### TC008
-
-### Removing exactly one Button (when Buttons contain more of them) deleting all characters
-
--   Add `Buttons` block
 -   Press an inline appender
 -   Expect a new `Button` is added and focused
 -   Type something
@@ -102,7 +74,7 @@
 
 --------------------------------------------------------------------------------
 
-##### TC009
+##### TC006
 
 ### Wrapping Buttons
 
@@ -115,7 +87,7 @@
 
 --------------------------------------------------------------------------------
 
-##### TC010
+##### TC007
 
 ### Buttons alignment options
 
@@ -131,20 +103,7 @@
 
 --------------------------------------------------------------------------------
 
-##### TC011
-
-### Button max width is calculated OK inside inner blocks(iOS only)
-
--   Add `Buttons` block
--   Expect to see focused `Button` inside `Buttons` block
--   Start typing and removing characters
--   Expect `Button` is expanding / shrinking accordingly to the editing process
--   Type more character to fill all the space
--   Expect `Button` text is not exceeding the container
-
---------------------------------------------------------------------------------
-
-##### TC012
+##### TC008
 
 ### Link from the clipboard is automatically added into the empty URL field in link settings and button options
 
@@ -155,7 +114,7 @@
 
 --------------------------------------------------------------------------------
 
-##### TC013
+##### TC009
 
 ### Edit text styles
 
@@ -169,7 +128,7 @@
 
 --------------------------------------------------------------------------------
 
-##### TC014
+##### TC010
 
 ### Settings: Link URL
 
@@ -182,7 +141,7 @@
 
 --------------------------------------------------------------------------------
 
-##### TC015
+##### TC011
 
 ### Settings: Open in new tab
 
@@ -196,7 +155,7 @@
 
 --------------------------------------------------------------------------------
 
-##### TC016
+##### TC012
 
 ### Settings: Link rel
 
@@ -208,7 +167,7 @@
 
 --------------------------------------------------------------------------------
 
-##### TC017
+##### TC013
 
 ### Settings: Synchronize with button options
 
@@ -222,7 +181,7 @@
 
 --------------------------------------------------------------------------------
 
-##### TC018
+##### TC014
 
 ### Settings: Remove link
 
@@ -237,7 +196,7 @@
 
 --------------------------------------------------------------------------------
 
-##### TC019
+##### TC015
 
 ### Settings: Change Button border radius
 
@@ -250,78 +209,60 @@
 
 --------------------------------------------------------------------------------
 
-##### TC020
+##### TC016
 
 ### Render custom background color
 
--   Add `Buttons` block
--   Save the post
--   Open the same post on web
+-   Open gutenberg web, add `Buttons` block
 -   Choose the **custom** background color from **picker**
 -   Save the post
 -   Open the same post on mobile app
 -   Expect `Button` background color is the same as on web
 
-_Known issue_: There is a conversion error for `Button` block. It's related to case where older version of gutenberg editor is trying to edit the block generated by a newer version. Choose an option e.g. `Attempt Block Recovery` to continue.
-
 --------------------------------------------------------------------------------
 
-##### TC021
+##### TC017
 
 ### Render custom text color
 
--   Add `Buttons` block
--   Save the post
--   Open the same post on web
+-   Open gutenberg web, add `Buttons` block
 -   Choose the **custom** text color from **picker**
 -   Save the post
 -   Open the same post on mobile app
 -   Expect `Button` text color is the same as on web
 
-_Known issue_: There is a conversion error for `Button` block. It's related to case where older version of gutenberg editor is trying to edit the block generated by a newer version. Choose an option e.g. `Attempt Block Recovery` to continue.
-
 --------------------------------------------------------------------------------
 
-##### TC022
+##### TC018
 
 ### Render gradient background color
 
--   Add `Buttons` block
--   Save the post
--   Open the same post on web
+-   Open gutenberg web, add `Buttons` block
 -   Choose the **gradient** background color from the palette
 -   Save the post
 -   Open the same post on mobile app
 -   Expect `Button` gradient background color is the same as on web
 
-_Known issue_: There is a conversion error for `Button` block. It's related to case where older version of gutenberg editor is trying to edit the block generated by a newer version. Choose an option e.g. `Attempt Block Recovery` to continue.
-
 --------------------------------------------------------------------------------
 
-##### TC023
+##### TC019
 
 ### Fallback to default colors in case theme colors are used
 
--   Add `Buttons` block
--   Save the post
--   Open the same post on web
+-   Open gutenberg web, add `Buttons` block
 -   Choose a background color from the **palette**
 -   Choose a text color from the **palette**
 -   Save the post
 -   Open the same post on mobile app
 -   Expect `Button` with gray background color and white text color
 
-_Known issue_: There is a conversion error for `Button` block. It's related to case where older version of gutenberg editor is trying to edit the block generated by a newer version. Choose an option e.g. `Attempt Block Recovery` to continue.
-
 --------------------------------------------------------------------------------
 
-##### TC024
+##### TC020
 
 ### Check if selection / caret color matches font color
 
--   Add `Buttons` block
--   Save the post
--   Open the same post on web
+-   Open gutenberg web, add `Buttons` block
 -   Choose the **custom** text color from **picker**
 -   Save the post
 -   Open the same post on mobile app
@@ -330,11 +271,9 @@ _Known issue_: There is a conversion error for `Button` block. It's related to c
 
 **_Note:_** This may work if running on Android API 28+ do to restrctions that will be handled as part of [Issue #1787](https://github.com/wordpress-mobile/gutenberg-mobile/issues/1787)
 
-_Known issue_: There is a conversion error for `Button` block. It's related to case where older version of gutenberg editor is trying to edit the block generated by a newer version. Choose an option e.g. `Attempt Block Recovery` to continue.
-
 --------------------------------------------------------------------------------
 
-##### TC025
+##### TC021
 
 ### The newly created button has set background color to the theme-default color in preview
 
@@ -345,7 +284,7 @@ _Known issue_: There is a conversion error for `Button` block. It's related to c
 
 --------------------------------------------------------------------------------
 
-##### TC026
+##### TC022
 
 ### Toolbar link button is active when Button has link
 
