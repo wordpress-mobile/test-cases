@@ -1,39 +1,124 @@
 
-# Button Block - Test Cases
+# Buttons Block - Test Cases
 
 --------------------------------------------------------------------------------
 
 ##### TC001
 
-### Button max width is calculated OK inside inner blocks(iOS only)
+### Buttons block is added with focused Button with gray background color and white text color
 
--   Add a Button block
--   Start typing and removing characters
--   Expect Button is expanding / shrinking accordingly to the editing process
--   Type more character to fill all the space
--   Expect Button text is not exceeding the container
+-   Add `Buttons` block
+-   Expect to see focused `Button` inside `Buttons` block
+-   Expect gray background color and white text
 
 --------------------------------------------------------------------------------
 
 ##### TC002
 
-### Link from the clipboard is automatically added into the empty URL field in link settings and button options
+### Buttons inline appender
 
--   Copy link into clipboard, e.g. `http://wordpress.com`
--   Add a Button block
--   Open link [settings](../resources/button-link-settings.png)
--   Expect link from the clipboard to be automatically added into the empty URL field
--   Add second Button block
--   Open button [options](../resources/button-options.png)
--   Expect link from the clipboard to be automatically added into the empty URL field 
+-   Add `Buttons` block
+-   Expect an inline appender is located next to the last `Button` block
+-   Add another `Button` within `Buttons`
+-   Expect an inline appender is located next to the last `Button` block
+-   Navigate up to select `Buttons`
+-   Expect an inline appender is in the same place (next to the last `Button` block)
+-   Select different block than `Buttons` or `Button`
+-   Expect to not see an inline appender in `Buttons` block
 
 --------------------------------------------------------------------------------
 
 ##### TC003
 
+### Add another Button inside Buttons using inserter
+
+-   Add `Buttons` block
+-   Press inserter
+-   Choose `Button` from the opened bottom sheet
+-   Expect `ADD BLOCK HERE` line isn't displayed
+-   Expect a new `Button` is added and focused
+-   Expect Buttons are displayed side-by-side
+
+--------------------------------------------------------------------------------
+
+##### TC004
+
+### Removing Button along with Buttons block
+
+-   Add `Buttons` block
+-   Expect focused `Button` inside `Buttons`
+-   Press trash button
+-   Expect `Button` is removed along with whole `Buttons` container
+-   Add new `Buttons` block
+-   Expect focused `Button` inside `Buttons`
+-   Type something
+-   Delete all of the text from `Button`
+-   Expect `Button` is removed along with whole `Buttons` container
+
+--------------------------------------------------------------------------------
+
+##### TC005
+
+### Removing exactly one Button (when Buttons contain more of them)
+
+-   Add `Buttons` block
+-   Press an inline appender
+-   Expect a new `Button` is added and focused
+-   Press trash button
+-   Expect current `Button` is removed and the previous `Button` is focused
+-   Press an inline appender
+-   Expect a new `Button` is added and focused
+-   Type something
+-   Delete all of the text from Button
+-   Expect current `Button` is removed and the previous `Button` is focused
+
+--------------------------------------------------------------------------------
+
+##### TC006
+
+### Wrapping Buttons
+
+-   Add `Buttons` block
+-   Press an inline appender
+-   Expect a new `Button` is added and focused
+-   Select the first `Button`
+-   Type some characters to fill `Button` width
+-   Expect the second `Button` to fall into the second row
+
+--------------------------------------------------------------------------------
+
+##### TC007
+
+### Buttons alignment options
+
+-   Add `Buttons` block
+-   Press inline appender
+-   Expect a new `Button` is added and focused
+-   Navigate up to select `Buttons`
+-   Use alignment options
+-   Expect:
+      - Buttons adhere to the left edge when the first option is selected
+      - Buttons are centred when the second option is selected
+      - Buttons adhere to the right edge when the third option is selected
+
+--------------------------------------------------------------------------------
+
+##### TC008
+
+### Link from the clipboard is automatically added into the empty URL field in link settings and button options
+
+-   Copy link into clipboard, e.g. `http://wordpress.com`
+-   Add `Buttons` block
+-   Open link [settings](../resources/button-link-settings.png)
+-   Expect link from the clipboard to be automatically added into the empty URL field
+
+--------------------------------------------------------------------------------
+
+##### TC009
+
 ### Edit text styles
 
--   Add a Button block
+-   Add `Buttons` block
 -   Type some characters
 -   Select your text
 -   Press icons responsible for changing text styles: `Bold`, `Italic`, `Strikethrough`
@@ -43,11 +128,11 @@
 
 --------------------------------------------------------------------------------
 
-##### TC004
+##### TC010
 
 ### Settings: Link URL
 
--   Add a Button block
+-   Add `Buttons` block
 -   Open link [settings](../resources/button-link-settings.png)
 -   Edit `Button URL` field and add link
 -   Save the post
@@ -56,11 +141,11 @@
 
 --------------------------------------------------------------------------------
 
-##### TC005
+##### TC011
 
 ### Settings: Open in new tab
 
--   Add a Button block
+-   Add `Buttons` block
 -   Open link [settings](../resources/button-link-settings.png)
 -   Switch on `Open in new tab`
 -   Expect `noreferrer noopener` is added automatically in `Link Rel` field
@@ -70,11 +155,11 @@
 
 --------------------------------------------------------------------------------
 
-##### TC006
+##### TC012
 
 ### Settings: Link rel
 
--   Add a Button block
+-   Add `Buttons` block
 -   Open link [settings](../resources/button-link-settings.png)
 -   Edit `Link Rel` field and add link rel e.g `noreferrer`
 -   Open link [settings](../resources/button-link-settings.png) again
@@ -82,11 +167,11 @@
 
 --------------------------------------------------------------------------------
 
-##### TC007
+##### TC013
 
 ### Settings: Synchronize with button options
 
--   Add a Button block
+-   Add `Buttons` block
 -   Open link [settings](../resources/button-link-settings.png)
 -   Edit `Button URL` field and add link
 -   Switch on `Open in new tab`
@@ -96,11 +181,11 @@
 
 --------------------------------------------------------------------------------
 
-##### TC008
+##### TC014
 
 ### Settings: Remove link
 
--   Add a Button block
+-   Add `Buttons` block
 -   Open link [settings](../resources/button-link-settings.png)
 -   Edit `Button URL` field and add link
 -   Switch on `Open in new tab`
@@ -111,11 +196,11 @@
 
 --------------------------------------------------------------------------------
 
-##### TC009
+##### TC015
 
 ### Settings: Change Button border radius
 
--   Add a Button block
+-   Add `Buttons` block
 -   Open button [options](../resources/button-options.png)
 -   Edit `Border Radius` moving slider
 -   Expect Button border radius changed accordingly to the value
@@ -124,117 +209,86 @@
 
 --------------------------------------------------------------------------------
 
-##### TC010
+##### TC016
 
 ### Render custom background color
 
--   Add a Button block
--   Save the post
--   Open the same post on web
+-   Open gutenberg web, add `Buttons` block
 -   Choose the **custom** background color from **picker**
 -   Save the post
 -   Open the same post on mobile app
--   Expect Button background color is the same as on web
-
---------------------------------------------------------------------------------
-
-##### TC011
-
-### Render custom text color
-
--   Add a Button block
--   Save the post
--   Open the same post on web
--   Choose the **custom** text color from **picker**
--   Save the post
--   Open the same post on mobile app
--   Expect Button text color is the same as on web
-
---------------------------------------------------------------------------------
-
-##### TC012
-
-### Render gradient background color
-
--   Add a Button block
--   Save the post
--   Open the same post on web
--   Choose the **gradient** background color from the palette
--   Save the post
--   Open the same post on mobile app
--   Expect Button gradient background color is the same as on web
-
---------------------------------------------------------------------------------
-
-##### TC013
-
-### Fallback to default colors in case theme colors are used
-
--   Add a Button block
--   Save the post
--   Open the same post on web
--   Choose a background color from the **palette**
--   Choose a text color from the **palette**
--   Save the post
--   Open the same post on mobile app
--   Expect Button with gray background color and white text color
-
---------------------------------------------------------------------------------
-
-##### TC014
-
-### New Button is created with the gray color
-
--   Add a Button block
--   Expect gray background color and white text
-
---------------------------------------------------------------------------------
-
-##### TC015
-
-### Check if selection / caret color matches font color
-
--   Add a Button block
--   Save the post
--   Open the same post on web
--   Choose the **custom** text color from **picker**
--   Save the post
--   Open the same post on mobile app
--   Observe caret / select text
--   Expect Button caret / selection color to match the custom text color
-
-**_Note:_** This may work if running on Android API 28+ do to restrctions that will be handled as part of [Issue #1787](https://github.com/wordpress-mobile/gutenberg-mobile/issues/1787)
-
---------------------------------------------------------------------------------
-
-##### TC016
-
-### The newly created button has set background color to the theme-default color in preview
-
--   Add a Button block
--   Save the post
--   Open a post e.g in preview mode
--   Expect Button with background color consistent with theme-default color
+-   Expect `Button` background color is the same as on web
 
 --------------------------------------------------------------------------------
 
 ##### TC017
 
-### Tapping `delete` key removes block when Button is empty
+### Render custom text color
 
--   Add a Button block
--   Type some characters
--   Remove all characters
--   Press `delete` key when Button is empty
--   Expect Button is deleted
+-   Open gutenberg web, add `Buttons` block
+-   Choose the **custom** text color from **picker**
+-   Save the post
+-   Open the same post on mobile app
+-   Expect `Button` text color is the same as on web
 
 --------------------------------------------------------------------------------
 
 ##### TC018
 
+### Render gradient background color
+
+-   Open gutenberg web, add `Buttons` block
+-   Choose the **gradient** background color from the palette
+-   Save the post
+-   Open the same post on mobile app
+-   Expect `Button` gradient background color is the same as on web
+
+--------------------------------------------------------------------------------
+
+##### TC019
+
+### Fallback to default colors in case theme colors are used
+
+-   Open gutenberg web, add `Buttons` block
+-   Choose a background color from the **palette**
+-   Choose a text color from the **palette**
+-   Save the post
+-   Open the same post on mobile app
+-   Expect `Button` with gray background color and white text color
+
+--------------------------------------------------------------------------------
+
+##### TC020
+
+### Check if selection / caret color matches font color
+
+-   Open gutenberg web, add `Buttons` block
+-   Choose the **custom** text color from **picker**
+-   Save the post
+-   Open the same post on mobile app
+-   Observe caret / select text
+-   Expect `Button` caret / selection color to match the custom text color
+
+**_Note:_** This may work if running on Android API 28+ do to restrctions that will be handled as part of [Issue #1787](https://github.com/wordpress-mobile/gutenberg-mobile/issues/1787)
+
+--------------------------------------------------------------------------------
+
+##### TC021
+
+### The newly created button has set background color to the theme-default color in preview
+
+-   Add `Buttons` block
+-   Save the post
+-   Open a post e.g in preview mode
+-   Expect `Button` with background color consistent with theme-default color
+
+--------------------------------------------------------------------------------
+
+##### TC022
+
 ### Toolbar link button is active when Button has link
 
--   Add a Button block
+-   Add `Buttons` block
 -   Open link [settings](../resources/button-link-settings.png)
 -   Edit `Button URL` field and add link
 -   Close bottom-sheet
