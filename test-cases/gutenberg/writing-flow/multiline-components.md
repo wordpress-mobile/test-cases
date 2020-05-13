@@ -21,5 +21,7 @@ Thest the next steps on:
   - *Preformatted*: `<br>` ending lines.
   - *Code*: (Invisible `\n`) new line character.
   - *Captions (Image, Video, Gallery)*: `<br>` ending lines.
+  - *Pullquote*: `<p>` tags per non-wrapping "line"
+  - *Pullquote citation*: `<br>` between non-wrapping "lines"
 
 
