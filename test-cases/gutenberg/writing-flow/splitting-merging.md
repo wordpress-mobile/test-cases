@@ -66,7 +66,7 @@ Start from an empty post.
 - Check that the blocks were merged.
 
 
-##### TC005
+##### TC006
 
 **Splitting/merge list block**
 
