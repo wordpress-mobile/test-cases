@@ -3,9 +3,9 @@
 
 Test the next steps on:
 - Quote block
-- Verse block
-- Preformatted block
-- Code block
+- Verse block (DEV only)
+- Preformatted block 
+- Code block (DEV only)
 - Image/video/gallery block caption
 - Pullquote block
 
@@ -25,4 +25,5 @@ Test the next steps on:
   - *Pullquote*: `<p>` tags per non-wrapping "line"
   - *Pullquote citation*: `<br>` between non-wrapping "lines"
 
-
+**Known Issues**
+- **[Android]** Multiline captions are not working as expected. [#1651](https://github.com/wordpress-mobile/gutenberg-mobile/issues/1651)

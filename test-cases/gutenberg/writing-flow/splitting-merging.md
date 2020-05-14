@@ -31,6 +31,8 @@ Start from an empty post.
 - Press delete once again to merge the blocks.
 - Check that the blocks were merged.
 
+**Known Issues**
+- **[Android]** Described on https://github.com/wordpress-mobile/WordPress-Android/pull/11572#issuecomment-607352657, also noted on [this ticket](https://github.com/wordpress-mobile/gutenberg-mobile/issues/1873#issue-561855507).
 
 ##### TC003
 
@@ -39,6 +41,9 @@ Start from an empty post.
 - Move the caret a few words.
 - Delete all those words until the blocks merge.
 - Check that the blocks were merged.
+
+**Known Issues**
+- **[Android]** Does not merge on Android after deleting either styled text or a selection containing multiple charaacters (instead of single characters): [#1873](https://github.com/wordpress-mobile/gutenberg-mobile/issues/1873#issuecomment-608070758).
 
 
 ##### TC004
@@ -49,6 +54,8 @@ Start from an empty post.
 - Press delete to remove the empty block.
 - Check that the previous block was selected.
 
+**Known Issues**
+- **[Android]** Described on https://github.com/wordpress-mobile/WordPress-Android/pull/11572#issuecomment-607352657, also noted on [this ticket](https://github.com/wordpress-mobile/gutenberg-mobile/issues/1873#issue-561855507).
 
 ##### TC005
 
@@ -59,7 +66,7 @@ Start from an empty post.
 - Check that the blocks were merged.
 
 
-##### TC005
+##### TC006
 
 **Splitting/merge list block**
 

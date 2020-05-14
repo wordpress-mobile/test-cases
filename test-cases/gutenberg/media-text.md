@@ -103,9 +103,9 @@ Text first | ![Text first portrait](../resources/media-text-text-first-portrait.
 3. Add some text
 4. Rotate the device to landscape mode
 5. Tap the vertical alignment button and try each of the settings
-  1. Tap "Vertically Align Top"
-  2. Tap "Vertically Align Middle"
-  3. Tap "Vertically Align Bottom"
+   1. Tap "Vertically Align Top"
+   2. Tap "Vertically Align Middle"
+   3. Tap "Vertically Align Bottom"
 
 **Expected:**
 

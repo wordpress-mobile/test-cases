@@ -7,11 +7,14 @@ Have a rich-text based component with content (Paragraph, Heading, Quote, Media 
 
 ##### TC001
 
-**Bold, Italic, strikethrough buttons **
+**Bold, Italic, strikethrough buttons**
 
 - Press the Bold button and write a bold word.
 - Press the Italic button and write an italic word.
 - Press strikethrough button and write strikethrough text.
+
+**Known Issues**
+- **[Android]** Strikethrough formatting uses a different tag depending on how it is applied and strikethrough button does not always reflect state: [#729](https://github.com/wordpress-mobile/gutenberg-mobile/issues/729).
 
 
 ##### TC002
@@ -73,5 +76,18 @@ Move the cursor around
 - Check that the proper format buttons get selected when the cursor get under a formatted word.
 
 
+**Known Issues**
+- **[Android]** Strikethrough button might not be highlighted in some cases. [#729](https://github.com/wordpress-mobile/gutenberg-mobile/issues/729)
+- Formating buttons aren’t updated accordingly when text is deleted [#2154](https://github.com/wordpress-mobile/gutenberg-mobile/issues/2154)
 
+##### TC008
 
+**Test formatting doesn't remove leading or trailing whitespace**
+
+- Add a text block, paragraph for example
+- Type some spaces, then write some text
+- Select the text and apply one format, for example, bold
+- Check that the white spaces aren't removed.
+
+**Known Issues**
+- **[Android]**  This is not yet fixed on Android [See Comment](https://github.com/wordpress-mobile/gutenberg-mobile/pull/2127#issuecomment-610679832)
