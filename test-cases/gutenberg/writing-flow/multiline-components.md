@@ -1,12 +1,13 @@
 
 # Multiline components - Test Cases
 
-Thest the next steps on:
+Test the next steps on:
 - Quote block
 - Verse block
 - Preformatted block
 - Code block
-- Image/video/gallery block caption.
+- Image/video/gallery block caption
+- Pullquote block
 
 ##### TC001
 
