@@ -1,12 +1,13 @@
 
 # Multiline components - Test Cases
 
-Thest the next steps on:
+Test the next steps on:
 - Quote block
 - Verse block (DEV only)
 - Preformatted block 
 - Code block (DEV only)
-- Image/video/gallery block caption.
+- Image/video/gallery block caption
+- Pullquote block
 
 ##### TC001
 
@@ -21,6 +22,8 @@ Thest the next steps on:
   - *Preformatted*: `<br>` ending lines.
   - *Code*: (Invisible `\n`) new line character.
   - *Captions (Image, Video, Gallery)*: `<br>` ending lines.
+  - *Pullquote*: `<p>` tags per non-wrapping "line"
+  - *Pullquote citation*: `<br>` between non-wrapping "lines"
 
 **Known Issues**
 - **[Android]** Multiline captions are not working as expected. [#1651](https://github.com/wordpress-mobile/gutenberg-mobile/issues/1651)
