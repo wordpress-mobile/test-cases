@@ -66,6 +66,9 @@ Spacer-1
 - [ ] Spacer block - Spacer is rendered without crash - [steps](https://github.com/wordpress-mobile/test-cases/blob/master/test-cases/gutenberg/spacer.md#tc001)
 - [ ] Spacer block - Settings: Control spacer height using the slider - [steps](https://github.com/wordpress-mobile/test-cases/blob/master/test-cases/gutenberg/spacer.md#tc002)
 - [ ] Spacer block - Settings: Control spacer height using the text input - [steps](https://github.com/wordpress-mobile/test-cases/blob/master/test-cases/gutenberg/spacer.md#tc003)
+
+Spacer-2
+
 - [ ] Spacer block - Settings: Available height range is correct - [steps](https://github.com/wordpress-mobile/test-cases/blob/master/test-cases/gutenberg/spacer.md#tc004)
 - [ ] Spacer block - Settings: Height range extends if Spacer comes from the web is higher than 500px - [steps](https://github.com/wordpress-mobile/test-cases/blob/master/test-cases/gutenberg/spacer.md#tc005)
 - [ ] Spacer block - Spacer in horizontal layout works as expected - [steps](https://github.com/wordpress-mobile/test-cases/blob/master/test-cases/gutenberg/spacer.md#tc006)
@@ -122,6 +125,9 @@ Group-1
 - [ ] Group - Nested block have proper border styling - [steps](https://github.com/wordpress-mobile/test-cases/blob/master/test-cases/gutenberg/group.md#tc005)
 - [ ] Group - Nested block have proper margins values - [steps](https://github.com/wordpress-mobile/test-cases/blob/master/test-cases/gutenberg/group.md#tc006)
 - [ ] Group - Breadcrumbs on FloatingToolbar is properly displayed - [steps](https://github.com/wordpress-mobile/test-cases/blob/master/test-cases/gutenberg/group.md#tc008)
+
+Group-2
+
 - [ ] Group - Navigation up button works as expected - [steps](https://github.com/wordpress-mobile/test-cases/blob/master/test-cases/gutenberg/group.md#tc009)
 - [ ] Group - Navigation down works according to parent-first approach - [steps](https://github.com/wordpress-mobile/test-cases/blob/master/test-cases/gutenberg/group.md#tc010)
 - [ ] Group - Cross navigation between blocks works as expected - [steps](https://github.com/wordpress-mobile/test-cases/blob/master/test-cases/gutenberg/group.md#tc011)
@@ -145,10 +151,14 @@ Cover-2
 - [ ] Cover - Gradient overlay is rendered properly - [steps](https://github.com/wordpress-mobile/test-cases/blob/master/test-cases/gutenberg/cover.md#tc008)
 
 Columns - 1
+
 <!--- expected behaviour --->
 - [ ] Columns - Columns block is added with default number of Column - [steps](https://github.com/wordpress-mobile/test-cases/blob/master/test-cases/gutenberg/columns.md#tc001)
-- [ ] Columns - Adding Column with AppenderButton- [steps](https://github.com/wordpress-mobile/test-cases/blob/master/test-cases/gutenberg/columns.md#tc003)
+- [ ] Columns - Adding Column with AppenderButton - [steps](https://github.com/wordpress-mobile/test-cases/blob/master/test-cases/gutenberg/columns.md#tc003)
 - [ ] Columns - Adding and removing Column with BottomSheet Stepper control - [steps](https://github.com/wordpress-mobile/test-cases/blob/master/test-cases/gutenberg/columns.md#tc004)
+
+
+Columns - 2
 - [ ] Columns - Max limit of Column number - [steps](https://github.com/wordpress-mobile/test-cases/blob/master/test-cases/gutenberg/columns.md#tc005)
 - [ ] Columns - Min limit of Column number - [steps](https://github.com/wordpress-mobile/test-cases/blob/master/test-cases/gutenberg/columns.md#tc006)
 - [ ] Columns - Removing Column with remove button - [steps](https://github.com/wordpress-mobile/test-cases/blob/master/test-cases/gutenberg/columns.md#tc007)
@@ -158,7 +168,7 @@ Columns - 1
 - [ ] Columns - Alignment attribute is properly passed when adding Column - [steps](https://github.com/wordpress-mobile/test-cases/blob/master/test-cases/gutenberg/columns.md#tc011)
 - [ ] Columns - Deep nesting is possible (iOS only)- [steps](https://github.com/wordpress-mobile/test-cases/blob/master/test-cases/gutenberg/columns.md#tc012)
 
-Columns - 2
+Columns - 3
 <!--- visual appearance --->
 - [ ] Columns - Check if Column placeholders is visible for the unselected state - [steps](https://github.com/wordpress-mobile/test-cases/blob/master/test-cases/gutenberg/columns.md#tc002)
 - [ ] Columns - Appearance in vertical device position (vertical layout) - [steps](https://github.com/wordpress-mobile/test-cases/blob/master/test-cases/gutenberg/columns.md#tc013)
@@ -167,6 +177,6 @@ Columns - 2
 - [ ] Columns - Check if Column placeholder is render in nested structure - [steps](https://github.com/wordpress-mobile/test-cases/blob/master/test-cases/gutenberg/columns.md#tc016)
 - [ ] Columns - Unselected Column placeholder is streched to content in nested structure- [steps](https://github.com/wordpress-mobile/test-cases/blob/master/test-cases/gutenberg/columns.md#tc017)
 
-Columns - 3
+Columns - 4
 <!--- other category --->
 - [ ] Columns - Check if in DarkMode all components gets proper colors - [steps](https://github.com/wordpress-mobile/test-cases/blob/master/test-cases/gutenberg/columns.md#tc018)
