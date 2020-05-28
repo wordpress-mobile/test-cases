@@ -88,6 +88,3 @@ Move the cursor around
 - Type some spaces, then write some text
 - Select the text and apply one format, for example, bold
 - Check that the white spaces aren't removed.
-
-**Known Issues**
-- **[Android]**  This is not yet fixed on Android [See Comment](https://github.com/wordpress-mobile/gutenberg-mobile/pull/2127#issuecomment-610679832)
