@@ -23,9 +23,12 @@ Expected look:
 - Deselect
 - Expect to see placeholder for each `Column` added in `Columns`
 
-Expected look:  
-![PlaceholderStacked](../resources/columns-placeholder-root.png)
-![PlaceholderHorizontal](../resources/columns-placeholder-root-horizontal.png)
+Expected look:
+
+Portrait | Landscape
+-|-
+![PlaceholderHorizontal](../resources/columns-placeholder-root-horizontal.png)|![PlaceholderStacked](../resources/columns-placeholder-root.png)
+
 
 --------------------------------------------------------------------------------
 
