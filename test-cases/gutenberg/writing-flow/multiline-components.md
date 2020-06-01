@@ -3,7 +3,7 @@
 
 Test the next steps on:
 - Quote block
-- Verse block (DEV only)
+- Verse block
 - Preformatted block 
 - Code block (DEV only)
 - Image/video/gallery block caption
