@@ -9,7 +9,7 @@
 
 -   Add a Verse block
 -   Type some text and tap the return key
--   Expect the verse block to grown as new lines are created within the block
+-   Expect the verse block to grow as new lines are created within the block
 
 --------------------------------------------------------------------------------
 
