@@ -12,3 +12,4 @@ Gutenberg:
 - [Spacer block](./gutenberg/spacer.md)
 - [Cover block](./gutenberg/cover.md)
 - [Columns block](./gutenberg/columns.md)
+- [Editor Theme](./gutenberg/editor-theme.md)
