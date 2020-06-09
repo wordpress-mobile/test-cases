@@ -1,10 +1,6 @@
 
 # Undo / Redo - Test Cases
 
-#### **Known Issues**
-
-* Undoing the insertion of characters can result in the cursor being misplaced. [#303](https://github.com/wordpress-mobile/gutenberg-mobile/issues/303)
-
 #### **Precondition**
 
 Start on a new empty post.
@@ -19,6 +15,10 @@ Start on a new empty post.
 
 
 ##### TC002
+
+**Known Issues**
+
+- Undoing the insertion of characters can result in the cursor being misplaced. [#303](https://github.com/wordpress-mobile/gutenberg-mobile/issues/303)
 
 **Undo/redo text**
 
