@@ -1,6 +1,10 @@
 
 # Undo / Redo - Test Cases
 
+#### **Known Issues**
+
+* Undoing the insertion of characters can result in the cursor being misplaced.
+
 #### **Precondition**
 
 Start on a new empty post.
