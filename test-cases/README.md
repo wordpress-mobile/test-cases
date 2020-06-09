@@ -13,3 +13,4 @@ Gutenberg:
 - [Cover block](./gutenberg/cover.md)
 - [Columns block](./gutenberg/columns.md)
 - [Editor Theme](./gutenberg/editor-theme.md)
+- [Color settings](./gutenberg/color-settings.md)
