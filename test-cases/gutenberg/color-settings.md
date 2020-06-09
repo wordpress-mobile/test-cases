@@ -3,7 +3,8 @@
 
 #### **Precondition**
 
-Added block with color support such as `Buttons` or `Cover` 
+1. Added block with color support such as `Buttons` or `Cover`.
+2. Opened color settings.
 
 --------------------------------------------------------------------------------
 
@@ -13,13 +14,14 @@ Added block with color support such as `Buttons` or `Cover`
 
 **Steps:**
 
-* Press `Background Color` / `Color`
 * Switch several times between `Solid` and `Gradient` segments 
 
 **Expected behavior:**
 
 * Selection animation works smoothly
 * Color swatches fade parallel with active segment change
+
+<img src="../resources/colors-segmented-controls.gif" width=300 />
 
 --------------------------------------------------------------------------------
 
@@ -29,7 +31,6 @@ Added block with color support such as `Buttons` or `Cover`
 
 **Steps:**
 
-* Press `Background Color` / `Color`
 * Select one of the last solid colors (_blue or purple_)
 * Select `Gradient` segment
 
@@ -37,6 +38,8 @@ Added block with color support such as `Buttons` or `Cover`
 
 * Color list is scrolled to the start
 * Color swatches fade parallel with scroll
+
+<img src="../resources/scroll-color-palette-to-start.gif" width=300 />
 
 --------------------------------------------------------------------------------
 
@@ -46,15 +49,16 @@ Added block with color support such as `Buttons` or `Cover`
 
 **Steps:**
 
-* Press `Background Color` / `Color`
 * Press `Custom` color picker (at the end of the list)
 * Select any color and press `Apply` button / `Check` icon button (_Android_)
 * Press `Back` button
-* Press `Background Color` / `Color`
+* Open color settings
 
 **Expected behavior:**
 
 * Color list is scrolled to the end (to the _custom_ color)
+
+<img src="../resources/scroll-color-palette-to-the-end.gif" width=300 />
 
 --------------------------------------------------------------------------------
 
@@ -64,13 +68,15 @@ Added block with color support such as `Buttons` or `Cover`
 
 **Steps:**
 
-* Press `Background Color` / `Color`
 * Press any color several times
 
 **Expected behavior:**
 
 * Color swatch is bouncing on every press
 * Selected icon on white background fades in over the color swatch (_only on the first press_)
+
+<img src="../resources/pressing-color-swatch.gif" width=300 />
+
 
 --------------------------------------------------------------------------------
 
@@ -80,13 +86,15 @@ Added block with color support such as `Buttons` or `Cover`
 
 **Steps:**
 
-* Press `Background Color` / `Color`
 * Select `gradient` segment
 * Press any color
 
 **Expected behavior:**
 
 * `Customize Gradient` slides in
+
+<img src="../resources/customize-gradient-color-3.gif" width=300 />
+
 
 **Next Steps:**
 
@@ -105,6 +113,9 @@ Added block with color support such as `Buttons` or `Cover`
 
 * `Angle` control slides out
 
+<img src="../resources/customize-gradient-color-2.gif" width=300 />
+
+
 **Next Steps:**
 
 * Press `Back` button
@@ -116,7 +127,7 @@ Added block with color support such as `Buttons` or `Cover`
 **Next Steps:**
 
 * Press `Back` button
-* Press `Background Color` / `Color`
+* Open color settings
 
 **Expected behavior:**
 
@@ -130,6 +141,9 @@ Added block with color support such as `Buttons` or `Cover`
 
 * List is scrolled and `Custom` button slides out
 
+<img src="../resources/customize-gradient-color.gif" width=300 />
+
+
 --------------------------------------------------------------------------------
 
 ##### TC006
@@ -138,7 +152,6 @@ Added block with color support such as `Buttons` or `Cover`
 
 **Steps:**
 
-* Press `Background Color` / `Color`
 * Press `Custom` color picker (at the end of the list)
 
 **Expected behavior:**
