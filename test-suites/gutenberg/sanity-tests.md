@@ -187,3 +187,11 @@ Editor Theme - 1
 - [ ] Custom Colors - Check that custom colors load in the editor - [steps](https://github.com/wordpress-mobile/test-cases/blob/master/test-cases/gutenberg/editor-theme.md#tc003)
 - [ ] Custom Gradients - Check that custom gradients load in the editor - [steps](https://github.com/wordpress-mobile/test-cases/blob/master/test-cases/gutenberg/editor-theme.md#tc004)
 - [ ] Offline Support - [steps](https://github.com/wordpress-mobile/test-cases/blob/master/test-cases/gutenberg/editor-theme.md#tc005)
+
+Color Settings
+- [ ] Colors Segmented Controls - [steps](https://github.com/wordpress-mobile/test-cases/blob/master/test-cases/gutenberg/color-settings.md#tc001) 
+- [ ] Scroll color palette to start - [steps](https://github.com/wordpress-mobile/test-cases/blob/master/test-cases/gutenberg/color-settings.md#tc002) 
+- [ ] Scroll color palette to the end - [steps](https://github.com/wordpress-mobile/test-cases/blob/master/test-cases/gutenberg/color-settings.md#tc003) 
+- [ ] Pressing color swatch - [steps](https://github.com/wordpress-mobile/test-cases/blob/master/test-cases/gutenberg/color-settings.md#tc004) 
+- [ ] Customize gradient color - [steps](https://github.com/wordpress-mobile/test-cases/blob/master/test-cases/gutenberg/color-settings.md#tc005) 
+- [ ] Custom color picker - [steps](https://github.com/wordpress-mobile/test-cases/blob/master/test-cases/gutenberg/color-settings.md#tc006) 
