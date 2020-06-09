@@ -14,6 +14,10 @@ Start from an empty post.
 
 ##### TC001
 
+**Known Issues**
+
+- [Android] If you enter text by swiping after the split, you cannot merge after deleting the text. [issue comment](https://github.com/wordpress-mobile/gutenberg-mobile/issues/1873#issuecomment-608070758)
+
 **Merge after writing**
 - Follow the initial steps.
 - Write some more text where the caret is placed (beginning of new block).
