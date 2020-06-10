@@ -6,7 +6,6 @@ Test the next steps on:
 - Verse block
 - Preformatted block 
 - Code block (DEV only)
-- Image/video/gallery block caption
 - Pullquote block
 
 ##### TC001
@@ -21,7 +20,6 @@ Test the next steps on:
   - *Verse*: `<br>` ending lines.
   - *Preformatted*: `<br>` ending lines.
   - *Code*: (Invisible `\n`) new line character.
-  - *Captions (Image, Video, Gallery)*: `<br>` ending lines.
   - *Pullquote*: `<p>` tags per non-wrapping "line"
   - *Pullquote citation*: `<br>` between non-wrapping "lines"
 
