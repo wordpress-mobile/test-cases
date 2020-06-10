@@ -256,6 +256,16 @@
 -   Open the same post on mobile app
 -   Expect `Button` with gray background color and white text color
 
+Note: Theme colors will be supported on Android when https://github.com/wordpress-mobile/WordPress-Android/pull/12041 is merged. Currently they are only supported on iOS. This case will need an update soon, the new steps should be:
+
+Render theme colors
+
+-   Open gutenberg web, add `Buttons` block
+-   Choose a theme color from the **palette* (among the predefined ones)
+-   Save the post
+-   Open the same post on mobile app
+-   Expect `Button` with gray background color and white text color
+
 --------------------------------------------------------------------------------
 
 ##### TC020
