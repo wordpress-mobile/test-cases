@@ -24,4 +24,4 @@ Test the next steps on:
   - *Preformatted*: `<br>` ending lines.
   - *Code*: (Invisible `\n`) new line character.
   - *Pullquote*: `<p>` tags per non-wrapping "line"
-  - *Pullquote citation*: should _not_ be multiline (see Knwon Issues)
+  - *Pullquote citation*: should _not_ be multiline (see Known Issues)
