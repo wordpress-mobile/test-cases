@@ -247,18 +247,7 @@
 
 ##### TC019
 
-### Fallback to default colors in case theme colors are used
-
--   Open gutenberg web, add `Buttons` block
--   Choose a background color from the **palette**
--   Choose a text color from the **palette**
--   Save the post
--   Open the same post on mobile app
--   Expect `Button` with gray background color and white text color
-
-Note: Theme colors will be supported on Android when https://github.com/wordpress-mobile/WordPress-Android/pull/12041 is merged. Currently they are only supported on iOS. This case will need an update soon, the new steps should be:
-
-Render theme colors
+### Render theme colors
 
 -   Open gutenberg web, add `Buttons` block
 -   Choose a theme color from the **palette* (among the predefined ones)
