@@ -11,7 +11,7 @@ Test the next steps on:
 ##### TC001
 
 **Known Issues**
-- On captions, pressent Enter at the end of a caption splits the block, but pressing enter in the middle of a caption's text does nothing. Discussed in [this comment](https://github.com/WordPress/gutenberg/pull/22928#issuecomment-640879690).
+- On captions, pressing Enter at the end of a caption splits the block, but pressing enter in the middle of a caption's text does nothing. Discussed in [this comment](https://github.com/WordPress/gutenberg/pull/22928#issuecomment-640879690).
 
 **New line on multiline components**
 
