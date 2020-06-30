@@ -25,6 +25,8 @@
 
 ### Discarded edits are not persisted
 
-1. Repeat steps 1 to 6 above
-2. Tap the Cancel button and expect to be taken back to the block editor
-3. Publish the post and verify it **does not** contain the edited block content
+1. Repeat steps 1 to 5 above
+2. Edit the block content (e.g. update its text)
+3. Tap the Cancel button and expect to be taken back to the block editor
+4. Expect the Update button to be greyed-out
+5. Inspect the HTML content of the post and expect it to **not** contain any of the changes
