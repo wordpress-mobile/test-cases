@@ -33,3 +33,19 @@
 3. Tap the Cancel button to discard changes and expect to be taken back to the block editor
 4. Expect the Update button to be greyed-out
 5. Inspect the HTML content of the post and expect it to **not** contain any of the changes
+
+##### TC003
+
+### WP.com Business (Atomic) sites are supported
+
+Repeat steps from TC001 using a post on a WP.com site with a Business Plan (i.e. Atomic site)
+
+##### TC004
+
+**Known Issues**
+This feature is disabled for Jetpack connected sites.
+
+### Self-hosted sites are supported
+
+Repeat steps from TC001 using a post on a .org site (self-hosted)
+
