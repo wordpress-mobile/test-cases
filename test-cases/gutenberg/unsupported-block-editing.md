@@ -12,7 +12,7 @@
     ```
     <!-- wp:jetpack/markdown {\"source\":\"Hello\\nWorld\"} -->\n<div class=\"wp-block-jetpack-markdown\"><p>Hello\nWorld</p>\n</div>\n<!-- /wp:jetpack/markdown -->
     ```
-2. Switch back to visual Visual mode if needed
+2. Switch back to Visual mode if needed
 3. Expect to see the block rendered as a placeholder with the text "Unsupported"
 4. Tap the `(?)` icon and expect the option to edit the block in a web browser to be shown
 5. Tap the edit in a web browser and expect the block to be shown, ready to edit, in a new screen
@@ -48,4 +48,3 @@ This feature is disabled for Jetpack connected sites.
 ### Self-hosted sites are supported
 
 Repeat steps from TC001 using a post on a .org site (self-hosted)
-
