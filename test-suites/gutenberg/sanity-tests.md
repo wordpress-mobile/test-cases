@@ -78,7 +78,7 @@ Buttons-1
 - [ ] Buttons block - Buttons block is added with focused Button with gray background color and white text color - [steps](https://github.com/wordpress-mobile/test-cases/blob/master/test-cases/gutenberg/buttons.md#tc001)
 - [ ] Buttons block - Buttons inline appender - [steps](https://github.com/wordpress-mobile/test-cases/blob/master/test-cases/gutenberg/buttons.md#tc002)
 - [ ] Buttons block - Add another Button inside Buttons using inserter - [steps](https://github.com/wordpress-mobile/test-cases/blob/master/test-cases/gutenberg/buttons.md#tc003)
-
+- [ ] Buttons block - Button's wrapper grows properly - [steps](https://github.com/wordpress-mobile/test-cases/blob/master/test-cases/gutenberg/buttons.md#tc023)
 Buttons-2
 
 - [ ] Buttons block - Removing Button along with Buttons block - [steps](https://github.com/wordpress-mobile/test-cases/blob/master/test-cases/gutenberg/buttons.md#tc004)
