@@ -9,8 +9,12 @@
 1. Add a block that's not yet supported on mobile (e.g. the Jetpack Markdown `jetpack/markdown` block) — this can be done by switching to HTML mode and pasting in the raw content
 
     Example HTML:
-    ```
-    <!-- wp:jetpack/markdown {\"source\":\"Hello\\nWorld\"} -->\n<div class=\"wp-block-jetpack-markdown\"><p>Hello\nWorld</p>\n</div>\n<!-- /wp:jetpack/markdown -->
+```
+<!-- wp:jetpack/markdown {"source":"This is a \nnew line"} -->
+<div class="wp-block-jetpack-markdown"><p>This is a
+new line</p>
+</div>
+<!-- /wp:jetpack/markdown -->
     ```
 2. Switch back to Visual mode if needed
 3. Expect to see the block rendered as a placeholder with the text "Unsupported"
