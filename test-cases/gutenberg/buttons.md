@@ -253,7 +253,7 @@
 -   Choose a theme color from the **palette* (among the predefined ones)
 -   Save the post
 -   Open the same post on mobile app
--   Expect `Button` with gray background color and white text color
+-   Expect `Button` with selected background color and selected text color
 
 --------------------------------------------------------------------------------
 
