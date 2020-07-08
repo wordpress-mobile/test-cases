@@ -87,3 +87,13 @@ Expected look:
 ![ColumnsDarkModeEmpty](../resources/columns-dark-mode-empty.png)
 
 --------------------------------------------------------------------------------
+
+##### TC008
+
+### Quote Block - Check if in DarkMode all components gets proper colors
+
+-   Add a `Quote` block
+-   Check if `Quote` block in Dark Mode looks like below
+
+Expected look:  
+![QuoteDarkMode](../resources/quote-dark-mode.png)
