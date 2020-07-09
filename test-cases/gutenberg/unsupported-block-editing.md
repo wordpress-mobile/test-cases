@@ -28,7 +28,7 @@ new line</p>
 ##### TC002
 
 **Known Issues**
--  **[Android]** The update button is not greyed-out when changes are discarded
+-  **[Android-only]** The update button is not greyed-out when changes are discarded
 
 ### Ensure discarded edits are not persisted
 
@@ -47,7 +47,7 @@ Repeat steps from TC001 using a post on a WP.com site with a Business Plan (i.e.
 ##### TC004
 
 **Known Issues**
-This feature [not available on Jetpack connected self-hosted sites](https://github.com/wordpress-mobile/gutenberg-mobile/issues/2471)
+- This feature [not available on Jetpack connected self-hosted sites](https://github.com/wordpress-mobile/gutenberg-mobile/issues/2471)
 
 ### Self-hosted sites are supported (if they are not connected to WordPress via Jetpack)
 
