@@ -6,7 +6,7 @@
 
 ### User can edit unsupported blocks on regular WP.com sites
 
-1. On a regular WP.com site (i.e. not Atomic), add a block that's not yet supported on mobile (e.g. the Jetpack Markdown `jetpack/markdown` block) — this can be done by switching to HTML mode and pasting in the raw content (or by adding it via WordPress.com, where it is supported)
+1. On a regular WP.com site (i.e. not Atomic), add a block that's not yet supported on mobile (e.g. the Jetpack Markdown `jetpack/markdown` block). This can be done by switching to HTML mode and pasting in the raw content (or by adding it via WordPress.com, where it is supported)
 
     Example HTML:
 ```
@@ -32,7 +32,7 @@ new line</p>
 
 ### Ensure discarded edits are not persisted
 
-1. Repeat steps 1 to 5 above
+1. Repeat steps 1 to 5 from TC001 above
 2. Edit the block content (e.g. update its text)
 3. Tap the Cancel button to discard changes and expect to be taken back to the block editor
 4. Expect the Update button to be greyed-out
@@ -42,13 +42,19 @@ new line</p>
 
 ### User can edit unsupported blocks on regular WP.com Business (Atomic) sites
 
-Repeat steps from TC001 using a post on a WP.com site with a Business Plan (i.e. Atomic site)
+Repeat TC001 and TC002 using a post on a WP.com site with a Business Plan (i.e. Atomic site)
 
 ##### TC004
 
 **Known Issues**
-- This feature [not available on Jetpack connected self-hosted sites](https://github.com/wordpress-mobile/gutenberg-mobile/issues/2471)
+- The Unsupported Block Editor is currently [not available on Jetpack connected self-hosted sites](https://github.com/wordpress-mobile/gutenberg-mobile/issues/2471)
 
 ### Self-hosted sites are supported (if they are not connected to WordPress via Jetpack)
 
-Repeat steps from TC001 using a post on a .org site (self-hosted) that does not have Jetpack connected
+Repeat TC001 and TC002 using a post on a .org (self-hosted) site that does not have Jetpack connected (it can be installed, just not connected to WordPress.com). You can test with any .org core block that is not currently supported on Gutenberg Mobile, such as the Audio block:
+
+```
+<!-- wp:audio -->
+<figure class="wp-block-audio"><audio controls src="https://www2.cs.uic.edu/~i101/SoundFiles/StarWars60.wav"></audio></figure>
+<!-- /wp:audio -->
+```
