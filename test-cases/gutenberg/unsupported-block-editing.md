@@ -15,7 +15,7 @@
 new line</p>
 </div>
 <!-- /wp:jetpack/markdown -->
-    ```
+```
 2. Switch back to Visual mode if needed
 3. Expect to see the block rendered as a placeholder with the text "Unsupported"
 4. Tap the `(?)` icon and expect the option to edit the block in a web browser to be shown
