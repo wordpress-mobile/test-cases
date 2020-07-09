@@ -76,7 +76,7 @@ Expected look:
 ### Settings: Height range extends if Spacer comes from the web is higher than 500px
 <details>
  <summary>Deprecation note</summary>
-  Setting height bigger than 500px is no longer available on the web, however, we still need to do this test because of backward compatibility. In order to test it, please use the code editor mode to change the height of the spacer.
+  Setting height bigger than 500px is no longer available on the web, however, we still need to do this test because of backward compatibility. In order to test it, please use the html editor mode to change the height of the spacer.
 </details>
 
 -   Add a `Spacer` block via web version
