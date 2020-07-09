@@ -49,6 +49,6 @@ Repeat steps from TC001 using a post on a WP.com site with a Business Plan (i.e.
 **Known Issues**
 This feature [not available on Jetpack connected self-hosted sites](https://github.com/wordpress-mobile/gutenberg-mobile/issues/2471)
 
-### Self-hosted sites are supported
+### Self-hosted sites are supported (if they are not connected to WordPress via Jetpack)
 
 Repeat steps from TC001 using a post on a .org site (self-hosted) that does not have Jetpack connected
