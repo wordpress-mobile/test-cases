@@ -4,14 +4,18 @@
 
 ##### TC001
 
-### New edits are persisted 
+### User can edit unsupported blocks on regular WP.com sites
 
-1. Add a block that's not yet supported on mobile (e.g. the Jetpack Markdown `jetpack/markdown` block) — this can be done by switching to HTML mode and pasting in the raw content
+1. On a regular WP.com site (i.e. not Atomic), add a block that's not yet supported on mobile (e.g. the Jetpack Markdown `jetpack/markdown` block). This can be done by switching to HTML mode and pasting in the raw content (or by adding it via WordPress.com, where it is supported)
 
     Example HTML:
-    ```
-    <!-- wp:jetpack/markdown {\"source\":\"Hello\\nWorld\"} -->\n<div class=\"wp-block-jetpack-markdown\"><p>Hello\nWorld</p>\n</div>\n<!-- /wp:jetpack/markdown -->
-    ```
+```
+<!-- wp:jetpack/markdown {"source":"This is a \nnew line"} -->
+<div class="wp-block-jetpack-markdown"><p>This is a
+new line</p>
+</div>
+<!-- /wp:jetpack/markdown -->
+```
 2. Switch back to Visual mode if needed
 3. Expect to see the block rendered as a placeholder with the text "Unsupported"
 4. Tap the `(?)` icon and expect the option to edit the block in a web browser to be shown
@@ -24,27 +28,33 @@
 ##### TC002
 
 **Known Issues**
--  **[Android]** The update button is not greyed-out when changes are discarded
+-  **[Android-only]** The update button is not greyed-out when changes are discarded
 
-### Discarded edits are not persisted
+### Ensure discarded edits are not persisted
 
-1. Repeat steps 1 to 5 above
+1. Repeat steps 1 to 5 from TC001 above
 2. Edit the block content (e.g. update its text)
 3. Tap the Cancel button to discard changes and expect to be taken back to the block editor
 4. Expect the Update button to be greyed-out
-5. Inspect the HTML content of the post and expect it to **not** contain any of the changes
+5. Using HTML mode in the editor, view the HTML content of the post and expect it to **not** contain any of the changes
 
 ##### TC003
 
-### WP.com Business (Atomic) sites are supported
+### User can edit unsupported blocks on regular WP.com Business (Atomic) sites
 
-Repeat steps from TC001 using a post on a WP.com site with a Business Plan (i.e. Atomic site)
+Repeat TC001 and TC002 using a post on a WP.com site with a Business Plan (i.e. Atomic site)
 
 ##### TC004
 
 **Known Issues**
-This feature is disabled for Jetpack connected sites.
+- The Unsupported Block Editor is currently [not available on Jetpack connected self-hosted sites](https://github.com/wordpress-mobile/gutenberg-mobile/issues/2471)
 
-### Self-hosted sites are supported
+### Self-hosted sites are supported (if they are not connected to WordPress via Jetpack)
 
-Repeat steps from TC001 using a post on a .org site (self-hosted)
+Repeat TC001 and TC002 using a post on a .org (self-hosted) site that does not have Jetpack connected (it can be installed, just not connected to WordPress.com). You can test with any .org core block that is not currently supported on Gutenberg Mobile, such as the Audio block:
+
+```
+<!-- wp:audio -->
+<figure class="wp-block-audio"><audio controls src="https://www2.cs.uic.edu/~i101/SoundFiles/StarWars60.wav"></audio></figure>
+<!-- /wp:audio -->
+```
