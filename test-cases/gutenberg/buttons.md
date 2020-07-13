@@ -292,3 +292,16 @@
 -   Edit `Button URL` field and add link
 -   Close bottom-sheet
 -   Expect toolbar link button is active
+
+--------------------------------------------------------------------------------
+
+##### TC023
+
+### Button's wrapper grows properly
+
+-   Add `Buttons` block
+-   Add next button using inline appender or inserter
+-   Select the first one and type some characters
+-   Expect button's width grows properly (_horizontally_)
+
+--------------------------------------------------------------------------------
