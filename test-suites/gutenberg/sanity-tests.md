@@ -195,3 +195,11 @@ Color Settings
 - [ ] Pressing color swatch - [steps](https://github.com/wordpress-mobile/test-cases/blob/master/test-cases/gutenberg/color-settings.md#tc004)
 - [ ] Customize gradient color - [steps](https://github.com/wordpress-mobile/test-cases/blob/master/test-cases/gutenberg/color-settings.md#tc005)
 - [ ] Custom color picker - [steps](https://github.com/wordpress-mobile/test-cases/blob/master/test-cases/gutenberg/color-settings.md#tc006)
+
+Social Icons
+- [ ] The newly created Social Icons block is added with 4 icons - [steps](https://github.com/wordpress-mobile/test-cases/blob/master/test-cases/gutenberg/social-icons.md#tc001)
+- [ ] Active icon gets product color - [steps](https://github.com/wordpress-mobile/test-cases/blob/master/test-cases/gutenberg/social-icons.md#tc002)
+- [ ] Only active icons are visible when not selected - [steps](https://github.com/wordpress-mobile/test-cases/blob/master/test-cases/gutenberg/social-icons.md#tc003)
+- [ ] The link sheet is opened automatically when adding new icon - [steps](https://github.com/wordpress-mobile/test-cases/blob/master/test-cases/gutenberg/social-icons.md#tc004)
+- [ ] Ghost placeholder is visible when no icon is active - [steps](https://github.com/wordpress-mobile/test-cases/blob/master/test-cases/gutenberg/social-icons.md#tc005)
+- [ ] Social icon forwarding to the link - [steps](https://github.com/wordpress-mobile/test-cases/blob/master/test-cases/gutenberg/social-icons.md#tc006)
