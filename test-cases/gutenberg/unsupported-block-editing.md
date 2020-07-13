@@ -44,17 +44,6 @@ new line</p>
 
 Repeat TC001 and TC002 using a post on a WP.com site with a Business Plan (i.e. Atomic site)
 
-##### TC004
+---
 
-**Known Issues**
-- The Unsupported Block Editor is currently [not available on Jetpack connected self-hosted sites](https://github.com/wordpress-mobile/gutenberg-mobile/issues/2471)
-
-### Self-hosted sites are supported (if they are not connected to WordPress via Jetpack)
-
-Repeat TC001 and TC002 using a post on a .org (self-hosted) site that does not have Jetpack connected (it can be installed, just not connected to WordPress.com). You can test with any .org core block that is not currently supported on Gutenberg Mobile, such as the Audio block:
-
-```
-<!-- wp:audio -->
-<figure class="wp-block-audio"><audio controls src="https://www2.cs.uic.edu/~i101/SoundFiles/StarWars60.wav"></audio></figure>
-<!-- /wp:audio -->
-```
+Note: all self-hosted sites are disabled at the moment, see [here](https://github.com/wordpress-mobile/gutenberg-mobile/issues/2358) for details.
