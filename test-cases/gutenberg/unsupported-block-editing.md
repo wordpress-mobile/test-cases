@@ -25,7 +25,7 @@ A WP.com Simple site (i.e. not an Atomic site). Any free WP.com site should suff
 **Known Issues**
 -  **[Android-only]** The update button is not greyed-out when changes are discarded
 
-### User can discard edits to an unsupported block
+### User can discard edits to an unsupported blocks on Simple WP.com sites
 
 1. Repeat steps 1 to 6 from TC001 above
 2. Tap the Cancel button to discard changes and expect to be taken back to the block editor
