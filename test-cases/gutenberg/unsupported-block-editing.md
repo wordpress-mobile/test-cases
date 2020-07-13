@@ -4,7 +4,7 @@
 
 ##### TC001
 
-### Precondition
+#### Precondition
 
 A WP.com Simple site (i.e. not an Atomic site). Any free WP.com site should suffice.
 
@@ -35,7 +35,7 @@ A WP.com Simple site (i.e. not an Atomic site). Any free WP.com site should suff
 
 ##### TC003
 
-### Precondition
+#### Precondition
 
 A WP.com Atomic site (i.e. a WP.com site with a Business plan) with the **Gutenberg Editor** set as the default. Here are the steps for creating this if necessary:
 
@@ -56,7 +56,7 @@ A WP.com Atomic site (i.e. a WP.com site with a Business plan) with the **Gutenb
 
 ##### TC004
 
-### Precondition
+#### Precondition
 
 A WP.com Atomic site (i.e. a WP.com site with a Business plan) with the **Classic editor** set as the default. Here are the steps for creating this if necessary:
 
@@ -74,7 +74,7 @@ A WP.com Atomic site (i.e. a WP.com site with a Business plan) with the **Classi
 
 ##### TC005
 
-### Precondition
+#### Precondition
 
 For this test, you need a self-hosted site with the Jetpack plugin installed, activated and connected to a WP.com account. Here are the steps for creating this if needed:
 
@@ -92,7 +92,7 @@ For this test, you need a self-hosted site with the Jetpack plugin installed, ac
 
 ##### TC006
 
-### Precondition
+#### Precondition
 
 For this test, you need a self-hosted site with its own login credentials (we're not going to access the app using WP.com credentials). Here are the steps for creating this if needed:
 
