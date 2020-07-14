@@ -4,25 +4,20 @@
 
 ##### TC001
 
-### User can edit unsupported blocks on regular WP.com sites
+#### Precondition
 
-1. On a regular WP.com site (i.e. not Atomic), add a block that's not yet supported on mobile (e.g. the Jetpack Markdown `jetpack/markdown` block). This can be done by switching to HTML mode and pasting in the raw content (or by adding it via WordPress.com, where it is supported)
+A WP.com Simple site (i.e. not an Atomic site). Any free WP.com site should suffice.
 
-    Example HTML:
-```
-<!-- wp:jetpack/markdown {"source":"This is a \nnew line"} -->
-<div class="wp-block-jetpack-markdown"><p>This is a
-new line</p>
-</div>
-<!-- /wp:jetpack/markdown -->
-```
-2. Switch back to Visual mode if needed
-3. Expect to see the block rendered as a placeholder with the text "Unsupported"
+### User can edit unsupported blocks on Simple WP.com sites
+
+1. On the site described above, add a post, then add a block that's not yet supported on mobile (e.g. Audio at time of writing)
+2. Log into the WordPress mobile app using the site's WP.com account
+3. Open the post and expect to see the block rendered as a placeholder with the text "Unsupported"
 4. Tap the `(?)` icon and expect the option to edit the block in a web browser to be shown
-5. Tap the edit in a web browser and expect the block to be shown, ready to edit, in a new screen
-6. Edit the block content (e.g. update its text)
+5. Tap the edit in a web browser button and expect the block to be shown, ready to edit, on a new screen
+6. Edit the block content (e.g. update its caption)
 7. Tap the Continue button and expect to be taken back to the block editor
-8. Publish the post and verify it contains the edited block content
+8. Publish the post and verify it contains the edits
 
 
 ##### TC002
@@ -30,20 +25,85 @@ new line</p>
 **Known Issues**
 -  **[Android-only]** The update button is not greyed-out when changes are discarded
 
-### Ensure discarded edits are not persisted
+### User can discard edits to an unsupported blocks on Simple WP.com sites
 
-1. Repeat steps 1 to 5 from TC001 above
-2. Edit the block content (e.g. update its text)
-3. Tap the Cancel button to discard changes and expect to be taken back to the block editor
-4. Expect the Update button to be greyed-out
-5. Using HTML mode in the editor, view the HTML content of the post and expect it to **not** contain any of the changes
+1. Repeat steps 1 to 6 from TC001 above
+2. Tap the Cancel button to discard changes and expect to be taken back to the block editor
+3. Expect the Update button to be greyed-out
+4. Using HTML mode in the editor, view the HTML content of the post and expect it to **not** contain any of the edits
+
 
 ##### TC003
 
-### User can edit unsupported blocks on regular WP.com Business (Atomic) sites
+#### Precondition
 
-Repeat TC001 and TC002 using a post on a WP.com site with a Business Plan (i.e. Atomic site)
+A WP.com Atomic site (i.e. a WP.com site with a Business plan) with the **Gutenberg Editor** set as the default. Here are the steps for creating this if necessary:
 
----
+1. Find a site with a Business plan or higher
+2. In Calypso choose your site and go to Tools | Plugins | Installed Plugins — ensure the Classic Editor plugin is **not** installed (or if it is installed, make sure it is not the default editor in the plugin settings)
 
-Note: all self-hosted sites are disabled at the moment, see [here](https://github.com/wordpress-mobile/gutenberg-mobile/issues/2358) for details.
+### Editing unsupported blocks is allowed on Gutenberg-enabled Atomic sites
+
+1. On the site described above, add a post, then add a block that's not yet supported on mobile (e.g. Audio at time of writing)
+2. Log into the WordPress mobile app using the site's WP.com account
+3. Open the post and expect to see the block rendered as a placeholder with the text "Unsupported"
+4. Tap the `(?)` icon and expect the option to edit the block in a web browser to be shown
+5. Tap the edit in a web browser button and expect the block to be shown, ready to edit, on a new screen
+6. Edit the block content (e.g. update its caption)
+7. Tap the Continue button and expect to be taken back to the block editor
+8. Publish the post and verify it contains the edits
+
+
+##### TC004
+
+#### Precondition
+
+A WP.com Atomic site (i.e. a WP.com site with a Business plan) with the **Classic editor** set as the default. Here are the steps for creating this if necessary:
+
+1. Find a site with a Business plan or higher
+2. Install and activate the Classic Editor plugin
+3. In Calypso choose your site and go to Tools | Plugins | Installed Plugins, then tap Settings under the Classic Editor plugin and set **Default editor for all users** to **Classic Editor**
+
+### Editing unsupported blocks is disallowed on Classic-enabled Atomic sites
+
+1. On the site described above, add a post, then add a block that's not yet supported on mobile (e.g. Audio at time of writing)
+2. Log into the WordPress mobile app using the site's WP.com account
+3. Open the post and expect to see the block rendered as a placeholder with the text "Unsupported"
+4. Tap the `(?)` icon and expect to NOT see an option to edit the block in a web browser
+
+
+##### TC005
+
+#### Precondition
+
+For this test, you need a self-hosted site with the Jetpack plugin installed, activated and connected to a WP.com account. Here are the steps for creating this if needed:
+
+1. Create a site on https://jurassic.ninja/
+2. Connect the Jetpack plugin (it comes pre-installed) to a WP.com account
+3. By default, Gutenberg is the default editor so no action required there
+
+### Editing unsupported blocks is disallowed on self-hosted sites accessed via Jetpack
+
+1. On the site described above, add a post, then add a block that's not yet supported on mobile (e.g. Audio at time of writing) via the site's WP Admin web interface
+2. Log into the WordPress mobile app using the WP.com account that was used to connect Jetpack to the self-hosted site
+3. Open the post and expect to see the unsupported block rendered as a placeholder with the text "Unsupported"
+4. Tap the `(?)` icon and expect to NOT see an option to edit the block in a web browser
+
+
+##### TC006
+
+#### Precondition
+
+For this test, you need a self-hosted site with its own login credentials (we're not going to access the app using WP.com credentials). Here are the steps for creating this if needed:
+
+1. Create a site on https://jurassic.ninja/
+2. It doesn't matter if the Jetpack plugin (which comes pre-installed) is connected or not to a WP.com account, we're going to access the site by its own credentials
+3. By default, Gutenberg is the default editor so no action required there
+4. In the Dashboard, make note of the site username and password
+
+### Editing unsupported blocks is disallowed on self-hosted sites accessed via their own username and password
+
+1. On the site described above, add a post, then add a block that's not yet supported on mobile (e.g. Audio at time of writing) via the site's WP Admin web interface
+2. Log into the WordPress mobile app by adding the site address and subsequently authenticating with the site username and password
+3. Open the post and expect to see the unsupported block rendered as a placeholder with the text "Unsupported"
+4. Tap the `(?)` icon and expect to NOT see an option to edit the block in a web browser
