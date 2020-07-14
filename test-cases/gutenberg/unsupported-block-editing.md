@@ -40,7 +40,7 @@ A WP.com Simple site (i.e. not an Atomic site). Any free WP.com site should suff
 A WP.com Atomic site (i.e. a WP.com site with a Business plan) with the **Gutenberg Editor** set as the default. Here are the steps for creating this if necessary:
 
 1. Find a site with a Business plan or higher
-3. In Calypso choose your site and go to Tools | Plugins | Installed Plugins — ensure the Classic Editor plugin is **not** installed (or if it is installed, make sure it is not the default editor in the plugin settings)
+2. In Calypso choose your site and go to Tools | Plugins | Installed Plugins — ensure the Classic Editor plugin is **not** installed (or if it is installed, make sure it is not the default editor in the plugin settings)
 
 ### Editing unsupported blocks is allowed on Gutenberg-enabled Atomic sites
 
