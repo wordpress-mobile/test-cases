@@ -1,5 +1,9 @@
 # Splitting and merging - Test Cases
 
+**Known Issues**
+-  **[Android]** Cannot split blocks immediately after prepending to a "swiped" word https://github.com/wordpress-mobile/gutenberg-mobile/issues/2372
+- **[Android]** Splitting block before "swiped" word loses "swiped" word https://github.com/wordpress-mobile/gutenberg-mobile/issues/2373
+
 #### **Precondition**
 
 Start from an empty post.
@@ -16,7 +20,7 @@ Start from an empty post.
 
 **Known Issues**
 
-- [Android] If you enter text by swiping after the split, you cannot merge after deleting the text. [issue comment](https://github.com/wordpress-mobile/gutenberg-mobile/issues/1873#issuecomment-608070758)
+- **[Android]** Deleting "swiped" or selected words can prevent merging two blocks https://github.com/wordpress-mobile/gutenberg-mobile/issues/2375
 
 **Merge after writing**
 - Follow the initial steps.
@@ -27,6 +31,9 @@ Start from an empty post.
 
 ##### TC002
 
+**Known Issues**
+- **[Android]** Deleting "swiped" or selected words prevents merging blocks https://github.com/wordpress-mobile/gutenberg-mobile/issues/2375
+
 **Merge after selection**
 - Follow the initial steps.
 - Write some more text where the caret is placed (beginning of new block)
@@ -35,10 +42,11 @@ Start from an empty post.
 - Press delete once again to merge the blocks.
 - Check that the blocks were merged.
 
-**Known Issues**
-- **[Android]** Described on https://github.com/wordpress-mobile/WordPress-Android/pull/11572#issuecomment-607352657, also noted on [this ticket](https://github.com/wordpress-mobile/gutenberg-mobile/issues/1873#issue-561855507).
 
 ##### TC003
+
+**Known Issues**
+- **[Android]** Deleting "swiped" or selected words prevents merging blocks https://github.com/wordpress-mobile/gutenberg-mobile/issues/2375
 
 **Merge after deleting text**
 - Follow the initial steps.
@@ -46,11 +54,11 @@ Start from an empty post.
 - Delete all those words until the blocks merge.
 - Check that the blocks were merged.
 
-**Known Issues**
-- **[Android]** Does not merge on Android after deleting either styled text or a selection containing multiple charaacters (instead of single characters): [#1873](https://github.com/wordpress-mobile/gutenberg-mobile/issues/1873#issuecomment-608070758).
-
 
 ##### TC004
+
+**Known Issues**
+- **[Android]** Deleting "swiped" or selected words prevents merging blocks https://github.com/wordpress-mobile/gutenberg-mobile/issues/2375
 
 **Merge after deleting all**
 - Follow the initial steps.
@@ -58,8 +66,6 @@ Start from an empty post.
 - Press delete to remove the empty block.
 - Check that the previous block was selected.
 
-**Known Issues**
-- **[Android]** Described on https://github.com/wordpress-mobile/WordPress-Android/pull/11572#issuecomment-607352657, also noted on [this ticket](https://github.com/wordpress-mobile/gutenberg-mobile/issues/1873#issue-561855507).
 
 ##### TC005
 
