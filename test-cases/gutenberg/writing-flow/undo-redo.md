@@ -29,6 +29,9 @@ Start on a new empty post.
 
 ##### TC003
 
+**Known Issues**
+- It is not possible to redo changes after redoing the insertion of an image into an image block. [#2499](https://github.com/wordpress-mobile/gutenberg-mobile/issues/2499)
+
 **Undo/redo text format**
 
 - On a rich-text based component, add some format (bold, links, etc…).
