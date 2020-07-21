@@ -100,8 +100,11 @@ Gallery block should allow uploading multiple images after the editor is closed.
 -   Add some styles to your captions:
     - Bold
     - Italic
-    - Break line
     - Expect all to work correctly
+
+    * Break line details:
+      * Break lines don't work in the middle of the captions.
+      * If you do a break at the end of the Gallery caption, it will insert a new paragraph bellow the block.
 
 ![Gallery Image Caption Styles](../resources/gallery-caption-2.png)
 
