@@ -12,6 +12,7 @@ Test the next steps on:
 
 **Known Issues**
 - On captions, pressing Enter at the end of a caption splits the block, but pressing enter in the middle of a caption's text does nothing. Discussed in [this comment](https://github.com/WordPress/gutenberg/pull/22928#issuecomment-640879690).
+- On Android, tapping Enter to split a quote or pullquote citation both splits the block and adds a newline to the citation ([#2498](https://github.com/wordpress-mobile/gutenberg-mobile/issues/2498))
 
 **New line on multiline components**
 
