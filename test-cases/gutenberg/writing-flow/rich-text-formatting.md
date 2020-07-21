@@ -84,7 +84,7 @@ Move the cursor around
 
 **Test formatting doesn't remove leading or trailing whitespace**
 
-- Add a text block, paragraph for example
-- Type some spaces, then write some text
-- Select the text and apply one format, for example, bold
-- Check that the white spaces aren't removed.
+- Add a text-based block, paragraph for example
+- Type some spaces, then write some text, then type some more spaces
+- Select the _text_ and apply one format, for example, bold
+- Check that the leading and trailing spaces aren't removed 
