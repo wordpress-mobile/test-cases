@@ -83,6 +83,8 @@ Gallery block should allow uploading multiple images after the editor is closed.
 -   Save the post
 -   Open it and expect to see the captions with their styles
 
+##### Known issues
+[Formating buttons aren’t updated accordingly when text is deleted](https://github.com/wordpress-mobile/gutenberg-mobile/issues/2154)
 
 --------------------------------------------------------------------------------
 
