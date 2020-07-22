@@ -14,3 +14,8 @@ Gutenberg:
 - [Columns block](./gutenberg/columns.md)
 - [Editor Theme](./gutenberg/editor-theme.md)
 - [Color settings](./gutenberg/color-settings.md)
+- [Dark Mode](./gutenberg/darkmode.md)
+- [Shortcode block](./gutenberg/shortcode.md)
+- [Unsupported block editing](./gutenberg/unsupported-block-editing.md)
+- [Verse block](./gutenberg/verse.md)
+
