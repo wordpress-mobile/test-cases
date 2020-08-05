@@ -94,9 +94,8 @@ A site with premium or business plan
 -   Tap on Placeholder
 -   Select an image
 -   Expect to see the image added
--   Tap on the replace media option
-
-![Replace media](../resources/cover-8.png)
+-   Tap on the image editing icon on the top right
+-   Select replace option
 -   Select another image
 -   Expect to see the new image
 
