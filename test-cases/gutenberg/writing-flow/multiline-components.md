@@ -20,9 +20,9 @@ Test the next steps on:
 - On captions, pressing Enter at the end of a caption splits the block, but pressing enter in the middle of a caption's creates a new line.
 - Check on HTML mode that the resulting HTML code is correct:
   - *Quote*: `<p>` tags per paragraph.
-  - *Quote citation*: should _not_ be multiline (see Known Issues)
+  - *Quote citation*: `<br>` ending lines.
   - *Verse*: `<br>` ending lines.
   - *Preformatted*: `<br>` ending lines.
   - *Code*: (Invisible `\n`) new line character.
   - *Pullquote*: `<p>` tags per non-wrapping "line"
-  - *Pullquote citation*: should _not_ be multiline (see Known Issues)
+  - *Pullquote citation*: `<br>` ending lines.
