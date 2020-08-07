@@ -11,18 +11,18 @@ Test the next steps on:
 ##### TC001
 
 **Known Issues**
-- On captions, pressing Enter at the end of a caption splits the block, but pressing enter in the middle of a caption's text does nothing. Discussed in [this comment](https://github.com/WordPress/gutenberg/pull/22928#issuecomment-640879690).
 - On Android, tapping Enter to split a quote or pullquote citation both splits the block and adds a newline to the citation ([#2498](https://github.com/wordpress-mobile/gutenberg-mobile/issues/2498))
 
 **New line on multiline components**
 
 - Start typing and press enter to create a new line.
 - The new line should be created, without splitting the block.
+- On captions, pressing Enter at the end of a caption splits the block, but pressing enter in the middle of a caption's creates a new line.
 - Check on HTML mode that the resulting HTML code is correct:
   - *Quote*: `<p>` tags per paragraph.
-  - *Quote citation*: should _not_ be multiline (see Known Issues)
+  - *Quote citation*: `<br>` ending lines.
   - *Verse*: `<br>` ending lines.
   - *Preformatted*: `<br>` ending lines.
   - *Code*: (Invisible `\n`) new line character.
   - *Pullquote*: `<p>` tags per non-wrapping "line"
-  - *Pullquote citation*: should _not_ be multiline (see Known Issues)
+  - *Pullquote citation*: `<br>` ending lines.
