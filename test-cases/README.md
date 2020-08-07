@@ -13,6 +13,7 @@ Gutenberg:
 - [Gallery block](./gutenberg/gallery.md)
 - [Group block](./gutenberg/group.md)
 - [Media-Text block](./gutenberg/media-text.md)
+- [Mentions](./gutenberg/mentions.md)
 - [Shortcode block](./gutenberg/shortcode.md)
 - [Spacer block](./gutenberg/spacer.md)
 - [Unsupported block editing](./gutenberg/unsupported-block-editing.md)
