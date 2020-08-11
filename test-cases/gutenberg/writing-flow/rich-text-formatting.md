@@ -13,9 +13,6 @@ Have a rich-text based component with content (Paragraph, Heading, Quote, Media 
 - Press the Italic button and write an italic word.
 - Press strikethrough button and write strikethrough text.
 
-**Known Issues**
-- **[Android]** Strikethrough formatting uses a different tag depending on how it is applied and strikethrough button does not always reflect state: [#729](https://github.com/wordpress-mobile/gutenberg-mobile/issues/729).
-
 
 ##### TC002
 
@@ -77,7 +74,6 @@ Move the cursor around
 
 
 **Known Issues**
-- **[Android]** Strikethrough button might not be highlighted in some cases. [#729](https://github.com/wordpress-mobile/gutenberg-mobile/issues/729)
 - Formating buttons aren’t updated accordingly when text is deleted [#2154](https://github.com/wordpress-mobile/gutenberg-mobile/issues/2154)
 
 ##### TC008
