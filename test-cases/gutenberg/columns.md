@@ -329,4 +329,6 @@ Expected look:
 - Play with sliders
 - Expect that fill level in the preview (to the left of a slider) is changing proportionally in all columns
 
+<img src="../resources/columns-multiple-sliders.gif" width=300 />
+
 --------------------------------------------------------------------------------
