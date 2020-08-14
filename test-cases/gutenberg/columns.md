@@ -7,7 +7,6 @@
 ### Columns block is added with default number of Column
 
 - Add a `Columns` block
-- Press `Cancel` button on layout picker
 - Expect `Columns` to have **two** `Column` block inside
 
 Expected look:  
@@ -21,7 +20,6 @@ Expected look:
 ### Check if Column placeholders is visible for the unselected state
 
 - Add a `Columns` block
-- Press `Cancel` button on layout picker
 - Deselect
 - Expect to see placeholder for each `Column` added in `Columns`
 
@@ -39,7 +37,6 @@ Portrait | Landscape
 ### Adding Column with AppenderButton
 
 - Add a `Columns` block
-- Press `Cancel` button on layout picker
 - Having `Columns` block selected press `AppenderButton`
 - Expect new `Column` to be added
 
@@ -53,7 +50,6 @@ Expected look:
 ### Adding and removing Column with BottomSheet Stepper control
 
 - Add a `Columns` block
-- Press `Cancel` button on layout picker
 - Open `Columns` settings with option button on toolbar
 - Expect to increase `Column` number after press `+` button
 - Expect to descrease `Column` number after press `-` button (exception: [see TC007](https://github.com/wordpress-mobile/test-cases/blob/master/test-cases/gutenberg/columns.md#tc007))
@@ -65,7 +61,6 @@ Expected look:
 ### Max limit of Column number
 
 - Add a `Columns` block
-- Press `Cancel` button on layout picker
 - Increase number of `Column`
 - Expect have **no limit** with possible number of `Column` to add
 
@@ -76,7 +71,6 @@ Expected look:
 ### Min limit of Column number
 
 - Add a `Columns` block
-- Press `Cancel` button on layout picker
 - Increase number of `Column`
 - Start removing `Column` using BottomSheet `Stepper`
 - Expect to decrease `Column` number to minimum value of 1
@@ -91,7 +85,6 @@ Expected look:
 ### Removing Column with remove button
 
 - Add a `Columns` block
-- Press `Cancel` button on layout picker
 - Increase number of `Column`
 - Select one of the `Column` and press remove button
 - Expect `Column` to be removed and selection is moved to previous one
@@ -107,7 +100,6 @@ Exception:
 ### Removing the only one left Column with remove button
 
 - Add a `Columns` block
-- Press `Cancel` button on layout picker
 - Reduce `Column` number to one
 - Having the last one `Column` selected press remove button
 - Expect `Column` and whole `Columns` block to be removed
@@ -119,7 +111,6 @@ Exception:
 ### Changing alignment on Columns
 
 - Add a `Columns` block
-- Press `Cancel` button on layout picker
 - Set `verticalAlignment` on `Columns` block
 - Select one of the `Column`
 - Expect selected `Column` have the same `verticalAlignment` value
@@ -132,7 +123,6 @@ Exception:
 ### Changing alignment on individual Columnn
 
 - Add a `Columns` block
-- Press `Cancel` button on layout picker
 - Set `verticalAlignment` on `Columns` block
 - Select one of the `Column`
 - Set `verticalAlignment` on `Column` block
@@ -149,7 +139,6 @@ Exception:
 ### Alignment attribute is properly passed when adding Column
 
 - Add a `Columns` block
-- Press `Cancel` button on layout picker
 - Set `verticalAlignment` on `Columns` block
 - Add new `Column`
 - Expect new `Column` have the same `verticalAlignment` value
@@ -161,7 +150,6 @@ Exception:
 ### Deep nesting is possible (iOS only)
 
 - Add a `Columns` block
-- Press `Cancel` button on layout picker
 - Nest blocks inside multiple `Columns` blocks (at least 3 levels deep)
 - Expect app do not crash
 
@@ -172,7 +160,6 @@ Exception:
 ### Appearance in vertical device position (vertical layout)
 
 - Add a `Columns` block
-- Press `Cancel` button on layout picker
 - Create some nested structure adding more `Column` and nesting `Columns`
 - Expect all `Column` is stacked (only 1 `Column` in row is render)
 - Expect space around blocks do not bounce when changing selection (exception is the trasition of the selected block connected with making space for FloatingToolbar)
@@ -196,7 +183,6 @@ Expected look:
 
 - Rotate device to horizontal position
 - Add `Columns` block
-- Press `Cancel` button on layout picker
 - Create some nested structure adding more `Column` and nesting `Columns`
 - Expect all `Column` is distributed in row depending on available space for container:
   - below `480px` then expect 1 `Column` in row to be rendered
@@ -218,7 +204,6 @@ Expected look:
 ### Mover direction
 
 - Add `Columns` block
-- Press `Cancel` button on layout picker
 - Create some nested structure adding more `Column` and nesting `Columns`
 - Make `Column` stacked in `Columns` by rotate device to vertical position
 - Select `Column`
@@ -239,7 +224,6 @@ Expected look:
 ### Check if Column placeholder is render in nested structure
 
 - Add a `Columns` block
-- Press `Cancel` button on layout picker
 - Nest some `Columns` inside one of the `Column`
 - Select top-most `Columns` block in hierarchy
 - Check if you are able to see `Column` placeholder of nested blocks wrapped with dashed border when the parent is selected
@@ -260,7 +244,6 @@ Expected look:
 ### Unselected Column placeholder is streched to content in nested structure
 
 - Add a `Columns` block
-- Press `Cancel` button on layout picker
 - Switch to `horizontal` layout
 - Add some blocks inside one of the `Column`
 - Select top-most `Columns` block in hierarchy
@@ -324,7 +307,7 @@ Expected look:
 
 - Add a `Columns` block
 - Expect to see bottom sheet with layout picker
-- Press `Cancel` button  on layout picker
+- Press `Cancel` button on layout picker
 - Open `Columns` settings
 - Play with sliders
 - Expect that fill level in the preview (to the left of a slider) is changing proportionally in all columns
