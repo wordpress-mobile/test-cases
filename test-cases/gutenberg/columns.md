@@ -308,15 +308,30 @@ Expected look:
 
 ##### TC021
 
-### Columns percentage mechanism - column's frontend
+### Columns percentage mechanism - predefined percentage values are rendered correctly on frontend
 
-- Repeat the steps from [TC021](https://github.com/wordpress-mobile/test-cases/blob/master/test-cases/gutenberg/columns.md#tc021) and [TC022](https://github.com/wordpress-mobile/test-cases/blob/master/test-cases/gutenberg/columns.md#tc022) within the same `Columns` block
+- Add a `Columns` block
+- Expect to see bottom sheet with layout picker
+- Choose one of the options
+- Switch to html mode to see if ratios are correct
+   * for equal widths such as 50/50 and 33/33/33  we don’t expect to see any percentages in html
+   * for different widths such as 30/70 , 70/30 and 25/50/25 we expect to see percentages in HTML
+- Check the preview to see if the front end reflects the column widths
+- Repeat for each layout option
+
+##### TC022
+
+### Columns percentage mechanism - custom percentage values are rendered correctly on frontend
+
+- Add a `Columns` block
+- Expect to see bottom sheet with layout picker
+- Dismiss the layout picker
+- Select the first column, go to its settings
+- Use the text input to set its width to a custom value, let's say: `90`
+- Set the second column width to another custom value, let's say: `55.5`
 - Switch to HTML mode
-- Expect that first column has width equal `90` and the second `55.5`
-- Save the post and open it on web
-- Expect to see columns displayed proportionally to the set width
-
-<img src="../resources/columns-layout-picker-flow.gif" width=300 />
+- Expect that first column has width: `90` and the second one: `55.5`
+- Check the preview and expect to see that the front end reflects the column widths
 
 --------------------------------------------------------------------------------
 
