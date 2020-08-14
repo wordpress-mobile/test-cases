@@ -153,8 +153,10 @@ Cover-2
 Columns - 1
 
 <!--- expected behaviour --->
-- [ ] Columns - Columns layout picker flow - [steps](https://github.com/wordpress-mobile/test-cases/blob/master/test-cases/gutenberg/columns.md#tc019)
-- [ ] Columns - Multiple slider in columns parent - [steps](https://github.com/wordpress-mobile/test-cases/blob/master/test-cases/gutenberg/columns.md#tc020)
+- [ ] Columns - Columns percentage mechanism - column's preview - [steps](https://github.com/wordpress-mobile/test-cases/blob/master/test-cases/gutenberg/columns.md#tc019)
+- [ ] Columns - Columns percentage mechanism - column's slider input - [steps](https://github.com/wordpress-mobile/test-cases/blob/master/test-cases/gutenberg/columns.md#tc020)
+- [ ] Columns - Columns percentage mechanism - column's frontend - [steps](https://github.com/wordpress-mobile/test-cases/blob/master/test-cases/gutenberg/columns.md#tc021)
+- [ ] Columns - Multiple slider in columns parent - [steps](https://github.com/wordpress-mobile/test-cases/blob/master/test-cases/gutenberg/columns.md#tc022)
 - [ ] Columns - Columns block is added with default number of Column - [steps](https://github.com/wordpress-mobile/test-cases/blob/master/test-cases/gutenberg/columns.md#tc001)
 - [ ] Columns - Adding Column with AppenderButton - [steps](https://github.com/wordpress-mobile/test-cases/blob/master/test-cases/gutenberg/columns.md#tc003)
 - [ ] Columns - Adding and removing Column with BottomSheet Stepper control - [steps](https://github.com/wordpress-mobile/test-cases/blob/master/test-cases/gutenberg/columns.md#tc004)

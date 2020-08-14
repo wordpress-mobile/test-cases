@@ -278,7 +278,7 @@ Expected look:
 
 ##### TC019
 
-### Columns layout picker flow
+### Columns percentage mechanism - column's preview
 
 - Add a `Columns` block
 - Expect to see bottom sheet with layout picker
@@ -287,12 +287,31 @@ Expected look:
 - Open its settings
 - Change the value e.g. to  `90`
 - Expect that fill level in the preview (to the left of a slider) increased
-- Close bottom sheet and select the second column
+
+--------------------------------------------------------------------------------
+
+##### TC020
+
+### Columns percentage mechanism - column's slider input
+
+- Add a `Columns` block
+- Expect to see bottom sheet with layout picker
+- Choose one of the options e.g: `33/33/33`
+- Select the first column
 - Open its settings
 - Press text input (to the right of a slider)
 - Type value with more than 1 decimal e.g.: `55.55555` and press `Done`
 - Expect to have value with only 1 decimal
 - Close bottom sheet and switch to HTML mode
+
+--------------------------------------------------------------------------------
+
+##### TC021
+
+### Columns percentage mechanism - column's frontend
+
+- Repeat the steps from [TC021](https://github.com/wordpress-mobile/test-cases/blob/master/test-cases/gutenberg/columns.md#tc021) and [TC022](https://github.com/wordpress-mobile/test-cases/blob/master/test-cases/gutenberg/columns.md#tc022) within the same `Columns` block
+- Switch to HTML mode
 - Expect that first column has width equal `90` and the second `55.5`
 - Save the post and open it on web
 - Expect to see columns displayed proportionally to the set width
@@ -301,7 +320,7 @@ Expected look:
 
 --------------------------------------------------------------------------------
 
-##### TC020
+##### TC022
 
 ### Multiple slider in columns parent
 
