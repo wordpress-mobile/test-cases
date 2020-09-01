@@ -6,7 +6,7 @@ Test the next steps on:
 - Verse block
 - Preformatted block 
 - Code block (DEV only)
-- Pullquote block (only available in Release builds on iOS)
+- Pullquote block
 
 ##### TC001
 
