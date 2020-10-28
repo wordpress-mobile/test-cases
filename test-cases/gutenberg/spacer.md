@@ -43,7 +43,6 @@ Expected look:
 -   Add a `Spacer` block
 -   Check if `Spacer` block is rendered with default height of `100px`
 -   Expect text input value is rounded to `500px` after typing greater value
--   Expect text input value is rounded to `20px` after typing lower value
 -   Change text input value under `Spacer` settings to e.g. `300px`
 -   Switch to HTML mode
 -   Expect height to be `300px` in `Spacer` style:
@@ -64,7 +63,7 @@ Expected look:
 ### Settings: Available height range is correct
 
 -   Add a `Spacer` block
--   Check if available `Spacer` height range to set via slider in options is between `20px` and `500px`
+-   Check if available `Spacer` height range to set via slider in options is between `1px` and `500px`
 
 Expected look:  
 ![SpacerRanges](../resources/spacer-max-height.png)
@@ -85,7 +84,7 @@ Expected look:
 -   Open mobile app
 -   Check if `Spacer` block is rendered with set height
 -   The max value should be the value set on web (in given example `1600px`)
--   The min value should equal to `20px`
+-   The min value should equal to `1px`
 
 Expected look:  
 ![SpacerExceedHeight](../resources/spacer-exceed-height.png)
