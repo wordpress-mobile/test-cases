@@ -17,7 +17,7 @@ Test the next steps on:
 
 - Start typing and press enter to create a new line.
 - The new line should be created, without splitting the block.
-- On captions, pressing Enter at the end of a caption splits the block, but pressing enter in the middle of a caption's creates a new line.
+- On citations, pressing Enter at the end of a citation splits the block, but pressing enter in the middle of a citation creates a new line.
 - Check on HTML mode that the resulting HTML code is correct:
   - *Quote*: `<p>` tags per paragraph.
   - *Quote citation*: `<br>` ending lines.
