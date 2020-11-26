@@ -5,6 +5,9 @@
 
 A site with premium or business plan
 
+--------------------------------------------------------------------------------
+
+
 ##### TC001
 
 **Upload completes successfully from the device library**
@@ -23,6 +26,8 @@ A site with premium or business plan
 
 ![Upload successful](../resources/local-file-upload-successful.png)
 
+--------------------------------------------------------------------------------
+
 ##### TC002
 
 **Upload completes successfully from the WordPress Media library**
@@ -35,6 +40,8 @@ A site with premium or business plan
 - Expect to see file's name  (without link)  and an active Download button once the upload is complete.  
 
 ![Upload successful](../resources/local-file-upload-successful.png)
+
+--------------------------------------------------------------------------------
 
 ##### TC003
 
@@ -50,7 +57,7 @@ A site with premium or business plan
 
 ![Upload failed](../resources/local-file-upload-failed.png)
 
-**Steps**
+**Next Steps**
 
 -   Turn your internet connection back on.
 -   Tap on the File block itself.
@@ -60,12 +67,13 @@ A site with premium or business plan
 
 ![Upload retry](../resources/local-file-upload-retry.png)
 
-**Steps**
+**Next Steps**
 -   Tap retry
 
 **Expected Behavior**
 -   The upload should continue.
 
+--------------------------------------------------------------------------------
 ##### TC004
 
 **Stop the file upload before it completes**
@@ -81,7 +89,7 @@ A site with premium or business plan
 -   You should see the below message:
 ![Upload stopped](../resources/local-file-upload-stop.png)
 
-**Steps**
+**Next Steps**
 
 -   Tap Stop
 
@@ -90,6 +98,7 @@ A site with premium or business plan
 -   You should see the File block is cleared and the placeholder component should be visible.
 ![Upload placeholder](../resources/local-file-upload-placeholder.png)
 
+--------------------------------------------------------------------------------
 ##### TC005
 
 **Close the post with an ongoing file upload**
@@ -104,7 +113,7 @@ A site with premium or business plan
 -   Verify that you see the upload progress in post summary.
 ![File upload in post list](../resources/local-file-upload-post-list.png)
 
-**Steps**
+**Next Steps**
 
 -   Wait until upload finishes
 -   Re-open the post
@@ -114,6 +123,7 @@ A site with premium or business plan
 -   Verify that File block shows the file name.
 -   You can also switch to HTML mode to verify that the upload was complete by checking to see that the hyperlink points to a remote media. 
 
+--------------------------------------------------------------------------------
 ##### TC006
 
 **Replace the selected files**
@@ -129,6 +139,7 @@ A site with premium or business plan
 
 -   Verify that you see a new filename.
 
+--------------------------------------------------------------------------------
 ##### TC007
 
 **Change the alignment in the File Block**
@@ -146,3 +157,64 @@ A site with premium or business plan
 Note: Align left, Wide width and no option selected won't have visual differences.
 
 ![Alignment](../resources/file-alignment-right.png)
+
+--------------------------------------------------------------------------------
+##### TC008
+
+The test cases below apply to both the Block Settings icon and the Link toolbar icon. The only differentiator is the Block Settings contain a "Show download button" option while the Link settings via the toolbar does not. 
+
+**The Link To Block Setting should open**
+
+**Steps**
+
+- Press the Block settings icon.
+- Press the Link to icon. 
+
+**Expected Behavior**
+
+- Two different options should appear: Media file and Attachment Page
+- Media File: The link should be set to the file itself.
+- Attachment page: The link should be set to the item page.
+
+--------------------------------------------------------------------------------
+##### TC009
+
+**Open link in new tab **
+
+**Steps**
+
+- Press on Block settings
+- Switch ON the option Open link in new tab
+
+**Expected Behavior**
+
+- On HTML mode there should be the attributes `target="_blank" rel="noreferrer noopener"` in the `<a>` tag.
+
+--------------------------------------------------------------------------------
+##### TC0010
+
+**Show/hide download button (Block Settings only) **
+
+**Steps**
+
+- Press on Block settings
+- Switch off the "Show download button` option.
+
+**Expected Behavior**
+
+- The Download button should disappear
+
+--------------------------------------------------------------------------------
+##### TC0011
+
+**Copy file URL**
+
+**Steps**
+
+- Press on the Copy file URL option.
+- The button title should change to Copied!
+
+**Expected Behavior**
+
+- The content should be in the device's clipboard.
+- Paste the link from the pasteboard in any other field and it should appear.
