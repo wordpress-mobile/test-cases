@@ -120,24 +120,29 @@ A site with premium or business plan
 
 **Steps**
 
--   Tap on an existing File Block that has a file.
+-   Tap on an existing File Block that has a file. Note the file name for comparison in an upcoming step. 
 -   From the toolbar, click on the replace button. 
 -   The Choose file bottom sheet will now be visible. 
-- 
-
+-   Select a new file via the Choose from device or WordPress Media Library option. 
 
 **Expected Behavior**
 
--   Verify that you see the upload progress in post summary.
-![File upload in post list](../resources/local-file-upload-post-list.png)
+-   Verify that you see a new filename.
+
+##### TC007
+
+**Change the alignment in the File Block**
 
 **Steps**
+- Press on the Alignment toolbar button.
 
--   Wait until upload finishes
--   Re-open the post
+<kbd><img src="../resources/file-alignment.png" width="320"></kbd>
+
+- Choose one of the options. For example, Align Right.
 
 **Expected Behavior**
 
--   Verify that File block shows the file name.
--   You can also switch to HTML mode to verify that the upload was complete by checking to see that the hyperlink points to a remote media. 
+- Check to ensure the UI represents the alignment accordingly.
+Note: Align left, Wide width and no option selected won't have visual differences.
 
+![Alignment](../resources/file-alignment-right.png)
