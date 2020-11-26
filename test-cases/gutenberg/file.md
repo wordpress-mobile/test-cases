@@ -177,12 +177,12 @@ The test cases below apply to both the Block Settings icon and the Link toolbar 
 --------------------------------------------------------------------------------
 ##### TC009
 
-**Open link in new tab **
+**Open link in new tab**
 
 **Steps**
 
 - Press the Block settings or Link Settings icon.
-- Switch ON the option Open link in new tab
+- Switch ON the option - Open link in new tab
 
 **Expected Behavior**
 
