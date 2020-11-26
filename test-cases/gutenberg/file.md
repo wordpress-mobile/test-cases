@@ -1,13 +1,5 @@
 
 # File Block - Test Cases
-
-#### **Precondition**
-
-A site with premium or business plan
-
---------------------------------------------------------------------------------
-
-
 ##### TC001
 
 **Upload completes successfully from the device library**
@@ -18,7 +10,7 @@ A site with premium or business plan
 
 **Expected Behavior**
 - Expect to see the upload indicator and the Download button should be dimmed.
-- Expect to not see a link or replace buttons in the toolbar
+- Expect to not see a link or replace buttons in the toolbar.
 
 ![Upload pending](../resources/local-file-upload-pending.png)
 - Expect to see file's name and an active Download button once the upload is complete.  
@@ -37,7 +29,7 @@ A site with premium or business plan
 - Tap option "WordPress Media Library" and choose a file. 
 
 **Expected Behavior**
-- Expect to see file's name  (without link)  and an active Download button once the upload is complete.  
+- Expect to see file's name  (without link)  and an active Download button.  
 
 ![Upload successful](../resources/local-file-upload-successful.png)
 
@@ -50,7 +42,7 @@ A site with premium or business plan
 **Steps**
 -   Tap on Choose a file on the Media Placeholder or the edit button in the toolbar.
 -   Tap option ‘Choose from device’ and choose a file.
--   Turn off internet connection and wait.
+-   Turn off the internet connection and wait for a moment.
 
 **Expected Behavior**
 -   You should see an error message and a dimmed Download button.
@@ -67,12 +59,18 @@ A site with premium or business plan
 
 ![Upload retry](../resources/local-file-upload-retry.png)
 
-**Next Steps**
+**Next Step**
 -   Tap retry
 
 **Expected Behavior**
 -   The upload should continue.
 
+
+**Alternative Step**
+-   Tap Remove upload.
+
+**Expected Behavior**
+-   The placeholder should now be visible and the Download button and link should be cleared.
 --------------------------------------------------------------------------------
 ##### TC004
 
@@ -81,7 +79,7 @@ A site with premium or business plan
 **Steps**
 
 -   Tap on Choose a file on the Media Placeholder or edit button in the toolbar.
--   Tap option ‘Choose from device’ and choose an file.
+-   Tap option ‘Choose from device’ and choose a file.
 -   While the upload is in progress tap on the File Block.
 
 **Expected Behavior**
@@ -89,13 +87,13 @@ A site with premium or business plan
 -   You should see the below message:
 ![Upload stopped](../resources/local-file-upload-stop.png)
 
-**Next Steps**
+**Next Step**
 
--   Tap Stop
+-   Tap Yes
 
 **Expected Behavior**
 
--   You should see the File block is cleared and the placeholder component should be visible.
+-   You should see that File block is cleared and the placeholder component is now visible.
 ![Upload placeholder](../resources/local-file-upload-placeholder.png)
 
 --------------------------------------------------------------------------------
@@ -110,18 +108,18 @@ A site with premium or business plan
 
 **Expected Behavior**
 
--   Verify that you see the upload progress in post summary.
+-   Verify that you see the upload progress in post summary of the Post item in the Posts list.
 ![File upload in post list](../resources/local-file-upload-post-list.png)
 
 **Next Steps**
 
--   Wait until upload finishes
--   Re-open the post
+-   Wait until upload finishes.
+-   Re-open the post.
 
 **Expected Behavior**
 
 -   Verify that File block shows the file name.
--   You can also switch to HTML mode to verify that the upload was complete by checking to see that the hyperlink points to a remote media. 
+-   You can also switch to HTML mode to verify that the upload was complete. This is done by checking to see that the hyperlinks of the File block points to a remote media url and not a local one. 
 
 --------------------------------------------------------------------------------
 ##### TC006
@@ -144,7 +142,7 @@ A site with premium or business plan
 
 **Change the alignment in the File Block**
 
-**Steps**
+**Step**
 - Press on the Alignment toolbar button.
 
 <kbd><img src="../resources/file-alignment.png" width="320"></kbd>
@@ -167,7 +165,7 @@ The test cases below apply to both the Block Settings icon and the Link toolbar 
 
 **Steps**
 
-- Press the Block settings icon.
+- Press the Block settings or Link Settings icon.
 - Press the Link to icon. 
 
 **Expected Behavior**
@@ -183,7 +181,7 @@ The test cases below apply to both the Block Settings icon and the Link toolbar 
 
 **Steps**
 
-- Press on Block settings
+- Press the Block settings or Link Settings icon.
 - Switch ON the option Open link in new tab
 
 **Expected Behavior**
@@ -197,7 +195,7 @@ The test cases below apply to both the Block Settings icon and the Link toolbar 
 
 **Steps**
 
-- Press on Block settings
+- Press the Block settings or Link Settings icon.
 - Switch off the "Show download button" option.
 
 **Expected Behavior**
@@ -211,6 +209,7 @@ The test cases below apply to both the Block Settings icon and the Link toolbar 
 
 **Steps**
 
+- Press the Block settings or Link Settings icon.
 - Press on the Copy file URL option.
 - The button title should change to Copied!
 
