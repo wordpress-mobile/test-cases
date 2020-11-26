@@ -198,7 +198,7 @@ The test cases below apply to both the Block Settings icon and the Link toolbar 
 **Steps**
 
 - Press on Block settings
-- Switch off the "Show download button` option.
+- Switch off the "Show download button" option.
 
 **Expected Behavior**
 
