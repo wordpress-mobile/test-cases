@@ -193,7 +193,7 @@ The test cases below apply to both the Block Settings icon and the Link toolbar 
 --------------------------------------------------------------------------------
 ##### TC0010
 
-**Show/hide download button (Block Settings only) **
+**Show/hide download button (Block Settings only)**
 
 **Steps**
 
