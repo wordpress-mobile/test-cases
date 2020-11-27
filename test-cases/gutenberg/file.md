@@ -5,7 +5,7 @@
 **Upload completes successfully from the device library**
 
 **Steps**
-- Tap on Choose a file on the Media Placeholder. 
+- Tap on Choose a file on the placeholder. 
 - Tap option "Choose from device" and choose a file. 
 
 **Expected Behavior**
@@ -22,10 +22,10 @@
 
 ##### TC002
 
-**Upload completes successfully from the WordPress Media library**
+**Insert completes successfully from the WordPress Media library**
 
 **Steps**
-- Tap on Choose a file on the Media Placeholder. 
+- Tap on Choose a file on the placeholder. 
 - Tap option "WordPress Media Library" and choose a file. 
 
 **Expected Behavior**
@@ -40,7 +40,7 @@
 **Upload fails from the device library**
 
 **Steps**
--   Tap on Choose a file on the Media Placeholder or the edit button in the toolbar.
+-   Tap on Choose a file on the placeholder or the edit button in the toolbar.
 -   Tap option ‘Choose from device’ and choose a file.
 -   Turn off the internet connection and wait for a moment.
 
@@ -78,7 +78,7 @@
 
 **Steps**
 
--   Tap on Choose a file on the Media Placeholder or edit button in the toolbar.
+-   Tap on Choose a file on the placeholder or edit button in the toolbar.
 -   Tap option ‘Choose from device’ and choose a file.
 -   While the upload is in progress tap on the File Block.
 
