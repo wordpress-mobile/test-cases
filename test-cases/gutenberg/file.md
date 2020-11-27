@@ -218,3 +218,28 @@ The test cases below apply to both the Block Settings icon and the Link toolbar 
 
 - The content should be in the device's clipboard.
 - Paste the link from the pasteboard in any other field and it should appear.
+
+--------------------------------------------------------------------------------
+##### TC012
+
+**Close/Re-open post with an ongoing image upload**
+
+**Steps**
+
+-   Add a File block and insert a file from your device.
+-   While there’s an ongoing upload, save the post as a draft.
+
+**Expected Behavior**
+
+-   Verify that you see the upload progress in post summary of the Post item in the Posts list.
+![File upload in post list](../resources/local-file-upload-post-list.png)
+
+**Next Steps**
+
+-   Open the post while the upload is still in progress.
+
+**Expected Behavior**
+
+-   Verify that you see a upload progress. 
+
+![Upload pending](../resources/local-file-upload-pending.png)
