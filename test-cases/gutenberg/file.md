@@ -173,6 +173,7 @@ The test cases below apply to both the Block Settings icon and the Link toolbar 
 - Two different options should appear: Media file and Attachment Page
 - Media File: The link should be set to the file itself.
 - Attachment page: The link should be set to the item page.
+- Opening the post preview should show the file block with it's respective link(s) pointing to a URL that's not broken.
 
 --------------------------------------------------------------------------------
 ##### TC009
