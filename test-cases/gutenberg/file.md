@@ -222,7 +222,7 @@ The test cases below apply to both the Block Settings icon and the Link toolbar 
 --------------------------------------------------------------------------------
 ##### TC012
 
-**Close/Re-open post with an ongoing image upload**
+**Close/Re-open post with an ongoing file upload**
 
 **Steps**
 
