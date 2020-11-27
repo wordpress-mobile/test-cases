@@ -29,7 +29,7 @@
 - Tap option "WordPress Media Library" and choose a file. 
 
 **Expected Behavior**
-- Expect to see file's name  (without link)  and an active Download button.  
+- Expect to see file's name  and an active Download button.  
 
 ![Upload successful](../resources/local-file-upload-successful.png)
 
