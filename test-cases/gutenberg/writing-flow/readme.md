@@ -1,6 +1,5 @@
 **Writing Flow** checklist:
 
-- [ ] TC001 - Block insertion flow 
 - [ ] TC001 - Paste formatted text copied from website
 - [ ] TC001 - Multiline components
 - [ ] Rich Text Format
