@@ -227,7 +227,7 @@ The test cases below apply to both the Block Settings icon and the Link toolbar 
 **Steps**
 
 -   Add a File block and insert a file from your device.
--   While there’s an ongoing upload, save the post as a draft.
+-   While there’s an ongoing upload, close the editor by saving the post as draft.
 
 **Expected Behavior**
 
