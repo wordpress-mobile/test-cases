@@ -66,7 +66,7 @@
 -   The upload should continue.
 
 
-**Alternative Step**
+**Alternative Step (Android only)**
 -   Tap Remove upload.
 
 **Expected Behavior**
