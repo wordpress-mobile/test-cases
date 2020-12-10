@@ -17,16 +17,23 @@
 
 ##### TC002
 
-### Change Minimum height in pixels
+### Change Minimum height
 
 -   Add a cover block and select an image from the `WordPress Media library`
 -   Tap on the settings icon of the block
--   Verify that the bottom sheet opens with the Minimum height in pixels setting
+-   Verify that the bottom sheet opens with the Minimum height with `UnitControl` setting
 
-![Minimum height in pixels](../resources/cover-1.png)
--   Update the value using the slider
+![Minimum height](../resources/cover-1.png)
+-   Change the unit to: `Viewport width (vw)`
+-   Change the value to: `20` 
 -   Close the bottom sheet
 -   Expect to see the cover with the new height value
+-   Open settings again
+-   Change the unit to: `Pixels (px)`
+-   Expect to have value set automatically to `50`
+-   Expect decreasing button (-) to be disabled
+
+***Note:*** Similarly to web only `Pixels (px)` have minimum value which is `50`, for other units it's `1`.
 
 --------------------------------------------------------------------------------
 
