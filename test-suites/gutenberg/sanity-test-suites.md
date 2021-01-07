@@ -99,6 +99,7 @@ This holds a grouping of certain test suites to run in order to share the work w
 - Spacer 1
 - Buttons 1-2-3-6
 - Color Settings 1
+- Image 1
 
 ```
 ### DarkMode - 1
@@ -152,6 +153,14 @@ This holds a grouping of certain test suites to run in order to share the work w
 - [ ] Colors Segmented Controls - [TC001](https://github.com/wordpress-mobile/test-cases/blob/master/test-cases/gutenberg/color-settings.md#tc001)
 - [ ] Scroll color palette to start - [TC002](https://github.com/wordpress-mobile/test-cases/blob/master/test-cases/gutenberg/color-settings.md#tc002)
 - [ ] Scroll color palette to the end - [TC003](https://github.com/wordpress-mobile/test-cases/blob/master/test-cases/gutenberg/color-settings.md#tc003)
+
+### Image - 1
+- [ ] Image block - Insert image from device (failing) - [steps](https://github.com/wordpress-mobile/test-cases/blob/master/test-cases/gutenberg/image.md#tc001)
+- [ ] Image block - Insert image from device (cancel) - [steps](https://github.com/wordpress-mobile/test-cases/blob/master/test-cases/gutenberg/image.md#tc002)
+- [ ] Image block - Add Caption - [steps](https://github.com/wordpress-mobile/test-cases/blob/master/test-cases/gutenberg/image.md#tc003)
+- [ ] Image block - Close/Re-open post with an ongoing image upload - [steps](https://github.com/wordpress-mobile/test-cases/blob/master/test-cases/gutenberg/image.md#tc004)
+- [ ] Image block - Close post with an ongoing image upload - [steps](https://github.com/wordpress-mobile/test-cases/blob/master/test-cases/gutenberg/image.md#tc005)
+
 ```
 
 ## Test Suite 3
@@ -162,6 +171,7 @@ This holds a grouping of certain test suites to run in order to share the work w
 - Shortcode 1
 - Cover 2
 - Social Icons 2
+- Image 2
 
 ```
 ### Gallery - 2
@@ -202,6 +212,12 @@ This holds a grouping of certain test suites to run in order to share the work w
 - [ ] The link sheet is opened automatically when adding new icon - [TC004](https://github.com/wordpress-mobile/test-cases/blob/master/test-cases/gutenberg/social-icons.md#tc004)
 - [ ] Ghost placeholder is visible when no icon is active - [TC005](https://github.com/wordpress-mobile/test-cases/blob/master/test-cases/gutenberg/social-icons.md#tc005)
 - [ ] Social icon forwarding to the link - [TC006](https://github.com/wordpress-mobile/test-cases/blob/master/test-cases/gutenberg/social-icons.md#tc006)
+
+### Image - 2
+- [ ] Image block - Switch to classic editor with an image block in page - [steps](https://github.com/wordpress-mobile/test-cases/blob/master/test-cases/gutenberg/image.md#tc006)
+- [ ] Image block - Border style setting - [steps](https://github.com/wordpress-mobile/test-cases/blob/master/test-cases/gutenberg/image.md#tc007)
+- [ ] Image block - Image size setting - [steps](https://github.com/wordpress-mobile/test-cases/blob/master/test-cases/gutenberg/image.md#tc008)
+- [ ] Image block - Link to setting - [steps](https://github.com/wordpress-mobile/test-cases/blob/master/test-cases/gutenberg/image.md#tc008)
 ```
 
 ## Test Suite 4
