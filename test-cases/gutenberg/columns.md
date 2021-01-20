@@ -13,6 +13,9 @@ Expected look:
 ![DefaultColumnNoStacked](../resources/columns-default-number.png)
 ![DefaultColumnNoHorizontal](../resources/columns-default-number-horizontal.png)
 
+#### EDIT
+This has been updated please see [TC021](https://github.com/wordpress-mobile/test-cases/blob/master/test-cases/gutenberg/columns.md#tc021) for the updated expected behavior
+
 --------------------------------------------------------------------------------
 
 ##### TC002
