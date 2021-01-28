@@ -214,3 +214,10 @@ Social Icons - 2
 - [ ] The link sheet is opened automatically when adding new icon - [steps](https://github.com/wordpress-mobile/test-cases/blob/master/test-cases/gutenberg/social-icons.md#tc004)
 - [ ] Ghost placeholder is visible when no icon is active - [steps](https://github.com/wordpress-mobile/test-cases/blob/master/test-cases/gutenberg/social-icons.md#tc005)
 - [ ] Social icon forwarding to the link - [steps](https://github.com/wordpress-mobile/test-cases/blob/master/test-cases/gutenberg/social-icons.md#tc006)
+
+Story block - 1
+- [ ] Story block - Verify is available in Block Picker - [steps](https://github.com/wordpress-mobile/test-cases/blob/master/test-cases/jetpack/story.md#tc001)
+- [ ] Story block - Verify is not available in Block Picker- [steps](https://github.com/wordpress-mobile/test-cases/blob/master/test-cases/jetpack/story.md#tc002)
+- [ ] Story block - Add media to empty Story block - [steps](https://github.com/wordpress-mobile/test-cases/blob/master/test-cases/jetpack/story.md#tc003)
+- [ ] Story block - Add media to non-empty Story block - [steps](https://github.com/wordpress-mobile/test-cases/blob/master/test-cases/jetpack/story.md#tc004)
+- [ ] Story block - Close/Re-open post with an ongoing Story upload - [steps](https://github.com/wordpress-mobile/test-cases/blob/master/test-cases/jetpack/story.md#tc005)
