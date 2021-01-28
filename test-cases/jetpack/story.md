@@ -67,7 +67,6 @@ For reference, see https://github.com/wordpress-mobile/WordPress-Android/pull/13
 
 (*) known issue: the image will flash as it shows the local file first, and then changes to point to the remote url after upload finishes, showing a blank cover for a few moments while the remote URL is loaded
 
-For reference, see https://github.com/wordpress-mobile/WordPress-Android/pull/13174
 
 ##### TC005
 
