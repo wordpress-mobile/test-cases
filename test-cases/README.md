@@ -20,3 +20,7 @@ Gutenberg:
 - [Verse block](./gutenberg/verse.md)
 - [Video block](./gutenberg/video.md)
 - [File block](./gutenberg/file.md)
+
+Jetpack:
+
+- [Story block](./jetpack/story.md)

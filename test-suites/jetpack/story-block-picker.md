@@ -1,0 +1,2 @@
+- [ ] Story block - Verify is available in Block Picker - [steps](https://github.com/wordpress-mobile/test-cases/blob/master/test-cases/jetpack/story.md#tc001)
+- [ ] Story block - Verify is not available in Block Picker- [steps](https://github.com/wordpress-mobile/test-cases/blob/master/test-cases/jetpack/story.md#tc002)

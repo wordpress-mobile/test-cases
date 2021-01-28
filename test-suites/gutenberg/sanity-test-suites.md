@@ -10,6 +10,7 @@ This holds a grouping of certain test suites to run in order to share the work w
 - Cover 1
 - Editor Theme 1
 - Social Icons 1
+- Story block 1
 
 ```
 ### Gallery - 1
@@ -90,7 +91,15 @@ This holds a grouping of certain test suites to run in order to share the work w
 - [ ] The newly created Social Icons block is added with 4 icons - [TC001](https://github.com/wordpress-mobile/test-cases/blob/master/test-cases/gutenberg/social-icons.md#tc001)
 - [ ] Active icon gets product color - [TC002](https://github.com/wordpress-mobile/test-cases/blob/master/test-cases/gutenberg/social-icons.md#tc002)
 - [ ] Only active icons are visible when not selected - [TC003](https://github.com/wordpress-mobile/test-cases/blob/master/test-cases/gutenberg/social-icons.md#tc003)
+
+### Story block - 1
+- [ ] Story block - Verify is available in Block Picker - [TC001](https://github.com/wordpress-mobile/test-cases/blob/master/test-cases/jetpack/story.md#tc001)
+- [ ] Story block - Verify is not available in Block Picker- [TC002](https://github.com/wordpress-mobile/test-cases/blob/master/test-cases/jetpack/story.md#tc002)
+- [ ] Story block - Add media to empty Story block - [TC003](https://github.com/wordpress-mobile/test-cases/blob/master/test-cases/jetpack/story.md#tc003)
+- [ ] Story block - Add media to non-empty Story block - [TC004](https://github.com/wordpress-mobile/test-cases/blob/master/test-cases/jetpack/story.md#tc004)
+- [ ] Story block - Close/Re-open post with an ongoing Story upload - [TC005](https://github.com/wordpress-mobile/test-cases/blob/master/test-cases/jetpack/story.md#tc005)
 ```
+
 
 ## Test Suite 2
 
@@ -100,6 +109,7 @@ This holds a grouping of certain test suites to run in order to share the work w
 - Buttons 1-2-3-6
 - Color Settings 1
 - Image 1
+- Story block 1
 
 ```
 ### DarkMode - 1
@@ -161,6 +171,13 @@ This holds a grouping of certain test suites to run in order to share the work w
 - [ ] Image block - Close/Re-open post with an ongoing image upload - [TC004](https://github.com/wordpress-mobile/test-cases/blob/master/test-cases/gutenberg/image.md#tc004)
 - [ ] Image block - Close post with an ongoing image upload - [TC005](https://github.com/wordpress-mobile/test-cases/blob/master/test-cases/gutenberg/image.md#tc005)
 
+### Story block - 1
+- [ ] Story block - Verify is available in Block Picker - [TC001](https://github.com/wordpress-mobile/test-cases/blob/master/test-cases/jetpack/story.md#tc001)
+- [ ] Story block - Verify is not available in Block Picker- [TC002](https://github.com/wordpress-mobile/test-cases/blob/master/test-cases/jetpack/story.md#tc002)
+- [ ] Story block - Add media to empty Story block - [TC003](https://github.com/wordpress-mobile/test-cases/blob/master/test-cases/jetpack/story.md#tc003)
+- [ ] Story block - Add media to non-empty Story block - [TC004](https://github.com/wordpress-mobile/test-cases/blob/master/test-cases/jetpack/story.md#tc004)
+- [ ] Story block - Close/Re-open post with an ongoing Story upload - [TC005](https://github.com/wordpress-mobile/test-cases/blob/master/test-cases/jetpack/story.md#tc005)
+
 ```
 
 ## Test Suite 3
@@ -172,6 +189,7 @@ This holds a grouping of certain test suites to run in order to share the work w
 - Cover 2
 - Social Icons 2
 - Image 2
+- Story block 1
 
 ```
 ### Gallery - 2
@@ -218,6 +236,14 @@ This holds a grouping of certain test suites to run in order to share the work w
 - [ ] Image block - Border style setting - [TC007](https://github.com/wordpress-mobile/test-cases/blob/master/test-cases/gutenberg/image.md#tc007)
 - [ ] Image block - Image size setting - [TC008](https://github.com/wordpress-mobile/test-cases/blob/master/test-cases/gutenberg/image.md#tc008)
 - [ ] Image block - Link to setting - [TC009](https://github.com/wordpress-mobile/test-cases/blob/master/test-cases/gutenberg/image.md#tc008)
+
+### Story block - 1
+- [ ] Story block - Verify is available in Block Picker - [TC001](https://github.com/wordpress-mobile/test-cases/blob/master/test-cases/jetpack/story.md#tc001)
+- [ ] Story block - Verify is not available in Block Picker- [TC002](https://github.com/wordpress-mobile/test-cases/blob/master/test-cases/jetpack/story.md#tc002)
+- [ ] Story block - Add media to empty Story block - [TC003](https://github.com/wordpress-mobile/test-cases/blob/master/test-cases/jetpack/story.md#tc003)
+- [ ] Story block - Add media to non-empty Story block - [TC004](https://github.com/wordpress-mobile/test-cases/blob/master/test-cases/jetpack/story.md#tc004)
+- [ ] Story block - Close/Re-open post with an ongoing Story upload - [TC005](https://github.com/wordpress-mobile/test-cases/blob/master/test-cases/jetpack/story.md#tc005)
+
 ```
 
 ## Test Suite 4
@@ -228,6 +254,7 @@ This holds a grouping of certain test suites to run in order to share the work w
 - Buttons 4-5-7
 - Editor Theme 2
 - Color Settings 2
+- Story block 1
 
 ```
 ### DarkMode - 2
@@ -279,4 +306,12 @@ This holds a grouping of certain test suites to run in order to share the work w
 - [ ] Pressing color swatch - [TC004](https://github.com/wordpress-mobile/test-cases/blob/master/test-cases/gutenberg/color-settings.md#tc004)
 - [ ] Customize gradient color - [TC005](https://github.com/wordpress-mobile/test-cases/blob/master/test-cases/gutenberg/color-settings.md#tc005)
 - [ ] Custom color picker - [TC006](https://github.com/wordpress-mobile/test-cases/blob/master/test-cases/gutenberg/color-settings.md#tc006)
+
+### Story block - 1
+- [ ] Story block - Verify is available in Block Picker - [TC001](https://github.com/wordpress-mobile/test-cases/blob/master/test-cases/jetpack/story.md#tc001)
+- [ ] Story block - Verify is not available in Block Picker- [TC002](https://github.com/wordpress-mobile/test-cases/blob/master/test-cases/jetpack/story.md#tc002)
+- [ ] Story block - Add media to empty Story block - [TC003](https://github.com/wordpress-mobile/test-cases/blob/master/test-cases/jetpack/story.md#tc003)
+- [ ] Story block - Add media to non-empty Story block - [TC004](https://github.com/wordpress-mobile/test-cases/blob/master/test-cases/jetpack/story.md#tc004)
+- [ ] Story block - Close/Re-open post with an ongoing Story upload - [TC005](https://github.com/wordpress-mobile/test-cases/blob/master/test-cases/jetpack/story.md#tc005)
+
 ```
