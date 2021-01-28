@@ -20,6 +20,7 @@ A wordpress.com site or a jetpack site with jetpack version 9.1 or newer
 #### Precondition
 
 A. A jetpack site with jetpack version previous to 9.1
+
 B. A self-hosted site without jetpack
 
 ### Block picker does not show the Story block
