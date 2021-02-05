@@ -12,7 +12,8 @@
 - Expect to see the upload indicator, filename and the word "Uploading".
 - Expect to not see an audio file type or replace buttons in the toolbar.
 
-![Upload pending](../resources/local-audio-file-upload-pending.png)
+<kbd><img src="../resources/local-audio-file-upload-pending.png" width="320"></kbd>
+
 - Expect to see audio file's name and an Open button once the upload is complete.  
 
 <kbd><img src="../resources/local-audio-file-upload-successful.png" width="320"></kbd>
@@ -56,7 +57,8 @@
 
 **Expected Behavior**
 
-![Upload retry](../resources/local-file-upload-retry.png)
+<kbd><img src="../resources/local-file-upload-retry.png" width="320"></kbd>
+
 
 **Next Step**
 -   Tap retry
@@ -84,7 +86,9 @@
 **Expected Behavior**
 
 -   You should see the below message:
-![Upload stopped](../resources/local-file-upload-stop.png)
+
+<kbd><img src="../resources/local-file-upload-stop.png" width="320"></kbd>
+
 
 **Next Step**
 
@@ -93,6 +97,7 @@
 **Expected Behavior**
 
 -   You should see that Audio block is cleared and the placeholder component is now visible.
+
 <kbd><img src="../resources/local-audio-file-upload-placeholder.png" width="320"></kbd>
 
 --------------------------------------------------------------------------------
