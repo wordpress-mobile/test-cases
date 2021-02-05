@@ -14,7 +14,7 @@
 
 <kbd><img src="../resources/local-audio-file-upload-pending.png" width="320"></kbd>
 
-- Expect to see audio file's name and an Open button once the upload is complete.  
+- Expect to see audio filename, audio MIME type and an Open button once the upload is complete.  
 
 <kbd><img src="../resources/local-audio-file-upload-successful.png" width="320"></kbd>
 
@@ -41,7 +41,7 @@
 
 **Steps**
 -   Tap on Add Audio on the placeholder or the Replace audio button in the toolbar.
--   Tap option ‘Choose from device’ and choose a audio file.
+-   Tap option ‘Choose from device’ and choose an audio file.
 -   Turn off the internet connection and wait for a moment.
 
 **Expected Behavior**
@@ -123,7 +123,7 @@
 **Expected Behavior**
 
 -   Verify that Audio block shows the filename, file type and the OPEN button.
--   You can also switch to HTML mode to verify that the upload was complete. This is done by checking to see that the hyperlinks of the Audio block points to a remote media url and not a local one. 
+-   You can also switch to HTML mode to verify that the upload was complete. This is done by checking to see that the hyperlink of the Audio block points to a remote media url and not a local one. 
 
 --------------------------------------------------------------------------------
 ##### TC006
