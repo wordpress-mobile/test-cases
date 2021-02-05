@@ -10,7 +10,7 @@
 
 **Expected Behavior**
 - Expect to see the upload indicator, filename and the word "Uploading".
-- Expect to not see an audio file type or replace buttons in the toolbar.
+- Expect to not see an audio file type.
 
 <kbd><img src="../resources/local-audio-file-upload-pending.png" width="320"></kbd>
 
