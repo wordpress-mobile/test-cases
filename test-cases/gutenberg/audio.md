@@ -182,7 +182,7 @@
 - On HTML mode there should be the `loop` attribute in the `<audio>` tag.
 
 --------------------------------------------------------------------------------
-##### TC011
+##### TC010
 
 **Close/Re-open post with an ongoing audio file upload**
 
