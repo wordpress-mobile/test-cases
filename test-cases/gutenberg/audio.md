@@ -15,7 +15,7 @@
 ![Upload pending](../resources/local-audio-file-upload-pending.png)
 - Expect to see audio file's name and an Open button once the upload is complete.  
 
-![Upload successful](../resources/local-audio-file-upload-successful.png)
+<kbd><img src="../resources/local-audio-file-upload-successful.png" width="320"></kbd>
 
 --------------------------------------------------------------------------------
 
@@ -30,7 +30,7 @@
 **Expected Behavior**
 - Expect to see filename, file type  and an Open button.  
 
-![Upload successful](../resources/local-audio-file-upload-successful.png)
+<kbd><img src="../resources/local-audio-file-upload-successful.png" width="320"></kbd>
 
 --------------------------------------------------------------------------------
 
@@ -46,7 +46,7 @@
 **Expected Behavior**
 -   You should see an error that says "Failed to insert audio file. Please tap for options".
 
-![Upload failed](../resources/local-audio-file-upload-failed.png)
+<kbd><img src="../resources/local-audio-file-upload-failed.png" width="320"></kbd>
 
 **Next Steps**
 
@@ -93,7 +93,7 @@
 **Expected Behavior**
 
 -   You should see that Audio block is cleared and the placeholder component is now visible.
-![Upload placeholder](../resources/local-audio-file-upload-placeholder.png)
+<kbd><img src="../resources/local-audio-file-upload-placeholder.png" width="320"></kbd>
 
 --------------------------------------------------------------------------------
 ##### TC005
@@ -108,7 +108,7 @@
 **Expected Behavior**
 
 -   Verify that you see the upload progress in post summary of the Post item in the Posts list.
-![File upload in post list](../resources/local-audio-file-upload-post-list.png)
+<kbd><img src="../resources/local-audio-file-upload-post-list.png" width="320"></kbd>
 
 **Next Steps**
 
@@ -189,7 +189,8 @@
 **Expected Behavior**
 
 -   Verify that you see the upload progress in post summary of the Post item in the Posts list.
-![Audio file upload in post list](../resources/local-audio-file-upload-post-list.png)
+<kbd><img src="../resources/local-audio-file-upload-post-list.png" width="320"></kbd>
+
 
 **Next Steps**
 
@@ -199,4 +200,4 @@
 
 -   Verify that you see a upload progress. 
 
-![Upload pending](../resources/local-audio-file-upload-pending.png)
+<kbd><img src="../resources/local-audio-file-upload-pending.png" width="320"></kbd>
