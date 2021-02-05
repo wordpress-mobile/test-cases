@@ -12,7 +12,7 @@
 - Expect to see the upload indicator, filename and the word "Uploading".
 - Expect to not see an audio file type or replace buttons in the toolbar.
 
-![Upload pending](../resources/local-file-upload-pending.png)
+![Upload pending](../resources/local-audio-file-upload-pending.png)
 - Expect to see audio file's name and an Open button once the upload is complete.  
 
 ![Upload successful](../resources/local-audio-file-upload-successful.png)
