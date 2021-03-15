@@ -13,6 +13,8 @@ Test the next steps on:
 **Known Issues**
 - On Android, tapping Enter to split a quote or pullquote citation both splits the block and adds a newline to the citation ([#2498](https://github.com/wordpress-mobile/gutenberg-mobile/issues/2498))
 - On Android, pressing enter multiple times in the content of a Pullquote or Quote block causes unintended behavior ([#27690](https://github.com/WordPress/gutenberg/issues/27690))
+- On Android, there is sometimes a loss of lines when entering multiple lines. ([#29861](https://github.com/WordPress/gutenberg/issues/29861))
+- There is sometimes inconsistent HTML surrounding newlines in the Pullquote and Quote Block on Android.  ([#29862](https://github.com/WordPress/gutenberg/issues/29862))
 
 **New line on multiline components**
 
