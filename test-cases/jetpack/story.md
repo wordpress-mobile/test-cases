@@ -20,6 +20,15 @@ A wordpress.com site or a jetpack site with jetpack version 9.1 or newer
 #### Precondition
 
 A. A jetpack site with jetpack version previous to 9.1
+  * The following steps can be used to test an older Jetpack version via Jurassic Ninja:
+    * Create a new site via Jurassic Ninja
+    * Go to installed plugins
+    * De-activate the Jetpack plugin
+    * Delete the Jetpack plugin
+    * Download an older version of Jetpack (e.g. [9.0.2](https://downloads.wordpress.org/plugin/jetpack.9.0.2.zip))
+    * Add a new plugin
+    * Upload the zip file downloaded earlier
+    * Activate the older Jetpack plugin version
 
 B. A self-hosted site without jetpack
 
