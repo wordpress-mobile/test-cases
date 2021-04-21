@@ -295,6 +295,8 @@ In that case, the steps above will show different results (e.g. all images will 
 
 The Media File option will show a "save link as" option. Attachment Page and None options will not show this option on long-press.
 
+**Known issue**: Linkto - attachment page setting does not always work for a self-hosted site. [See here](https://github.com/WordPress/gutenberg/issues/23576) for more details.
+
 --------------------------------------------------------------------------------
 
 ##### TC013
