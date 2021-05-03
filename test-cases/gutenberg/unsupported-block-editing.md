@@ -74,6 +74,9 @@ A WP.com Atomic site (i.e. a WP.com site with a Business plan) with the **Classi
 
 ##### TC005
 
+**Known Issues**
+- A Jetpack-site recently connected to a WPCom account older than December 2018 won’t display the option to open the Unsupported Block Editor. ([wordpress-mobile/gutenberg-mobile#3425](https://github.com/wordpress-mobile/gutenberg-mobile/issues/3425))
+
 #### Precondition
 
 For this test, you need a self-hosted site with the Jetpack plugin installed, activated and connected to a WP.com account. Here are the steps for creating this if needed:
