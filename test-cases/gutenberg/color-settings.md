@@ -82,6 +82,10 @@
 
 ##### TC005
 
+**Known Issues**
+
+- [When deselecting a custom gradient the button does not slide out smoothly](https://github.com/wordpress-mobile/gutenberg-mobile/issues/3465)
+
 ### Customize gradient color
 
 **Steps:**
