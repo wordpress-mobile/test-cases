@@ -23,9 +23,9 @@ Test the next steps on:
 - On citations, pressing Enter at the end of a citation splits the block, but pressing enter in the middle of a citation creates a new line.
 - Check on HTML mode that the resulting HTML code is correct:
   - *Quote*: `<p>` tags per paragraph.
-  - *Quote citation*: `<br>` ending lines.
-  - *Verse*: `<br>` ending lines.
-  - *Preformatted*: `<br>` ending lines.
+  - *Quote citation*: `<br>` on line-breaks.
+  - *Verse*: `<br>` on line-breaks.
+  - *Preformatted*: `<br>` on line-breaks.
   - *Code*: (Invisible `\n`) new line character.
   - *Pullquote*: `<p>` tags per non-wrapping "line"
-  - *Pullquote citation*: `<br>` ending lines.
+  - *Pullquote citation*: `<br>` on line-breaks.
