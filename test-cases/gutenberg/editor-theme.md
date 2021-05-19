@@ -128,14 +128,14 @@ When a theme supports FSE validate that theme colors and gradients still load.
 
 ### FSE Offline Support
 
-Perform the same setup as [TC006](https://github.com/wordpress-mobile/test-cases/blob/master/test-cases/gutenberg/editor-theme.md#tc006)
+Perform the same setup as [TC006](https://github.com/wordpress-mobile/test-cases/blob/trunk/test-cases/gutenberg/editor-theme.md#tc006)
 
 **Steps:**
-- After doing [TC006](https://github.com/wordpress-mobile/test-cases/blob/master/test-cases/gutenberg/editor-theme.md#tc006) take your device offline.
+- After doing [TC006](https://github.com/wordpress-mobile/test-cases/blob/trunk/test-cases/gutenberg/editor-theme.md#tc006) take your device offline.
 - Create a new post or page
 - Edit the color options on a block that supports color settings such as Buttons or Cover =
     - Verify the expected behavior
-- Reopen your artifact from [TC006](https://github.com/wordpress-mobile/test-cases/blob/master/test-cases/gutenberg/editor-theme.md#tc006)
+- Reopen your artifact from [TC006](https://github.com/wordpress-mobile/test-cases/blob/trunk/test-cases/gutenberg/editor-theme.md#tc006)
     - Verify the expected behavior
 	
 **Expected behavior:**
