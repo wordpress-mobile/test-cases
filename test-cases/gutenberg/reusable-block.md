@@ -18,7 +18,7 @@ The reusable blocks page can be also used for editing and deleting blocks.
 **Add block**
 
 **Steps**
-- Tap on :plus: button.
+- Tap on ➕ button.
 - Tap on "Reusable" tab
 - Tap on a reusable block
 - Once inserted, tap on the block
