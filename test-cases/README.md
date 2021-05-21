@@ -20,6 +20,8 @@ Gutenberg:
 - [Verse block](./gutenberg/verse.md)
 - [Video block](./gutenberg/video.md)
 - [File block](./gutenberg/file.md)
+- [Audio block](./gutenberg/audio.md)
+- [Reusable block](./gutenberg/reusable.md)
 
 Jetpack:
 
