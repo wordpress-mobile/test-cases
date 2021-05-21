@@ -56,7 +56,7 @@ The reusable blocks page can be also used for editing and deleting blocks.
 **Expected Behavior**
 - Expect to restore the reusable block.
 
-<kbd><img src="../resources/rb-convert-to-regular-blocks-undo.png" width="320"></kbd>
+<kbd><img src="../resources/rb-convert-to-regular-blocks-undo.gif" width="320"></kbd>
 
 **Next Steps**
 
@@ -65,7 +65,7 @@ The reusable blocks page can be also used for editing and deleting blocks.
 **Expected Behavior**
 - Expect to see the same blocks as after the conversion.
 
-<kbd><img src="../resources/rb-convert-to-regular-blocks-redo.png" width="320"></kbd>
+<kbd><img src="../resources/rb-convert-to-regular-blocks-redo.gif" width="320"></kbd>
 
 --------------------------------------------------------------------------------
 
