@@ -15,7 +15,7 @@ A WP.com Simple site (i.e. not an Atomic site). Any free WP.com site should suff
 3. Open the post and expect to see the block rendered as a placeholder with the text "Unsupported"
 4. Tap the `(?)` icon and expect the option to edit the block in a web browser to be shown
 5. Tap the edit in a web browser button and expect the block to be shown, ready to edit, on a new screen
-6. Edit the block content (e.g. update its caption)
+6. Edit the block content
 7. Tap the Continue button and expect to be taken back to the block editor
 8. Publish the post and verify it contains the edits
 
