@@ -12,7 +12,7 @@ When a theme doesn't have any custom colors defined the editor should allow sele
 
 **Steps:**
 - Select and activate a theme without any custom colors
-- Create a new post or page or open one with on of the supported blocks
+- Create a new post or page or open one with one of the supported blocks
 - Edit the color on a block that supports theme colors such as Buttons or Cover
 
 **Expected behavior:**
@@ -32,7 +32,7 @@ When a theme doesn't have any custom gradients defined the editor should allow s
 
 **Steps:**
 - Select and activate a theme without any custom gradients
-- Create a new post or page or open one with on of the supported blocks
+- Create a new post or page or open one with one of the supported blocks
 - Edit the gradient on a block that supports theme gradients such as Buttons or Cover
 
 **Expected behavior:**
@@ -114,7 +114,7 @@ When a theme supports FSE validate that theme colors and gradients still load.
 **Steps:**
 - Select and activate a theme that supports FSE and Global Styles.
 - On the Web add a custom color or gradient then go back to the app.
-- Create a new post or page or open one with on of the supported blocks
+- Create a new post or page or open one with one of the supported blocks
 - Edit the color options on a block that supports color settings such as Buttons or Cover
 
 **Expected behavior:**
