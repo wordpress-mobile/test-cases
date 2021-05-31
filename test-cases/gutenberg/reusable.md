@@ -25,7 +25,7 @@ The reusable blocks page can be also used for editing and deleting blocks.
 
 **Expected Behavior**
 - Expect to see the reusable block and its content.
-- Epxect to see the block's name in the block's header.
+- Expect to see the block's name in the block's header.
 
 <kbd><img src="../resources/rb-inserter-menu.png" width="320"></kbd>
 <kbd><img src="../resources/rb-preview-content.png" width="320"></kbd>
