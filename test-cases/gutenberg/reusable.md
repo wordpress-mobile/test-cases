@@ -77,7 +77,7 @@ The reusable blocks page can be also used for editing and deleting blocks.
 **Steps**
 - Navigate to the [reusable blocks page](https://wordpress.com/types/wp_block).
 - Select the WP.com site for testing.
-- Create two reusable blocks (you can find more info about creating a reusable block in the `Preparation` section).
+- Create two reusable blocks (you can find more info about creating a reusable block in the <a href="#preparation">`Preparation` section</a>).
 - Add the second reusable block as part of the content of the first one and update it.
 - Delete the second reusable block from the "Reusable blocks page" (referenced above).
 - The second reusable block will go to the trashed tab, delete it permanently.
@@ -99,7 +99,7 @@ The reusable blocks page can be also used for editing and deleting blocks.
 
 - Navigate to the [reusable blocks page](https://wordpress.com/types/wp_block).
 - Select the WP.com site for testing.
-- Create a reusable block (you can find more info about creating a reusable block in the `Preparation` section).
+- Create a reusable block (you can find more info about creating a reusable block in the <a href="#preparation">`Preparation` section</a>).
 - Edit the reusable block, add the same reusable block as part of the content and update it.
 - Observe that the block will show a warning box with text: `Block cannot be rendered inside itself.`.
 - Switch to mobile device for the last step.
