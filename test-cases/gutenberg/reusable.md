@@ -5,7 +5,7 @@
 
 **For testing this block, it's required to create reusable blocks via the web version, here are the steps:**
 
-- Navigate to the [reusable blocks page](https://wordpress.com/types/wp_block).
+- On a web browser, navigate to the [reusable blocks page](https://wordpress.com/types/wp_block).
 - Select the WP.com site for testing.
 - Click on "Add new reusable block".
 - Add a title.
@@ -75,7 +75,7 @@ The reusable blocks page can be also used for editing and deleting blocks.
 **Deleted reusable block**
 
 **Steps**
-- Navigate to the [reusable blocks page](https://wordpress.com/types/wp_block).
+- On a web browser, navigate to the [reusable blocks page](https://wordpress.com/types/wp_block).
 - Select the WP.com site for testing.
 - Create two reusable blocks (you can find more info about creating a reusable block in the <a href="#preparation">`Preparation` section</a>).
 - Add the second reusable block as part of the content of the first one and update it.
@@ -97,7 +97,7 @@ The reusable blocks page can be also used for editing and deleting blocks.
 
 **Steps**
 
-- Navigate to the [reusable blocks page](https://wordpress.com/types/wp_block).
+- On a web browser, navigate to the [reusable blocks page](https://wordpress.com/types/wp_block).
 - Select the WP.com site for testing.
 - Create a reusable block (you can find more info about creating a reusable block in the <a href="#preparation">`Preparation` section</a>).
 - Edit the reusable block, add the same reusable block as part of the content and update it.
