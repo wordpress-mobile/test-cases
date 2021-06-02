@@ -74,7 +74,7 @@ A WP.com Atomic site (i.e. a WP.com site with a Business plan) with the **Classi
 
 ### Editing unsupported blocks is disallowed on Classic-enabled Atomic sites
 
-1. On the site described above, add a post, then add a block that's not yet supported on mobile (e.g. Jetpack Markdown at time of writing)
+1. On the site described above, add a post, then add a block that's not yet supported on mobile
 2. Log into the WordPress mobile app using the site's WP.com account
 3. Open the post and expect to see the block rendered as a placeholder with the text "Unsupported"
 4. Tap the `(?)` icon and expect the web view to load before showing a message prompting users to ensure the block editor is enabled on their site.
