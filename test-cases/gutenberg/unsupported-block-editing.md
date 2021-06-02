@@ -83,7 +83,8 @@ For this test, you need a self-hosted site with the Jetpack plugin installed, ac
 
 1. Create a site on https://jurassic.ninja/
 2. Connect the Jetpack plugin (it comes pre-installed) to a WP.com account
-3. By default, Gutenberg is the default editor so no action required there
+3. Visit https://wordpress.com/settings/security , choose new site and enable "WordPress.com log in"
+4. By default, Gutenberg is the default editor so no action required there
 
 ### Editing unsupported blocks is enabled on self-hosted sites accessed via Jetpack
 
