@@ -36,7 +36,7 @@ A WP.com Simple site (i.e. not an Atomic site). Any free WP.com site should suff
 ##### TC003
 
 **Known Issues**
--  **[Android]** [Editing unsupported blocks is not enabled on sites accessed via older WP.com accounts](https://github.com/wordpress-mobile/gutenberg-mobile/issues/3425)
+- [Editing unsupported blocks is not enabled on sites accessed via older WP.com accounts](https://github.com/wordpress-mobile/gutenberg-mobile/issues/3425)
 
 #### Precondition
 
