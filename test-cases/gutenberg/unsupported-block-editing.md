@@ -100,9 +100,10 @@ A WP.com Atomic site (i.e. a WP.com site with a Business plan) with the **Classi
 
 For this test, you need a self-hosted site with the Jetpack plugin installed, activated and connected to a WP.com account. Here are the steps for creating this if needed:
 
+1. Log into a WP.com account
 1. Create a site on https://jurassic.ninja/
-2. Connect the Jetpack plugin (it comes pre-installed) to a WP.com account
-3. Visit https://wordpress.com/settings/security, choose new site and enable "WordPress.com log in"
+2. Connect Jetpack to the signed in WP.com account 
+3. Visit https://wordpress.com/settings/security, choose newly created site and enable "WordPress.com log in"
 4. By default, Gutenberg is the default editor so no action required there
 
 ### Editing unsupported blocks is enabled on self-hosted sites accessed via Jetpack
@@ -110,12 +111,9 @@ For this test, you need a self-hosted site with the Jetpack plugin installed, ac
 1. On the site described above, add a post, then add a block that's not yet supported on mobile via the site's WP Admin web interface
 2. Log into the WordPress mobile app using the WP.com account that was used to connect Jetpack to the self-hosted site
 3. Open the post and expect to see the unsupported block rendered as a placeholder with the text "Unsupported"
-4. Tap the `(?)` icon and expect to see an option to enable `Login with WordPress.com`
-5. Tap on that option, and enable `Login with WordPress.com` on the screen presented
-4. Go back and tap the `(?)` icon
-5. Expect the option to edit the block in a web browser to be shown
-6. Tap the edit in a web browser button and expect a web view requesting to `Login with WordPress.com`
-7. Tap on said option and expect the block to be shown, ready to edit, on a new screen
+4. Tap the `(?)` icon and expect the option to edit the block in a web browser to be shown 
+5. Tap the edit in a web browser button and expect a web view requesting to `Login with WordPress.com`
+6. Tap on said option and expect the block to be shown, ready to edit, on a new screen
 7. Edit the block content
 8. Tap the Continue button and expect to be taken back to the block editor
 9. Publish the post and verify it contains the edits
