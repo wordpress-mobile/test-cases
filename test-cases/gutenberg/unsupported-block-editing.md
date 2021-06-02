@@ -61,7 +61,7 @@ A WP.com Atomic site (i.e. a WP.com site with a Business plan) with the **Gutenb
 ##### TC004
 
 **Known Issues**
--  **[Android]** [Editing unsupported blocks is not enabled on sites accessed via older WP.com accounts](https://github.com/wordpress-mobile/gutenberg-mobile/issues/3425)
+- [Editing unsupported blocks is not enabled on sites accessed via older WP.com accounts](https://github.com/wordpress-mobile/gutenberg-mobile/issues/3425)
 
 #### Precondition
 
@@ -83,7 +83,7 @@ A WP.com Atomic site (i.e. a WP.com site with a Business plan) with the **Classi
 ##### TC005
 
 **Known Issues**
--  **[Android]** [Editing unsupported blocks is not enabled on sites accessed via older WP.com accounts](https://github.com/wordpress-mobile/gutenberg-mobile/issues/3425)
+- [Editing unsupported blocks is not enabled on sites accessed via older WP.com accounts](https://github.com/wordpress-mobile/gutenberg-mobile/issues/3425)
 
 #### Precondition
 
