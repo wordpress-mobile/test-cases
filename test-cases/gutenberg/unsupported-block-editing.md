@@ -73,6 +73,7 @@ A WP.com Atomic site (i.e. a WP.com site with a Business plan) with the **Gutenb
 
 **Known Issues**
 - [Editing unsupported blocks is not enabled on sites accessed via older WP.com accounts](https://github.com/wordpress-mobile/gutenberg-mobile/issues/3425)
+- [Editing unsupported blocks is not disallowed on Classic-enabled Atomic sites](https://github.com/wordpress-mobile/gutenberg-mobile/issues/3544)
 
 #### Precondition
 
@@ -84,6 +85,8 @@ A WP.com Atomic site (i.e. a WP.com site with a Business plan) with the **Classi
 4. In Calypso choose your site and go to Tools | Plugins | Installed Plugins, then tap Settings under the Classic Editor plugin and set **Default editor for all users** to **Classic Editor**
 
 ### Editing unsupported blocks is disallowed on Classic-enabled Atomic sites
+
+**Please note that this must be skipped until the above known issue, [Editing unsupported blocks is not disallowed on Classic-enabled Atomic sites](https://github.com/wordpress-mobile/gutenberg-mobile/issues/3544), is fixed.**
 
 1. On the site described above, add a post, then add a block that's not yet supported on mobile
 2. Log into the WordPress mobile app using the site's WP.com account
