@@ -108,7 +108,7 @@ This holds a grouping of certain test suites to run in order to share the work w
 
 - [ ] Gallery block - Dark mode - [TC001](https://github.com/wordpress-mobile/test-cases/blob/master/test-cases/gutenberg/darkmode.md#tc001)
 - [ ] Shortcode block - Dark mode - [TC002](https://github.com/wordpress-mobile/test-cases/blob/master/test-cases/gutenberg/darkmode.md#tc002)
-- [ ] Media Text block - Dark mode - [TC003](https://github.com/wordpress-mobile/test-cases/blob/master/test-cases/gutenberg/darkmode.md#tc003
+- [ ] Media Text block - Dark mode - [TC003](https://github.com/wordpress-mobile/test-cases/blob/master/test-cases/gutenberg/darkmode.md#tc003)
 
 ### Group - 1
 
