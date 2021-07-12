@@ -1,7 +1,6 @@
 # Splitting and merging - Test Cases
 
 **Known Issues**
--  **[Android]** Cannot split blocks immediately after prepending to a "swiped" word https://github.com/wordpress-mobile/gutenberg-mobile/issues/2372
 - **[Android]** Splitting block before "swiped" word loses "swiped" word https://github.com/wordpress-mobile/gutenberg-mobile/issues/2373
 
 #### **Precondition**
