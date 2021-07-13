@@ -91,7 +91,9 @@ A WP.com Atomic site (i.e. a WP.com site with a Business plan) with the **Classi
 1. On the site described above, add a post, then add a block that's not yet supported on mobile
 2. Log into the WordPress mobile app using the site's WP.com account
 3. Open the post and expect to see the block rendered as a placeholder with the text "Unsupported"
-4. Tap the `(?)` icon and expect to **not** see an option to edit the block in a web browser
+4. Tap the `(?)` icon and expect the option to edit the block in a web browser to be shown
+5. Tap the edit in a web browser button and expect to see loading screen
+6. After a while (~10 seconds) expect to see the `Unable to load the block editor right now` screen.
 
 
 ##### TC005
