@@ -2,7 +2,7 @@
 
 ##### TC0001
 
-**Blocks Are Sorted Properly In The Inserter**
+**Blocks are sorted properly in the inserter**
 
 **Steps**
 1. Open the block inserter
