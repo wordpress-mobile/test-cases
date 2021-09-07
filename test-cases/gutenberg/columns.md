@@ -94,7 +94,7 @@ Expected look:
 
 Exception:
 
-- If `Columns` has only one `Column` left [see TC009](https://github.com/wordpress-mobile/test-cases/blob/master/test-cases/gutenberg/columns.md#tc007)
+- If `Columns` has only one `Column` left [see TC008](https://github.com/wordpress-mobile/test-cases/blob/master/test-cases/gutenberg/columns.md#tc008)
 
 --------------------------------------------------------------------------------
 
