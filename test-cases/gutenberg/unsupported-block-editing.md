@@ -34,7 +34,7 @@ A WP.com Simple site (i.e. not an Atomic site). Any free WP.com site should suff
 ##### TC002
 
 **Known Issues**
--  **[Android-only]** The update button is not greyed-out when changes are discarded
+-  **[Android-only]** The update button is not greyed-out when changes are discarded. Related: [WPAndroid issue](https://github.com/wordpress-mobile/WordPress-Android/issues/13169), [Gutenberg Mobile issue](https://github.com/wordpress-mobile/gutenberg-mobile/issues/2714)
 
 ### User can discard edits to an unsupported blocks on Simple WP.com sites
 
@@ -46,16 +46,12 @@ A WP.com Simple site (i.e. not an Atomic site). Any free WP.com site should suff
 
 ##### TC003
 
-**Known Issues**
-- [Editing unsupported blocks is not enabled on sites accessed via older WP.com accounts](https://github.com/wordpress-mobile/gutenberg-mobile/issues/3425)
-
 #### Precondition
 
 A WP.com Atomic site (i.e. a WP.com site with a Business plan) with the **Gutenberg Editor** set as the default. Here are the steps for creating this if necessary:
 
 1. Find a site with a Business plan or higher
-2. Find an account created in 2019 or later (account age is found under https://wordpress.com/me/account), otherwise the known issue listed above will break the Unsupported Block Editor
-3. In Calypso choose your site and go to Tools | Plugins | Installed Plugins — ensure the Classic Editor plugin is **not** installed (or if it is installed, make sure it is not the default editor in the plugin settings)
+2. Make sure that the block editor is the default editor (check in Tools | Plugins | Installed Plugins and ensure that the Classic Editor plugin is not installed, or if it is, it's not the default editor in the plugin settings)
 
 ### Editing unsupported blocks is allowed on Gutenberg-enabled Atomic sites
 
@@ -71,35 +67,25 @@ A WP.com Atomic site (i.e. a WP.com site with a Business plan) with the **Gutenb
 
 ##### TC004
 
-**Known Issues**
-- [Editing unsupported blocks is not enabled on sites accessed via older WP.com accounts](https://github.com/wordpress-mobile/gutenberg-mobile/issues/3425)
-- [Editing unsupported blocks is not disallowed on Classic-enabled Atomic sites](https://github.com/wordpress-mobile/gutenberg-mobile/issues/3544)
-
 #### Precondition
 
 A WP.com Atomic site (i.e. a WP.com site with a Business plan) with the **Classic editor** set as the default. Here are the steps for creating this if necessary:
 
 1. Find a site with a Business plan or higher
-2. Find an account created in 2019 or later (account age is found under https://wordpress.com/me/account), otherwise the known issue listed above will break the Unsupported Block Editor
+2. Create a post using the block editor and add to it a block not yet supported on mobile (we'll need this for a later step)
 3. Install and activate the Classic Editor plugin
 4. In Calypso choose your site and go to Tools | Plugins | Installed Plugins, then tap Settings under the Classic Editor plugin and set **Default editor for all users** to **Classic Editor**
 
 ### Editing unsupported blocks is disallowed on Classic-enabled Atomic sites
 
-**Please note that this must be skipped until the above known issue, [Editing unsupported blocks is not disallowed on Classic-enabled Atomic sites](https://github.com/wordpress-mobile/gutenberg-mobile/issues/3544), is fixed.**
-
-1. On the site described above, add a post, then add a block that's not yet supported on mobile
-2. Log into the WordPress mobile app using the site's WP.com account
-3. Open the post and expect to see the block rendered as a placeholder with the text "Unsupported"
-4. Tap the `(?)` icon and expect the option to edit the block in a web browser to be shown
-5. Tap the edit in a web browser button and expect to see loading screen
-6. After a while (~10 seconds) expect to see the `Unable to load the block editor right now` screen.
+1. Log into the WordPress mobile app using the site's WP.com account
+2. Open the post and expect to see the block rendered as a placeholder with the text "Unsupported"
+3. Tap the `(?)` icon and expect the option to edit the block in a web browser to be shown
+4. Tap the edit in a web browser button and expect to see loading screen
+5. After a while (~10 seconds) expect to see the `Unable to load the block editor right now` screen.
 
 
 ##### TC005
-
-**Known Issues**
-- [Editing unsupported blocks is not enabled on sites accessed via older WP.com accounts](https://github.com/wordpress-mobile/gutenberg-mobile/issues/3425)
 
 #### Precondition
 
