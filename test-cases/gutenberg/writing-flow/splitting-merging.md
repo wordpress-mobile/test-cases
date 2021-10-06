@@ -46,6 +46,7 @@ Start from an empty post.
 
 **Known Issues**
 - **[Android]** Deleting "swiped" or selected words prevents merging blocks https://github.com/wordpress-mobile/gutenberg-mobile/issues/2375
+- **[Android]** Heading block stops being rendered as a header when deleting the first word https://github.com/wordpress-mobile/gutenberg-mobile/issues/3106
 
 **Merge after deleting text**
 - Follow the initial steps.
