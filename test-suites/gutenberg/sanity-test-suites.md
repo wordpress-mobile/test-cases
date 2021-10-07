@@ -236,10 +236,9 @@ This holds a grouping of certain test suites to run in order to share the work w
 - [ ] Social icon forwarding to the link - [TC006](https://github.com/wordpress-mobile/test-cases/blob/master/test-cases/gutenberg/social-icons.md#tc006)
 
 ### Image - 2
-- [ ] Image block - Switch to classic editor with an image block in page - [TC006](https://github.com/wordpress-mobile/test-cases/blob/master/test-cases/gutenberg/image.md#tc006)
-- [ ] Image block - Border style setting - [TC007](https://github.com/wordpress-mobile/test-cases/blob/master/test-cases/gutenberg/image.md#tc007)
-- [ ] Image block - Image size setting - [TC008](https://github.com/wordpress-mobile/test-cases/blob/master/test-cases/gutenberg/image.md#tc008)
-- [ ] Image block - Link to setting - [TC009](https://github.com/wordpress-mobile/test-cases/blob/master/test-cases/gutenberg/image.md#tc008)
+- [ ] Image block - Border style setting - [TC006](https://github.com/wordpress-mobile/test-cases/blob/master/test-cases/gutenberg/image.md#tc006)
+- [ ] Image block - Image size setting - [TC007](https://github.com/wordpress-mobile/test-cases/blob/master/test-cases/gutenberg/image.md#tc007)
+- [ ] Image block - Link to setting - [TC008](https://github.com/wordpress-mobile/test-cases/blob/master/test-cases/gutenberg/image.md#tc008)
 
 ### Story block - 1
 - [ ] Story block - Verify is available in Block Picker - [TC001](https://github.com/wordpress-mobile/test-cases/blob/master/test-cases/jetpack/story.md#tc001)

@@ -73,15 +73,6 @@ A site with premium or business plan
 --------------------------------------------------------------------------------
 ##### TC006
 
-**Switch to classic editor with an image block in page**
-
--   Add an image block and insert image
--   Switch to classic editor
--   Verify that you see the image there too
-
---------------------------------------------------------------------------------
-##### TC007
-
 **Border style setting**
 
 **Steps**
@@ -98,7 +89,7 @@ A site with premium or business plan
 <br><img src="../resources/image-border-rounded.png" width=250 />
 
 --------------------------------------------------------------------------------
-##### TC008
+##### TC007
 
 **Image size setting**
 
@@ -117,7 +108,7 @@ A site with premium or business plan
 
 --------------------------------------------------------------------------------
 
-##### TC009
+##### TC008
 
 **Link to setting**
 
