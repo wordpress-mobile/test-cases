@@ -1,11 +1,11 @@
 [
 	{
 		"regex":"gutenberg/packages/block-library/src/image/edit.native.js",
-		"testFile": ["gutenberg/image-basic.md", "gutenberg/image-upload.md", "gutenberg/image-caption.md"]
+		"testFile": ["gutenberg/image-upload.md", "gutenberg/image-caption.md"]
 	},
 	{
 		"regex":"gutenberg/packages/block-library/src/video/edit.native.js",
-		"testFile": ["gutenberg/video-basic.md", "gutenberg/video-upload.md", "gutenberg/video-caption.md"]
+		"testFile": ["gutenberg/video-upload.md", "gutenberg/video-caption.md"]
 	},
 	{
 		"regex":"gutenberg/packages/block-editor/src/components/media-upload/index.native.js",

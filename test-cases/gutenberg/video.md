@@ -41,13 +41,5 @@ Steps are same with [image block TC005](https://github.com/wordpress-mobile/test
 
 ![Upload progress](../resources/upload-progress-video.png)
 
-##### TC006
-
-**Switch to classic editor with a video block in page**
-
--   Add an video block and insert video
--   Switch to classic editor
--   Verify that you see the video there too and you can play it
-
 
 
