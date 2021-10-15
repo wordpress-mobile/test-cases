@@ -1,1 +1,0 @@
-- [ ] Image block - Switch to classic editor with an image block in page - [steps](https://github.com/wordpress-mobile/test-cases/blob/master/test-cases/gutenberg/image.md#tc006)
