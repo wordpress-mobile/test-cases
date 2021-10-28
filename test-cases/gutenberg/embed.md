@@ -33,9 +33,8 @@ Perform these tests for each of the top 5 most-used providers below.
 
 *Initial steps* 
 
-- Add an Embed block
+- Add an Embed block.
 - Add a valid embed URL.
-
 
 ### 1. Default alignment
 
