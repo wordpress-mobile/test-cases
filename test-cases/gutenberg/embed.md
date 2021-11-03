@@ -5,7 +5,10 @@
 
 #### **Precondition**
 
-Perform these tests for each of the top 5 most-used providers below. 
+Perform these tests for each of the top 5 most-used providers below.
+
+N.B Instagram only works on WP.com sites or self hosted sites with a Jetpack connection. 
+
  1. YouTube
  2. Twitter
  3. Instagram
