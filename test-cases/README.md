@@ -23,6 +23,7 @@ Gutenberg:
 - [File block](./gutenberg/file.md)
 - [Audio block](./gutenberg/audio.md)
 - [Reusable block](./gutenberg/reusable.md)
+- [Embed block](./gutenberg/embed.md)
 
 Jetpack:
 
