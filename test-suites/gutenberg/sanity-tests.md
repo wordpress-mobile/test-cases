@@ -266,3 +266,11 @@ Audio block - 4
 - [ ] Audio block - Autoplay setting - [steps](https://github.com/wordpress-mobile/test-cases/blob/master/test-cases/gutenberg/audio.md#tc008)
 - [ ] Audio block - Loop setting - [steps](https://github.com/wordpress-mobile/test-cases/blob/master/test-cases/gutenberg/audio.md#tc009)
 - [ ] Audio block - Close/Re-open post with an ongoing audio file upload - [steps](https://github.com/wordpress-mobile/test-cases/blob/master/test-cases/gutenberg/audio.md#tc010)
+
+Reusable block - 1
+- [ ] Reusable block - Add block - [steps](https://github.com/wordpress-mobile/test-cases/blob/master/test-cases/gutenberg/reusable.md#tc001)
+- [ ] Reusable block - Convert to regular blocks - [steps](https://github.com/wordpress-mobile/test-cases/blob/master/test-cases/gutenberg/reusable.md#tc002)
+
+Reusable block - 2
+- [ ] Reusable block - Deleted reusable block - [steps](https://github.com/wordpress-mobile/test-cases/blob/master/test-cases/gutenberg/reusable.md#tc003)
+- [ ] Reusable block - Recursive block rendering - [steps](https://github.com/wordpress-mobile/test-cases/blob/master/test-cases/gutenberg/reusable.md#tc004)
