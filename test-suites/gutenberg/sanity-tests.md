@@ -230,3 +230,21 @@ Video block - 2
 - [ ] Video block - Insert video from device (cancel) - [steps](https://github.com/wordpress-mobile/test-cases/blob/master/test-cases/gutenberg/video.md#tc002)
 - [ ] Video block - Close post with an ongoing video upload - [steps](https://github.com/wordpress-mobile/test-cases/blob/master/test-cases/gutenberg/video.md#tc005)
 - [ ] Video block - Add Caption - [steps](https://github.com/wordpress-mobile/test-cases/blob/master/test-cases/gutenberg/video.md#tc003)
+
+File block - 1
+- [ ] File block - Upload completes successfully from the device library - [steps](https://github.com/wordpress-mobile/test-cases/blob/master/test-cases/gutenberg/file.md#tc001)
+- [ ] File block - Insert completes successfully from the WordPress Media library - [steps](https://github.com/wordpress-mobile/test-cases/blob/master/test-cases/gutenberg/file.md#tc002)
+- [ ] File block - Upload fails from the device library - [steps](https://github.com/wordpress-mobile/test-cases/blob/master/test-cases/gutenberg/file.md#tc003)
+- [ ] File block - Stop the file upload before it completes - [steps](https://github.com/wordpress-mobile/test-cases/blob/master/test-cases/gutenberg/file.md#tc004)
+
+File block - 2
+- [ ] File block - Close the post with an ongoing file upload - [steps](https://github.com/wordpress-mobile/test-cases/blob/master/test-cases/gutenberg/file.md#tc005)
+- [ ] File block - Replace the selected files - [steps](https://github.com/wordpress-mobile/test-cases/blob/master/test-cases/gutenberg/file.md#tc006)
+- [ ] File block - Change the alignment in the File Block - [steps](https://github.com/wordpress-mobile/test-cases/blob/master/test-cases/gutenberg/file.md#tc007)
+- [ ] File block - The Link To Block Setting should open - [steps](https://github.com/wordpress-mobile/test-cases/blob/master/test-cases/gutenberg/file.md#tc008)
+
+File block - 3
+- [ ] File block - Open link in new tab - [steps](https://github.com/wordpress-mobile/test-cases/blob/master/test-cases/gutenberg/file.md#tc009)
+- [ ] File block - Show/hide download button (Block Settings only) - [steps](https://github.com/wordpress-mobile/test-cases/blob/master/test-cases/gutenberg/file.md#tc0010)
+- [ ] File block - Copy file URL - [steps](https://github.com/wordpress-mobile/test-cases/blob/master/test-cases/gutenberg/file.md#tc0011)
+- [ ] File block - Close/Re-open post with an ongoing file upload - [steps](https://github.com/wordpress-mobile/test-cases/blob/master/test-cases/gutenberg/file.md#tc0012)
