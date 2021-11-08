@@ -30,7 +30,7 @@ N.B Instagram only works on WP.com sites or self hosted sites with a Jetpack con
 
 ##### TC002
 
-**Inline previews are rendered accordingly for each alignment option.**
+**Inline previews are rendered accordingly for each alignment option**
 
 #### **Precondition**
 
