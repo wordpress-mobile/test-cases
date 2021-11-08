@@ -190,7 +190,7 @@ The test cases below apply to both the Block Settings icon and the Link toolbar 
 - On HTML mode there should be the attributes `target="_blank" rel="noreferrer noopener"` in the `<a>` tag.
 
 --------------------------------------------------------------------------------
-##### TC0010
+##### TC010
 
 **Show/hide download button (Block Settings only)**
 
@@ -204,7 +204,7 @@ The test cases below apply to both the Block Settings icon and the Link toolbar 
 - The Download button should disappear
 
 --------------------------------------------------------------------------------
-##### TC0011
+##### TC011
 
 **Copy file URL**
 
