@@ -274,3 +274,9 @@ Reusable block - 1
 Reusable block - 2
 - [ ] Reusable block - Deleted reusable block - [steps](https://github.com/wordpress-mobile/test-cases/blob/master/test-cases/gutenberg/reusable.md#tc003)
 - [ ] Reusable block - Recursive block rendering - [steps](https://github.com/wordpress-mobile/test-cases/blob/master/test-cases/gutenberg/reusable.md#tc004)
+
+Embed block - 1
+- [ ] Embed block - Inline previews are rendered correctly for the top 5 most-used providers - [steps](https://github.com/wordpress-mobile/test-cases/blob/master/test-cases/gutenberg/embed.md#tc001)
+
+Embed block - 2
+- [ ] Embed block - Inline previews are rendered accordingly for each alignment option - [steps](https://github.com/wordpress-mobile/test-cases/blob/master/test-cases/gutenberg/embed.md#tc002)
