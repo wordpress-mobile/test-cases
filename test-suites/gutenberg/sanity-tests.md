@@ -245,6 +245,24 @@ File block - 2
 
 File block - 3
 - [ ] File block - Open link in new tab - [steps](https://github.com/wordpress-mobile/test-cases/blob/master/test-cases/gutenberg/file.md#tc009)
-- [ ] File block - Show/hide download button (Block Settings only) - [steps](https://github.com/wordpress-mobile/test-cases/blob/master/test-cases/gutenberg/file.md#tc0010)
-- [ ] File block - Copy file URL - [steps](https://github.com/wordpress-mobile/test-cases/blob/master/test-cases/gutenberg/file.md#tc0011)
-- [ ] File block - Close/Re-open post with an ongoing file upload - [steps](https://github.com/wordpress-mobile/test-cases/blob/master/test-cases/gutenberg/file.md#tc0012)
+- [ ] File block - Show/hide download button (Block Settings only) - [steps](https://github.com/wordpress-mobile/test-cases/blob/master/test-cases/gutenberg/file.md#tc010)
+- [ ] File block - Copy file URL - [steps](https://github.com/wordpress-mobile/test-cases/blob/master/test-cases/gutenberg/file.md#tc011)
+- [ ] File block - Close/Re-open post with an ongoing file upload - [steps](https://github.com/wordpress-mobile/test-cases/blob/master/test-cases/gutenberg/file.md#tc012)
+
+Audio block - 1
+- [ ] Audio block - Upload completes successfully from the device library - [steps](https://github.com/wordpress-mobile/test-cases/blob/master/test-cases/gutenberg/audio.md#tc001)
+- [ ] Audio block - Insert completes successfully from the WordPress Media library - [steps](https://github.com/wordpress-mobile/test-cases/blob/master/test-cases/gutenberg/audio.md#tc002)
+
+Audio block - 2
+- [ ] Audio block - Upload fails from the device library - [steps](https://github.com/wordpress-mobile/test-cases/blob/master/test-cases/gutenberg/audio.md#tc003)
+- [ ] Audio block - Stop the audio file upload before it completes - [steps](https://github.com/wordpress-mobile/test-cases/blob/master/test-cases/gutenberg/audio.md#tc004)
+
+Audio block - 3
+- [ ] Audio block - Close the post with an ongoing audio file upload - [steps](https://github.com/wordpress-mobile/test-cases/blob/master/test-cases/gutenberg/audio.md#tc005)
+- [ ] Audio block - Replace the selected files - [steps](https://github.com/wordpress-mobile/test-cases/blob/master/test-cases/gutenberg/audio.md#tc006)
+- [ ] Audio block - Change the alignment in the Audio Block - [steps](https://github.com/wordpress-mobile/test-cases/blob/master/test-cases/gutenberg/audio.md#tc007)
+
+Audio block - 4
+- [ ] Audio block - Autoplay setting - [steps](https://github.com/wordpress-mobile/test-cases/blob/master/test-cases/gutenberg/audio.md#tc008)
+- [ ] Audio block - Loop setting - [steps](https://github.com/wordpress-mobile/test-cases/blob/master/test-cases/gutenberg/audio.md#tc009)
+- [ ] Audio block - Close/Re-open post with an ongoing audio file upload - [steps](https://github.com/wordpress-mobile/test-cases/blob/master/test-cases/gutenberg/audio.md#tc010)
