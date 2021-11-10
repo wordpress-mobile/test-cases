@@ -168,7 +168,7 @@
 - On HTML mode there should be the `autoplay` attribute in the `<audio>` tag.
 
 --------------------------------------------------------------------------------
-##### TC0009
+##### TC009
 
 **Loop setting**
 

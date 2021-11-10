@@ -221,3 +221,62 @@ Story block - 1
 - [ ] Story block - Add media to empty Story block - [steps](https://github.com/wordpress-mobile/test-cases/blob/master/test-cases/jetpack/story.md#tc003)
 - [ ] Story block - Add media to non-empty Story block - [steps](https://github.com/wordpress-mobile/test-cases/blob/master/test-cases/jetpack/story.md#tc004)
 - [ ] Story block - Close/Re-open post with an ongoing Story upload - [steps](https://github.com/wordpress-mobile/test-cases/blob/master/test-cases/jetpack/story.md#tc005)
+
+Video block - 1
+- [ ] Video block - Insert video from device (failing) - [steps](https://github.com/wordpress-mobile/test-cases/blob/master/test-cases/gutenberg/video.md#tc001)
+- [ ] Video block - Close/Re-open post with an ongoing video upload - [steps](https://github.com/wordpress-mobile/test-cases/blob/master/test-cases/gutenberg/video.md#tc004)
+
+Video block - 2
+- [ ] Video block - Insert video from device (cancel) - [steps](https://github.com/wordpress-mobile/test-cases/blob/master/test-cases/gutenberg/video.md#tc002)
+- [ ] Video block - Close post with an ongoing video upload - [steps](https://github.com/wordpress-mobile/test-cases/blob/master/test-cases/gutenberg/video.md#tc005)
+- [ ] Video block - Add Caption - [steps](https://github.com/wordpress-mobile/test-cases/blob/master/test-cases/gutenberg/video.md#tc003)
+
+File block - 1
+- [ ] File block - Upload completes successfully from the device library - [steps](https://github.com/wordpress-mobile/test-cases/blob/master/test-cases/gutenberg/file.md#tc001)
+- [ ] File block - Insert completes successfully from the WordPress Media library - [steps](https://github.com/wordpress-mobile/test-cases/blob/master/test-cases/gutenberg/file.md#tc002)
+- [ ] File block - Upload fails from the device library - [steps](https://github.com/wordpress-mobile/test-cases/blob/master/test-cases/gutenberg/file.md#tc003)
+- [ ] File block - Stop the file upload before it completes - [steps](https://github.com/wordpress-mobile/test-cases/blob/master/test-cases/gutenberg/file.md#tc004)
+
+File block - 2
+- [ ] File block - Close the post with an ongoing file upload - [steps](https://github.com/wordpress-mobile/test-cases/blob/master/test-cases/gutenberg/file.md#tc005)
+- [ ] File block - Replace the selected files - [steps](https://github.com/wordpress-mobile/test-cases/blob/master/test-cases/gutenberg/file.md#tc006)
+- [ ] File block - Change the alignment in the File Block - [steps](https://github.com/wordpress-mobile/test-cases/blob/master/test-cases/gutenberg/file.md#tc007)
+- [ ] File block - The Link To Block Setting should open - [steps](https://github.com/wordpress-mobile/test-cases/blob/master/test-cases/gutenberg/file.md#tc008)
+
+File block - 3
+- [ ] File block - Open link in new tab - [steps](https://github.com/wordpress-mobile/test-cases/blob/master/test-cases/gutenberg/file.md#tc009)
+- [ ] File block - Show/hide download button (Block Settings only) - [steps](https://github.com/wordpress-mobile/test-cases/blob/master/test-cases/gutenberg/file.md#tc010)
+- [ ] File block - Copy file URL - [steps](https://github.com/wordpress-mobile/test-cases/blob/master/test-cases/gutenberg/file.md#tc011)
+- [ ] File block - Close/Re-open post with an ongoing file upload - [steps](https://github.com/wordpress-mobile/test-cases/blob/master/test-cases/gutenberg/file.md#tc012)
+
+Audio block - 1
+- [ ] Audio block - Upload completes successfully from the device library - [steps](https://github.com/wordpress-mobile/test-cases/blob/master/test-cases/gutenberg/audio.md#tc001)
+- [ ] Audio block - Insert completes successfully from the WordPress Media library - [steps](https://github.com/wordpress-mobile/test-cases/blob/master/test-cases/gutenberg/audio.md#tc002)
+
+Audio block - 2
+- [ ] Audio block - Upload fails from the device library - [steps](https://github.com/wordpress-mobile/test-cases/blob/master/test-cases/gutenberg/audio.md#tc003)
+- [ ] Audio block - Stop the audio file upload before it completes - [steps](https://github.com/wordpress-mobile/test-cases/blob/master/test-cases/gutenberg/audio.md#tc004)
+
+Audio block - 3
+- [ ] Audio block - Close the post with an ongoing audio file upload - [steps](https://github.com/wordpress-mobile/test-cases/blob/master/test-cases/gutenberg/audio.md#tc005)
+- [ ] Audio block - Replace the selected files - [steps](https://github.com/wordpress-mobile/test-cases/blob/master/test-cases/gutenberg/audio.md#tc006)
+- [ ] Audio block - Change the alignment in the Audio Block - [steps](https://github.com/wordpress-mobile/test-cases/blob/master/test-cases/gutenberg/audio.md#tc007)
+
+Audio block - 4
+- [ ] Audio block - Autoplay setting - [steps](https://github.com/wordpress-mobile/test-cases/blob/master/test-cases/gutenberg/audio.md#tc008)
+- [ ] Audio block - Loop setting - [steps](https://github.com/wordpress-mobile/test-cases/blob/master/test-cases/gutenberg/audio.md#tc009)
+- [ ] Audio block - Close/Re-open post with an ongoing audio file upload - [steps](https://github.com/wordpress-mobile/test-cases/blob/master/test-cases/gutenberg/audio.md#tc010)
+
+Reusable block - 1
+- [ ] Reusable block - Add block - [steps](https://github.com/wordpress-mobile/test-cases/blob/master/test-cases/gutenberg/reusable.md#tc001)
+- [ ] Reusable block - Convert to regular blocks - [steps](https://github.com/wordpress-mobile/test-cases/blob/master/test-cases/gutenberg/reusable.md#tc002)
+
+Reusable block - 2
+- [ ] Reusable block - Deleted reusable block - [steps](https://github.com/wordpress-mobile/test-cases/blob/master/test-cases/gutenberg/reusable.md#tc003)
+- [ ] Reusable block - Recursive block rendering - [steps](https://github.com/wordpress-mobile/test-cases/blob/master/test-cases/gutenberg/reusable.md#tc004)
+
+Embed block - 1
+- [ ] Embed block - Inline previews are rendered correctly for the top 5 most-used providers - [steps](https://github.com/wordpress-mobile/test-cases/blob/master/test-cases/gutenberg/embed.md#tc001)
+
+Embed block - 2
+- [ ] Embed block - Inline previews are rendered accordingly for each alignment option - [steps](https://github.com/wordpress-mobile/test-cases/blob/master/test-cases/gutenberg/embed.md#tc002)
