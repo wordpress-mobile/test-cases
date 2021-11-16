@@ -7,10 +7,7 @@
 
 -   Add a cover block 
 -   Tap on Placeholder
--   The picker should show up with the `WordPress Media library` option
-
-![Cover media picker](../resources/cover-7.png)
--   Select and image
+-   Use the picker's `WordPress Media library` option to select an image
 -   Expect to see the selected image in the Cover Block
 
 --------------------------------------------------------------------------------
