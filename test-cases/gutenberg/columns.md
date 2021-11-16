@@ -252,7 +252,7 @@ Expected look:
 - Select top-most `Columns` block in hierarchy
 - Expect empty `Column` placeholder to be stretched accordingly
 - Select `Column` with the content
-- Expect empty `Column` placeholder in the same row to be stretched accordingly
+- Expect empty `Column` placeholder in the same row to be stretched accordingly. Note: [known issue](https://github.com/wordpress-mobile/gutenberg-mobile/issues/4081) that the placeholder is not actually stretched vertically as expected.
 
 Expected look:  
 ![PlaceholderStretched](../resources/columns-placeholder-stretched.png)
