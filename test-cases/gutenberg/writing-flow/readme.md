@@ -1,25 +1,25 @@
 ### Writing Flow checklist
 
 #### General
-- [ ] TC001 - Paste formatted text copied from website
-- [ ] TC001 - Multiline components
+- [ ] [TC001](https://github.com/wordpress-mobile/test-cases/blob/trunk/test-cases/gutenberg/writing-flow/copy-paste.md#tc001) - Paste formatted text copied from website
+- [ ] [TC001](https://github.com/wordpress-mobile/test-cases/blob/trunk/test-cases/gutenberg/writing-flow/multiline-components.md#tc001) - Multiline components
 #### Rich Text Format
-- [ ] TC001 - Bold, Italic, strikethrough buttons
-- [ ] TC002 - Alignment buttons
-- [ ] TC003 - Alignment Split
-- [ ] TC004 - Link button works without selection
-- [ ] TC005 - Link button works with a selected word
-- [ ] TC006 - Adding a link from a copied URL
-- [ ] TC007 - Test format detection under the cursor
-- [ ] TC008 - Test formatting doesn't remove leading or trailing whitespace
+- [ ] [TC001](https://github.com/wordpress-mobile/test-cases/blob/trunk/test-cases/gutenberg/writing-flow/rich-text-formatting.md#tc001) - Bold, Italic, strikethrough buttons
+- [ ] [TC002](https://github.com/wordpress-mobile/test-cases/blob/trunk/test-cases/gutenberg/writing-flow/rich-text-formatting.md#tc002) - Alignment buttons
+- [ ] [TC003](https://github.com/wordpress-mobile/test-cases/blob/trunk/test-cases/gutenberg/writing-flow/rich-text-formatting.md#tc003) - Alignment Split
+- [ ] [TC004](https://github.com/wordpress-mobile/test-cases/blob/trunk/test-cases/gutenberg/writing-flow/rich-text-formatting.md#tc004) - Link button works without selection
+- [ ] [TC005](https://github.com/wordpress-mobile/test-cases/blob/trunk/test-cases/gutenberg/writing-flow/rich-text-formatting.md#tc005) - Link button works with a selected word
+- [ ] [TC006](https://github.com/wordpress-mobile/test-cases/blob/trunk/test-cases/gutenberg/writing-flow/rich-text-formatting.md#tc006) - Adding a link from a copied URL
+- [ ] [TC007](https://github.com/wordpress-mobile/test-cases/blob/trunk/test-cases/gutenberg/writing-flow/rich-text-formatting.md#tc007) - Test format detection under the cursor
+- [ ] [TC008](https://github.com/wordpress-mobile/test-cases/blob/trunk/test-cases/gutenberg/writing-flow/rich-text-formatting.md#tc008) - Test formatting doesn't remove leading or trailing whitespace
 ##### Splitting and merging
-- [ ] TC001 - Merge after writing
-- [ ] TC002 - Merge after selection
-- [ ] TC003 - Merge after deleting text
-- [ ] TC004 - Merge after deleting all
-- [ ] TC005 - Merge multiple blocks
-- [ ] TC006 - Splitting/merge list block
+- [ ] [TC001](https://github.com/wordpress-mobile/test-cases/blob/trunk/test-cases/gutenberg/writing-flow/splitting-merging.md#tc001) - Merge after writing
+- [ ] [TC002](https://github.com/wordpress-mobile/test-cases/blob/trunk/test-cases/gutenberg/writing-flow/splitting-merging.md#tc002) - Merge after selection
+- [ ] [TC003](https://github.com/wordpress-mobile/test-cases/blob/trunk/test-cases/gutenberg/writing-flow/splitting-merging.md#tc003) - Merge after deleting text
+- [ ] [TC004](https://github.com/wordpress-mobile/test-cases/blob/trunk/test-cases/gutenberg/writing-flow/splitting-merging.md#tc004) - Merge after deleting all
+- [ ] [TC005](https://github.com/wordpress-mobile/test-cases/blob/trunk/test-cases/gutenberg/writing-flow/splitting-merging.md#tc005) - Merge multiple blocks
+- [ ] [TC006](https://github.com/wordpress-mobile/test-cases/blob/trunk/test-cases/gutenberg/writing-flow/splitting-merging.md#tc006) - Splitting/merge list block
 #### Undo / Redo - Test Cases
-- [ ] TC001 - Undo/redo block actions
-- [ ] TC002 - Undo/redo text
-- [ ] TC003 - Undo/redo text format
+- [ ] [TC001](https://github.com/wordpress-mobile/test-cases/blob/trunk/test-cases/gutenberg/writing-flow/undo-redo.md#tc001) - Undo/redo block actions
+- [ ] [TC002](https://github.com/wordpress-mobile/test-cases/blob/trunk/test-cases/gutenberg/writing-flow/undo-redo.md#tc002) - Undo/redo text
+- [ ] [TC003](https://github.com/wordpress-mobile/test-cases/blob/trunk/test-cases/gutenberg/writing-flow/undo-redo.md#tc003) - Undo/redo text format
