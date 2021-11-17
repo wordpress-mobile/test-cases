@@ -82,7 +82,7 @@ Expected look:
 
 -   Add a `Group` block
 -   Nest some blocks inside
--   Check if space aroun blocks do not bounce when changing selection (exception is the trasition of the selected block connected with making space for FloatingToolbar)
+-   Check if space aroun blocks do not bounce when changing selection (exception is the transition of the selected block connected with making space for FloatingToolbar)
 -   Check if there is no weird/unexpected extra free space around blocks
 -   Check the spaces values
 

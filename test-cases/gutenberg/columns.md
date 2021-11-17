@@ -165,13 +165,13 @@ Exception:
 - Add a `Columns` block
 - Create some nested structure adding more `Column` and nesting `Columns`
 - Expect all `Column` is stacked (only 1 `Column` in row is render)
-- Expect space around blocks do not bounce when changing selection (exception is the trasition of the selected block connected with making space for FloatingToolbar)
+- Expect space around blocks do not bounce when changing selection (exception is the transition of the selected block connected with making space for FloatingToolbar)
 - Expect no weird/unexpected extra free space around blocks
 - Expect the space from screen edge to content should equals `16px`
 
 Exception:
 
-- If there is enought space (more than `480px`) for `Columns` then it will be render in `horizontal` layout
+- If there is enough space (more than `480px`) for `Columns` then it will be render in `horizontal` layout
 
 Expected look:  
 ![ColumnsVertical](../resources/columns-vertical-layout.png)
@@ -191,7 +191,7 @@ Expected look:
   - below `480px` then expect 1 `Column` in row to be rendered
   - between `480px` and `768px` then expect 3 `Column` in row to be rendered
   - more than `768px` then expect as much `Column` as possible in row to be rendered
-- Expect space around blocks do not bounce when changing selection (exception is the trasition of the selected block connected with making space for FloatingToolbar)
+- Expect space around blocks do not bounce when changing selection (exception is the transition of the selected block connected with making space for FloatingToolbar)
 - Expect no weird/unexpected extra free space around blocks
 - Expect the space around each `Column` should equals `16px`
 
