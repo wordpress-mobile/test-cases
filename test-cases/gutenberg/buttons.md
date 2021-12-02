@@ -105,7 +105,7 @@
 
 ##### TC008
 
-### Link from the clipboard is automatically added into the empty URL field in link settings and button options
+### Link from the clipboard is presented as an option in the link picker
 
 -   Copy link into clipboard, e.g. `http://wordpress.com`
 -   Add `Buttons` block
