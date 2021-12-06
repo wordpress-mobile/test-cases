@@ -113,7 +113,7 @@ Button-6
 
 Button-7
 
-- [ ] Buttons block - Link from the clipboard is automatically added into the empty URL field in link settings and button options - [steps](https://github.com/wordpress-mobile/test-cases/blob/master/test-cases/gutenberg/buttons.md#tc008)
+- [ ] Buttons block - Link from the clipboard is presented as an option in the link picker - [steps](https://github.com/wordpress-mobile/test-cases/blob/master/test-cases/gutenberg/buttons.md#tc008)
 - [ ] Buttons block - Toolbar link button is active when Button has link - [steps](https://github.com/wordpress-mobile/test-cases/blob/master/test-cases/gutenberg/buttons.md#tc022)
 
 Group-1
