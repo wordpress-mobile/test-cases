@@ -116,6 +116,7 @@ A site with premium or business plan
 -   Add an image block and insert image
 -   Open the block's settings
 -   Tap on `Link to`
+-   Tap `Custom URL`
 -   Type a URL and tap on `Apply`
 -   Select the `Open in new tab` option
 -   Close the settings
