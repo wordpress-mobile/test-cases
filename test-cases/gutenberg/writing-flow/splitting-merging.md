@@ -32,6 +32,7 @@ Start from an empty post.
 
 **Known Issues**
 - **[Android]** Deleting "swiped" or selected words prevents merging blocks https://github.com/wordpress-mobile/gutenberg-mobile/issues/2375
+  - In some cases, this test will fail for words typed character by character, for example with gboard, but may succeed with other keyboards (such as [hacker keyboard](https://play.google.com/store/apps/details?id=org.pocketworkstation.pckeyboard&hl=en_US&gl=US)).
 
 **Merge after selection**
 - Follow the initial steps.
