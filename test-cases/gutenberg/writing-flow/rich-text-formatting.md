@@ -13,6 +13,19 @@ Have a rich-text based component with content (Paragraph, Heading, Quote, Media 
 - Press the Italic button and write an italic word.
 - Press strikethrough button and write strikethrough text.
 
+**Highlight selected text**
+
+- Write some text and select it.
+- Tap on the Highlight text button (A).
+- Select a color.
+- Expect to see the text with the selected color.
+
+**Highlight text without selection**
+
+- Without selecting any text tap on the highlight text button (A).
+- Select a color and write some text.
+- Expect to see the newly introduced text with the previously selected color.
+
 
 ##### TC002
 
