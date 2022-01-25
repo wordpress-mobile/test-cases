@@ -10,6 +10,8 @@
   - [ ] Pullquote block
 #### Rich Text Format
 - [ ] [TC001](https://github.com/wordpress-mobile/test-cases/blob/trunk/test-cases/gutenberg/writing-flow/rich-text-formatting.md#tc001) - Bold, Italic, strikethrough buttons
+- [ ] [TC001](https://github.com/wordpress-mobile/test-cases/blob/trunk/test-cases/gutenberg/writing-flow/rich-text-formatting.md#tc001) - Highlight selected text
+- [ ] [TC001](https://github.com/wordpress-mobile/test-cases/blob/trunk/test-cases/gutenberg/writing-flow/rich-text-formatting.md#tc001) - Highlight text without selection
 - [ ] [TC002](https://github.com/wordpress-mobile/test-cases/blob/trunk/test-cases/gutenberg/writing-flow/rich-text-formatting.md#tc002) - Alignment buttons
 - [ ] [TC003](https://github.com/wordpress-mobile/test-cases/blob/trunk/test-cases/gutenberg/writing-flow/rich-text-formatting.md#tc003) - Alignment Split
 - [ ] [TC004](https://github.com/wordpress-mobile/test-cases/blob/trunk/test-cases/gutenberg/writing-flow/rich-text-formatting.md#tc004) - Link button works without selection
