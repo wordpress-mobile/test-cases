@@ -20,6 +20,7 @@ Start on a new empty post.
 
 - Undoing the insertion of characters can result in the cursor being misplaced. [#303](https://github.com/wordpress-mobile/gutenberg-mobile/issues/303)
 - It is not possible to redo changes after redoing the insertion of an image into an image block. [#2499](https://github.com/wordpress-mobile/gutenberg-mobile/issues/2499)
+- Highlighting text breaks the ability to redo changes. [#38084](https://github.com/WordPress/gutenberg/issues/38084)
 
 **Undo/redo text**
 
