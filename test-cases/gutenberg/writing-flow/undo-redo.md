@@ -30,6 +30,10 @@ Start on a new empty post.
 
 ##### TC003
 
+**Known Issues**
+
+- Highlighting text breaks the ability to redo changes. [#38084](https://github.com/WordPress/gutenberg/issues/38084)
+
 **Undo/redo text format**
 
 - On a rich-text based component, add some format (bold, links, etc…).
