@@ -86,9 +86,6 @@ Move the cursor around
 - Check that the proper format buttons get selected when the cursor get under a formatted word.
 
 
-**Known Issues**
-- Formating buttons aren’t updated accordingly when text is deleted [#2154](https://github.com/wordpress-mobile/gutenberg-mobile/issues/2154)
-
 ##### TC008
 
 **Test formatting doesn't remove leading or trailing whitespace**
