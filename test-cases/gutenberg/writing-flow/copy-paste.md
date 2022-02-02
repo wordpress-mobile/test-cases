@@ -3,6 +3,10 @@
 
 ##### TC001
 
+**Known Issues**
+
+- [[Android] Pasting using GBoard loses formatting](https://github.com/WordPress/gutenberg/issues/38423)
+
 **Paste formatted text copied from website:**
 
 - Go to https://automattic.com/how-we-work/
