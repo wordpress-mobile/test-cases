@@ -44,10 +44,6 @@ When a theme doesn't have any custom gradients defined the editor should allow s
 
 ##### TC003
 
-**Known Issues**
-
-- [Custom theme colors and gradients aren't shown for Simple Sites](https://github.com/wordpress-mobile/gutenberg-mobile/issues/4387)
-
 ### Custom Colors - Check that custom colors load in the editor
 
 When a theme has a custom color palette defined the editor should allow selection from the custom colors and display them.
