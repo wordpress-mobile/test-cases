@@ -259,6 +259,8 @@ Gallery block should allow uploading images from the iOS Files app.
 
 ### Settings - Link to
 
+**KNOWN ISSUE**: This test case is not currently working. Please skip. [See here](https://github.com/WordPress/gutenberg/issues/23576) for more details.
+
 **Precondition:** these steps should be tested via a self-hosted site
 
 Gallery images should respect the `Link to` setting
@@ -291,8 +293,6 @@ In that case, the steps above will show different results (e.g. all images will 
 **Expected behavior:**
 
 The Media File option will show a "save link as" option. Attachment Page and None options will not show this option on long-press.
-
-**Known issue**: Linkto - attachment page setting does not work. [See here](https://github.com/WordPress/gutenberg/issues/23576) for more details.
 
 --------------------------------------------------------------------------------
 
