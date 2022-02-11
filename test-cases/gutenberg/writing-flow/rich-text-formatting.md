@@ -101,7 +101,7 @@ Move the cursor around
 
 - Add a Heading block without any formatting applied.
 - Type a sentence with a word misspelled that will be autocorrected by the editor.
-- Highlight the word after autocorrection.
+- Highlight the word that was autocorrected.
 - Check that the word has no formatting applied.
 
 ##### TC010
@@ -110,5 +110,5 @@ Move the cursor around
 
 - Add a Heading block and apply any formatting (e.g. bold, italics).
 - Type a sentence with a word misspelled that will be autocorrected by the editor.
-- Highlight the word after autocorrection.
+- Highlight the word that was autocorrected.
 - Check that the word's formatting hasn't changed.
