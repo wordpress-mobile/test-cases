@@ -19,6 +19,8 @@
 - [ ] [TC006](https://github.com/wordpress-mobile/test-cases/blob/trunk/test-cases/gutenberg/writing-flow/rich-text-formatting.md#tc006) - Adding a link from a copied URL
 - [ ] [TC007](https://github.com/wordpress-mobile/test-cases/blob/trunk/test-cases/gutenberg/writing-flow/rich-text-formatting.md#tc007) - Test format detection under the cursor
 - [ ] [TC008](https://github.com/wordpress-mobile/test-cases/blob/trunk/test-cases/gutenberg/writing-flow/rich-text-formatting.md#tc008) - Test formatting doesn't remove leading or trailing whitespace
+- [ ] [TC009](https://github.com/wordpress-mobile/test-cases/blob/trunk/test-cases/gutenberg/writing-flow/rich-text-formatting.md#tc009) - Test autocorrection doesn't apply formatting to Heading
+- [ ] [TC010](https://github.com/wordpress-mobile/test-cases/blob/trunk/test-cases/gutenberg/writing-flow/rich-text-formatting.md#tc010) - Test autocorrection doesn't remove formatting from Heading
 ##### Splitting and merging
 - [ ] [TC001](https://github.com/wordpress-mobile/test-cases/blob/trunk/test-cases/gutenberg/writing-flow/splitting-merging.md#tc001) - Merge after writing
   - [ ] Paragraph
