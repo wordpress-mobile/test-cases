@@ -23,7 +23,7 @@ Test the next steps on:
 - The new line should be created, without splitting the block.
 - On citations, pressing Enter at the end of a citation splits the block, but pressing enter in the middle of a citation creates a new line.
 - Check on HTML mode that the resulting HTML code is correct:
-  - _Quote_: `<p>` tags per paragraph.
+  - _QuoteV1_: `<p>` tags per paragraph. **(This is for QuoteV1 _only_. QuoteV2 uses inner blocks instead)**
   - _Quote citation_: `<br>` on line-breaks.
   - _Verse_: `<br>` on line-breaks.
   - _Preformatted_: `<br>` on line-breaks.
