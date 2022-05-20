@@ -123,8 +123,6 @@ This holds a grouping of certain test suites to run in order to share the work w
 ### Spacer - 1
 
 - [ ] Spacer block - Spacer is rendered without crash - [TC001](https://github.com/wordpress-mobile/test-cases/blob/master/test-cases/gutenberg/spacer.md#tc001)
-- [ ] Spacer block - Settings: Control spacer height using the slider - [TC002](https://github.com/wordpress-mobile/test-cases/blob/master/test-cases/gutenberg/spacer.md#tc002)
-- [ ] Spacer block - Settings: Control spacer height using the text input - [TC003](https://github.com/wordpress-mobile/test-cases/blob/master/test-cases/gutenberg/spacer.md#tc003)
 
 ### Buttons-1
 
@@ -277,9 +275,7 @@ This holds a grouping of certain test suites to run in order to share the work w
 
 ### Spacer - 2
 
-- [ ] Spacer block - Settings: Available height range is correct - [TC004](https://github.com/wordpress-mobile/test-cases/blob/master/test-cases/gutenberg/spacer.md#tc004)
-- [ ] Spacer block - Settings: Height range extends if Spacer comes from the web is higher than 500px - [TC005](https://github.com/wordpress-mobile/test-cases/blob/master/test-cases/gutenberg/spacer.md#tc005)
-- [ ] Spacer block - Spacer in horizontal layout works as expected - [TC006](https://github.com/wordpress-mobile/test-cases/blob/master/test-cases/gutenberg/spacer.md#tc006)
+- [ ] Spacer block - Spacer in horizontal layout works as expected - [TC002](https://github.com/wordpress-mobile/test-cases/blob/master/test-cases/gutenberg/spacer.md#tc002)
 
 ### Buttons - 4
 
