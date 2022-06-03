@@ -49,7 +49,9 @@
 --------------------------------------------------------------------------------
 
 ##### HTML example
+
 The following HTML is an example to be used for testing the drag and drop blocks functionality.
+
 <details><summary>Click here to display the HTML</summary>
 
 ```
@@ -367,3 +369,7 @@ else:
 ```
 
 </details>
+
+The following QR code can be used for accessing this page easily from a device:
+
+<img src="https://chart.googleapis.com/chart?cht=qr&chs=500x500&chl=https%3A%2F%2Fgithub.com%2Fwordpress-mobile%2Ftest-cases%2Fblob%2Ftrunk%2Ftest-cases%2Fgutenberg%2Fdrag-and-drop-blocks.md%23html-example" width="150" height="150">
