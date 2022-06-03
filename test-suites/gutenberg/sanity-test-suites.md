@@ -102,6 +102,7 @@ This holds a grouping of certain test suites to run in order to share the work w
 - Buttons 1-2-3-6
 - Color Settings 1
 - Image 1
+- Drag and Drop Blocks - 1
 
 ```
 ### DarkMode - 1
@@ -161,6 +162,9 @@ This holds a grouping of certain test suites to run in order to share the work w
 - [ ] Image block - Close/Re-open post with an ongoing image upload - [TC004](https://github.com/wordpress-mobile/test-cases/blob/master/test-cases/gutenberg/image.md#tc004)
 - [ ] Image block - Close post with an ongoing image upload - [TC005](https://github.com/wordpress-mobile/test-cases/blob/master/test-cases/gutenberg/image.md#tc005)
 
+### Drag and Drop Blocks - 1
+- [ ] Drag and Drop Blocks - Drag block to the top of the content - [TC001](https://github.com/wordpress-mobile/test-cases/blob/master/test-cases/gutenberg/drag-and-drop-blocks.md#tc001)
+- [ ] Drag and Drop Blocks - Drag block to the bottom of the content - [TC002](https://github.com/wordpress-mobile/test-cases/blob/master/test-cases/gutenberg/drag-and-drop-blocks.md#tc002)
 ```
 
 ## Test Suite 3
