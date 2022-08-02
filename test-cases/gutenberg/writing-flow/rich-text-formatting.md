@@ -7,6 +7,10 @@ Have a rich-text based component with content (Paragraph, Heading, Quote, Media 
 
 ##### TC001
 
+**Known Issues**
+
+- [Text color selection is not preserved when cursor is placed in the middle of text](https://github.com/WordPress/gutenberg/issues/42714)
+
 **Bold, Italic, strikethrough buttons**
 
 - Press the Bold button and write a bold word.
