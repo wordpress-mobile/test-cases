@@ -14,28 +14,6 @@
 
 ##### TC002
 
-### Change Minimum height
-
--   Add a cover block and select an image from the `WordPress Media library`
--   Tap on the settings icon of the block
--   Verify that the bottom sheet opens with the Minimum height with `UnitControl` setting
-
-![Minimum height](../resources/cover-1.png)
--   Change the unit to: `Viewport width (vw)`
--   Change the value to: `20` 
--   Close the bottom sheet
--   Expect to see the cover with the new height value
--   Open settings again
--   Change the unit to: `Pixels (px)`
--   Expect to have value set automatically to `50`
--   Expect decreasing button (-) to be disabled
-
-***Note:*** Similarly to web only `Pixels (px)` have minimum value which is `50`, for other units it's `1`.
-
---------------------------------------------------------------------------------
-
-##### TC003
-
 ### Image focal point is rendered properly
 
 -   Add a Cover block from the Web editor
@@ -51,7 +29,7 @@
 
 --------------------------------------------------------------------------------
 
-##### TC004
+##### TC003
 
 ### Custom color is rendered properly
 
@@ -75,7 +53,7 @@
 
 --------------------------------------------------------------------------------
 
-##### TC005
+##### TC004
 
 ### Add Video Background from WordPress Media library
 
@@ -90,7 +68,7 @@ A site with premium or business plan
 
 --------------------------------------------------------------------------------
 
-##### TC006
+##### TC005
 
 ### Replace media
 
@@ -105,7 +83,7 @@ A site with premium or business plan
 
 --------------------------------------------------------------------------------
 
-##### TC007
+##### TC006
 
 ### Gradient background is rendered properly
 
@@ -120,7 +98,7 @@ A site with premium or business plan
 
 --------------------------------------------------------------------------------
 
-##### TC008
+##### TC007
 
 ### Gradient overlay is rendered properly
 
@@ -136,22 +114,7 @@ A site with premium or business plan
 
 --------------------------------------------------------------------------------
 
-##### TC009
-
-### Change Background Opacity
-
--   Add a cover block and select an image from the `WordPress Media library`
--   Tap on the settings icon of the block
--   Verify that the bottom sheet opens with the Background Opacity setting
-
-![Background Opacity](../resources/cover-11.png)
--   Update the value using the slider
--   Close the bottom sheet
--   Expect to see the cover with the new overlay opacity value
-
---------------------------------------------------------------------------------
-
-##### TC010
+##### TC008
 
 ### Close/Re-open post with an ongoing image upload
 
@@ -179,7 +142,7 @@ If the user leaves the editor and returns while the image is uploading, _and_ th
 
 --------------------------------------------------------------------------------
 
-##### TC011
+##### TC009
 
 ### Close post with an ongoing image upload
 
