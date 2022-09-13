@@ -75,10 +75,8 @@ This holds a grouping of certain test suites to run in order to share the work w
 ### Cover - 1
 
 - [ ] Cover - Add image background from WordPress Media library - [TC001](https://github.com/wordpress-mobile/test-cases/blob/master/test-cases/gutenberg/cover.md#tc001)
-- [ ] Cover - Change Minimum height in pixels - [TC002](https://github.com/wordpress-mobile/test-cases/blob/master/test-cases/gutenberg/cover.md#tc002)
-- [ ] Cover - Change Background Opacity - [TC009](https://github.com/wordpress-mobile/test-cases/blob/master/test-cases/gutenberg/cover.md#tc009)
-- [ ] Cover - Image focal point is rendered properly - [TC003](https://github.com/wordpress-mobile/test-cases/blob/master/test-cases/gutenberg/cover.md#tc003)
-- [ ] Cover - Custom color is rendered properly - [TC004](https://github.com/wordpress-mobile/test-cases/blob/master/test-cases/gutenberg/cover.md#tc004)
+- [ ] Cover - Image focal point is rendered properly - [TC002](https://github.com/wordpress-mobile/test-cases/blob/master/test-cases/gutenberg/cover.md#tc002)
+- [ ] Cover - Custom color is rendered properly - [TC002](https://github.com/wordpress-mobile/test-cases/blob/master/test-cases/gutenberg/cover.md#tc003)
 
 ### Editor Theme - 1
 
@@ -227,10 +225,10 @@ This holds a grouping of certain test suites to run in order to share the work w
 
 ### Cover - 2
 
-- [ ] Cover - Add Video Background from WordPress Media library - [TC005](https://github.com/wordpress-mobile/test-cases/blob/master/test-cases/gutenberg/cover.md#tc005)
-- [ ] Cover - Replace media - [TC006](https://github.com/wordpress-mobile/test-cases/blob/master/test-cases/gutenberg/cover.md#tc006)
-- [ ] Cover - Gradient background is rendered properly - [TC007](https://github.com/wordpress-mobile/test-cases/blob/master/test-cases/gutenberg/cover.md#tc007)
-- [ ] Cover - Gradient overlay is rendered properly - [TC008](https://github.com/wordpress-mobile/test-cases/blob/master/test-cases/gutenberg/cover.md#tc008)
+- [ ] Cover - Add Video Background from WordPress Media library - [TC004](https://github.com/wordpress-mobile/test-cases/blob/master/test-cases/gutenberg/cover.md#tc004)
+- [ ] Cover - Replace media - [TC005](https://github.com/wordpress-mobile/test-cases/blob/master/test-cases/gutenberg/cover.md#tc005)
+- [ ] Cover - Gradient background is rendered properly - [TC006](https://github.com/wordpress-mobile/test-cases/blob/master/test-cases/gutenberg/cover.md#tc006)
+- [ ] Cover - Gradient overlay is rendered properly - [TC007](https://github.com/wordpress-mobile/test-cases/blob/master/test-cases/gutenberg/cover.md#tc007)
 
 ### Social Icons - 2
 - [ ] The link sheet is opened automatically when adding new icon - [TC004](https://github.com/wordpress-mobile/test-cases/blob/master/test-cases/gutenberg/social-icons.md#tc004)
