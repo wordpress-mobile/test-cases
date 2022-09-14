@@ -30,32 +30,21 @@ This holds a grouping of certain test suites to run in order to share the work w
 
 ### Columns - 1
 
-- [ ] Columns - Columns percentage mechanism - column's preview - [TC019](https://github.com/wordpress-mobile/test-cases/blob/master/test-cases/gutenberg/columns.md#tc019)
-- [ ] Columns - Columns percentage mechanism - column's slider input - [TC020](https://github.com/wordpress-mobile/test-cases/blob/master/test-cases/gutenberg/columns.md#tc020)
-- [ ] Columns - Columns percentage mechanism - predefined percentage values are rendered correctly on frontend- [TC021](https://github.com/wordpress-mobile/test-cases/blob/master/test-cases/gutenberg/columns.md#tc021)
-- [ ] Columns percentage mechanism - custom percentage values are rendered correctly on frontend- [TC022](https://github.com/wordpress-mobile/test-cases/blob/master/test-cases/gutenberg/columns.md#tc022)
-- [ ] Columns - Multiple slider in columns parent - [TC023](https://github.com/wordpress-mobile/test-cases/blob/master/test-cases/gutenberg/columns.md#tc023)
-- [ ] Columns - Adding Column with AppenderButton - [TC003](https://github.com/wordpress-mobile/test-cases/blob/master/test-cases/gutenberg/columns.md#tc003)
-- [ ] Columns - Adding and removing Column with BottomSheet Stepper control - [TC004](https://github.com/wordpress-mobile/test-cases/blob/master/test-cases/gutenberg/columns.md#tc004)
-
+- [ ] Columns - Multiple slider in columns parent - [TC011](https://github.com/wordpress-mobile/test-cases/blob/master/test-cases/gutenberg/columns.md#tc011)
+- [ ] Columns - Check if Column placeholders is visible for the unselected state - [TC001](https://github.com/wordpress-mobile/test-cases/blob/master/test-cases/gutenberg/columns.md#tc001)
+- [ ] Columns - Appearance in vertical device position (vertical layout) - [TC004](https://github.com/wordpress-mobile/test-cases/blob/master/test-cases/gutenberg/columns.md#tc004)
 
 ### Columns - 2
-- [ ] Columns - Max limit of Column number - [TC005](https://github.com/wordpress-mobile/test-cases/blob/master/test-cases/gutenberg/columns.md#tc005)
-- [ ] Columns - Min limit of Column number - [TC006](https://github.com/wordpress-mobile/test-cases/blob/master/test-cases/gutenberg/columns.md#tc006)
-- [ ] Columns - Removing Column with remove button - [TC007](https://github.com/wordpress-mobile/test-cases/blob/master/test-cases/gutenberg/columns.md#tc007)
-- [ ] Columns - Removing the only one left Column with remove button - [TC008](https://github.com/wordpress-mobile/test-cases/blob/master/test-cases/gutenberg/columns.md#tc008)
-- [ ] Columns - Changing alignment on Columns - [TC009](https://github.com/wordpress-mobile/test-cases/blob/master/test-cases/gutenberg/columns.md#tc009)
-- [ ] Columns - Changing alignment on individual Column - [TC010](https://github.com/wordpress-mobile/test-cases/blob/master/test-cases/gutenberg/columns.md#tc010)
-- [ ] Columns - Alignment attribute is properly passed when adding Column - [TC011](https://github.com/wordpress-mobile/test-cases/blob/master/test-cases/gutenberg/columns.md#tc011)
-- [ ] Columns - Deep nesting is possible (iOS only)- [TC012](https://github.com/wordpress-mobile/test-cases/blob/master/test-cases/gutenberg/columns.md#tc012)
+
+- [ ] Columns - Max limit of Column number - [TC002](https://github.com/wordpress-mobile/test-cases/blob/master/test-cases/gutenberg/columns.md#tc002)
+- [ ] Columns - Deep nesting is possible (iOS only)- [TC003](https://github.com/wordpress-mobile/test-cases/blob/master/test-cases/gutenberg/columns.md#tc003)
+- [ ] Columns - Appearance in horizontal device position (horizontal layout) - [TC005](https://github.com/wordpress-mobile/test-cases/blob/master/test-cases/gutenberg/columns.md#tc005)
 
 ### Columns - 3
-- [ ] Columns - Check if Column placeholders is visible for the unselected state - [TC002](https://github.com/wordpress-mobile/test-cases/blob/master/test-cases/gutenberg/columns.md#tc002)
-- [ ] Columns - Appearance in vertical device position (vertical layout) - [TC013](https://github.com/wordpress-mobile/test-cases/blob/master/test-cases/gutenberg/columns.md#tc013)
-- [ ] Columns - Appearance in horizontal device position (horizontal layout) - [TC014](https://github.com/wordpress-mobile/test-cases/blob/master/test-cases/gutenberg/columns.md#tc014)
-- [ ] Columns - Mover direction - [TC015](https://github.com/wordpress-mobile/test-cases/blob/master/test-cases/gutenberg/columns.md#tc015)
-- [ ] Columns - Check if Column placeholder is render in nested structure - [TC016](https://github.com/wordpress-mobile/test-cases/blob/master/test-cases/gutenberg/columns.md#tc016)
-- [ ] Columns - Unselected Column placeholder is stretched to content in nested structure- [TC017](https://github.com/wordpress-mobile/test-cases/blob/master/test-cases/gutenberg/columns.md#tc017)
+
+- [ ] Columns - Mover direction - [TC006](https://github.com/wordpress-mobile/test-cases/blob/master/test-cases/gutenberg/columns.md#tc006)
+- [ ] Columns - Check if Column placeholder is render in nested structure - [TC007](https://github.com/wordpress-mobile/test-cases/blob/master/test-cases/gutenberg/columns.md#tc007)
+- [ ] Columns - Unselected Column placeholder is stretched to content in nested structure- [TC008](https://github.com/wordpress-mobile/test-cases/blob/master/test-cases/gutenberg/columns.md#tc008)
 
 ### MediaText - 1
 
@@ -194,22 +183,16 @@ This holds a grouping of certain test suites to run in order to share the work w
 - [ ] Gallery block - Settings: Crop images - [TC014](https://github.com/wordpress-mobile/test-cases/blob/master/test-cases/gutenberg/gallery.md#tc014)
 
 ### Columns - 2
-- [ ] Columns - Max limit of Column number - [steps](https://github.com/wordpress-mobile/test-cases/blob/master/test-cases/gutenberg/columns.md#tc005)
-- [ ] Columns - Min limit of Column number - [steps](https://github.com/wordpress-mobile/test-cases/blob/master/test-cases/gutenberg/columns.md#tc006)
-- [ ] Columns - Removing Column with remove button - [steps](https://github.com/wordpress-mobile/test-cases/blob/master/test-cases/gutenberg/columns.md#tc007)
-- [ ] Columns - Removing the only one left Column with remove button - [steps](https://github.com/wordpress-mobile/test-cases/blob/master/test-cases/gutenberg/columns.md#tc008)
-- [ ] Columns - Changing alignment on Columns - [steps](https://github.com/wordpress-mobile/test-cases/blob/master/test-cases/gutenberg/columns.md#tc009)
-- [ ] Columns - Changing alignment on individual Columnn - [steps](https://github.com/wordpress-mobile/test-cases/blob/master/test-cases/gutenberg/columns.md#tc010)
-- [ ] Columns - Alignment attribute is properly passed when adding Column - [steps](https://github.com/wordpress-mobile/test-cases/blob/master/test-cases/gutenberg/columns.md#tc011)
-- [ ] Columns - Deep nesting is possible (iOS only)- [steps](https://github.com/wordpress-mobile/test-cases/blob/master/test-cases/gutenberg/columns.md#tc012)
+- [ ] Columns - Max limit of Column number - [steps](https://github.com/wordpress-mobile/test-cases/blob/master/test-cases/gutenberg/columns.md#tc002)
+- [ ] Columns - Deep nesting is possible (iOS only)- [steps](https://github.com/wordpress-mobile/test-cases/blob/master/test-cases/gutenberg/columns.md#tc003)
+- [ ] Columns - Check if Column placeholders is visible for the unselected state - [steps](https://github.com/wordpress-mobile/test-cases/blob/master/test-cases/gutenberg/columns.md#tc001)
+- [ ] Columns - Appearance in vertical device position (vertical layout) - [steps](https://github.com/wordpress-mobile/test-cases/blob/master/test-cases/gutenberg/columns.md#tc004)
 
 ### Columns - 3
-- [ ] Columns - Check if Column placeholders is visible for the unselected state - [steps](https://github.com/wordpress-mobile/test-cases/blob/master/test-cases/gutenberg/columns.md#tc002)
-- [ ] Columns - Appearance in vertical device position (vertical layout) - [steps](https://github.com/wordpress-mobile/test-cases/blob/master/test-cases/gutenberg/columns.md#tc013)
-- [ ] Columns - Appearance in horizontal device position (horizontal layout) - [steps](https://github.com/wordpress-mobile/test-cases/blob/master/test-cases/gutenberg/columns.md#tc014)
-- [ ] Columns - Mover direction - [steps](https://github.com/wordpress-mobile/test-cases/blob/master/test-cases/gutenberg/columns.md#tc015)
-- [ ] Columns - Check if Column placeholder is render in nested structure - [steps](https://github.com/wordpress-mobile/test-cases/blob/master/test-cases/gutenberg/columns.md#tc016)
-- [ ] Columns - Unselected Column placeholder is streched to content in nested structure- [steps](https://github.com/wordpress-mobile/test-cases/blob/master/test-cases/gutenberg/columns.md#tc017)
+- [ ] Columns - Appearance in horizontal device position (horizontal layout) - [steps](https://github.com/wordpress-mobile/test-cases/blob/master/test-cases/gutenberg/columns.md#tc005)
+- [ ] Columns - Mover direction - [steps](https://github.com/wordpress-mobile/test-cases/blob/master/test-cases/gutenberg/columns.md#tc006)
+- [ ] Columns - Check if Column placeholder is render in nested structure - [steps](https://github.com/wordpress-mobile/test-cases/blob/master/test-cases/gutenberg/columns.md#tc007)
+- [ ] Columns - Unselected Column placeholder is streched to content in nested structure- [steps](https://github.com/wordpress-mobile/test-cases/blob/master/test-cases/gutenberg/columns.md#tc008)
 
 ### Columns - 4
 - [ ] Columns - Check if in DarkMode all components gets proper colors - [steps](https://github.com/wordpress-mobile/test-cases/blob/master/test-cases/gutenberg/columns.md#tc018)

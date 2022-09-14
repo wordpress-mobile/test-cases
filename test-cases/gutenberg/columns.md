@@ -4,22 +4,6 @@
 
 ##### TC001
 
-### Columns block is added with default number of Column
-
-- Add a `Columns` block
-- Expect `Columns` to have **two** `Column` block inside
-
-Expected look:  
-![DefaultColumnNoStacked](../resources/columns-default-number.png)
-![DefaultColumnNoHorizontal](../resources/columns-default-number-horizontal.png)
-
-#### EDIT
-This has been updated please see [TC021](https://github.com/wordpress-mobile/test-cases/blob/master/test-cases/gutenberg/columns.md#tc021) for the updated expected behavior
-
---------------------------------------------------------------------------------
-
-##### TC002
-
 ### Check if Column placeholders is visible for the unselected state
 
 - Add a `Columns` block
@@ -35,31 +19,7 @@ Portrait | Landscape
 
 --------------------------------------------------------------------------------
 
-##### TC003
-
-### Adding Column with AppenderButton
-
-- Add a `Columns` block
-- Having `Columns` block selected press `AppenderButton`
-- Expect new `Column` to be added
-
-Expected look:  
-![Appender](../resources/columns-appender.png)
-
---------------------------------------------------------------------------------
-
-##### TC004
-
-### Adding and removing Column with BottomSheet Stepper control
-
-- Add a `Columns` block
-- Open `Columns` settings with option button on toolbar
-- Expect to increase `Column` number after press `+` button
-- Expect to descrease `Column` number after press `-` button (exception: [see TC007](https://github.com/wordpress-mobile/test-cases/blob/master/test-cases/gutenberg/columns.md#tc007))
-
---------------------------------------------------------------------------------
-
-##### TC005
+##### TC002
 
 ### Max limit of Column number
 
@@ -69,86 +29,7 @@ Expected look:
 
 --------------------------------------------------------------------------------
 
-##### TC006
-
-### Min limit of Column number
-
-- Add a `Columns` block
-- Increase number of `Column`
-- Start removing `Column` using BottomSheet `Stepper`
-- Expect to decrease `Column` number to minimum value of 1
-
-Expected look:  
-![StepperMinLimit](../resources/columns-stepper-min.png)
-
---------------------------------------------------------------------------------
-
-##### TC007
-
-### Removing Column with remove button
-
-- Add a `Columns` block
-- Increase number of `Column`
-- Select one of the `Column` and press remove button
-- Expect `Column` to be removed and selection is moved to previous one
-
-Exception:
-
-- If `Columns` has only one `Column` left [see TC008](https://github.com/wordpress-mobile/test-cases/blob/master/test-cases/gutenberg/columns.md#tc008)
-
---------------------------------------------------------------------------------
-
-##### TC008
-
-### Removing the only one left Column with remove button
-
-- Add a `Columns` block
-- Reduce `Column` number to one
-- Having the last one `Column` selected press remove button
-- Expect `Column` and whole `Columns` block to be removed
-
---------------------------------------------------------------------------------
-
-##### TC009
-
-### Changing alignment on Columns
-
-- Add a `Columns` block
-- Set `verticalAlignment` on `Columns` block
-- Select one of the `Column`
-- Expect selected `Column` have the same `verticalAlignment` value
-- Expect the same `verticalAlignment` for other `Column` as well
-
---------------------------------------------------------------------------------
-
-##### TC010
-
-### Changing alignment on individual Columnn
-
-- Add a `Columns` block
-- Set `verticalAlignment` on `Columns` block
-- Select one of the `Column`
-- Set `verticalAlignment` on `Column` block
-- Expect new `Column` have proper `verticalAlignment` value
-- Go back with the selection to `Columns` block
-- Expect `verticalAlignment` on `Columns` block doesn't change
-- Select another `Column` block (different than before)
-- Expect `verticalAlignment` on selected `Column` block doesn't change
-
---------------------------------------------------------------------------------
-
-##### TC011
-
-### Alignment attribute is properly passed when adding Column
-
-- Add a `Columns` block
-- Set `verticalAlignment` on `Columns` block
-- Add new `Column`
-- Expect new `Column` have the same `verticalAlignment` value
-
---------------------------------------------------------------------------------
-
-##### TC012
+##### TC003
 
 ### Deep nesting is possible (iOS only)
 
@@ -158,7 +39,7 @@ Exception:
 
 --------------------------------------------------------------------------------
 
-##### TC013
+##### TC004
 
 ### Appearance in vertical device position (vertical layout)
 
@@ -180,7 +61,7 @@ Expected look:
 
 --------------------------------------------------------------------------------
 
-##### TC014
+##### TC005
 
 ### Appearance in horizontal device position (horizontal layout)
 
@@ -202,7 +83,7 @@ Expected look:
 
 --------------------------------------------------------------------------------
 
-##### TC015
+##### TC006
 
 ### Mover direction
 
@@ -222,7 +103,7 @@ Expected look:
 
 --------------------------------------------------------------------------------
 
-##### TC016
+##### TC007
 
 ### Check if Column placeholder is render in nested structure
 
@@ -242,7 +123,7 @@ Expected look:
 
 --------------------------------------------------------------------------------
 
-##### TC017
+##### TC008
 
 ### Unselected Column placeholder is streched to content in nested structure
 
@@ -264,7 +145,7 @@ Expected look:
 
 --------------------------------------------------------------------------------
 
-##### TC018
+##### TC009
 
 ### Check if in DarkMode all components gets proper colors
 
@@ -279,50 +160,7 @@ Expected look:
 
 --------------------------------------------------------------------------------
 
-##### TC019
-
-### Columns percentage mechanism - column's preview
-
-- Add a `Columns` block
-- Expect to see bottom sheet with layout picker
-- Choose one of the options e.g: `33/33/33`
-- Select the first column
-- Open its settings
-- Change the value e.g. to  `90`
-- Expect that fill level in the preview (to the left of a slider) increased
-
---------------------------------------------------------------------------------
-
-##### TC020
-
-### Columns percentage mechanism - column's slider input
-
-- Add a `Columns` block
-- Expect to see bottom sheet with layout picker
-- Choose one of the options e.g: `33/33/33`
-- Select the first column
-- Open its settings
-- Press text input (to the right of a slider)
-- Type value with more than 1 decimal e.g.: `55.55555` and press `Done`
-- Expect to have value with only 1 decimal
-- Close bottom sheet and switch to HTML mode
-
---------------------------------------------------------------------------------
-
-##### TC021
-
-### Columns percentage mechanism - predefined percentage values are rendered correctly on frontend
-
-- Add a `Columns` block
-- Expect to see bottom sheet with layout picker
-- Choose one of the options
-- Switch to html mode to see if ratios are correct
-   * for equal widths such as 50/50 and 33/33/33  we don’t expect to see any percentages in html
-   * for different widths such as 30/70 , 70/30 and 25/50/25 we expect to see percentages in HTML
-- Check the preview to see if the front end reflects the column widths
-- Repeat for each layout option
-
-##### TC022
+##### TC010
 
 ### Columns percentage mechanism - custom percentage values are rendered correctly on frontend
 
@@ -338,7 +176,7 @@ Expected look:
 
 --------------------------------------------------------------------------------
 
-##### TC023
+##### TC011
 
 ### Multiple slider in columns parent
 
