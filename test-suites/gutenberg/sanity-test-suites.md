@@ -85,7 +85,6 @@ This holds a grouping of certain test suites to run in order to share the work w
 
 - DarkMode 1
 - Group 1
-- Spacer 1
 - Buttons 1-2-3-6
 - Color Settings 1
 - Image 1
@@ -107,10 +106,6 @@ This holds a grouping of certain test suites to run in order to share the work w
 - [ ] Group - Nested block have proper border styling - [TC005](https://github.com/wordpress-mobile/test-cases/blob/master/test-cases/gutenberg/group.md#tc005)
 - [ ] Group - Nested block have proper margins values - [TC006](https://github.com/wordpress-mobile/test-cases/blob/master/test-cases/gutenberg/group.md#tc006)
 - [ ] Group - Breadcrumbs on FloatingToolbar is properly displayed - [TC008](https://github.com/wordpress-mobile/test-cases/blob/master/test-cases/gutenberg/group.md#tc008)
-
-### Spacer - 1
-
-- [ ] Spacer block - Spacer is rendered without crash - [TC001](https://github.com/wordpress-mobile/test-cases/blob/master/test-cases/gutenberg/spacer.md#tc001)
 
 ### Buttons-1
 
@@ -236,7 +231,7 @@ This holds a grouping of certain test suites to run in order to share the work w
 
 - DarkMode 2
 - Group 2
-- Spacer 2
+- Spacer 1
 - Buttons 4-5-7
 - Editor Theme 2
 - Color Settings 2
@@ -258,9 +253,9 @@ This holds a grouping of certain test suites to run in order to share the work w
 - [ ] Group - Check if in DarkMode all components gets proper colors - [TC013](https://github.com/wordpress-mobile/test-cases/blob/master/test-cases/gutenberg/group.md#tc013)
 - [ ] Group - Check if nested Placeholder block can be replaced - [TC014](https://github.com/wordpress-mobile/test-cases/blob/master/test-cases/gutenberg/group.md#tc014)
 
-### Spacer - 2
+### Spacer - 1
 
-- [ ] Spacer block - Spacer in horizontal layout works as expected - [TC002](https://github.com/wordpress-mobile/test-cases/blob/master/test-cases/gutenberg/spacer.md#tc002)
+- [ ] Spacer block - Spacer in horizontal layout works as expected - [TC001](https://github.com/wordpress-mobile/test-cases/blob/master/test-cases/gutenberg/spacer.md#tc001)
 
 ### Buttons - 4
 
