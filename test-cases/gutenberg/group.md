@@ -1,22 +1,7 @@
 # Group Block - Test Cases
 
 --------------------------------------------------------------------------------
-
 ##### TC001
-
-### AppenderButton is rendered
-
--   Add a `Group` block
--   Check if `AppenderButton` is rendered
--   Add another block inside `Group` and deselect
--   Check if `AppenderButton` is align with the content
-
-Expected look:  
-![AppenderAlignment](../resources/group-appender-alignment.png)
-
---------------------------------------------------------------------------------
-
-##### TC002
 
 ### Deep nesting is possible (iOS only)
 
@@ -26,7 +11,7 @@ Expected look:
 
 --------------------------------------------------------------------------------
 
-##### TC003
+##### TC002
 
 ### Check if Group placeholder is visible for the unselected state
 
@@ -39,7 +24,7 @@ Expected look:
 
 --------------------------------------------------------------------------------
 
-##### TC004
+##### TC003
 
 ### Check if Group placeholder is render in nested structure
 
@@ -62,7 +47,7 @@ Expected look:
 
 --------------------------------------------------------------------------------
 
-##### TC005
+##### TC004
 
 ### Nested block have proper border styling
 
@@ -76,34 +61,7 @@ Expected look:
 
 --------------------------------------------------------------------------------
 
-##### TC006
-
-### Nested block have proper margins values
-
--   Add a `Group` block
--   Nest some blocks inside
--   Check if space aroun blocks do not bounce when changing selection (exception is the transition of the selected block connected with making space for FloatingToolbar)
--   Check if there is no weird/unexpected extra free space around blocks
--   Check the spaces values
-
-Expected look:  
-![SpaceRoot](../resources/group-margin-root.png)
- - Space of `3px` left/right (between screen edge and solid border)
-
-![SpaceGroupChild](../resources/group-margin-inner-child-group.png)
- - Space of `5px` left/right (beetwen dashed border and solid border)
-
-![SpaceChild](../resources/group-margin-child.png)
- - Space of `6px` left/right (beetwen content and dashed border)
-
-![SpaceContent](../resources/group-margin-root-1.png)
- - Space of `16px` left/right
-
-Total space from screen edge to content should equals `16px` in each state (including solid and dashed border width in selection state)
-
---------------------------------------------------------------------------------
-
-##### TC008
+##### TC005
 
 ### Breadcrumbs on FloatingToolbar is properly displayed
 
@@ -121,7 +79,7 @@ Expected look:
 
 --------------------------------------------------------------------------------
 
-##### TC009
+##### TC006
 
 ### Navigation up button works as expected
 
@@ -134,7 +92,7 @@ Expected look:
 
 --------------------------------------------------------------------------------
 
-##### TC010
+##### TC007
 
 ### Navigation down works according to parent-first approach
 
@@ -148,7 +106,7 @@ Expected look:
 
 --------------------------------------------------------------------------------
 
-##### TC011
+##### TC008
 
 ### Cross navigation between blocks works as expected
 
@@ -160,19 +118,7 @@ Expected look:
 
 --------------------------------------------------------------------------------
 
-##### TC012
-
-### Ungroup button works as expected
-
--   Add a `Group` block
--   Add blocks to `Group`
--   Select `Group` block
--   Press `Ungroup` button on the block toolbar
--   Check if `Group` block was deleted and each child block can now be selected directly
-
---------------------------------------------------------------------------------
-
-##### TC013
+##### TC009
 
 ### Check if in DarkMode all components gets proper colors
 
@@ -187,7 +133,7 @@ Expected look:
 
 --------------------------------------------------------------------------------
 
-##### TC014
+##### TC010
 
 ### Check if nested Placeholder block can be replaced
 

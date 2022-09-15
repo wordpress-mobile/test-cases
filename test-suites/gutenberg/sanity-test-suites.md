@@ -98,13 +98,11 @@ This holds a grouping of certain test suites to run in order to share the work w
 
 ### Group - 1
 
-- [ ] Group - AppenderButton is rendered - [TC001](https://github.com/wordpress-mobile/test-cases/blob/master/test-cases/gutenberg/group.md#tc001)
-- [ ] Group - Deep nesting is possible (iOS only) - [TC002](https://github.com/wordpress-mobile/test-cases/blob/master/test-cases/gutenberg/group.md#tc002)
-- [ ] Group - Check if Group placeholder is visible for the unselected state - [TC003](https://github.com/wordpress-mobile/test-cases/blob/master/test-cases/gutenberg/group.md#tc003)
-- [ ] Group - Check if Group placeholder is render in nested structure - [TC004](https://github.com/wordpress-mobile/test-cases/blob/master/test-cases/gutenberg/group.md#tc004)
-- [ ] Group - Nested block have proper border styling - [TC005](https://github.com/wordpress-mobile/test-cases/blob/master/test-cases/gutenberg/group.md#tc005)
-- [ ] Group - Nested block have proper margins values - [TC006](https://github.com/wordpress-mobile/test-cases/blob/master/test-cases/gutenberg/group.md#tc006)
-- [ ] Group - Breadcrumbs on FloatingToolbar is properly displayed - [TC008](https://github.com/wordpress-mobile/test-cases/blob/master/test-cases/gutenberg/group.md#tc008)
+- [ ] Group - Deep nesting is possible (iOS only) - [TC001](https://github.com/wordpress-mobile/test-cases/blob/master/test-cases/gutenberg/group.md#tc001)
+- [ ] Group - Check if Group placeholder is visible for the unselected state - [TC002](https://github.com/wordpress-mobile/test-cases/blob/master/test-cases/gutenberg/group.md#tc002)
+- [ ] Group - Check if Group placeholder is render in nested structure - [TC003](https://github.com/wordpress-mobile/test-cases/blob/master/test-cases/gutenberg/group.md#tc003)
+- [ ] Group - Nested block have proper border styling - [TC004](https://github.com/wordpress-mobile/test-cases/blob/master/test-cases/gutenberg/group.md#tc004)
+- [ ] Group - Breadcrumbs on FloatingToolbar is properly displayed - [TC008](https://github.com/wordpress-mobile/test-cases/blob/master/test-cases/gutenberg/group.md#tc005)
 
 ### Spacer - 1
 
@@ -243,12 +241,11 @@ This holds a grouping of certain test suites to run in order to share the work w
 
 ### Group - 2
 
-- [ ] Group - Navigation up button works as expected - [TC009](https://github.com/wordpress-mobile/test-cases/blob/master/test-cases/gutenberg/group.md#tc009)
-- [ ] Group - Navigation down works according to parent-first approach - [TC010](https://github.com/wordpress-mobile/test-cases/blob/master/test-cases/gutenberg/group.md#tc010)
-- [ ] Group - Cross navigation between blocks works as expected - [TC011](https://github.com/wordpress-mobile/test-cases/blob/master/test-cases/gutenberg/group.md#tc011)
-- [ ] Group - Ungroup button works as expected - [TC012](https://github.com/wordpress-mobile/test-cases/blob/master/test-cases/gutenberg/group.md#tc012)
-- [ ] Group - Check if in DarkMode all components gets proper colors - [TC013](https://github.com/wordpress-mobile/test-cases/blob/master/test-cases/gutenberg/group.md#tc013)
-- [ ] Group - Check if nested Placeholder block can be replaced - [TC014](https://github.com/wordpress-mobile/test-cases/blob/master/test-cases/gutenberg/group.md#tc014)
+- [ ] Group - Navigation up button works as expected - [TC006](https://github.com/wordpress-mobile/test-cases/blob/master/test-cases/gutenberg/group.md#tc006)
+- [ ] Group - Navigation down works according to parent-first approach - [TC007](https://github.com/wordpress-mobile/test-cases/blob/master/test-cases/gutenberg/group.md#tc007)
+- [ ] Group - Cross navigation between blocks works as expected - [TC008](https://github.com/wordpress-mobile/test-cases/blob/master/test-cases/gutenberg/group.md#tc008)
+- [ ] Group - Check if in DarkMode all components gets proper colors - [TC009](https://github.com/wordpress-mobile/test-cases/blob/master/test-cases/gutenberg/group.md#tc009)
+- [ ] Group - Check if nested Placeholder block can be replaced - [TC014](https://github.com/wordpress-mobile/test-cases/blob/master/test-cases/gutenberg/group.md#tc010)
 
 ### Spacer - 2
 
