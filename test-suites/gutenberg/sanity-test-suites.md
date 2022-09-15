@@ -74,10 +74,8 @@ This holds a grouping of certain test suites to run in order to share the work w
 - [ ] Custom Colors - Check that custom colors load in the editor - [TC003](https://github.com/wordpress-mobile/test-cases/blob/master/test-cases/gutenberg/editor-theme.md#tc003)
 
 ### Social Icons - 1
-- [ ] The newly created Social Icons block is added with 4 icons - [TC001](https://github.com/wordpress-mobile/test-cases/blob/master/test-cases/gutenberg/social-icons.md#tc001)
-- [ ] Active icon gets product color - [TC002](https://github.com/wordpress-mobile/test-cases/blob/master/test-cases/gutenberg/social-icons.md#tc002)
-- [ ] Only active icons are visible when not selected - [TC003](https://github.com/wordpress-mobile/test-cases/blob/master/test-cases/gutenberg/social-icons.md#tc003)
-
+- [ ] Active icon gets product color - [TC001](https://github.com/wordpress-mobile/test-cases/blob/master/test-cases/gutenberg/social-icons.md#tc001)
+- [ ] Social icon forwarding to the link - [TC002](https://github.com/wordpress-mobile/test-cases/blob/master/test-cases/gutenberg/social-icons.md#tc002)
 ```
 
 
@@ -161,7 +159,6 @@ This holds a grouping of certain test suites to run in order to share the work w
 - MediaText 3-4
 - Shortcode 1
 - Cover 2
-- Social Icons 2
 - Image 2
 - Story block 1
 
@@ -212,11 +209,6 @@ This holds a grouping of certain test suites to run in order to share the work w
 - [ ] Cover - Replace media - [TC005](https://github.com/wordpress-mobile/test-cases/blob/master/test-cases/gutenberg/cover.md#tc005)
 - [ ] Cover - Gradient background is rendered properly - [TC006](https://github.com/wordpress-mobile/test-cases/blob/master/test-cases/gutenberg/cover.md#tc006)
 - [ ] Cover - Gradient overlay is rendered properly - [TC007](https://github.com/wordpress-mobile/test-cases/blob/master/test-cases/gutenberg/cover.md#tc007)
-
-### Social Icons - 2
-- [ ] The link sheet is opened automatically when adding new icon - [TC004](https://github.com/wordpress-mobile/test-cases/blob/master/test-cases/gutenberg/social-icons.md#tc004)
-- [ ] Ghost placeholder is visible when no icon is active - [TC005](https://github.com/wordpress-mobile/test-cases/blob/master/test-cases/gutenberg/social-icons.md#tc005)
-- [ ] Social icon forwarding to the link - [TC006](https://github.com/wordpress-mobile/test-cases/blob/master/test-cases/gutenberg/social-icons.md#tc006)
 
 ### Image - 2
 - [ ] Image block - Border style setting - [TC006](https://github.com/wordpress-mobile/test-cases/blob/master/test-cases/gutenberg/image.md#tc006)
