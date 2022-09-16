@@ -15,6 +15,50 @@
 
 ##### TC002
 
+### Buttons inline appender
+
+-   Add `Buttons` block
+-   Expect an inline appender is located next to the last `Button` block
+-   Add another `Button` within `Buttons`
+-   Expect an inline appender is located next to the last `Button` block
+-   Navigate up to select `Buttons`
+-   Expect an inline appender is in the same place (next to the last `Button` block)
+-   Select different block than `Buttons` or `Button`
+-   Expect to not see an inline appender in `Buttons` block
+
+--------------------------------------------------------------------------------
+
+##### TC003
+
+### Add another Button inside Buttons using inserter
+
+-   Add `Buttons` block
+-   Press inserter
+-   Choose `Button` from the opened bottom sheet
+-   Expect `ADD BLOCK HERE` line isn't displayed
+-   Expect a new `Button` is added and focused
+-   Expect Buttons are displayed side-by-side
+
+--------------------------------------------------------------------------------
+
+##### TC004
+
+### Removing Button along with Buttons block
+
+-   Add `Buttons` block
+-   Expect focused `Button` inside `Buttons`
+-   Press trash button
+-   Expect `Button` is removed along with whole `Buttons` container
+-   Add new `Buttons` block
+-   Expect focused `Button` inside `Buttons`
+-   Type something
+-   Delete all of the text from `Button`
+-   Expect `Button` is removed along with whole `Buttons` container
+
+--------------------------------------------------------------------------------
+
+##### TC005
+
 ### Removing exactly one Button (when Buttons contain more of them)
 
 -   Add `Buttons` block
@@ -30,7 +74,7 @@
 
 --------------------------------------------------------------------------------
 
-##### TC003
+##### TC006
 
 ### Wrapping Buttons
 
@@ -43,7 +87,7 @@
 
 --------------------------------------------------------------------------------
 
-##### TC004
+##### TC007
 
 ### Buttons alignment options
 
@@ -72,7 +116,7 @@
 
 --------------------------------------------------------------------------------
 
-##### TC005
+##### TC009
 
 ### Edit text styles
 
@@ -86,7 +130,7 @@
 
 --------------------------------------------------------------------------------
 
-##### TC006
+##### TC010
 
 ### Settings: Link URL
 
@@ -99,7 +143,7 @@
 
 --------------------------------------------------------------------------------
 
-##### TC007
+##### TC011
 
 ### Settings: Open in new tab
 
@@ -113,7 +157,7 @@
 
 --------------------------------------------------------------------------------
 
-##### TC008
+##### TC012
 
 ### Settings: Link rel
 
@@ -125,7 +169,7 @@
 
 --------------------------------------------------------------------------------
 
-##### TC009
+##### TC013
 
 ### Settings: Synchronize with button options
 
@@ -139,7 +183,7 @@
 
 --------------------------------------------------------------------------------
 
-##### TC010
+##### TC014
 
 ### Settings: Remove link
 
@@ -154,7 +198,7 @@
 
 --------------------------------------------------------------------------------
 
-##### TC011
+##### TC015
 
 ### Settings: Change Button border radius
 
@@ -167,7 +211,7 @@
 
 --------------------------------------------------------------------------------
 
-##### TC012
+##### TC016
 
 ### Render custom background color
 
@@ -179,7 +223,7 @@
 
 --------------------------------------------------------------------------------
 
-##### TC013
+##### TC017
 
 ### Render custom text color
 
@@ -191,7 +235,7 @@
 
 --------------------------------------------------------------------------------
 
-##### TC014
+##### TC018
 
 ### Render gradient background color
 
@@ -203,7 +247,7 @@
 
 --------------------------------------------------------------------------------
 
-##### TC015
+##### TC019
 
 ### Render theme colors
 
@@ -215,7 +259,7 @@
 
 --------------------------------------------------------------------------------
 
-##### TC016
+##### TC020
 
 ### Check if selection / caret color matches font color
 
@@ -230,7 +274,7 @@
 
 --------------------------------------------------------------------------------
 
-##### TC017
+##### TC021
 
 ### The newly created button has set background color to the theme-default color in preview
 
@@ -241,7 +285,7 @@
 
 --------------------------------------------------------------------------------
 
-##### TC018
+##### TC022
 
 ### Toolbar link button is active when Button has link
 
@@ -253,7 +297,7 @@
 
 --------------------------------------------------------------------------------
 
-##### TC019
+##### TC023
 
 ### Button's wrapper grows properly
 
