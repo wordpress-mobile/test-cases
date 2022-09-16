@@ -72,45 +72,42 @@ Spacer-2
 Buttons-1
 
 - [ ] Buttons block - Buttons block is added with focused Button with gray background color and white text color - [steps](https://github.com/wordpress-mobile/test-cases/blob/master/test-cases/gutenberg/buttons.md#tc001)
-- [ ] Buttons block - Buttons inline appender - [steps](https://github.com/wordpress-mobile/test-cases/blob/master/test-cases/gutenberg/buttons.md#tc002)
-- [ ] Buttons block - Add another Button inside Buttons using inserter - [steps](https://github.com/wordpress-mobile/test-cases/blob/master/test-cases/gutenberg/buttons.md#tc003)
-- [ ] Buttons block - Button's wrapper grows properly - [steps](https://github.com/wordpress-mobile/test-cases/blob/master/test-cases/gutenberg/buttons.md#tc023)
+- [ ] Buttons block - Button's wrapper grows properly - [steps](https://github.com/wordpress-mobile/test-cases/blob/master/test-cases/gutenberg/buttons.md#tc019)
 Buttons-2
 
-- [ ] Buttons block - Removing Button along with Buttons block - [steps](https://github.com/wordpress-mobile/test-cases/blob/master/test-cases/gutenberg/buttons.md#tc004)
-- [ ] Buttons block - Removing exactly one Button (when Buttons contain more of them) - [steps](https://github.com/wordpress-mobile/test-cases/blob/master/test-cases/gutenberg/buttons.md#tc005)
+- [ ] Buttons block - Removing exactly one Button (when Buttons contain more of them) - [steps](https://github.com/wordpress-mobile/test-cases/blob/master/test-cases/gutenberg/buttons.md#tc002)
 
 Buttons-3
 
-- [ ] Buttons block - Wrapping Buttons - [steps](https://github.com/wordpress-mobile/test-cases/blob/master/test-cases/gutenberg/buttons.md#tc006)
-- [ ] Buttons block - Buttons alignment options - [steps](https://github.com/wordpress-mobile/test-cases/blob/master/test-cases/gutenberg/buttons.md#tc007)
+- [ ] Buttons block - Wrapping Buttons - [steps](https://github.com/wordpress-mobile/test-cases/blob/master/test-cases/gutenberg/buttons.md#tc003)
+- [ ] Buttons block - Buttons alignment options - [steps](https://github.com/wordpress-mobile/test-cases/blob/master/test-cases/gutenberg/buttons.md#tc004)
 
 Buttons-4
 
-- [ ] Buttons block - Render custom text color - [steps](https://github.com/wordpress-mobile/test-cases/blob/master/test-cases/gutenberg/buttons.md#tc017)
-- [ ] Buttons block - Render custom background color - [steps](https://github.com/wordpress-mobile/test-cases/blob/master/test-cases/gutenberg/buttons.md#tc016)
-- [ ] Buttons block - Render gradient background color - [steps](https://github.com/wordpress-mobile/test-cases/blob/master/test-cases/gutenberg/buttons.md#tc018)
-- [ ] Buttons block - Check if selection / caret color matches font color - [steps](https://github.com/wordpress-mobile/test-cases/blob/master/test-cases/gutenberg/buttons.md#tc020)
-- [ ] Buttons block - The newly created Buttons has set background color to the theme-default color in preview - [steps](https://github.com/wordpress-mobile/test-cases/blob/master/test-cases/gutenberg/buttons.md#tc021)
+- [ ] Buttons block - Render custom text color - [steps](https://github.com/wordpress-mobile/test-cases/blob/master/test-cases/gutenberg/buttons.md#tc013)
+- [ ] Buttons block - Render custom background color - [steps](https://github.com/wordpress-mobile/test-cases/blob/master/test-cases/gutenberg/buttons.md#tc012)
+- [ ] Buttons block - Render gradient background color - [steps](https://github.com/wordpress-mobile/test-cases/blob/master/test-cases/gutenberg/buttons.md#tc014)
+- [ ] Buttons block - Check if selection / caret color matches font color - [steps](https://github.com/wordpress-mobile/test-cases/blob/master/test-cases/gutenberg/buttons.md#tc016)
+- [ ] Buttons block - The newly created Buttons has set background color to the theme-default color in preview - [steps](https://github.com/wordpress-mobile/test-cases/blob/master/test-cases/gutenberg/buttons.md#tc017)
 
 Button-5
 
-- [ ] Buttons block - Edit text styles - [steps](https://github.com/wordpress-mobile/test-cases/blob/master/test-cases/gutenberg/buttons.md#tc009)
-- [ ] Buttons block - Render theme colors - [steps](https://github.com/wordpress-mobile/test-cases/blob/master/test-cases/gutenberg/buttons.md#tc019)
-- [ ] Buttons block - Settings: Change Button border radius - [steps](https://github.com/wordpress-mobile/test-cases/blob/master/test-cases/gutenberg/buttons.md#tc015)
+- [ ] Buttons block - Edit text styles - [steps](https://github.com/wordpress-mobile/test-cases/blob/master/test-cases/gutenberg/buttons.md#tc005)
+- [ ] Buttons block - Render theme colors - [steps](https://github.com/wordpress-mobile/test-cases/blob/master/test-cases/gutenberg/buttons.md#tc015)
+- [ ] Buttons block - Settings: Change Button border radius - [steps](https://github.com/wordpress-mobile/test-cases/blob/master/test-cases/gutenberg/buttons.md#tc011)
 
 Button-6
 
-- [ ] Buttons block - Settings: Open in new tab - [steps](https://github.com/wordpress-mobile/test-cases/blob/master/test-cases/gutenberg/buttons.md#tc011)
-- [ ] Buttons block - Settings: Link rel - [steps](https://github.com/wordpress-mobile/test-cases/blob/master/test-cases/gutenberg/buttons.md#tc012)
-- [ ] Buttons block - Settings: Link URL - [steps](https://github.com/wordpress-mobile/test-cases/blob/master/test-cases/gutenberg/buttons.md#tc010)
-- [ ] Buttons block - Settings: Remove link - [steps](https://github.com/wordpress-mobile/test-cases/blob/master/test-cases/gutenberg/buttons.md#tc014)
-- [ ] Buttons block - Settings: Synchronize with button options - [steps](https://github.com/wordpress-mobile/test-cases/blob/master/test-cases/gutenberg/buttons.md#tc013)
+- [ ] Buttons block - Settings: Open in new tab - [steps](https://github.com/wordpress-mobile/test-cases/blob/master/test-cases/gutenberg/buttons.md#tc007)
+- [ ] Buttons block - Settings: Link rel - [steps](https://github.com/wordpress-mobile/test-cases/blob/master/test-cases/gutenberg/buttons.md#tc008)
+- [ ] Buttons block - Settings: Link URL - [steps](https://github.com/wordpress-mobile/test-cases/blob/master/test-cases/gutenberg/buttons.md#tc006)
+- [ ] Buttons block - Settings: Remove link - [steps](https://github.com/wordpress-mobile/test-cases/blob/master/test-cases/gutenberg/buttons.md#tc010)
+- [ ] Buttons block - Settings: Synchronize with button options - [steps](https://github.com/wordpress-mobile/test-cases/blob/master/test-cases/gutenberg/buttons.md#tc009)
 
 Button-7
 
 - [ ] Buttons block - Link from the clipboard is presented as an option in the link picker - [steps](https://github.com/wordpress-mobile/test-cases/blob/master/test-cases/gutenberg/buttons.md#tc008)
-- [ ] Buttons block - Toolbar link button is active when Button has link - [steps](https://github.com/wordpress-mobile/test-cases/blob/master/test-cases/gutenberg/buttons.md#tc022)
+- [ ] Buttons block - Toolbar link button is active when Button has link - [steps](https://github.com/wordpress-mobile/test-cases/blob/master/test-cases/gutenberg/buttons.md#tc018)
 
 Group-1
 
