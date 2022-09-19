@@ -63,10 +63,6 @@ Shortcode-1
 
 Spacer-1
 
-- [ ] Spacer block - Spacer is rendered without crash - [steps](https://github.com/wordpress-mobile/test-cases/blob/master/test-cases/gutenberg/spacer.md#tc001)
-
-Spacer-2
-
 - [ ] Spacer block - Spacer in horizontal layout works as expected - [steps](https://github.com/wordpress-mobile/test-cases/blob/master/test-cases/gutenberg/spacer.md#tc002)
 
 Buttons-1
