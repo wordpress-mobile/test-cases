@@ -98,17 +98,11 @@ This holds a grouping of certain test suites to run in order to share the work w
 
 ### Group - 1
 
-- [ ] Group - AppenderButton is rendered - [TC001](https://github.com/wordpress-mobile/test-cases/blob/master/test-cases/gutenberg/group.md#tc001)
-- [ ] Group - Deep nesting is possible (iOS only) - [TC002](https://github.com/wordpress-mobile/test-cases/blob/master/test-cases/gutenberg/group.md#tc002)
-- [ ] Group - Check if Group placeholder is visible for the unselected state - [TC003](https://github.com/wordpress-mobile/test-cases/blob/master/test-cases/gutenberg/group.md#tc003)
-- [ ] Group - Check if Group placeholder is render in nested structure - [TC004](https://github.com/wordpress-mobile/test-cases/blob/master/test-cases/gutenberg/group.md#tc004)
-- [ ] Group - Nested block have proper border styling - [TC005](https://github.com/wordpress-mobile/test-cases/blob/master/test-cases/gutenberg/group.md#tc005)
-- [ ] Group - Nested block have proper margins values - [TC006](https://github.com/wordpress-mobile/test-cases/blob/master/test-cases/gutenberg/group.md#tc006)
-- [ ] Group - Breadcrumbs on FloatingToolbar is properly displayed - [TC008](https://github.com/wordpress-mobile/test-cases/blob/master/test-cases/gutenberg/group.md#tc008)
-
-### Spacer - 1
-
-- [ ] Spacer block - Spacer is rendered without crash - [TC001](https://github.com/wordpress-mobile/test-cases/blob/master/test-cases/gutenberg/spacer.md#tc001)
+- [ ] Group - Deep nesting is possible (iOS only) - [TC001](https://github.com/wordpress-mobile/test-cases/blob/master/test-cases/gutenberg/group.md#tc001)
+- [ ] Group - Check if Group placeholder is visible for the unselected state - [TC002](https://github.com/wordpress-mobile/test-cases/blob/master/test-cases/gutenberg/group.md#tc002)
+- [ ] Group - Check if Group placeholder is render in nested structure - [TC003](https://github.com/wordpress-mobile/test-cases/blob/master/test-cases/gutenberg/group.md#tc003)
+- [ ] Group - Nested block have proper border styling - [TC004](https://github.com/wordpress-mobile/test-cases/blob/master/test-cases/gutenberg/group.md#tc004)
+- [ ] Group - Breadcrumbs on FloatingToolbar is properly displayed - [TC008](https://github.com/wordpress-mobile/test-cases/blob/master/test-cases/gutenberg/group.md#tc005)
 
 ### Buttons-1
 
@@ -221,7 +215,7 @@ This holds a grouping of certain test suites to run in order to share the work w
 
 - DarkMode 2
 - Group 2
-- Spacer 2
+- Spacer 1
 - Buttons 4-5-7
 - Editor Theme 2
 - Color Settings 2
@@ -236,16 +230,15 @@ This holds a grouping of certain test suites to run in order to share the work w
 
 ### Group - 2
 
-- [ ] Group - Navigation up button works as expected - [TC009](https://github.com/wordpress-mobile/test-cases/blob/master/test-cases/gutenberg/group.md#tc009)
-- [ ] Group - Navigation down works according to parent-first approach - [TC010](https://github.com/wordpress-mobile/test-cases/blob/master/test-cases/gutenberg/group.md#tc010)
-- [ ] Group - Cross navigation between blocks works as expected - [TC011](https://github.com/wordpress-mobile/test-cases/blob/master/test-cases/gutenberg/group.md#tc011)
-- [ ] Group - Ungroup button works as expected - [TC012](https://github.com/wordpress-mobile/test-cases/blob/master/test-cases/gutenberg/group.md#tc012)
-- [ ] Group - Check if in DarkMode all components gets proper colors - [TC013](https://github.com/wordpress-mobile/test-cases/blob/master/test-cases/gutenberg/group.md#tc013)
-- [ ] Group - Check if nested Placeholder block can be replaced - [TC014](https://github.com/wordpress-mobile/test-cases/blob/master/test-cases/gutenberg/group.md#tc014)
+- [ ] Group - Navigation up button works as expected - [TC006](https://github.com/wordpress-mobile/test-cases/blob/master/test-cases/gutenberg/group.md#tc006)
+- [ ] Group - Navigation down works according to parent-first approach - [TC007](https://github.com/wordpress-mobile/test-cases/blob/master/test-cases/gutenberg/group.md#tc007)
+- [ ] Group - Cross navigation between blocks works as expected - [TC008](https://github.com/wordpress-mobile/test-cases/blob/master/test-cases/gutenberg/group.md#tc008)
+- [ ] Group - Check if in DarkMode all components gets proper colors - [TC009](https://github.com/wordpress-mobile/test-cases/blob/master/test-cases/gutenberg/group.md#tc009)
+- [ ] Group - Check if nested Placeholder block can be replaced - [TC014](https://github.com/wordpress-mobile/test-cases/blob/master/test-cases/gutenberg/group.md#tc010)
 
-### Spacer - 2
+### Spacer - 1
 
-- [ ] Spacer block - Spacer in horizontal layout works as expected - [TC002](https://github.com/wordpress-mobile/test-cases/blob/master/test-cases/gutenberg/spacer.md#tc002)
+- [ ] Spacer block - Spacer in horizontal layout works as expected - [TC001](https://github.com/wordpress-mobile/test-cases/blob/master/test-cases/gutenberg/spacer.md#tc001)
 
 ### Buttons - 4
 
