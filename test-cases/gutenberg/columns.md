@@ -31,7 +31,7 @@ Portrait | Landscape
 
 ##### TC003
 
-### Deep nesting is possible (iOS only)
+### Deep nesting is possible
 
 - Add a `Columns` block
 - Nest blocks inside multiple `Columns` blocks (at least 3 levels deep)
