@@ -98,7 +98,7 @@ This holds a grouping of certain test suites to run in order to share the work w
 
 ### Group - 1
 
-- [ ] Group - Deep nesting is possible (iOS only) - [TC001](https://github.com/wordpress-mobile/test-cases/blob/master/test-cases/gutenberg/group.md#tc001)
+- [ ] Group - Deep nesting is possible - [TC001](https://github.com/wordpress-mobile/test-cases/blob/master/test-cases/gutenberg/group.md#tc001)
 - [ ] Group - Check if Group placeholder is visible for the unselected state - [TC002](https://github.com/wordpress-mobile/test-cases/blob/master/test-cases/gutenberg/group.md#tc002)
 - [ ] Group - Check if Group placeholder is render in nested structure - [TC003](https://github.com/wordpress-mobile/test-cases/blob/master/test-cases/gutenberg/group.md#tc003)
 - [ ] Group - Nested block have proper border styling - [TC004](https://github.com/wordpress-mobile/test-cases/blob/master/test-cases/gutenberg/group.md#tc004)

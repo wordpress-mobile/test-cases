@@ -3,7 +3,7 @@
 --------------------------------------------------------------------------------
 ##### TC001
 
-### Deep nesting is possible (iOS only)
+### Deep nesting is possible 
 
 -   Add a `Group` block
 -   Nest blocks inside multiple `Group` blocks (at least 3 levels deep)
