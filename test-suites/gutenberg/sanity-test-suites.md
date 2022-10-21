@@ -102,7 +102,7 @@ This holds a grouping of certain test suites to run in order to share the work w
 - [ ] Group - Check if Group placeholder is visible for the unselected state - [TC002](https://github.com/wordpress-mobile/test-cases/blob/master/test-cases/gutenberg/group.md#tc002)
 - [ ] Group - Check if Group placeholder is render in nested structure - [TC003](https://github.com/wordpress-mobile/test-cases/blob/master/test-cases/gutenberg/group.md#tc003)
 - [ ] Group - Nested block have proper border styling - [TC004](https://github.com/wordpress-mobile/test-cases/blob/master/test-cases/gutenberg/group.md#tc004)
-- [ ] Group - Breadcrumbs on FloatingToolbar is properly displayed - [TC008](https://github.com/wordpress-mobile/test-cases/blob/master/test-cases/gutenberg/group.md#tc005)
+- [ ] Group - Breadcrumbs on FloatingToolbar is properly displayed - [TC005](https://github.com/wordpress-mobile/test-cases/blob/master/test-cases/gutenberg/group.md#tc005)
 
 ### Buttons-1
 
