@@ -20,7 +20,7 @@
 -   Add `Buttons` block
 -   Press an inline appender
 -   Expect a new `Button` is added and focused
--   Press trash button
+-   Open the `Button` block settings and remove the block
 -   Expect current `Button` is removed and the previous `Button` is focused
 -   Press an inline appender
 -   Expect a new `Button` is added and focused
