@@ -108,7 +108,7 @@ This holds a grouping of certain test suites to run in order to share the work w
 
 - [ ] Buttons block - Button's wrapper grows properly - [TC019](https://github.com/wordpress-mobile/test-cases/blob/master/test-cases/gutenberg/buttons.md#tc019)
 - [ ] Buttons block - Removing exactly one Button (when Buttons contain more of them) - [TC002](https://github.com/wordpress-mobile/test-cases/blob/master/test-cases/gutenberg/buttons.md#tc002)
-- [ ] Buttons block - Wrapping Buttons - [TC002](https://github.com/wordpress-mobile/test-cases/blob/master/test-cases/gutenberg/buttons.md#tc003)
+- [ ] Buttons block - Wrapping Buttons - [TC003](https://github.com/wordpress-mobile/test-cases/blob/master/test-cases/gutenberg/buttons.md#tc003)
 
 ### Button-2
 
