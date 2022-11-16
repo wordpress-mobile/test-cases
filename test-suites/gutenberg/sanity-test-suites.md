@@ -98,17 +98,17 @@ This holds a grouping of certain test suites to run in order to share the work w
 
 ### Group - 1
 
-- [ ] Group - Deep nesting is possible (iOS only) - [TC001](https://github.com/wordpress-mobile/test-cases/blob/master/test-cases/gutenberg/group.md#tc001)
+- [ ] Group - Deep nesting is possible (verify iOS does not crash) - [TC001](https://github.com/wordpress-mobile/test-cases/blob/master/test-cases/gutenberg/group.md#tc001)
 - [ ] Group - Check if Group placeholder is visible for the unselected state - [TC002](https://github.com/wordpress-mobile/test-cases/blob/master/test-cases/gutenberg/group.md#tc002)
 - [ ] Group - Check if Group placeholder is render in nested structure - [TC003](https://github.com/wordpress-mobile/test-cases/blob/master/test-cases/gutenberg/group.md#tc003)
 - [ ] Group - Nested block have proper border styling - [TC004](https://github.com/wordpress-mobile/test-cases/blob/master/test-cases/gutenberg/group.md#tc004)
-- [ ] Group - Breadcrumbs on FloatingToolbar is properly displayed - [TC008](https://github.com/wordpress-mobile/test-cases/blob/master/test-cases/gutenberg/group.md#tc005)
+- [ ] Group - Breadcrumbs on FloatingToolbar is properly displayed - [TC005](https://github.com/wordpress-mobile/test-cases/blob/master/test-cases/gutenberg/group.md#tc005)
 
 ### Buttons-1
 
 - [ ] Buttons block - Button's wrapper grows properly - [TC019](https://github.com/wordpress-mobile/test-cases/blob/master/test-cases/gutenberg/buttons.md#tc019)
 - [ ] Buttons block - Removing exactly one Button (when Buttons contain more of them) - [TC002](https://github.com/wordpress-mobile/test-cases/blob/master/test-cases/gutenberg/buttons.md#tc002)
-- [ ] Buttons block - Wrapping Buttons - [TC002](https://github.com/wordpress-mobile/test-cases/blob/master/test-cases/gutenberg/buttons.md#tc003)
+- [ ] Buttons block - Wrapping Buttons - [TC003](https://github.com/wordpress-mobile/test-cases/blob/master/test-cases/gutenberg/buttons.md#tc003)
 
 ### Button-2
 
@@ -256,7 +256,7 @@ This holds a grouping of certain test suites to run in order to share the work w
 
 ### Buttons - 7
 
-- [ ] Buttons block - Link from the clipboard is presented as an option in the link picker - [TC008](https://github.com/wordpress-mobile/test-cases/blob/master/test-cases/gutenberg/buttons.md#tc008)
+- [ ] Buttons block - Link from the clipboard is presented as an option in the link picker - [TC020](https://github.com/wordpress-mobile/test-cases/blob/master/test-cases/gutenberg/buttons.md#tc020)
 - [ ] Buttons block - Toolbar link button is active when Button has link - [TC018](https://github.com/wordpress-mobile/test-cases/blob/master/test-cases/gutenberg/buttons.md#tc018)
 
 ### Editor Theme - 2

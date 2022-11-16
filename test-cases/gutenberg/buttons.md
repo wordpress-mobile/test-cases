@@ -20,7 +20,7 @@
 -   Add `Buttons` block
 -   Press an inline appender
 -   Expect a new `Button` is added and focused
--   Press trash button
+-   Open the `Button` block settings and remove the block
 -   Expect current `Button` is removed and the previous `Button` is focused
 -   Press an inline appender
 -   Expect a new `Button` is added and focused
@@ -56,19 +56,6 @@
       - Buttons adhere to the left edge when the first option is selected
       - Buttons are centred when the second option is selected
       - Buttons adhere to the right edge when the third option is selected
-
---------------------------------------------------------------------------------
-
-##### TC008
-
-### Link from the clipboard is presented as an option in the link picker
-
--   Copy link into clipboard, e.g. `http://wordpress.com`
--   Add `Buttons` block
--   Open link [settings](../resources/button-link-settings.png)
--   Edit the `Link to` field.
--   Tap the `From clipboard` option.
--   Expect link from the clipboard to be automatically added into the empty URL field
 
 --------------------------------------------------------------------------------
 
@@ -261,5 +248,18 @@
 -   Add next button using inline appender or inserter
 -   Select the first one and type some characters
 -   Expect button's width grows properly (_horizontally_)
+
+--------------------------------------------------------------------------------
+
+##### TC020
+
+### Link from the clipboard is presented as an option in the link picker
+
+-   Copy link into clipboard, e.g. `http://wordpress.com`
+-   Add `Buttons` block
+-   Open link [settings](../resources/button-link-settings.png)
+-   Edit the `Link to` field.
+-   Tap the `From clipboard` option.
+-   Expect link from the clipboard to be automatically added into the empty URL field
 
 --------------------------------------------------------------------------------
