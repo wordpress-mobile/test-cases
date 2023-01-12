@@ -193,6 +193,10 @@ Gallery block should allow uploading images from the free photo library.
 
 Gallery block should allow canceling image uploads.
 
+**Known issues:**
+
+* Cancelling an upload leaves an empty placeholder block, which can leave an empty space on the front-end. Reported in https://github.com/WordPress/gutenberg/issues/39612.
+
 **Steps:**
 
 * Add a gallery block and tap "Add Media"
