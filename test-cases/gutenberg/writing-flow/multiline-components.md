@@ -29,5 +29,5 @@ Test the next steps on:
   - _Verse_: `<br>` on line-breaks.
   - _Preformatted_: `<br>` on line-breaks.
   - _Code_: (Invisible `\n`) new line character.
-  - _Pullquote_: `<p>` tags per non-wrapping "line"
+  - _Pullquote_: `<br>` on line-breaks.
   - _Pullquote citation_: `<br>` on line-breaks.
