@@ -151,7 +151,10 @@
 
 **Expected Behavior**
 
-- Currently only the full width option is supported.
+- Available options: None, Align left, Align center, Align right, Wide width, Full width
+- Align left/right results in text beneath the block to wrap the Audio block.
+- Wide width: Audio block expands past the rest of the post content.
+- Full width: Audio block expands to the edges of the window.
 
 --------------------------------------------------------------------------------
 ##### TC008
