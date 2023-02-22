@@ -1,5 +1,10 @@
 
 # Audio Block - Test Cases
+
+#### **Precondition**
+
+All test cases related to uploading audio files to the site require a plan that includes this feature, i.e. Business Plan or higher.
+
 ##### TC001
 
 **Upload completes successfully from the device library**
