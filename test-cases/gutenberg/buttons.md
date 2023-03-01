@@ -59,20 +59,6 @@
 
 --------------------------------------------------------------------------------
 
-##### TC005
-
-### Edit text styles
-
--   Add `Buttons` block
--   Type some characters
--   Select your text
--   Press icons responsible for changing text styles: `Bold`, `Italic`, `Strikethrough`
--   Save the post
--   Open a post e.g in preview mode
--   Expect text style changes accordingly to selected options
-
---------------------------------------------------------------------------------
-
 ##### TC006
 
 ### Settings: Link URL
@@ -154,42 +140,6 @@
 
 --------------------------------------------------------------------------------
 
-##### TC012
-
-### Render custom background color
-
--   Open gutenberg web, add `Buttons` block
--   Choose the **custom** background color from **picker**
--   Save the post
--   Open the same post on mobile app
--   Expect `Button` background color is the same as on web
-
---------------------------------------------------------------------------------
-
-##### TC013
-
-### Render custom text color
-
--   Open gutenberg web, add `Buttons` block
--   Choose the **custom** text color from **picker**
--   Save the post
--   Open the same post on mobile app
--   Expect `Button` text color is the same as on web
-
---------------------------------------------------------------------------------
-
-##### TC014
-
-### Render gradient background color
-
--   Open gutenberg web, add `Buttons` block
--   Choose the **gradient** background color from the palette
--   Save the post
--   Open the same post on mobile app
--   Expect `Button` gradient background color is the same as on web
-
---------------------------------------------------------------------------------
-
 ##### TC015
 
 ### Render theme colors
@@ -199,21 +149,6 @@
 -   Save the post
 -   Open the same post on mobile app
 -   Expect `Button` with selected background color and selected text color
-
---------------------------------------------------------------------------------
-
-##### TC016
-
-### Check if selection / caret color matches font color
-
--   Open gutenberg web, add `Buttons` block
--   Choose the **custom** text color from **picker**
--   Save the post
--   Open the same post on mobile app
--   Observe caret / select text
--   Expect `Button` caret / selection color to match the custom text color
-
-**_Note:_** This may work if running on Android API 28+ do to restrctions that will be handled as part of [Issue #1787](https://github.com/wordpress-mobile/gutenberg-mobile/issues/1787)
 
 --------------------------------------------------------------------------------
 
@@ -228,18 +163,6 @@
 
 --------------------------------------------------------------------------------
 
-##### TC018
-
-### Toolbar link button is active when Button has link
-
--   Add `Buttons` block
--   Open link [settings](../resources/button-link-settings.png)
--   Edit `Button URL` field and add link
--   Close bottom-sheet
--   Expect toolbar link button is active
-
---------------------------------------------------------------------------------
-
 ##### TC019
 
 ### Button's wrapper grows properly
@@ -248,18 +171,5 @@
 -   Add next button using inline appender or inserter
 -   Select the first one and type some characters
 -   Expect button's width grows properly (_horizontally_)
-
---------------------------------------------------------------------------------
-
-##### TC020
-
-### Link from the clipboard is presented as an option in the link picker
-
--   Copy link into clipboard, e.g. `http://wordpress.com`
--   Add `Buttons` block
--   Open link [settings](../resources/button-link-settings.png)
--   Edit the `Link to` field.
--   Tap the `From clipboard` option.
--   Expect link from the clipboard to be automatically added into the empty URL field
 
 --------------------------------------------------------------------------------
