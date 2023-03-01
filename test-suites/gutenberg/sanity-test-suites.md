@@ -83,7 +83,6 @@ This holds a grouping of certain test suites to run in order to share the work w
 
 - DarkMode 1
 - Group 1
-- Spacer 1
 - Buttons 1-2-3
 - Color Settings 1
 - Image 1
@@ -215,8 +214,7 @@ This holds a grouping of certain test suites to run in order to share the work w
 
 - DarkMode 2
 - Group 2
-- Spacer 1
-- Buttons 4-5-7
+- Buttons 4-5
 - Editor Theme 2
 - Color Settings 2
 
@@ -236,28 +234,14 @@ This holds a grouping of certain test suites to run in order to share the work w
 - [ ] Group - Check if in DarkMode all components gets proper colors - [TC009](https://github.com/wordpress-mobile/test-cases/blob/master/test-cases/gutenberg/group.md#tc009)
 - [ ] Group - Check if nested Placeholder block can be replaced - [TC014](https://github.com/wordpress-mobile/test-cases/blob/master/test-cases/gutenberg/group.md#tc010)
 
-### Spacer - 1
-
-- [ ] Spacer block - Spacer in horizontal layout works as expected - [TC001](https://github.com/wordpress-mobile/test-cases/blob/master/test-cases/gutenberg/spacer.md#tc001)
-
 ### Buttons - 4
 
-- [ ] Buttons block - Render custom text color - [TC013](https://github.com/wordpress-mobile/test-cases/blob/master/test-cases/gutenberg/buttons.md#tc013)
-- [ ] Buttons block - Render custom background color - [TC012](https://github.com/wordpress-mobile/test-cases/blob/master/test-cases/gutenberg/buttons.md#tc012)
-- [ ] Buttons block - Render gradient background color - [TC014](https://github.com/wordpress-mobile/test-cases/blob/master/test-cases/gutenberg/buttons.md#tc014)
-- [ ] Buttons block - Check if selection / caret color matches font color - [TC016](https://github.com/wordpress-mobile/test-cases/blob/master/test-cases/gutenberg/buttons.md#tc016)
 - [ ] Buttons block - The newly created Buttons has set background color to the theme-default color in preview - [TC017](https://github.com/wordpress-mobile/test-cases/blob/master/test-cases/gutenberg/buttons.md#tc017)
 
 ### Buttons - 5
 
-- [ ] Buttons block - Edit text styles - [TC005](https://github.com/wordpress-mobile/test-cases/blob/master/test-cases/gutenberg/buttons.md#tc005)
 - [ ] Buttons block - Render theme colors - [TC015](https://github.com/wordpress-mobile/test-cases/blob/master/test-cases/gutenberg/buttons.md#tc015)
 - [ ] Buttons block - Settings: Change Button border radius - [TC011](https://github.com/wordpress-mobile/test-cases/blob/master/test-cases/gutenberg/buttons.md#tc011)
-
-### Buttons - 7
-
-- [ ] Buttons block - Link from the clipboard is presented as an option in the link picker - [TC020](https://github.com/wordpress-mobile/test-cases/blob/master/test-cases/gutenberg/buttons.md#tc020)
-- [ ] Buttons block - Toolbar link button is active when Button has link - [TC018](https://github.com/wordpress-mobile/test-cases/blob/master/test-cases/gutenberg/buttons.md#tc018)
 
 ### Editor Theme - 2
 - [ ] Custom Gradients - Check that custom gradients load in the editor - [TC004](https://github.com/wordpress-mobile/test-cases/blob/master/test-cases/gutenberg/editor-theme.md#tc004)
