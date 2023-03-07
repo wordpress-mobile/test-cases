@@ -291,7 +291,7 @@ Video block - 2
 File block - 1
 - [ ] File block - Upload completes successfully from the device library - [TC001](https://github.com/wordpress-mobile/test-cases/blob/master/test-cases/gutenberg/file.md#tc001)
 - [ ] File block - Insert completes successfully from the WordPress Media library - [TC002](https://github.com/wordpress-mobile/test-cases/blob/master/test-cases/gutenberg/file.md#tc002)
-- [ ] File block - Upload fails from the device library - [TC002](https://github.com/wordpress-mobile/test-cases/blob/master/test-cases/gutenberg/file.md#tc003)
+- [ ] File block - Upload fails from the device library - [TC003](https://github.com/wordpress-mobile/test-cases/blob/master/test-cases/gutenberg/file.md#tc003)
 - [ ] File block - Stop the file upload before it completes - [TC004](https://github.com/wordpress-mobile/test-cases/blob/master/test-cases/gutenberg/file.md#tc004)
 
 File block - 2
@@ -304,7 +304,7 @@ File block - 3
 - [ ] File block - Open link in new tab - [TC009](https://github.com/wordpress-mobile/test-cases/blob/master/test-cases/gutenberg/file.md#tc009)
 - [ ] File block - Show/hide download button (Block Settings only) - [TC010](https://github.com/wordpress-mobile/test-cases/blob/master/test-cases/gutenberg/file.md#tc010)
 - [ ] File block - Copy file URL - [TC011](https://github.com/wordpress-mobile/test-cases/blob/master/test-cases/gutenberg/file.md#tc011)
-- [ ] File block - Close/Re-open post with an ongoing file upload - [TC011](https://github.com/wordpress-mobile/test-cases/blob/master/test-cases/gutenberg/file.md#tc012)
+- [ ] File block - Close/Re-open post with an ongoing file upload - [TC012](https://github.com/wordpress-mobile/test-cases/blob/master/test-cases/gutenberg/file.md#tc012)
 
 Audio block - 1
 - [ ] Audio block - Upload completes successfully from the device library - [TC001](https://github.com/wordpress-mobile/test-cases/blob/master/test-cases/gutenberg/audio.md#tc001)
