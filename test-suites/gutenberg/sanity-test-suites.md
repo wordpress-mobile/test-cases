@@ -53,8 +53,8 @@ This holds a grouping of certain test suites to run in order to share the work w
 
 ### MediaText - 2
 
-- [ ] Media Text block - Insert video from device (TC002) - [TC002-v](https://github.com/wordpress-mobile/test-cases/blob/master/test-cases/gutenberg/media-text.md#tc002-v)
-- [ ] Media Text block - Insert image from device (TC002) - [TC002-i](https://github.com/wordpress-mobile/test-cases/blob/master/test-cases/gutenberg/media-text.md#tc002-i)
+- [ ] Media Text block - Insert video from device - [TC002-v](https://github.com/wordpress-mobile/test-cases/blob/master/test-cases/gutenberg/media-text.md#tc002-v)
+- [ ] Media Text block - Insert image from device - [TC002-i](https://github.com/wordpress-mobile/test-cases/blob/master/test-cases/gutenberg/media-text.md#tc002-i)
 
 ### MultipleUpload - 1
 
