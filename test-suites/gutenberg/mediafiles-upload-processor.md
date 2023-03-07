@@ -1,1 +1,1 @@
-- [ ] Jetpack Story block - Close post with an ongoing Story save/upload (`mediaFiles` collection-based block) upload - [steps](https://github.com/wordpress-mobile/test-cases/blob/master/test-cases/jetpack/story.md#tc005)	
+- [ ] Jetpack Story block - Close post with an ongoing Story save/upload (`mediaFiles` collection-based block) upload - [steps](https://github.com/wordpress-mobile/test-cases/blob/trunk/test-cases/jetpack/story.md#tc005)
