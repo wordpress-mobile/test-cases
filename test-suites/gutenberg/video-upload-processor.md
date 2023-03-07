@@ -1,2 +1,2 @@
-- [ ] Video block - Close post with an ongoing video upload - [steps](https://github.com/wordpress-mobile/test-cases/blob/master/test-cases/gutenberg/video.md#tc005)	
-- [ ] Media Text block - Close post with an ongoing video upload - [steps](https://github.com/wordpress-mobile/test-cases/blob/master/test-cases/gutenberg/media-text.md#tc004-v)
+- [ ] Video block - Close post with an ongoing video upload - [steps](https://github.com/wordpress-mobile/test-cases/blob/trunk/test-cases/gutenberg/video.md#tc005)
+- [ ] Media Text block - Close post with an ongoing video upload - [steps](https://github.com/wordpress-mobile/test-cases/blob/trunk/test-cases/gutenberg/media-text.md#tc004-v)
