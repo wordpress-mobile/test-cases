@@ -4,12 +4,12 @@
 ## Test Checklist
 ```
 ### Unsupported Block Tests
-- [ ] TC001 User can edit unsupported blocks on Simple WP.com sites
-- [ ] TC002 User can discard edits to an unsupported block on Simple WP.com sites
-- [ ] TC003 Editing unsupported blocks is allowed on Gutenberg-enabled Atomic sites
-- [ ] TC004 Editing unsupported blocks is disallowed on Classic-enabled Atomic sites
-- [ ] TC005 Editing unsupported blocks is enabled on self-hosted sites accessed via Jetpack
-- [ ] TC006 Editing unsupported blocks is disallowed on self-hosted sites access via their own username and password
+- [ ] [TC001](https://github.com/wordpress-mobile/test-cases/blob/trunk/test-cases/gutenberg/unsupported-block-editing.md#tc001) User can edit unsupported blocks on Simple WP.com sites
+- [ ] [TC002](https://github.com/wordpress-mobile/test-cases/blob/trunk/test-cases/gutenberg/unsupported-block-editing.md#tc002) User can discard edits to an unsupported block on Simple WP.com sites
+- [ ] [TC003](https://github.com/wordpress-mobile/test-cases/blob/trunk/test-cases/gutenberg/unsupported-block-editing.md#tc003) Editing unsupported blocks is allowed on Gutenberg-enabled Atomic sites
+- [ ] [TC004](https://github.com/wordpress-mobile/test-cases/blob/trunk/test-cases/gutenberg/unsupported-block-editing.md#tc004) Editing unsupported blocks is disallowed on Classic-enabled Atomic sites
+- [ ] [TC005](https://github.com/wordpress-mobile/test-cases/blob/trunk/test-cases/gutenberg/unsupported-block-editing.md#tc005) Editing unsupported blocks is enabled on self-hosted sites accessed via Jetpack
+- [ ] [TC006](https://github.com/wordpress-mobile/test-cases/blob/trunk/test-cases/gutenberg/unsupported-block-editing.md#tc006) Editing unsupported blocks is disallowed on self-hosted sites access via their own username and password
 ```
 --------------------------------------------------------------------------------
 
