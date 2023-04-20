@@ -234,7 +234,7 @@ This holds a grouping of certain test suites to run in order to share the work w
 - [ ] Group - Navigation down works according to parent-first approach - [TC007](https://github.com/wordpress-mobile/test-cases/blob/trunk/test-cases/gutenberg/group.md#tc007)
 - [ ] Group - Cross navigation between blocks works as expected - [TC008](https://github.com/wordpress-mobile/test-cases/blob/trunk/test-cases/gutenberg/group.md#tc008)
 - [ ] Group - Check if in DarkMode all components gets proper colors - [TC009](https://github.com/wordpress-mobile/test-cases/blob/trunk/test-cases/gutenberg/group.md#tc009)
-- [ ] Group - Check if nested Placeholder block can be replaced - [TC014](https://github.com/wordpress-mobile/test-cases/blob/trunk/test-cases/gutenberg/group.md#tc010)
+- [ ] Group - Check if nested Placeholder block can be replaced - [TC010](https://github.com/wordpress-mobile/test-cases/blob/trunk/test-cases/gutenberg/group.md#tc010)
 
 ### Spacer - 1
 
