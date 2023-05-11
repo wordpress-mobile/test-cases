@@ -6,7 +6,8 @@
 
 **Steps**
 - Tap on Choose a file on the placeholder. 
-- Tap option "Choose from device" and choose a file. 
+- **When using Android:** Tap option "Choose from device" and choose a file. 
+- **When using iOS:** Tap option "Other apps" and choose a file. 
 
 **Expected Behavior**
 - Expect to see the upload indicator and the Download button should be dimmed.
