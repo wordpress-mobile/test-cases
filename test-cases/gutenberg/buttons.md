@@ -250,16 +250,3 @@
 -   Expect button's width grows properly (_horizontally_)
 
 --------------------------------------------------------------------------------
-
-##### TC020
-
-### Link from the clipboard is presented as an option in the link picker
-
--   Copy link into clipboard, e.g. `http://wordpress.com`
--   Add `Buttons` block
--   Open link [settings](../resources/button-link-settings.png)
--   Edit the `Link to` field.
--   Tap the `From clipboard` option.
--   Expect link from the clipboard to be automatically added into the empty URL field
-
---------------------------------------------------------------------------------
