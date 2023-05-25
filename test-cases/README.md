@@ -25,6 +25,7 @@ Gutenberg:
 - [Reusable block](./gutenberg/reusable.md)
 - [Embed block](./gutenberg/embed.md)
 - [Drag and Drop Blocks](./gutenberg/drag-and-drop-blocks.md)
+- [VideoPress Block](./gutenberg/videopress.md)
 
 Jetpack:
 
