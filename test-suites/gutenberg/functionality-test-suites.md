@@ -88,6 +88,7 @@ This holds a grouping of certain test suites to run in order to share the work w
 - Color Settings 1
 - Image 1
 - Drag and Drop Blocks - 1
+- VideoPress 2
 
 ```
 ### DarkMode - 1
@@ -137,6 +138,12 @@ This holds a grouping of certain test suites to run in order to share the work w
 ### Drag and Drop Blocks - 1
 - [ ] Drag and Drop Blocks - Drag block to the top of the content - [TC001](https://github.com/wordpress-mobile/test-cases/blob/trunk/test-cases/gutenberg/drag-and-drop-blocks.md#tc001)
 - [ ] Drag and Drop Blocks - Drag block to the bottom of the content - [TC002](https://github.com/wordpress-mobile/test-cases/blob/trunk/test-cases/gutenberg/drag-and-drop-blocks.md#tc002)
+
+### VideoPress - 2
+- [ ] VideoPress block - Player - [TC003](https://github.com/wordpress-mobile/test-cases/blob/trunk/test-cases/gutenberg/videopress.md.md#tc003)
+- [ ] VideoPress block - Private video - [TC005](https://github.com/wordpress-mobile/test-cases/blob/trunk/test-cases/gutenberg/videopress.md.md#tc005)
+- [ ] VideoPress block - Upload limit for Free users - [TC006](https://github.com/wordpress-mobile/test-cases/blob/trunk/test-cases/gutenberg/videopress.md.md#tc006)
+
 ```
 
 ## Test Suite 3
@@ -219,6 +226,7 @@ This holds a grouping of certain test suites to run in order to share the work w
 - Buttons 4-5-7
 - Editor Theme 2
 - Color Settings 2
+- VideoPress 1
 
 ```
 ### DarkMode - 2
@@ -266,6 +274,11 @@ This holds a grouping of certain test suites to run in order to share the work w
 - [ ] Pressing color swatch - [TC004](https://github.com/wordpress-mobile/test-cases/blob/trunk/test-cases/gutenberg/color-settings.md#tc004)
 - [ ] Customize gradient color - [TC005](https://github.com/wordpress-mobile/test-cases/blob/trunk/test-cases/gutenberg/color-settings.md#tc005)
 - [ ] Custom color picker - [TC006](https://github.com/wordpress-mobile/test-cases/blob/trunk/test-cases/gutenberg/color-settings.md#tc006)
+
+### VideoPress - 1
+- [ ] VideoPress block - Upload a video - [TC001](https://github.com/wordpress-mobile/test-cases/blob/trunk/test-cases/gutenberg/videopress.md.md#tc001)
+- [ ] VideoPress block - Add Caption - [TC002](https://github.com/wordpress-mobile/test-cases/blob/trunk/test-cases/gutenberg/videopress.md.md#tc002)
+- [ ] VideoPress block - Close post with an ongoing video upload - [TC004](https://github.com/wordpress-mobile/test-cases/blob/trunk/test-cases/gutenberg/videopress.md.md#tc004)
 
 ```
 

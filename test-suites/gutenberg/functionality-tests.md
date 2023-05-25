@@ -245,3 +245,15 @@ Embed block - 2
 Drag & drop blocks - 1
 - [ ] Drag and Drop Blocks - Drag block to the top of the content - [steps](https://github.com/wordpress-mobile/test-cases/blob/trunk/test-cases/gutenberg/drag-and-drop-blocks.md#tc001)
 - [ ] Drag and Drop Blocks - Drag block to the bottom of the content - [steps](https://github.com/wordpress-mobile/test-cases/blob/trunk/test-cases/gutenberg/drag-and-drop-blocks.md#tc002)
+
+VideoPress block - 1
+
+- [ ] VideoPress block - Upload a video - [steps](https://github.com/wordpress-mobile/test-cases/blob/trunk/test-cases/gutenberg/videopress.md.md#tc001)
+- [ ] VideoPress block - Add Caption - [steps](https://github.com/wordpress-mobile/test-cases/blob/trunk/test-cases/gutenberg/videopress.md.md#tc002)
+- [ ] VideoPress block - Close post with an ongoing video upload - [steps](https://github.com/wordpress-mobile/test-cases/blob/trunk/test-cases/gutenberg/videopress.md.md#tc004)
+
+VideoPress block - 2
+
+- [ ] VideoPress block - Player - [steps](https://github.com/wordpress-mobile/test-cases/blob/trunk/test-cases/gutenberg/videopress.md.md#tc003)
+- [ ] VideoPress block - Private video - [steps](https://github.com/wordpress-mobile/test-cases/blob/trunk/test-cases/gutenberg/videopress.md.md#tc005)
+- [ ] VideoPress block - Upload limit for Free users - [steps](https://github.com/wordpress-mobile/test-cases/blob/trunk/test-cases/gutenberg/videopress.md.md#tc006)
