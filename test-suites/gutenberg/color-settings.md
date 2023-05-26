@@ -1,6 +1,0 @@
-- [ ] Colors Segmented Controls [steps](https://github.com/wordpress-mobile/test-cases/blob/master/test-cases/gutenberg/color-settings.md#tc001) 
-- [ ] Scroll color palette to start [steps](https://github.com/wordpress-mobile/test-cases/blob/master/test-cases/gutenberg/color-settings.md#tc002) 
-- [ ] Scroll color palette to the end [steps](https://github.com/wordpress-mobile/test-cases/blob/master/test-cases/gutenberg/color-settings.md#tc003) 
-- [ ] Pressing color swatch [steps](https://github.com/wordpress-mobile/test-cases/blob/master/test-cases/gutenberg/color-settings.md#tc004) 
-- [ ] Customize gradient color [steps](https://github.com/wordpress-mobile/test-cases/blob/master/test-cases/gutenberg/color-settings.md#tc005) 
-- [ ] Custom color picker [steps](https://github.com/wordpress-mobile/test-cases/blob/master/test-cases/gutenberg/color-settings.md#tc006) 

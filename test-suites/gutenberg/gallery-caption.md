@@ -1,2 +1,0 @@
-- [ ] Gallery block - Add Gallery Caption - [steps](https://github.com/wordpress-mobile/test-cases/blob/master/test-cases/gutenberg/gallery.md#tc003)
-- [ ] Gallery block - Add Gallery Image Caption - [steps](https://github.com/wordpress-mobile/test-cases/blob/master/test-cases/gutenberg/gallery.md#tc004)
