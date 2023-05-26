@@ -248,12 +248,12 @@ Drag & drop blocks - 1
 
 VideoPress block - 1
 
-- [ ] VideoPress block - Upload a video - [steps](https://github.com/wordpress-mobile/test-cases/blob/trunk/test-cases/gutenberg/videopress.md#tc001)
-- [ ] VideoPress block - Add Caption - [steps](https://github.com/wordpress-mobile/test-cases/blob/trunk/test-cases/gutenberg/videopress.md#tc002)
-- [ ] VideoPress block - Close post with an ongoing video upload - [steps](https://github.com/wordpress-mobile/test-cases/blob/trunk/test-cases/gutenberg/videopress.md#tc004)
+- [ ] VideoPress block - Upload a video - [steps](https://github.com/wordpress-mobile/test-cases/blob/trunk/test-cases/jetpack/videopress.md#tc001)
+- [ ] VideoPress block - Add Caption - [steps](https://github.com/wordpress-mobile/test-cases/blob/trunk/test-cases/jetpack/videopress.md#tc002)
+- [ ] VideoPress block - Close post with an ongoing video upload - [steps](https://github.com/wordpress-mobile/test-cases/blob/trunk/test-cases/jetpack/videopress.md#tc004)
 
 VideoPress block - 2
 
-- [ ] VideoPress block - Player - [steps](https://github.com/wordpress-mobile/test-cases/blob/trunk/test-cases/gutenberg/videopress.md#tc003)
-- [ ] VideoPress block - Private video - [steps](https://github.com/wordpress-mobile/test-cases/blob/trunk/test-cases/gutenberg/videopress.md#tc005)
-- [ ] VideoPress block - Upload limit for Free users - [steps](https://github.com/wordpress-mobile/test-cases/blob/trunk/test-cases/gutenberg/videopress.md#tc006)
+- [ ] VideoPress block - Player - [steps](https://github.com/wordpress-mobile/test-cases/blob/trunk/test-cases/jetpack/videopress.md#tc003)
+- [ ] VideoPress block - Private video - [steps](https://github.com/wordpress-mobile/test-cases/blob/trunk/test-cases/jetpack/videopress.md#tc005)
+- [ ] VideoPress block - Upload limit for Free users - [steps](https://github.com/wordpress-mobile/test-cases/blob/trunk/test-cases/jetpack/videopress.md#tc006)
