@@ -1,3 +1,0 @@
-- [ ] Story block - Add media to empty Story block - [steps](https://github.com/wordpress-mobile/test-cases/blob/trunk/test-cases/jetpack/story.md#tc003)
-- [ ] Story block - Add media to non-empty Story block - [steps](https://github.com/wordpress-mobile/test-cases/blob/trunk/test-cases/jetpack/story.md#tc004)
-- [ ] Story block - Close/Re-open post with an ongoing Story upload - [steps](https://github.com/wordpress-mobile/test-cases/blob/trunk/test-cases/jetpack/story.md#tc005)
