@@ -1,1 +1,0 @@
-- [ ] Simultaneous uploads - [steps](https://github.com/wordpress-mobile/test-cases/blob/trunk/test-cases/gutenberg/media-interaction.md#tc001)

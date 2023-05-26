@@ -1,1 +1,0 @@
-- [ ] Image block - Add Caption - [steps](https://github.com/wordpress-mobile/test-cases/blob/master/test-cases/gutenberg/image.md#tc003)

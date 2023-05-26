@@ -1,1 +1,0 @@
-- [ ] Video block - Add Caption - [steps](https://github.com/wordpress-mobile/test-cases/blob/trunk/test-cases/gutenberg/video.md#tc003)

@@ -1,6 +1,0 @@
-- [ ] Gallery block - Choose from device (stay in editor) - Successful upload - [steps](https://github.com/wordpress-mobile/test-cases/blob/master/test-cases/gutenberg/gallery.md#tc005)
-- [ ] Gallery block - Choose from device (stay in editor) - Failed upload - [steps](https://github.com/wordpress-mobile/test-cases/blob/master/test-cases/gutenberg/gallery.md#tc006)
-- [ ] Gallery block - Close post with an ongoing image upload - [steps](https://github.com/wordpress-mobile/test-cases/blob/master/test-cases/gutenberg/gallery.md#tc002)
-- [ ] Gallery block - Close/Re-open post with an ongoing image upload - [steps](https://github.com/wordpress-mobile/test-cases/blob/master/test-cases/gutenberg/gallery.md#tc001)
-- [ ] Gallery block - Take a photo - [steps](https://github.com/wordpress-mobile/test-cases/blob/master/test-cases/gutenberg/gallery.md#tc007)
-- [ ] Gallery block - Choose from the free photo library - [steps](https://github.com/wordpress-mobile/test-cases/blob/master/test-cases/gutenberg/gallery.md#tc008)
