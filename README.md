@@ -10,13 +10,8 @@ Test cases include steps for how to run a test scenario. See [test cases](/test-
 
 Different combination of test cases gathered together for different purposes. See test suites in this [folder](test-suites).
 
-# Build instructions 
+# Build instructions
 
 - [WordPress-iOS](https://github.com/wordpress-mobile/WordPress-iOS#build-instructions)
 - [WordPress-Android](https://github.com/wordpress-mobile/WordPress-Android#build-instructions)
 - [Gutenberg mobile](https://github.com/wordpress-mobile/gutenberg-mobile#getting-started)
-
-# Configuration
-
-- See [config](/config). If you want to easily test your updates to the mapping.json file you can use unit tests mentioned in the [Unit Tests section](https://github.com/wordpress-mobile/test-case-reminder-bot#unit-tests).
-
