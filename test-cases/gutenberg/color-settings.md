@@ -47,6 +47,10 @@
 
 ### Scroll color palette to the end
 
+**Known Issues**
+
+- [Color settings do not scroll to reveal selected color/gradient at the end](https://github.com/WordPress/gutenberg/issues/42018)
+
 **Steps:**
 
 * Press `Custom` color picker (at the end of the list)
