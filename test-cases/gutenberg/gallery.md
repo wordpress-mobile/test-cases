@@ -57,50 +57,6 @@ Gallery block should allow uploading multiple images after the editor is closed.
 
 --------------------------------------------------------------------------------
 
-##### TC003
-
-### Add caption to gallery
-
--   Add a Gallery block
--   Set a caption to your gallery
-
-![Gallery Caption](../resources/gallery-caption-3.png)
--   Add some styles to your caption:
-    - Bold
-    - Italic
-    - Strikethrough
-    - Expect all to work correctly
-
-(Note: Underlined text is only rendered if it is set by a .com site, the Underline format button is not available in mobile.)
-
-![Gallery Caption Styles](../resources/gallery-caption-4.png)
-
--   Save the post
--   Open it and expect to see the captions with their styles
-
---------------------------------------------------------------------------------
-
-##### TC004
-
-### Add caption to gallery images
-
--   Add a Gallery block
--   Add some images to your gallery
--   Set some captions to your images by tapping on each image
-
-![Gallery Image Caption](../resources/gallery-caption-1.png)
--   Add some styles to your captions:
-    - Bold
-    - Italic
-    - Expect all to work correctly
-
-![Gallery Image Caption Styles](../resources/gallery-caption-2.png)
-
--   Save the post
--   Open it and expect to see the captions with their styles
-
---------------------------------------------------------------------------------
-
 ##### TC005
 
 ### Choose from device (stay in editor) - Successful upload

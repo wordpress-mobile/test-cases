@@ -75,19 +75,6 @@ Expected look:
 
 --------------------------------------------------------------------------------
 
-##### TC007
-
-### Columns Block - Check if in DarkMode all components gets proper colors
-
--   Add a `Columns` block
--   Check if `Columns` block in Dark Mode looks like below
-
-Expected look:  
-![ColumnsDarkMode](../resources/columns-dark-mode.png)
-![ColumnsDarkModeEmpty](../resources/columns-dark-mode-empty.png)
-
---------------------------------------------------------------------------------
-
 ##### TC008
 
 ### Quote Block - Check if in DarkMode all components gets proper colors

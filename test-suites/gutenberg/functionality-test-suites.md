@@ -3,8 +3,7 @@ This holds a grouping of certain test suites to run in order to share the work w
 
 ## Test Suite 1
 
-- Gallery 1-3
-- Columns 1-3
+- Gallery 1-2
 - MediaText 1-2
 - Multiple Upload 1
 - Cover 1
@@ -21,30 +20,7 @@ This holds a grouping of certain test suites to run in order to share the work w
 
 - [ ] Gallery block - Insert image from device (failing) - [TC006](https://github.com/wordpress-mobile/test-cases/blob/trunk/test-cases/gutenberg/gallery.md#tc006)
 - [ ] Gallery block - Insert image from device (cancel) - [TC009](https://github.com/wordpress-mobile/test-cases/blob/trunk/test-cases/gutenberg/gallery.md#tc009)
-
-### Gallery - 3
-
-- [ ] Gallery block - Add Gallery Caption - [TC003](https://github.com/wordpress-mobile/test-cases/blob/trunk/test-cases/gutenberg/gallery.md#tc003)
-- [ ] Gallery block - Add Gallery Image Caption - [TC04](https://github.com/wordpress-mobile/test-cases/blob/trunk/test-cases/gutenberg/gallery.md#tc004)
 - [ ] Gallery block - Try adding same images from WP Media library and moving the images around - [TC010](https://github.com/wordpress-mobile/test-cases/blob/trunk/test-cases/gutenberg/gallery.md#tc010)
-
-### Columns - 1
-
-- [ ] Columns - Multiple slider in columns parent - [TC011](https://github.com/wordpress-mobile/test-cases/blob/trunk/test-cases/gutenberg/columns.md#tc011)
-- [ ] Columns - Check if Column placeholders is visible for the unselected state - [TC001](https://github.com/wordpress-mobile/test-cases/blob/trunk/test-cases/gutenberg/columns.md#tc001)
-- [ ] Columns - Appearance in vertical device position (vertical layout) - [TC004](https://github.com/wordpress-mobile/test-cases/blob/trunk/test-cases/gutenberg/columns.md#tc004)
-
-### Columns - 2
-
-- [ ] Columns - Max limit of Column number - [TC002](https://github.com/wordpress-mobile/test-cases/blob/trunk/test-cases/gutenberg/columns.md#tc002)
-- [ ] Columns - Deep nesting is possible (iOS only)- [TC003](https://github.com/wordpress-mobile/test-cases/blob/trunk/test-cases/gutenberg/columns.md#tc003)
-- [ ] Columns - Appearance in horizontal device position (horizontal layout) - [TC005](https://github.com/wordpress-mobile/test-cases/blob/trunk/test-cases/gutenberg/columns.md#tc005)
-
-### Columns - 3
-
-- [ ] Columns - Mover direction - [TC006](https://github.com/wordpress-mobile/test-cases/blob/trunk/test-cases/gutenberg/columns.md#tc006)
-- [ ] Columns - Check if Column placeholder is render in nested structure - [TC007](https://github.com/wordpress-mobile/test-cases/blob/trunk/test-cases/gutenberg/columns.md#tc007)
-- [ ] Columns - Unselected Column placeholder is stretched to content in nested structure- [TC008](https://github.com/wordpress-mobile/test-cases/blob/trunk/test-cases/gutenberg/columns.md#tc008)
 
 ### MediaText - 1
 
@@ -59,7 +35,6 @@ This holds a grouping of certain test suites to run in order to share the work w
 ### MultipleUpload - 1
 
 - [ ] Simultaneous uploads - [TC001](https://github.com/wordpress-mobile/test-cases/blob/trunk/test-cases/gutenberg/media-interaction.md#tc001)
-
 
 ### Cover - 1
 
@@ -83,7 +58,6 @@ This holds a grouping of certain test suites to run in order to share the work w
 
 - DarkMode 1
 - Group 1
-- Spacer 1
 - Buttons 1-2-3
 - Color Settings 1
 - Image 1
@@ -148,8 +122,8 @@ This holds a grouping of certain test suites to run in order to share the work w
 
 ## Test Suite 3
 
-- Gallery 2-4
-- Columns 2-4
+- Gallery 2-3
+- Columns 1
 - MediaText 3-4
 - Shortcode 1
 - Cover 2
@@ -160,30 +134,14 @@ This holds a grouping of certain test suites to run in order to share the work w
 ### Gallery - 2
 - [ ] Gallery block - Insert image from device (failing) - [TC006](https://github.com/wordpress-mobile/test-cases/blob/trunk/test-cases/gutenberg/gallery.md#tc006)
 - [ ] Gallery block - Insert image from device (cancel) - [TC009](https://github.com/wordpress-mobile/test-cases/blob/trunk/test-cases/gutenberg/gallery.md#tc009)
-
-### Gallery - 3
-- [ ] Gallery block - Add Gallery Caption - [TC003](https://github.com/wordpress-mobile/test-cases/blob/trunk/test-cases/gutenberg/gallery.md#tc003)
-- [ ] Gallery block - Add Gallery Image Caption - [TC004](https://github.com/wordpress-mobile/test-cases/blob/trunk/test-cases/gutenberg/gallery.md#tc004)
 - [ ] Gallery block - Try adding same images from WP Media library and moving the images around - [TC010](https://github.com/wordpress-mobile/test-cases/blob/trunk/test-cases/gutenberg/gallery.md#tc010)
 
-### Gallery - 4
+### Gallery - 3
 - [ ] Gallery block - Settings: Link to - [TC012](https://github.com/wordpress-mobile/test-cases/blob/trunk/test-cases/gutenberg/gallery.md#tc012)
 - [ ] Gallery block - Settings: Column number - [TC013](https://github.com/wordpress-mobile/test-cases/blob/trunk/test-cases/gutenberg/gallery.md#tc013)
 - [ ] Gallery block - Settings: Crop images - [TC014](https://github.com/wordpress-mobile/test-cases/blob/trunk/test-cases/gutenberg/gallery.md#tc014)
 
-### Columns - 2
-- [ ] Columns - Max limit of Column number - [TC002](https://github.com/wordpress-mobile/test-cases/blob/trunk/test-cases/gutenberg/columns.md#tc002)
-- [ ] Columns - Deep nesting is possible (iOS only)- [TC003](https://github.com/wordpress-mobile/test-cases/blob/trunk/test-cases/gutenberg/columns.md#tc003)
-- [ ] Columns - Check if Column placeholders is visible for the unselected state - [TC001](https://github.com/wordpress-mobile/test-cases/blob/trunk/test-cases/gutenberg/columns.md#tc001)
-- [ ] Columns - Appearance in vertical device position (vertical layout) - [TC004](https://github.com/wordpress-mobile/test-cases/blob/trunk/test-cases/gutenberg/columns.md#tc004)
-
-### Columns - 3
-- [ ] Columns - Appearance in horizontal device position (horizontal layout) - [TC005](https://github.com/wordpress-mobile/test-cases/blob/trunk/test-cases/gutenberg/columns.md#tc005)
-- [ ] Columns - Mover direction - [TC006](https://github.com/wordpress-mobile/test-cases/blob/trunk/test-cases/gutenberg/columns.md#tc006)
-- [ ] Columns - Check if Column placeholder is render in nested structure - [TC007](https://github.com/wordpress-mobile/test-cases/blob/trunk/test-cases/gutenberg/columns.md#tc007)
-- [ ] Columns - Unselected Column placeholder is stretched to content in nested structure- [TC008](https://github.com/wordpress-mobile/test-cases/blob/trunk/test-cases/gutenberg/columns.md#tc008)
-
-### Columns - 4
+### Columns - 1
 - [ ] Columns - Check if in DarkMode all components gets proper colors - [TC018](https://github.com/wordpress-mobile/test-cases/blob/trunk/test-cases/gutenberg/columns.md#tc018)
 
 ### MediaText - 3
@@ -222,7 +180,6 @@ This holds a grouping of certain test suites to run in order to share the work w
 
 - DarkMode 2
 - Group 2
-- Spacer 1
 - Buttons 4-5-7
 - Editor Theme 2
 - Color Settings 2
@@ -244,21 +201,12 @@ This holds a grouping of certain test suites to run in order to share the work w
 - [ ] Group - Check if in DarkMode all components gets proper colors - [TC009](https://github.com/wordpress-mobile/test-cases/blob/trunk/test-cases/gutenberg/group.md#tc009)
 - [ ] Group - Check if nested Placeholder block can be replaced - [TC010](https://github.com/wordpress-mobile/test-cases/blob/trunk/test-cases/gutenberg/group.md#tc010)
 
-### Spacer - 1
-
-- [ ] Spacer block - Spacer in horizontal layout works as expected - [TC001](https://github.com/wordpress-mobile/test-cases/blob/trunk/test-cases/gutenberg/spacer.md#tc001)
-
 ### Buttons - 4
 
-- [ ] Buttons block - Render custom text color - [TC013](https://github.com/wordpress-mobile/test-cases/blob/trunk/test-cases/gutenberg/buttons.md#tc013)
-- [ ] Buttons block - Render custom background color - [TC012](https://github.com/wordpress-mobile/test-cases/blob/trunk/test-cases/gutenberg/buttons.md#tc012)
-- [ ] Buttons block - Render gradient background color - [TC014](https://github.com/wordpress-mobile/test-cases/blob/trunk/test-cases/gutenberg/buttons.md#tc014)
-- [ ] Buttons block - Check if selection / caret color matches font color - [TC016](https://github.com/wordpress-mobile/test-cases/blob/trunk/test-cases/gutenberg/buttons.md#tc016)
 - [ ] Buttons block - The newly created Buttons has set background color to the theme-default color in preview - [TC017](https://github.com/wordpress-mobile/test-cases/blob/trunk/test-cases/gutenberg/buttons.md#tc017)
 
 ### Buttons - 5
 
-- [ ] Buttons block - Edit text styles - [TC005](https://github.com/wordpress-mobile/test-cases/blob/trunk/test-cases/gutenberg/buttons.md#tc005)
 - [ ] Buttons block - Render theme colors - [TC015](https://github.com/wordpress-mobile/test-cases/blob/trunk/test-cases/gutenberg/buttons.md#tc015)
 - [ ] Buttons block - Settings: Change Button border radius - [TC011](https://github.com/wordpress-mobile/test-cases/blob/trunk/test-cases/gutenberg/buttons.md#tc011)
 
