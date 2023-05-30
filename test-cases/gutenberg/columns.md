@@ -17,18 +17,3 @@
 - Check the preview and expect to see that the front end reflects the column widths
 
 --------------------------------------------------------------------------------
-
-##### TC011
-
-### Multiple slider in columns parent
-
-- Add a `Columns` block
-- Expect to see bottom sheet with layout picker
-- Press `Cancel` button on layout picker
-- Open `Columns` settings
-- Play with sliders
-- Expect that fill level in the preview (to the left of a slider) is changing proportionally in all columns
-
-<img src="../resources/columns-multiple-sliders.gif" width=300 />
-
---------------------------------------------------------------------------------
