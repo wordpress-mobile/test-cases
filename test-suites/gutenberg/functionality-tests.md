@@ -7,14 +7,9 @@ Gallery-2
 
 - [ ] Gallery block - Insert image from device (failing) - [steps](https://github.com/wordpress-mobile/test-cases/blob/trunk/test-cases/gutenberg/gallery.md#tc006)
 - [ ] Gallery block - Insert image from device (cancel) - [steps](https://github.com/wordpress-mobile/test-cases/blob/trunk/test-cases/gutenberg/gallery.md#tc009)
-
-Gallery-3
-
-- [ ] Gallery block - Add Gallery Caption - [steps](https://github.com/wordpress-mobile/test-cases/blob/trunk/test-cases/gutenberg/gallery.md#tc003)
-- [ ] Gallery block - Add Gallery Image Caption - [steps](https://github.com/wordpress-mobile/test-cases/blob/trunk/test-cases/gutenberg/gallery.md#tc004)
 - [ ] Gallery block - Try adding same images from WP Media library and moving the images around - [steps](https://github.com/wordpress-mobile/test-cases/blob/trunk/test-cases/gutenberg/gallery.md#tc010)
 
-Gallery-4
+Gallery-3
 
 - [ ] Gallery block - Settings: Link to - [steps](https://github.com/wordpress-mobile/test-cases/blob/trunk/test-cases/gutenberg/gallery.md#tc012)
 - [ ] Gallery block - Settings: Column number - [steps](https://github.com/wordpress-mobile/test-cases/blob/trunk/test-cases/gutenberg/gallery.md#tc013)
@@ -55,15 +50,10 @@ DarkMode-2
 - [ ] Spacer block - Dark mode - [steps](https://github.com/wordpress-mobile/test-cases/blob/trunk/test-cases/gutenberg/darkmode.md#tc004)
 - [ ] Buttons block - Dark mode - [steps](https://github.com/wordpress-mobile/test-cases/blob/trunk/test-cases/gutenberg/darkmode.md#tc005)
 - [ ] Group - Dark mode - [steps](https://github.com/wordpress-mobile/test-cases/blob/trunk/test-cases/gutenberg/darkmode.md#tc009)
-- [ ] Columns - Dark mode - [steps](https://github.com/wordpress-mobile/test-cases/blob/trunk/test-cases/gutenberg/darkmode.md#tc007)
 
 Shortcode-1
 
 - [ ] Shortcode block - Add a youtube link - [steps](https://github.com/wordpress-mobile/test-cases/blob/trunk/test-cases/gutenberg/shortcode.md#tc001)
-
-Spacer-1
-
-- [ ] Spacer block - Spacer in horizontal layout works as expected - [steps](https://github.com/wordpress-mobile/test-cases/blob/trunk/test-cases/gutenberg/spacer.md#tc002)
 
 Buttons-1
 
@@ -80,15 +70,10 @@ Buttons-3
 
 Buttons-4
 
-- [ ] Buttons block - Render custom text color - [steps](https://github.com/wordpress-mobile/test-cases/blob/trunk/test-cases/gutenberg/buttons.md#tc013)
-- [ ] Buttons block - Render custom background color - [steps](https://github.com/wordpress-mobile/test-cases/blob/trunk/test-cases/gutenberg/buttons.md#tc012)
-- [ ] Buttons block - Render gradient background color - [steps](https://github.com/wordpress-mobile/test-cases/blob/trunk/test-cases/gutenberg/buttons.md#tc014)
-- [ ] Buttons block - Check if selection / caret color matches font color - [steps](https://github.com/wordpress-mobile/test-cases/blob/trunk/test-cases/gutenberg/buttons.md#tc016)
 - [ ] Buttons block - The newly created Buttons has set background color to the theme-default color in preview - [steps](https://github.com/wordpress-mobile/test-cases/blob/trunk/test-cases/gutenberg/buttons.md#tc017)
 
 Button-5
 
-- [ ] Buttons block - Edit text styles - [steps](https://github.com/wordpress-mobile/test-cases/blob/trunk/test-cases/gutenberg/buttons.md#tc005)
 - [ ] Buttons block - Render theme colors - [steps](https://github.com/wordpress-mobile/test-cases/blob/trunk/test-cases/gutenberg/buttons.md#tc015)
 - [ ] Buttons block - Settings: Change Button border radius - [steps](https://github.com/wordpress-mobile/test-cases/blob/trunk/test-cases/gutenberg/buttons.md#tc011)
 
@@ -132,26 +117,6 @@ Cover-2
 - [ ] Cover - Replace media - [steps](https://github.com/wordpress-mobile/test-cases/blob/trunk/test-cases/gutenberg/cover.md#tc005)
 - [ ] Cover - Gradient background is rendered properly - [steps](https://github.com/wordpress-mobile/test-cases/blob/trunk/test-cases/gutenberg/cover.md#tc006)
 - [ ] Cover - Gradient overlay is rendered properly - [steps](https://github.com/wordpress-mobile/test-cases/blob/trunk/test-cases/gutenberg/cover.md#tc007)
-
-Columns - 1
-
-<!--- expected behaviour --->
-- [ ] Columns - Multiple slider in columns parent - [steps](https://github.com/wordpress-mobile/test-cases/blob/trunk/test-cases/gutenberg/columns.md#tc011)
-- [ ] Columns - Max limit of Column number - [steps](https://github.com/wordpress-mobile/test-cases/blob/trunk/test-cases/gutenberg/columns.md#tc002)
-- [ ] Columns - Deep nesting is possible (iOS only)- [steps](https://github.com/wordpress-mobile/test-cases/blob/trunk/test-cases/gutenberg/columns.md#tc003)
-
-Columns - 3
-<!--- visual appearance --->
-- [ ] Columns - Check if Column placeholders is visible for the unselected state - [steps](https://github.com/wordpress-mobile/test-cases/blob/trunk/test-cases/gutenberg/columns.md#tc001)
-- [ ] Columns - Appearance in vertical device position (vertical layout) - [steps](https://github.com/wordpress-mobile/test-cases/blob/trunk/test-cases/gutenberg/columns.md#tc004)
-- [ ] Columns - Appearance in horizontal device position (horizontal layout) - [steps](https://github.com/wordpress-mobile/test-cases/blob/trunk/test-cases/gutenberg/columns.md#tc005)
-- [ ] Columns - Mover direction - [steps](https://github.com/wordpress-mobile/test-cases/blob/trunk/test-cases/gutenberg/columns.md#tc006)
-- [ ] Columns - Check if Column placeholder is render in nested structure - [steps](https://github.com/wordpress-mobile/test-cases/blob/trunk/test-cases/gutenberg/columns.md#tc007)
-- [ ] Columns - Unselected Column placeholder is streched to content in nested structure- [steps](https://github.com/wordpress-mobile/test-cases/blob/trunk/test-cases/gutenberg/columns.md#tc008)
-
-Columns - 4
-<!--- other category --->
-- [ ] Columns - Check if in DarkMode all components gets proper colors - [steps](https://github.com/wordpress-mobile/test-cases/blob/trunk/test-cases/gutenberg/columns.md#tc009)
 
 Editor Theme - 1
 - [ ] Default Colors - Check that default colors still load - [steps](https://github.com/wordpress-mobile/test-cases/blob/trunk/test-cases/gutenberg/editor-theme.md#tc001)

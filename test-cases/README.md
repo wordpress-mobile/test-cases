@@ -16,7 +16,6 @@ Gutenberg:
 - [Media-Text block](./gutenberg/media-text.md)
 - [Mentions](./gutenberg/mentions.md)
 - [Shortcode block](./gutenberg/shortcode.md)
-- [Spacer block](./gutenberg/spacer.md)
 - [Unsupported block editing](./gutenberg/unsupported-block-editing.md)
 - [Verse block](./gutenberg/verse.md)
 - [Video block](./gutenberg/video.md)
