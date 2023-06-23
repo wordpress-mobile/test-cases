@@ -1,1 +1,0 @@
-See [Functionality test suites](https://github.com/wordpress-mobile/test-cases/blob/HEAD/test-suites/gutenberg/functionality-tests.md)
