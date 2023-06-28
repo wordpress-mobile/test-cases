@@ -62,19 +62,6 @@ Expected look:
 
 --------------------------------------------------------------------------------
 
-##### TC006
-
-### Group Block - Check if in DarkMode all components gets proper colors
-
--   Add a `Group` block
--   Check if `Group` block in Dark Mode looks like below
-
-Expected look:  
-![GroupDarkMode](../resources/group-dark-mode.png)
-![GroupDarkModeEmpty](../resources/group-dark-mode-empty.png)
-
---------------------------------------------------------------------------------
-
 ##### TC008
 
 ### Quote Block - Check if in DarkMode all components gets proper colors
