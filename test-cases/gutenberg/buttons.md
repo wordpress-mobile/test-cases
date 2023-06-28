@@ -147,7 +147,7 @@
 
 -   Add `Buttons` block
 -   Open button [options](../resources/button-options.png)
--   Edit `Border Radius` moving slider
+-   Edit `Border Radius` by tapping the +/- buttons
 -   Expect Button border radius changed accordingly to the value
 -   Edit `Border Radius` typing border radius value in input
 -   Expect Button border radius changed accordingly to the value

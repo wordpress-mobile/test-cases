@@ -94,15 +94,13 @@ Expected look:
 
 ##### TC007
 
-### Navigation down works according to parent-first approach
+### Navigation down works according to deepest-descendent-first approach
 
 -   Add a `Group` block
 -   Create some nested structure ( at least 3 levels deep )
 -   Clear selection
 -   Press on the bottom-most block in hierarchy of added `Group`
--   Check if the selection is redirect properly to top-most parent
--   Repeat - press on the bottom-most block in hierarchy of added `Group`
--   Check if each time you press nested block you move selection one level down (block which gets selection should be common ancestor with previously selected block and pressed block)
+-   Check if the selection is redirect properly to depest descendant
 
 --------------------------------------------------------------------------------
 
