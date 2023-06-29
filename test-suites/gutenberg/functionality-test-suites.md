@@ -141,9 +141,6 @@ This holds a grouping of certain test suites to run in order to share the work w
 - [ ] Gallery block - Settings: Column number - [TC013](https://github.com/wordpress-mobile/test-cases/blob/trunk/test-cases/gutenberg/gallery.md#tc013)
 - [ ] Gallery block - Settings: Crop images - [TC014](https://github.com/wordpress-mobile/test-cases/blob/trunk/test-cases/gutenberg/gallery.md#tc014)
 
-### Columns - 1
-- [ ] Columns - Check if in DarkMode all components gets proper colors - [TC018](https://github.com/wordpress-mobile/test-cases/blob/trunk/test-cases/gutenberg/columns.md#tc018)
-
 ### MediaText - 3
 - [ ] Media Text block - Insert video from device (failing) - [TC001-v](https://github.com/wordpress-mobile/test-cases/blob/trunk/test-cases/gutenberg/media-text.md#tc001-v)
 - [ ] Media Text block - Close/Re-open post with an ongoing video upload - [TC003-v](https://github.com/wordpress-mobile/test-cases/blob/trunk/test-cases/gutenberg/media-text.md#tc003-v)
