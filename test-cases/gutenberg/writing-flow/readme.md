@@ -29,6 +29,4 @@
   - [ ] Paragraph
   - [ ] Heading
 #### Undo / Redo - Test Cases
-- [ ] [TC001](https://github.com/wordpress-mobile/test-cases/blob/trunk/test-cases/gutenberg/writing-flow/undo-redo.md#tc001) - Undo/redo block actions
 - [ ] [TC002](https://github.com/wordpress-mobile/test-cases/blob/trunk/test-cases/gutenberg/writing-flow/undo-redo.md#tc002) - Undo/redo text
-- [ ] [TC003](https://github.com/wordpress-mobile/test-cases/blob/trunk/test-cases/gutenberg/writing-flow/undo-redo.md#tc003) - Undo/redo text format
