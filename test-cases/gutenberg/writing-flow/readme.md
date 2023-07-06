@@ -28,7 +28,6 @@
 - [ ] [TC005](https://github.com/wordpress-mobile/test-cases/blob/trunk/test-cases/gutenberg/writing-flow/splitting-merging.md#tc005) - Merge multiple blocks
   - [ ] Paragraph
   - [ ] Heading
-- [ ] [TC006](https://github.com/wordpress-mobile/test-cases/blob/trunk/test-cases/gutenberg/writing-flow/splitting-merging.md#tc006) - Splitting/merge list block
 #### Undo / Redo - Test Cases
 - [ ] [TC001](https://github.com/wordpress-mobile/test-cases/blob/trunk/test-cases/gutenberg/writing-flow/undo-redo.md#tc001) - Undo/redo block actions
 - [ ] [TC002](https://github.com/wordpress-mobile/test-cases/blob/trunk/test-cases/gutenberg/writing-flow/undo-redo.md#tc002) - Undo/redo text
