@@ -5,6 +5,17 @@
 
 Have a rich-text based component with content (Paragraph, Heading, Quote, Media Caption, etc...)
 
+##### TC001
+
+**Known Issues**
+
+- [Text color selection is not preserved when cursor is placed in the middle of text](https://github.com/WordPress/gutenberg/issues/42714)
+
+**Highlight text without selection**
+
+- Without selecting any text tap on the highlight text button (A).
+- Select a color and write some text.
+- Expect to see the newly introduced text with the previously selected color.
 ##### TC007
 
 **Test format detection under the cursor**
