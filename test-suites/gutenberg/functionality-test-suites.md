@@ -187,7 +187,6 @@ This holds a grouping of certain test suites to run in order to share the work w
 
 - [ ] Spacer block - Dark mode - [TC004](https://github.com/wordpress-mobile/test-cases/blob/trunk/test-cases/gutenberg/darkmode.md#tc004)
 - [ ] Buttons block - Dark mode - [TC005](https://github.com/wordpress-mobile/test-cases/blob/trunk/test-cases/gutenberg/darkmode.md#tc005)
-- [ ] Group - Dark mode - [TC006](https://github.com/wordpress-mobile/test-cases/blob/trunk/test-cases/gutenberg/darkmode.md#tc006)
 
 ### Group - 2
 
