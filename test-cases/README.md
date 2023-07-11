@@ -21,7 +21,7 @@ Gutenberg:
 - [Video block](./gutenberg/video.md)
 - [File block](./gutenberg/file.md)
 - [Audio block](./gutenberg/audio.md)
-- [Reusable block](./gutenberg/reusable.md)
+- [Synced patterns](./gutenberg/synced-patterns.md)
 - [Embed block](./gutenberg/embed.md)
 - [Drag and Drop Blocks](./gutenberg/drag-and-drop-blocks.md)
 

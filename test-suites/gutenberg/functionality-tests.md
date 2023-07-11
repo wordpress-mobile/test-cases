@@ -193,13 +193,13 @@ Audio block - 4
 - [ ] Audio block - Loop setting - [steps](https://github.com/wordpress-mobile/test-cases/blob/trunk/test-cases/gutenberg/audio.md#tc009)
 - [ ] Audio block - Close/Re-open post with an ongoing audio file upload - [steps](https://github.com/wordpress-mobile/test-cases/blob/trunk/test-cases/gutenberg/audio.md#tc010)
 
-Reusable block - 1
-- [ ] Reusable block - Add block - [steps](https://github.com/wordpress-mobile/test-cases/blob/trunk/test-cases/gutenberg/reusable.md#tc001)
-- [ ] Reusable block - Convert to regular blocks - [steps](https://github.com/wordpress-mobile/test-cases/blob/trunk/test-cases/gutenberg/reusable.md#tc002)
+Synced patterns - 1
+- [ ] Synced patterns - Add pattern - [steps](https://github.com/wordpress-mobile/test-cases/blob/trunk/test-cases/gutenberg/synced-patterns.md#tc001)
+- [ ] Synced patterns - Detach pattern - [steps](https://github.com/wordpress-mobile/test-cases/blob/trunk/test-cases/gutenberg/synced-patterns.md#tc002)
 
-Reusable block - 2
-- [ ] Reusable block - Deleted reusable block - [steps](https://github.com/wordpress-mobile/test-cases/blob/trunk/test-cases/gutenberg/reusable.md#tc003)
-- [ ] Reusable block - Recursive block rendering - [steps](https://github.com/wordpress-mobile/test-cases/blob/trunk/test-cases/gutenberg/reusable.md#tc004)
+Synced patterns - 2
+- [ ] Synced patterns - Deleted pattern - [steps](https://github.com/wordpress-mobile/test-cases/blob/trunk/test-cases/gutenberg/synced-patterns.md#tc003)
+- [ ] Synced patterns - Recursive block rendering - [steps](https://github.com/wordpress-mobile/test-cases/blob/trunk/test-cases/gutenberg/synced-patterns.md#tc004)
 
 Embed block - 1
 - [ ] Embed block - Inline previews are rendered correctly for the top 5 most-used providers - [steps](https://github.com/wordpress-mobile/test-cases/blob/trunk/test-cases/gutenberg/embed.md#tc001)

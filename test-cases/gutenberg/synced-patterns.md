@@ -1,31 +1,31 @@
 
-# Reusable Block - Test Cases
+# Synced patterns - Test Cases
 
 ## Preparation
 
-**For testing this block, it's required to create reusable blocks via the web version, here are the steps:**
+**For testing this, it's required to create a pattern via the web version, here are the steps:**
 
-- On a web browser, navigate to the [reusable blocks page](https://wordpress.com/types/wp_block).
+- On a web browser, navigate to the [patterns page](https://wordpress.com/types/wp_block).
 - Select the WP.com site for testing.
-- Click on "Add new reusable block".
+- Click on "Add new pattern".
 - Add a title.
 - Add some blocks.
 - Publish it.
 
-The reusable blocks page can be also used for editing and deleting blocks.
+The pattern page can be also used for editing and deleting patterns.
 
 ##### TC001
 
-**Add block**
+**Add pattern**
 
 **Steps**
 - Tap on ➕ button.
-- Tap on "Reusable" tab.
-- Tap on a reusable block.
+- Tap on "Synced patterns" tab.
+- Tap one of the items.
 - Once inserted, tap on the block to edit it.
 
 **Expected Behavior**
-- Expect to see the reusable block and its content.
+- Expect to see the pattern and its content.
 - Expect to see the block's name in the block's header.
 
 <kbd><img src="../resources/rb-inserter-menu.png" width="320"></kbd>
@@ -39,11 +39,11 @@ The reusable blocks page can be also used for editing and deleting blocks.
 
 ##### TC002
 
-**Convert to regular blocks**
+**Detach pattern**
 
 **Steps**
 - Open the block settings.
-- Tap on "Convert to regular blocks".
+- Tap on "Detach pattern".
 
 **Expected Behavior**
 - Expect to see the content of the block as individual blocks.
@@ -55,7 +55,7 @@ The reusable blocks page can be also used for editing and deleting blocks.
 - Tap the undo button.
 
 **Expected Behavior**
-- Expect to restore the reusable block.
+- Expect to restore the pattern.
 
 <kbd><img src="../resources/rb-convert-to-regular-blocks-undo.gif" width="320"></kbd>
 
@@ -72,20 +72,20 @@ The reusable blocks page can be also used for editing and deleting blocks.
 
 ##### TC003
 
-**Deleted reusable block**
+**Deleted pattern**
 
 **Steps**
-- On a web browser, navigate to the [reusable blocks page](https://wordpress.com/types/wp_block).
+- On a web browser, navigate to the [patterns page](https://wordpress.com/types/wp_block).
 - Select the WP.com site for testing.
-- Create two reusable blocks (you can find more info about creating a reusable block in the <a href="#preparation">`Preparation` section</a>).
-- Add the second reusable block as part of the content of the first one and update it.
-- Delete the second reusable block from the "Reusable blocks page" (referenced above).
-- The second reusable block will go to the trashed tab, delete it permanently.
+- Create two patterns (you can find more info about creating a pattern in the <a href="#preparation">`Preparation` section</a>).
+- Add the second pattern as part of the content of the first one and update it.
+- Delete the second pattern from the "Patterns page" (referenced above).
+- The second pattern will go to the trashed tab, delete it permanently.
 - Switch to mobile device for the last step.
-- Add the first reusable block to a post/page.
+- Add the first pattern to a post/page.
 
 **Expected Behavior**
-- Expect to see a warning box within the reusable block content referencing the deleted block.
+- Expect to see a warning box within the block content referencing the deleted block.
 
 <kbd><img src="../resources/rb-deleted-reusable-block.png" width="320"></kbd>
 
@@ -97,16 +97,16 @@ The reusable blocks page can be also used for editing and deleting blocks.
 
 **Steps**
 
-- On a web browser, navigate to the [reusable blocks page](https://wordpress.com/types/wp_block).
+- On a web browser, navigate to the [patterns page](https://wordpress.com/types/wp_block).
 - Select the WP.com site for testing.
-- Create a reusable block (you can find more info about creating a reusable block in the <a href="#preparation">`Preparation` section</a>).
-- Edit the reusable block, add the same reusable block as part of the content and update it.
+- Create a pattern (you can find more info about creating a pattern in the <a href="#preparation">`Preparation` section</a>).
+- Edit the pattern, add the same pattern as part of the content and update it.
 - Observe that the block will show a warning box with text: `Block cannot be rendered inside itself.`.
 - Switch to mobile device for the last step.
-- Add the reusable block to a post/page.
+- Add the pattern to a post/page.
 
 **Expected Behavior**
 
-- Expect to see a warning box (same as it's shown in the web version) within the reusable block content instead of rendering multiple times the same block.
+- Expect to see a warning box (same as it's shown in the web version) within the block content instead of rendering multiple times the same block.
 
 <kbd><img src="../resources/rb-recursive-block-rendering.png" width="320"></kbd>
