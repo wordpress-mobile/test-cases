@@ -94,10 +94,6 @@ Group-1
 
 Group-2
 
-- [ ] Group - Navigation up button works as expected - [steps](https://github.com/wordpress-mobile/test-cases/blob/trunk/test-cases/gutenberg/group.md#tc006)
-- [ ] Group - Navigation down works according to parent-first approach - [steps](https://github.com/wordpress-mobile/test-cases/blob/trunk/test-cases/gutenberg/group.md#tc007)
-- [ ] Group - Cross navigation between blocks works as expected - [steps](https://github.com/wordpress-mobile/test-cases/blob/trunk/test-cases/gutenberg/group.md#tc008)
-- [ ] Group - Check if in DarkMode all components gets proper colors - [steps](https://github.com/wordpress-mobile/test-cases/blob/trunk/test-cases/gutenberg/group.md#tc009)
 - [ ] Group - Check if nested Placeholder block can be replaced - [steps](https://github.com/wordpress-mobile/test-cases/blob/trunk/test-cases/gutenberg/group.md#tc010)
 
 Cover-1
