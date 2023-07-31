@@ -38,30 +38,6 @@ Expected look:
 
 --------------------------------------------------------------------------------
 
-##### TC004
-
-### Spacer Block - Check if in DarkMode all components gets proper colors
-
--   Add a `Spacer` block
--   Check if `Spacer` block in Dark Mode looks like below
-
-Expected look:  
-![SpacerDarkMode](../resources/spacer-dark-mode.png)
-
---------------------------------------------------------------------------------
-
-##### TC005
-
-### Button Block - Check if in DarkMode all components gets proper colors
-
--   Add a `Button` block
--   Check if `Button` block in Dark Mode looks like below
-
-Expected look:  
-![ButtonDarkMode](../resources/button-dark-mode.png)
-
---------------------------------------------------------------------------------
-
 ##### TC008
 
 ### Quote Block - Check if in DarkMode all components gets proper colors

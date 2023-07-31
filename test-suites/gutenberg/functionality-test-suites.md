@@ -175,7 +175,6 @@ This holds a grouping of certain test suites to run in order to share the work w
 
 ## Test Suite 4
 
-- DarkMode 2
 - Group 2
 - Buttons 4-5-7
 - Editor Theme 2
@@ -183,11 +182,6 @@ This holds a grouping of certain test suites to run in order to share the work w
 - VideoPress 1
 
 ```
-### DarkMode - 2
-
-- [ ] Spacer block - Dark mode - [TC004](https://github.com/wordpress-mobile/test-cases/blob/trunk/test-cases/gutenberg/darkmode.md#tc004)
-- [ ] Buttons block - Dark mode - [TC005](https://github.com/wordpress-mobile/test-cases/blob/trunk/test-cases/gutenberg/darkmode.md#tc005)
-
 ### Group - 2
 
 - [ ] Group - Navigation up button works as expected - [TC006](https://github.com/wordpress-mobile/test-cases/blob/trunk/test-cases/gutenberg/group.md#tc006)

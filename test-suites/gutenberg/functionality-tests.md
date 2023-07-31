@@ -45,11 +45,6 @@ DarkMode-1
 - [ ] Shortcode block - Dark mode - [steps](https://github.com/wordpress-mobile/test-cases/blob/trunk/test-cases/gutenberg/darkmode.md#tc002)
 - [ ] Media Text block - Dark mode - [steps](https://github.com/wordpress-mobile/test-cases/blob/trunk/test-cases/gutenberg/darkmode.md#tc003)
 
-DarkMode-2
-
-- [ ] Spacer block - Dark mode - [steps](https://github.com/wordpress-mobile/test-cases/blob/trunk/test-cases/gutenberg/darkmode.md#tc004)
-- [ ] Buttons block - Dark mode - [steps](https://github.com/wordpress-mobile/test-cases/blob/trunk/test-cases/gutenberg/darkmode.md#tc005)
-- [ ] Group - Dark mode - [steps](https://github.com/wordpress-mobile/test-cases/blob/trunk/test-cases/gutenberg/darkmode.md#tc009)
 
 Shortcode-1
 
