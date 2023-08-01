@@ -79,58 +79,6 @@ Expected look:
 
 --------------------------------------------------------------------------------
 
-##### TC006
-
-### Navigation up button works as expected
-
--   Add a `Group` block
--   Create nested structure
--   Select deep nested block
--   Press navigation up button on `Breadcrumb`
--   Expect each time you press navigation up button the selection moves to parent block
--   Expect border changes accordingly
-
---------------------------------------------------------------------------------
-
-##### TC007
-
-### Navigation down works according to deepest-descendent-first approach
-
--   Add a `Group` block
--   Create some nested structure ( at least 3 levels deep )
--   Clear selection
--   Press on the bottom-most block in hierarchy of added `Group`
--   Check if the selection is redirect properly to depest descendant
-
---------------------------------------------------------------------------------
-
-##### TC008
-
-### Cross navigation between blocks works as expected
-
--   Add a `Group` block
--   Create some nested structure ( at least 3 levels deep )
--   Select nested block
--   Having nested block selected try to select block which is higher in the hierarchy (one, two and more levels above)
--   Check if that block gets selected after press
-
---------------------------------------------------------------------------------
-
-##### TC009
-
-### Check if in DarkMode all components gets proper colors
-
--   Add a `Group` block
--   Create nested structure
--   Switch to DarkMode
--   Check if all components switch it's color schema to dark
-
-Expected look:  
-![DarkMode](../resources/group-dark-mode.png)
-![DarkModeEmpty](../resources/group-dark-mode-empty.png)
-
---------------------------------------------------------------------------------
-
 ##### TC010
 
 ### Check if nested Placeholder block can be replaced
