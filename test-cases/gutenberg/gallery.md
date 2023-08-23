@@ -214,6 +214,10 @@ Gallery block should allow uploading images from the iOS Files app.
 
 ### Settings - Link to
 
+**Known issues:**
+
+* https://github.com/wordpress-mobile/gutenberg-mobile/issues/4504
+
 **Precondition:** these steps should be tested via a self-hosted site
 
 Gallery images should respect the `Link to` setting
