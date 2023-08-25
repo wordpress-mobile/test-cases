@@ -117,7 +117,6 @@ Editor Theme - 2
 - [ ] Offline Support - [steps](https://github.com/wordpress-mobile/test-cases/blob/trunk/test-cases/gutenberg/editor-theme.md#tc005)
 
 Color Settings - 1
-- [ ] Colors Segmented Controls - [steps](https://github.com/wordpress-mobile/test-cases/blob/trunk/test-cases/gutenberg/color-settings.md#tc001)
 - [ ] Scroll color palette to start - [steps](https://github.com/wordpress-mobile/test-cases/blob/trunk/test-cases/gutenberg/color-settings.md#tc002)
 - [ ] Scroll color palette to the end - [steps](https://github.com/wordpress-mobile/test-cases/blob/trunk/test-cases/gutenberg/color-settings.md#tc003)
 

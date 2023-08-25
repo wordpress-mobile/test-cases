@@ -97,7 +97,6 @@ This holds a grouping of certain test suites to run in order to share the work w
 - [ ] Buttons block - Settings: Synchronize with button options - [TC009](https://github.com/wordpress-mobile/test-cases/blob/trunk/test-cases/gutenberg/buttons.md#tc009)
 
 ### Color Settings - 1
-- [ ] Colors Segmented Controls - [TC001](https://github.com/wordpress-mobile/test-cases/blob/trunk/test-cases/gutenberg/color-settings.md#tc001)
 - [ ] Scroll color palette to start - [TC002](https://github.com/wordpress-mobile/test-cases/blob/trunk/test-cases/gutenberg/color-settings.md#tc002)
 - [ ] Scroll color palette to the end - [TC003](https://github.com/wordpress-mobile/test-cases/blob/trunk/test-cases/gutenberg/color-settings.md#tc003)
 

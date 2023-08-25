@@ -8,23 +8,6 @@
 
 --------------------------------------------------------------------------------
 
-##### TC001
-
-### Colors segmented controls
-
-**Steps:**
-
-* Switch several times between `Solid` and `Gradient` segments 
-
-**Expected behavior:**
-
-* Selection animation works smoothly
-* Color swatches fade parallel with active segment change
-
-<img src="../resources/colors-segmented-controls.gif" width=300 />
-
---------------------------------------------------------------------------------
-
 ##### TC002
 
 ### Scroll color palette to start
