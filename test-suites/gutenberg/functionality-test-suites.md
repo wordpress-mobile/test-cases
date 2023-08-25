@@ -206,7 +206,6 @@ This holds a grouping of certain test suites to run in order to share the work w
 
 ### VideoPress - 1
 - [ ] VideoPress block - Upload a video - [TC001](https://github.com/wordpress-mobile/test-cases/blob/trunk/test-cases/jetpack/videopress.md#tc001)
-- [ ] VideoPress block - Add Caption - [TC002](https://github.com/wordpress-mobile/test-cases/blob/trunk/test-cases/jetpack/videopress.md#tc002)
 - [ ] VideoPress block - Close post with an ongoing video upload - [TC004](https://github.com/wordpress-mobile/test-cases/blob/trunk/test-cases/jetpack/videopress.md#tc004)
 
 ```

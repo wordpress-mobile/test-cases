@@ -203,7 +203,6 @@ Drag & drop blocks - 1
 VideoPress block - 1
 
 - [ ] VideoPress block - Upload a video - [steps](https://github.com/wordpress-mobile/test-cases/blob/trunk/test-cases/jetpack/videopress.md#tc001)
-- [ ] VideoPress block - Add Caption - [steps](https://github.com/wordpress-mobile/test-cases/blob/trunk/test-cases/jetpack/videopress.md#tc002)
 - [ ] VideoPress block - Close post with an ongoing video upload - [steps](https://github.com/wordpress-mobile/test-cases/blob/trunk/test-cases/jetpack/videopress.md#tc004)
 
 VideoPress block - 2

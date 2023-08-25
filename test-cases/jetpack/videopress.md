@@ -28,21 +28,6 @@ Use Simple WordPress.com site with a Premium plan. Free or Personal plans only a
 
 <img src="../../test-cases/resources/../resources/videopress-upload-video-4.png" width="360">
 
-##### TC002
-
-**Add Caption**
-
-- Add a VideoPress block.
-- Add a video (e.g. from the WordPress Media Library).
-- Set a caption to the video.
-- Add some styles to your caption:
-  - Bold
-  - Italic
-  - Strikethrough
-- Observe all styles are applied and work properly.
-- Save the post.
-- Open it and expect to see the caption with their styles.
-
 ##### TC003
 
 **Player**
