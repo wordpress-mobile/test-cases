@@ -49,24 +49,6 @@
 
 --------------------------------------------------------------------------------
 
-##### TC004
-
-### Pressing color swatch
-
-**Steps:**
-
-* Press any color several times
-
-**Expected behavior:**
-
-* Color swatch is bouncing on every press
-* Selected icon on white background fades in over the color swatch (_only on the first press_)
-
-<img src="../resources/pressing-color-swatch.gif" width=300 />
-
-
---------------------------------------------------------------------------------
-
 ##### TC005
 
 **Known Issues**

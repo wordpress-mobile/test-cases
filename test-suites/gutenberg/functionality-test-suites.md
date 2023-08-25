@@ -199,7 +199,6 @@ This holds a grouping of certain test suites to run in order to share the work w
 - [ ] Offline Support - [TC005](https://github.com/wordpress-mobile/test-cases/blob/trunk/test-cases/gutenberg/editor-theme.md#tc005)
 
 ### Color Settings - 2
-- [ ] Pressing color swatch - [TC004](https://github.com/wordpress-mobile/test-cases/blob/trunk/test-cases/gutenberg/color-settings.md#tc004)
 - [ ] Customize gradient color - [TC005](https://github.com/wordpress-mobile/test-cases/blob/trunk/test-cases/gutenberg/color-settings.md#tc005)
 - [ ] Custom color picker - [TC006](https://github.com/wordpress-mobile/test-cases/blob/trunk/test-cases/gutenberg/color-settings.md#tc006)
 

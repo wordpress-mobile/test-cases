@@ -121,7 +121,6 @@ Color Settings - 1
 - [ ] Scroll color palette to the end - [steps](https://github.com/wordpress-mobile/test-cases/blob/trunk/test-cases/gutenberg/color-settings.md#tc003)
 
 Color Settings - 2
-- [ ] Pressing color swatch - [steps](https://github.com/wordpress-mobile/test-cases/blob/trunk/test-cases/gutenberg/color-settings.md#tc004)
 - [ ] Customize gradient color - [steps](https://github.com/wordpress-mobile/test-cases/blob/trunk/test-cases/gutenberg/color-settings.md#tc005)
 - [ ] Custom color picker - [steps](https://github.com/wordpress-mobile/test-cases/blob/trunk/test-cases/gutenberg/color-settings.md#tc006)
 
