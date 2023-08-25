@@ -123,7 +123,6 @@ This holds a grouping of certain test suites to run in order to share the work w
 ## Test Suite 3
 
 - Gallery 2-3
-- Columns 1
 - MediaText 3-4
 - Shortcode 1
 - Cover 2
