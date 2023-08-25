@@ -10,7 +10,6 @@ Gallery-2
 
 Gallery-3
 
-- [ ] Gallery block - Settings: Link to - [steps](https://github.com/wordpress-mobile/test-cases/blob/trunk/test-cases/gutenberg/gallery.md#tc012)
 - [ ] Gallery block - Settings: Column number - [steps](https://github.com/wordpress-mobile/test-cases/blob/trunk/test-cases/gutenberg/gallery.md#tc013)
 - [ ] Gallery block - Settings: Crop images - [steps](https://github.com/wordpress-mobile/test-cases/blob/trunk/test-cases/gutenberg/gallery.md#tc014)
 
