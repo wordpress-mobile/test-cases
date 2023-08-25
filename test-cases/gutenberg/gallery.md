@@ -169,25 +169,6 @@ Gallery block should allow canceling image uploads.
 
 --------------------------------------------------------------------------------
 
-##### TC010
-
-### Rearrange images in Gallery
-
-Gallery block should allow images to be rearranged in the gallery.
-
-**Steps:**
-
-* Add a gallery block and tap "Add Media"
-* Add several images through the various options
-* Select an image and change it's position.
-* Test with:
-    * Adding even and uneven image counts and rearranging the last image
-    * Leaving the editor and coming back in
-    * Validate order is reflected on the Web after saving
-
-
---------------------------------------------------------------------------------
-
 ##### TC011
 
 ### Choose from Other Apps (iOS Files App)

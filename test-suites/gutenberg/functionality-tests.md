@@ -7,7 +7,6 @@ Gallery-2
 
 - [ ] Gallery block - Insert image from device (failing) - [steps](https://github.com/wordpress-mobile/test-cases/blob/trunk/test-cases/gutenberg/gallery.md#tc006)
 - [ ] Gallery block - Insert image from device (cancel) - [steps](https://github.com/wordpress-mobile/test-cases/blob/trunk/test-cases/gutenberg/gallery.md#tc009)
-- [ ] Gallery block - Try adding same images from WP Media library and moving the images around - [steps](https://github.com/wordpress-mobile/test-cases/blob/trunk/test-cases/gutenberg/gallery.md#tc010)
 
 Gallery-3
 

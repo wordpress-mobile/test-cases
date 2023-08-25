@@ -20,7 +20,6 @@ This holds a grouping of certain test suites to run in order to share the work w
 
 - [ ] Gallery block - Insert image from device (failing) - [TC006](https://github.com/wordpress-mobile/test-cases/blob/trunk/test-cases/gutenberg/gallery.md#tc006)
 - [ ] Gallery block - Insert image from device (cancel) - [TC009](https://github.com/wordpress-mobile/test-cases/blob/trunk/test-cases/gutenberg/gallery.md#tc009)
-- [ ] Gallery block - Try adding same images from WP Media library and moving the images around - [TC010](https://github.com/wordpress-mobile/test-cases/blob/trunk/test-cases/gutenberg/gallery.md#tc010)
 
 ### MediaText - 1
 
@@ -133,7 +132,6 @@ This holds a grouping of certain test suites to run in order to share the work w
 ### Gallery - 2
 - [ ] Gallery block - Insert image from device (failing) - [TC006](https://github.com/wordpress-mobile/test-cases/blob/trunk/test-cases/gutenberg/gallery.md#tc006)
 - [ ] Gallery block - Insert image from device (cancel) - [TC009](https://github.com/wordpress-mobile/test-cases/blob/trunk/test-cases/gutenberg/gallery.md#tc009)
-- [ ] Gallery block - Try adding same images from WP Media library and moving the images around - [TC010](https://github.com/wordpress-mobile/test-cases/blob/trunk/test-cases/gutenberg/gallery.md#tc010)
 
 ### Gallery - 3
 - [ ] Gallery block - Settings: Link to - [TC012](https://github.com/wordpress-mobile/test-cases/blob/trunk/test-cases/gutenberg/gallery.md#tc012)
