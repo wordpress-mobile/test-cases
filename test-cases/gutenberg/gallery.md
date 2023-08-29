@@ -169,25 +169,6 @@ Gallery block should allow canceling image uploads.
 
 --------------------------------------------------------------------------------
 
-##### TC010
-
-### Rearrange images in Gallery
-
-Gallery block should allow images to be rearranged in the gallery.
-
-**Steps:**
-
-* Add a gallery block and tap "Add Media"
-* Add several images through the various options
-* Select an image and change it's position.
-* Test with:
-    * Adding even and uneven image counts and rearranging the last image
-    * Leaving the editor and coming back in
-    * Validate order is reflected on the Web after saving
-
-
---------------------------------------------------------------------------------
-
 ##### TC011
 
 ### Choose from Other Apps (iOS Files App)
@@ -207,45 +188,6 @@ Gallery block should allow uploading images from the iOS Files app.
 * After each image upload has completed:
   * Image should not be dim
   * Image url scheme should be `https://` (not `file:///`) in HTML mode
-
---------------------------------------------------------------------------------
-
-##### TC012
-
-### Settings - Link to
-
-**Precondition:** these steps should be tested via a self-hosted site
-
-Gallery images should respect the `Link to` setting
-
-**Steps:**
-
-* Add a gallery block and tap "Add Media"
-* Add some images from the media library
-* Tap the block settings icon ⚙️ :gear:
-* Tap `Link to` setting
-* For each of the settings
-  * <img src="../../test-cases/resources/gallery-settings-link-to.png" width="360">
-  * Select the setting
-  * Tap `...` menu -> "Preview"
-  * Open in the browser
-  * Tap an image
-
-**Expected behavior:**
-
-Setting | Expectation
--|-
-Attachment Page | The browser should visit the attachment page for the image
-Media File | The browser should visit the image location directly
-None | The image should not be linked
-
-**Note:** On .com sites, the behavior may be different:
-
-In that case, the steps above will show different results (e.g. all images will be displayed in a carousel when tapped). Adjust the last step to long-press the image instead of tapping it.
-
-**Expected behavior:**
-
-The Media File option will show a "save link as" option. Attachment Page and None options will not show this option on long-press.
 
 --------------------------------------------------------------------------------
 

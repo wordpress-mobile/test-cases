@@ -7,11 +7,9 @@ Gallery-2
 
 - [ ] Gallery block - Insert image from device (failing) - [steps](https://github.com/wordpress-mobile/test-cases/blob/trunk/test-cases/gutenberg/gallery.md#tc006)
 - [ ] Gallery block - Insert image from device (cancel) - [steps](https://github.com/wordpress-mobile/test-cases/blob/trunk/test-cases/gutenberg/gallery.md#tc009)
-- [ ] Gallery block - Try adding same images from WP Media library and moving the images around - [steps](https://github.com/wordpress-mobile/test-cases/blob/trunk/test-cases/gutenberg/gallery.md#tc010)
 
 Gallery-3
 
-- [ ] Gallery block - Settings: Link to - [steps](https://github.com/wordpress-mobile/test-cases/blob/trunk/test-cases/gutenberg/gallery.md#tc012)
 - [ ] Gallery block - Settings: Column number - [steps](https://github.com/wordpress-mobile/test-cases/blob/trunk/test-cases/gutenberg/gallery.md#tc013)
 - [ ] Gallery block - Settings: Crop images - [steps](https://github.com/wordpress-mobile/test-cases/blob/trunk/test-cases/gutenberg/gallery.md#tc014)
 
@@ -119,12 +117,10 @@ Editor Theme - 2
 - [ ] Offline Support - [steps](https://github.com/wordpress-mobile/test-cases/blob/trunk/test-cases/gutenberg/editor-theme.md#tc005)
 
 Color Settings - 1
-- [ ] Colors Segmented Controls - [steps](https://github.com/wordpress-mobile/test-cases/blob/trunk/test-cases/gutenberg/color-settings.md#tc001)
 - [ ] Scroll color palette to start - [steps](https://github.com/wordpress-mobile/test-cases/blob/trunk/test-cases/gutenberg/color-settings.md#tc002)
 - [ ] Scroll color palette to the end - [steps](https://github.com/wordpress-mobile/test-cases/blob/trunk/test-cases/gutenberg/color-settings.md#tc003)
 
 Color Settings - 2
-- [ ] Pressing color swatch - [steps](https://github.com/wordpress-mobile/test-cases/blob/trunk/test-cases/gutenberg/color-settings.md#tc004)
 - [ ] Customize gradient color - [steps](https://github.com/wordpress-mobile/test-cases/blob/trunk/test-cases/gutenberg/color-settings.md#tc005)
 - [ ] Custom color picker - [steps](https://github.com/wordpress-mobile/test-cases/blob/trunk/test-cases/gutenberg/color-settings.md#tc006)
 
@@ -205,7 +201,6 @@ Drag & drop blocks - 1
 VideoPress block - 1
 
 - [ ] VideoPress block - Upload a video - [steps](https://github.com/wordpress-mobile/test-cases/blob/trunk/test-cases/jetpack/videopress.md#tc001)
-- [ ] VideoPress block - Add Caption - [steps](https://github.com/wordpress-mobile/test-cases/blob/trunk/test-cases/jetpack/videopress.md#tc002)
 - [ ] VideoPress block - Close post with an ongoing video upload - [steps](https://github.com/wordpress-mobile/test-cases/blob/trunk/test-cases/jetpack/videopress.md#tc004)
 
 VideoPress block - 2

@@ -5,7 +5,6 @@ Gutenberg:
 - [Block inserter](./gutenberg/inserter.md)
 - [Buttons block](./gutenberg/buttons.md)
 - [Color settings](./gutenberg/color-settings.md)
-- [Columns block](./gutenberg/columns.md)
 - [Cover block](./gutenberg/cover.md)
 - [Dark Mode](./gutenberg/darkmode.md)
 - [Editor Theme](./gutenberg/editor-theme.md)

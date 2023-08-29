@@ -20,7 +20,6 @@ This holds a grouping of certain test suites to run in order to share the work w
 
 - [ ] Gallery block - Insert image from device (failing) - [TC006](https://github.com/wordpress-mobile/test-cases/blob/trunk/test-cases/gutenberg/gallery.md#tc006)
 - [ ] Gallery block - Insert image from device (cancel) - [TC009](https://github.com/wordpress-mobile/test-cases/blob/trunk/test-cases/gutenberg/gallery.md#tc009)
-- [ ] Gallery block - Try adding same images from WP Media library and moving the images around - [TC010](https://github.com/wordpress-mobile/test-cases/blob/trunk/test-cases/gutenberg/gallery.md#tc010)
 
 ### MediaText - 1
 
@@ -98,7 +97,6 @@ This holds a grouping of certain test suites to run in order to share the work w
 - [ ] Buttons block - Settings: Synchronize with button options - [TC009](https://github.com/wordpress-mobile/test-cases/blob/trunk/test-cases/gutenberg/buttons.md#tc009)
 
 ### Color Settings - 1
-- [ ] Colors Segmented Controls - [TC001](https://github.com/wordpress-mobile/test-cases/blob/trunk/test-cases/gutenberg/color-settings.md#tc001)
 - [ ] Scroll color palette to start - [TC002](https://github.com/wordpress-mobile/test-cases/blob/trunk/test-cases/gutenberg/color-settings.md#tc002)
 - [ ] Scroll color palette to the end - [TC003](https://github.com/wordpress-mobile/test-cases/blob/trunk/test-cases/gutenberg/color-settings.md#tc003)
 
@@ -123,7 +121,6 @@ This holds a grouping of certain test suites to run in order to share the work w
 ## Test Suite 3
 
 - Gallery 2-3
-- Columns 1
 - MediaText 3-4
 - Shortcode 1
 - Cover 2
@@ -134,10 +131,8 @@ This holds a grouping of certain test suites to run in order to share the work w
 ### Gallery - 2
 - [ ] Gallery block - Insert image from device (failing) - [TC006](https://github.com/wordpress-mobile/test-cases/blob/trunk/test-cases/gutenberg/gallery.md#tc006)
 - [ ] Gallery block - Insert image from device (cancel) - [TC009](https://github.com/wordpress-mobile/test-cases/blob/trunk/test-cases/gutenberg/gallery.md#tc009)
-- [ ] Gallery block - Try adding same images from WP Media library and moving the images around - [TC010](https://github.com/wordpress-mobile/test-cases/blob/trunk/test-cases/gutenberg/gallery.md#tc010)
 
 ### Gallery - 3
-- [ ] Gallery block - Settings: Link to - [TC012](https://github.com/wordpress-mobile/test-cases/blob/trunk/test-cases/gutenberg/gallery.md#tc012)
 - [ ] Gallery block - Settings: Column number - [TC013](https://github.com/wordpress-mobile/test-cases/blob/trunk/test-cases/gutenberg/gallery.md#tc013)
 - [ ] Gallery block - Settings: Crop images - [TC014](https://github.com/wordpress-mobile/test-cases/blob/trunk/test-cases/gutenberg/gallery.md#tc014)
 
@@ -204,13 +199,11 @@ This holds a grouping of certain test suites to run in order to share the work w
 - [ ] Offline Support - [TC005](https://github.com/wordpress-mobile/test-cases/blob/trunk/test-cases/gutenberg/editor-theme.md#tc005)
 
 ### Color Settings - 2
-- [ ] Pressing color swatch - [TC004](https://github.com/wordpress-mobile/test-cases/blob/trunk/test-cases/gutenberg/color-settings.md#tc004)
 - [ ] Customize gradient color - [TC005](https://github.com/wordpress-mobile/test-cases/blob/trunk/test-cases/gutenberg/color-settings.md#tc005)
 - [ ] Custom color picker - [TC006](https://github.com/wordpress-mobile/test-cases/blob/trunk/test-cases/gutenberg/color-settings.md#tc006)
 
 ### VideoPress - 1
 - [ ] VideoPress block - Upload a video - [TC001](https://github.com/wordpress-mobile/test-cases/blob/trunk/test-cases/jetpack/videopress.md#tc001)
-- [ ] VideoPress block - Add Caption - [TC002](https://github.com/wordpress-mobile/test-cases/blob/trunk/test-cases/jetpack/videopress.md#tc002)
 - [ ] VideoPress block - Close post with an ongoing video upload - [TC004](https://github.com/wordpress-mobile/test-cases/blob/trunk/test-cases/jetpack/videopress.md#tc004)
 
 ```

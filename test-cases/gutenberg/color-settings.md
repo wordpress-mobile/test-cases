@@ -8,23 +8,6 @@
 
 --------------------------------------------------------------------------------
 
-##### TC001
-
-### Colors segmented controls
-
-**Steps:**
-
-* Switch several times between `Solid` and `Gradient` segments 
-
-**Expected behavior:**
-
-* Selection animation works smoothly
-* Color swatches fade parallel with active segment change
-
-<img src="../resources/colors-segmented-controls.gif" width=300 />
-
---------------------------------------------------------------------------------
-
 ##### TC002
 
 ### Scroll color palette to start
@@ -63,24 +46,6 @@
 * Color list is scrolled to the end (to the _custom_ color)
 
 <img src="../resources/scroll-color-palette-to-the-end.gif" width=300 />
-
---------------------------------------------------------------------------------
-
-##### TC004
-
-### Pressing color swatch
-
-**Steps:**
-
-* Press any color several times
-
-**Expected behavior:**
-
-* Color swatch is bouncing on every press
-* Selected icon on white background fades in over the color swatch (_only on the first press_)
-
-<img src="../resources/pressing-color-swatch.gif" width=300 />
-
 
 --------------------------------------------------------------------------------
 
