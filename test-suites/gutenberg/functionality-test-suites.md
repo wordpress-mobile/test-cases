@@ -46,10 +46,6 @@ This holds a grouping of certain test suites to run in order to share the work w
 - [ ] Default Colors - Check that default colors still load - [TC001](https://github.com/wordpress-mobile/test-cases/blob/trunk/test-cases/gutenberg/editor-theme.md#tc001)
 - [ ] Default Gradients - Check that default gradients still load - [TC002](https://github.com/wordpress-mobile/test-cases/blob/trunk/test-cases/gutenberg/editor-theme.md#tc002)
 - [ ] Custom Colors - Check that custom colors load in the editor - [TC003](https://github.com/wordpress-mobile/test-cases/blob/trunk/test-cases/gutenberg/editor-theme.md#tc003)
-
-### Social Icons - 1
-- [ ] Active icon gets product color - [TC001](https://github.com/wordpress-mobile/test-cases/blob/trunk/test-cases/gutenberg/social-icons.md#tc001)
-- [ ] Social icon forwarding to the link - [TC002](https://github.com/wordpress-mobile/test-cases/blob/trunk/test-cases/gutenberg/social-icons.md#tc002)
 ```
 
 

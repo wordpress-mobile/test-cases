@@ -124,10 +124,6 @@ Color Settings - 2
 - [ ] Customize gradient color - [steps](https://github.com/wordpress-mobile/test-cases/blob/trunk/test-cases/gutenberg/color-settings.md#tc005)
 - [ ] Custom color picker - [steps](https://github.com/wordpress-mobile/test-cases/blob/trunk/test-cases/gutenberg/color-settings.md#tc006)
 
-Social Icons - 1
-- [ ] Active icon gets product color - [steps](https://github.com/wordpress-mobile/test-cases/blob/trunk/test-cases/gutenberg/social-icons.md#tc001)
-- [ ] Social icon forwarding to the link - [steps](https://github.com/wordpress-mobile/test-cases/blob/trunk/test-cases/gutenberg/social-icons.md#tc002)
-
 Story block - 1
 - [ ] Story block - Verify is available in Block Picker - [steps](https://github.com/wordpress-mobile/test-cases/blob/trunk/test-cases/jetpack/story.md#tc001)
 - [ ] Story block - Verify is not available in Block Picker- [steps](https://github.com/wordpress-mobile/test-cases/blob/trunk/test-cases/jetpack/story.md#tc002)
