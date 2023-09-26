@@ -16,7 +16,7 @@
 ##### TC001
 
 **Known Issues**
--  **[iOS]** The app crashes in a simulator when running under certain network settings: [#21620](https://github.com/wordpress-mobile/WordPress-iOS/issues/21620).
+-  **[iOS]** The app fails to open the unsupported block for editing under certain local system conditions (crashes in debug mode, fails to open in release mode): [#21620](https://github.com/wordpress-mobile/WordPress-iOS/issues/21620).
 
 #### Precondition
 
