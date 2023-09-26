@@ -15,6 +15,9 @@
 
 ##### TC001
 
+**Known Issues**
+-  **[iOS]** The app crashes in a simulator when running under certain network settings: [#21620](https://github.com/wordpress-mobile/WordPress-iOS/issues/21620).
+
 #### Precondition
 
 A WP.com Simple site (i.e. not an Atomic site). Any free WP.com site should suffice.
