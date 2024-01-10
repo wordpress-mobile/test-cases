@@ -126,7 +126,7 @@ Cover block should continue normally if the editor is closed and re-opened with 
 * Select "Choose from device" option
 * Select an image from the device and confirm the selection
 * While image is uploading, leave the editor
-* Verify that you see the upload progress in post summary:
+* Verify that you see the `Uploading media...` placeholder in the post summary:
   * <img src="../resources/upload-progress-posts-list.png" width="360" valign="middle">
 * Re-open the post with the cover block before uploads complete
 
@@ -154,7 +154,7 @@ Cover block should allow uploading an image after the editor is closed.
 * Select "Choose from device" option
 * Select an image from the device and confirm the selection
 * While image is uploading, leave the editor
-* Verify that you see the upload progress in post summary:
+* Verify that you see the `Uploading media...` placeholder in the post summary:
   * <img src="../resources/upload-progress-posts-list.png" width="360" valign="middle">
 * Wait for the upload to complete while in the post list
 * Re-open the post with the Cover block
