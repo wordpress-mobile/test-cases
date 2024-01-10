@@ -18,14 +18,12 @@
 
 -   Add a Cover block from the Web editor
 -   Select an image
--   Decrease the height of the block and use the Focal point picker in the right sidebar, select any point
-
-![Web focal point picker](../resources/cover-2.png)
+-   Decrease the height of the block and use the Focal point picker in the right sidebar, select any point:
+    - <img src="../resources/cover-2.png" width="360" valign="middle">
 -   Save the post
 -   Open the post from the app
 -   Expect to see the the Cover block with the image and the right focal point
-
-![Cover with focal point](../resources/cover-3.png)
+    - <img src="../resources/cover-3.png" width="360" valign="middle">
 
 --------------------------------------------------------------------------------
 
@@ -37,18 +35,15 @@
 -   Select an image
 -   Type in any text
 -   Select the block
--   Add a **custom** solid overlay color
-
-![Web overlay color setting](../resources/cover-4.png)
+-   Add a **custom** solid overlay color:
+    - <img src="../resources/cover-4.png" width="360" valign="middle">
 -   Select the text
--   Add a **custom** text color
-
-![Web text color setting](../resources/cover-5.png)
+-   Add a **custom** text color:
+    - <img src="../resources/cover-5.png" width="360" valign="middle">
 -   Save the post
 -   Open the post from the app
--   Expect to see the the Cover block with the image and color styles
-
-![Cover with color styles](../resources/cover-6.png)
+-   Expect to see the the Cover block with the image and color styles:
+    - <img src="../resources/cover-6.png" width="360" valign="middle">
 
 
 --------------------------------------------------------------------------------
@@ -126,7 +121,7 @@ Cover block should continue normally if the editor is closed and re-opened with 
 * Select "Choose from device" option
 * Select an image from the device and confirm the selection
 * While image is uploading, leave the editor
-* Verify that you see the upload progress in post summary:
+* Verify that you see the `Uploading media...` placeholder in the post summary:
   * <img src="../resources/upload-progress-posts-list.png" width="360" valign="middle">
 * Re-open the post with the cover block before uploads complete
 
@@ -154,7 +149,7 @@ Cover block should allow uploading an image after the editor is closed.
 * Select "Choose from device" option
 * Select an image from the device and confirm the selection
 * While image is uploading, leave the editor
-* Verify that you see the upload progress in post summary:
+* Verify that you see the `Uploading media...` placeholder in the post summary:
   * <img src="../resources/upload-progress-posts-list.png" width="360" valign="middle">
 * Wait for the upload to complete while in the post list
 * Re-open the post with the Cover block
