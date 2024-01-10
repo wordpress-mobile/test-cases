@@ -18,14 +18,12 @@
 
 -   Add a Cover block from the Web editor
 -   Select an image
--   Decrease the height of the block and use the Focal point picker in the right sidebar, select any point
-
-![Web focal point picker](../resources/cover-2.png)
+-   Decrease the height of the block and use the Focal point picker in the right sidebar, select any point:
+    - <img src="../resources/cover-2.png" width="360" valign="middle">
 -   Save the post
 -   Open the post from the app
 -   Expect to see the the Cover block with the image and the right focal point
-
-![Cover with focal point](../resources/cover-3.png)
+    - <img src="../resources/cover-3.png" width="360" valign="middle">
 
 --------------------------------------------------------------------------------
 
@@ -37,18 +35,15 @@
 -   Select an image
 -   Type in any text
 -   Select the block
--   Add a **custom** solid overlay color
-
-![Web overlay color setting](../resources/cover-4.png)
+-   Add a **custom** solid overlay color:
+    - <img src="../resources/cover-4.png" width="360" valign="middle">
 -   Select the text
--   Add a **custom** text color
-
-![Web text color setting](../resources/cover-5.png)
+-   Add a **custom** text color:
+    - <img src="../resources/cover-5.png" width="360" valign="middle">
 -   Save the post
 -   Open the post from the app
--   Expect to see the the Cover block with the image and color styles
-
-![Cover with color styles](../resources/cover-6.png)
+-   Expect to see the the Cover block with the image and color styles:
+    - <img src="../resources/cover-6.png" width="360" valign="middle">
 
 
 --------------------------------------------------------------------------------
