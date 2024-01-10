@@ -254,8 +254,6 @@ Audio block - 3
 - [ ] Audio block - Change the alignment in the Audio Block - [TC007](https://github.com/wordpress-mobile/test-cases/blob/trunk/test-cases/gutenberg/audio.md#tc007)
 
 Audio block - 4
-- [ ] Audio block - Autoplay setting - [TC008](https://github.com/wordpress-mobile/test-cases/blob/trunk/test-cases/gutenberg/audio.md#tc008)
-- [ ] Audio block - Loop setting - [TC009](https://github.com/wordpress-mobile/test-cases/blob/trunk/test-cases/gutenberg/audio.md#tc009)
 - [ ] Audio block - Close/Re-open post with an ongoing audio file upload - [TC010](https://github.com/wordpress-mobile/test-cases/blob/trunk/test-cases/gutenberg/audio.md#tc010)
 
 Synced patterns - 1

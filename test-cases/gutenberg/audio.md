@@ -162,34 +162,6 @@ All test cases related to uploading audio files to the site require a plan that 
 - Full width: Audio block expands to the edges of the window.
 
 --------------------------------------------------------------------------------
-##### TC008
-
-**Autoplay setting**
-
-**Steps**
-
-- Press the Audio settings icon.
-- Switch ON the option for the Autoplay setting.
-
-**Expected Behavior**
-
-- On HTML mode there should be the `autoplay` attribute in the `<audio>` tag.
-
---------------------------------------------------------------------------------
-##### TC009
-
-**Loop setting**
-
-**Steps**
-
-- Press the Audio settings.
-- Switch ON the option for the Loop setting.
-
-**Expected Behavior**
-
-- On HTML mode there should be the `loop` attribute in the `<audio>` tag.
-
---------------------------------------------------------------------------------
 ##### TC010
 
 **Close/Re-open post with an ongoing audio file upload**
