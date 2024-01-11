@@ -1,6 +1,6 @@
 # Basic Test Suite
 
-This suite groups holds the different test cases that are considered the minimum coverage when testing the editor:
+This suite groups the different test cases that are considered the minimum coverage when testing the editor:
 
 - [Writing Flow](https://github.com/wordpress-mobile/test-cases/tree/trunk/test-cases/gutenberg/writing-flow)
 - [Unsupported Block Editing](https://github.com/wordpress-mobile/test-cases/blob/trunk/test-cases/gutenberg/unsupported-block-editing.md)
