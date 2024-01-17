@@ -3,6 +3,8 @@
 **Known Issues**
 - **[Android]** Splitting block before "swiped" word loses "swiped" word https://github.com/wordpress-mobile/gutenberg-mobile/issues/2373
 
+--------------------------------------------------------------------------------
+
 #### **Precondition**
 
 Start from an empty post.
@@ -14,6 +16,7 @@ Start from an empty post.
 - Set the caret by the half of the paragraph
 - Press Enter (Intro) to split the block into two.
 
+--------------------------------------------------------------------------------
 
 ##### TC001
 
@@ -28,6 +31,8 @@ Start from an empty post.
 - Delete all new text using the delete button until the blocks are merged again.
 - Check that the blocks were merged.
 - Expect the keyboard to not hide and show while merging the blocks, it should be always visible.
+
+--------------------------------------------------------------------------------
 
 ##### TC002
 
@@ -45,6 +50,8 @@ Start from an empty post.
 - Check that the blocks were merged.
 - Expect the keyboard to not hide and show while merging the blocks, it should be always visible.
 
+--------------------------------------------------------------------------------
+
 ##### TC003
 
 **Known Issues**
@@ -59,6 +66,8 @@ Start from an empty post.
 - Check that the blocks were merged.
 - Expect the keyboard to not hide and show while merging the blocks, it should be always visible.
 
+--------------------------------------------------------------------------------
+
 ##### TC004
 
 **Known Issues**
@@ -71,6 +80,8 @@ Start from an empty post.
 - Press delete to remove the empty block.
 - Check that the previous block was selected.
 - Expect the keyboard to not hide and show while deleting and merging with the previous block, it should be always visible.
+
+--------------------------------------------------------------------------------
 
 ##### TC005
 

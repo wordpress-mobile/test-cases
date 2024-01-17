@@ -1,9 +1,13 @@
 
 # VideoPress Block - Test Cases
 
+--------------------------------------------------------------------------------
+
 #### **Precondition**
 
 Use Simple WordPress.com site with a Premium plan. Free or Personal plans only allow upload videos that are less than five minutes in length or a video size smaller than 100 MB.
+
+--------------------------------------------------------------------------------
 
 ##### TC001
 
@@ -52,6 +56,8 @@ Use Simple WordPress.com site with a Premium plan. Free or Personal plans only a
 
 <img src="../../test-cases/resources/../resources/videopress-player-2.png" width="260">
 
+--------------------------------------------------------------------------------
+
 ##### TC004
 
 **Close post with an ongoing video upload**
@@ -66,6 +72,8 @@ Use Simple WordPress.com site with a Premium plan. Free or Personal plans only a
 - Wait for the upload to complete while in the post list.
 - Re-open the post with the VideoPres block.
 - Observe that the video is displayed within the block.
+
+--------------------------------------------------------------------------------
 
 ##### TC005
 
@@ -85,6 +93,8 @@ Use Simple WordPress.com site with a Premium plan. Free or Personal plans only a
 - Observe the video can't be played.
 
 <img src="../../test-cases/resources/../resources/videopress-private-video-1.png" width="360">
+
+--------------------------------------------------------------------------------
 
 ##### TC006
 

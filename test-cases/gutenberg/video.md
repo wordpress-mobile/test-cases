@@ -1,9 +1,13 @@
 
 # Video Block - Test Cases
 
+--------------------------------------------------------------------------------
+
 #### **Precondition**
 
 A site with premium or business plan
+
+--------------------------------------------------------------------------------
 
 ##### TC001
 
@@ -13,17 +17,23 @@ Steps are same with [image block TC001](https://github.com/wordpress-mobile/test
 
 ![Upload failed](../resources/video-upload-failed.png)
 
+--------------------------------------------------------------------------------
+
 ##### TC002
 
 **Insert video from device (cancel)**
 
 Same with [image block TC002](https://github.com/wordpress-mobile/test-cases/blob/master/test-cases/gutenberg/image.md#tc002) 
 
+--------------------------------------------------------------------------------
+
 ##### TC003
 
 **Add Caption**
 
 Same with [image block TC003](https://github.com/wordpress-mobile/test-cases/blob/master/test-cases/gutenberg/image.md#tc003)
+
+--------------------------------------------------------------------------------
 
 ##### TC004
 
@@ -32,6 +42,8 @@ Same with [image block TC003](https://github.com/wordpress-mobile/test-cases/blo
 Steps are same with [image block TC004](https://github.com/wordpress-mobile/test-cases/blob/master/test-cases/gutenberg/image.md#tc004) except for the difference in UI:
 
 ![Upload progress](../resources/upload-progress-video.png)
+
+--------------------------------------------------------------------------------
 
 ##### TC005
 

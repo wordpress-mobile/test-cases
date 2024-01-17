@@ -14,6 +14,7 @@ A wordpress.com site or a jetpack site with jetpack version 9.1 or newer
 2. Verify the Story block appears among the blocks that can be added to the Post, and add it
 3. An empty Story block should have been added to the Post (with the Add Media placeholder)
 
+--------------------------------------------------------------------------------
 
 ##### TC002
 
@@ -61,6 +62,7 @@ A wordpress.com site or a jetpack site with jetpack version 9.1 or newer
 
 For reference, see https://github.com/wordpress-mobile/WordPress-Android/pull/13174
 
+--------------------------------------------------------------------------------
 
 ##### TC004
 
@@ -76,6 +78,7 @@ For reference, see https://github.com/wordpress-mobile/WordPress-Android/pull/13
 
 (*) known issue: the image will flash as it shows the local file first, and then changes to point to the remote url after upload finishes, showing a blank cover for a few moments while the remote URL is loaded
 
+--------------------------------------------------------------------------------
 
 ##### TC005
 
