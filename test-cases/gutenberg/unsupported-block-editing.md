@@ -33,6 +33,7 @@ A WP.com Simple site (i.e. not an Atomic site). Any free WP.com site should suff
 7. Tap the Continue button and expect to be taken back to the block editor
 8. Publish the post and verify it contains the edits
 
+--------------------------------------------------------------------------------
 
 ##### TC002
 
@@ -46,6 +47,7 @@ A WP.com Simple site (i.e. not an Atomic site). Any free WP.com site should suff
 3. Expect the Update button to be greyed-out
 4. Using HTML mode in the editor, view the HTML content of the post and expect it to **not** contain any of the edits
 
+--------------------------------------------------------------------------------
 
 ##### TC003
 
@@ -67,6 +69,7 @@ A WP.com Atomic site (i.e. a WP.com site with a Business plan) with the **Gutenb
 7. Tap the Continue button and expect to be taken back to the block editor
 8. Publish the post and verify it contains the edits
 
+--------------------------------------------------------------------------------
 
 ##### TC004
 
@@ -87,6 +90,7 @@ A WP.com Atomic site (i.e. a WP.com site with a Business plan) with the **Classi
 4. Tap the edit in a web browser button and expect to see loading screen
 5. After a while (~10 seconds) expect to see the `Unable to load the block editor right now` screen.
 
+--------------------------------------------------------------------------------
 
 ##### TC005
 
@@ -112,6 +116,7 @@ For this test, you need a self-hosted site with the Jetpack plugin installed, ac
 8. Tap the Continue button and expect to be taken back to the block editor
 9. Publish the post and verify it contains the edits
 
+--------------------------------------------------------------------------------
 
 ##### TC006
 
