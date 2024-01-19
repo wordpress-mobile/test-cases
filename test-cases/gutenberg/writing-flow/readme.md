@@ -1,7 +1,5 @@
 ### Writing Flow checklist
 
-#### General
-- [ ] [TC001](https://github.com/wordpress-mobile/test-cases/blob/trunk/test-cases/gutenberg/writing-flow/copy-paste.md#tc001) - Paste formatted text copied from website
 #### Rich Text Format
 - [ ] [TC007](https://github.com/wordpress-mobile/test-cases/blob/trunk/test-cases/gutenberg/writing-flow/rich-text-formatting.md#tc007) - Test format detection under the cursor
 - [ ] [TC009](https://github.com/wordpress-mobile/test-cases/blob/trunk/test-cases/gutenberg/writing-flow/rich-text-formatting.md#tc009) - Test autocorrection doesn't apply formatting to Heading
