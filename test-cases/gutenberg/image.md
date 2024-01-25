@@ -7,14 +7,20 @@ A site with premium or business plan
 
 ##### TC001
 
-**Insert image from device (failing)**
+**Insert image from device (paused or failing)**
 
 -   Tap on the Image block placeholder or edit button in the toolbar
 -   Tap option ‘Choose from device’ and choose an image
 -   Turn off internet connection and wait
+-   You should see a "Waiting for Connection" message on the image thumbnail
+<br><img src="../resources/waiting-for-connection.jpg" width=250 />
+-   Turn your internet connection back on
+-   The upload should continue automatically
+
+In the event of an upload failure:
 -   You should see the retry message on the image thumbnail
 <br><img src="../resources/image-upload-failed.png" width=250 />
--   Turn your internet connection back on
+
 -   Tap on the image
 -   You should be asked to retry
 <br><img src="../resources/retry-upload.png" width=250 />
