@@ -26,5 +26,4 @@ Gutenberg:
 
 Jetpack:
 
-- [Story block](./jetpack/story.md)
 - [VideoPress Block](./jetpack/videopress.md)
