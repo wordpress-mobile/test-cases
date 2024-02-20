@@ -37,13 +37,6 @@ MultipleUpload-1
 
 - [ ] Simultaneous uploads - [steps](https://github.com/wordpress-mobile/test-cases/blob/trunk/test-cases/gutenberg/media-interaction.md#tc001)
 
-DarkMode-1
-
-- [ ] Gallery block - Dark mode - [steps](https://github.com/wordpress-mobile/test-cases/blob/trunk/test-cases/gutenberg/darkmode.md#tc001)
-- [ ] Shortcode block - Dark mode - [steps](https://github.com/wordpress-mobile/test-cases/blob/trunk/test-cases/gutenberg/darkmode.md#tc002)
-- [ ] Media Text block - Dark mode - [steps](https://github.com/wordpress-mobile/test-cases/blob/trunk/test-cases/gutenberg/darkmode.md#tc003)
-
-
 Shortcode-1
 
 - [ ] Shortcode block - Add a youtube link - [steps](https://github.com/wordpress-mobile/test-cases/blob/trunk/test-cases/gutenberg/shortcode.md#tc001)
