@@ -5,7 +5,7 @@
 
 #### **Precondition**
 
-Use Simple WordPress.com site with a Premium plan. Free or Personal plans only allow upload videos that are less than five minutes in length, currently there's no size limitation other than the user's site storage.
+Use Simple WordPress.com site with a Premium plan. Free or Personal plans only allow upload videos that are less than five minutes in length. Currently, there is no size limitation other than the available storage on the user's site.
 
 --------------------------------------------------------------------------------
 
