@@ -25,12 +25,12 @@ Free or Personal plans are limited to videos that are less than five minutes in 
 In the event of an upload failure, which can be easily triggered when using a proxy or throttling the connection so it fails to return any data, you should see the following placeholder:
 <br><img src="../../test-cases/resources/../resources/video-retry.jpg" width="260">
 
--   Tap on the block's placeholder
--   You should be asked to retry
+- Tap on the block's placeholder
+- You should be asked to retry
 <img src="../resources/retry-upload.png" width=250 />
 
--   Tap retry
--   The upload should continue
+- Tap retry
+- The upload should continue
 
 --------------------------------------------------------------------------------
 
