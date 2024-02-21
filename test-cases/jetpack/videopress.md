@@ -5,7 +5,7 @@
 
 #### **Precondition**
 
-Use Simple WordPress.com site with a Premium plan. Free or Personal plans only allow upload videos that are less than five minutes in length or a video size smaller than 100 MB.
+Use Simple WordPress.com site with a Premium plan. Free or Personal plans only allow upload videos that are less than five minutes in length. Currently, there is no size limitation other than the available storage on the user's site.
 
 --------------------------------------------------------------------------------
 
@@ -103,7 +103,10 @@ Use Simple WordPress.com site with a Premium plan. Free or Personal plans only a
 - Use Simple WordPress.com site with a Free or Personal plan.
 - Add a VideoPress block.
 - Select “Choose from device” option.
-- Select a video file that is greater than five minutes in length or a video size larger than 100 MB.
+- Select a video file that is greater than five minutes in length.
 - Observe that the upload fails.
 
-<img src="../../test-cases/resources/../resources/videopress-free-users-upload-limit-1.png" width="360">
+iOS|Android
+-|-
+<img src="../../test-cases/resources/../resources/videopress-free-users-upload-limit-1.png" width="360">|<img src="../../test-cases/resources/../resources/videopress-free-users-upload-limit-android-1.jpg" width="360">
+
