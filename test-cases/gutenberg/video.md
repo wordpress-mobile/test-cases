@@ -28,6 +28,7 @@ In the event of an upload failure, which can be easily triggered when using a pr
 -   Tap on the block's placeholder
 -   You should be asked to retry
 <img src="../resources/retry-upload.png" width=250 />
+
 -   Tap retry
 -   The upload should continue
 
