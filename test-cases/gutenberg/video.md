@@ -23,8 +23,7 @@ Free or Personal plans are limited to videos that are less than five minutes in 
 <img src="../../test-cases/resources/../resources/video-upload-progress.jpg" width="260">
 
 In the event of an upload failure, which can be easily triggered when using a proxy or throttling the connection so it fails to return any data, you should see the following placeholder:
-
-<img src="../../test-cases/resources/../resources/video-retry.jpg" width="260">
+<br><img src="../../test-cases/resources/../resources/video-retry.jpg" width="260">
 
 -   Tap on the block's placeholder
 -   You should be asked to retry
