@@ -6,7 +6,6 @@ Gutenberg:
 - [Buttons block](./gutenberg/buttons.md)
 - [Color settings](./gutenberg/color-settings.md)
 - [Cover block](./gutenberg/cover.md)
-- [Dark Mode](./gutenberg/darkmode.md)
 - [Editor Theme](./gutenberg/editor-theme.md)
 - [Image block](./gutenberg/image.md)
 - [Interaction between media related blocks](./gutenberg/media-interaction.md)

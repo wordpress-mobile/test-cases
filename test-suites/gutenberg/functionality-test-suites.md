@@ -51,7 +51,6 @@ This holds a grouping of certain test suites to run in order to share the work w
 
 ## Test Suite 2
 
-- DarkMode 1
 - Group 1
 - Buttons 1-2-3
 - Color Settings 1
@@ -60,12 +59,6 @@ This holds a grouping of certain test suites to run in order to share the work w
 - VideoPress 2
 
 ```
-### DarkMode - 1
-
-- [ ] Gallery block - Dark mode - [TC001](https://github.com/wordpress-mobile/test-cases/blob/trunk/test-cases/gutenberg/darkmode.md#tc001)
-- [ ] Shortcode block - Dark mode - [TC002](https://github.com/wordpress-mobile/test-cases/blob/trunk/test-cases/gutenberg/darkmode.md#tc002)
-- [ ] Media Text block - Dark mode - [TC003](https://github.com/wordpress-mobile/test-cases/blob/trunk/test-cases/gutenberg/darkmode.md#tc003)
-
 ### Group - 1
 
 - [ ] Group - Deep nesting is possible (verify iOS does not crash) - [TC001](https://github.com/wordpress-mobile/test-cases/blob/trunk/test-cases/gutenberg/group.md#tc001)
