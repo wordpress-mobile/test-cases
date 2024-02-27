@@ -79,7 +79,7 @@
 
 -   Add `Buttons` block
 -   Open link [settings](../resources/button-link-settings.png)
--   Edit `Button URL` field and add link
+-   Edit `Link to` field and add link
 -   Save the post
 -   Open a post e.g. in preview mode
 -   Expect Button is redirecting to the added link
@@ -92,6 +92,7 @@
 
 -   Add `Buttons` block
 -   Open link [settings](../resources/button-link-settings.png)
+-   Edit `Link to` field and add link
 -   Switch on `Open in new tab`
 -   Expect `noreferrer noopener` is added automatically in `Link Rel` field
 -   Save the post
@@ -106,6 +107,7 @@
 
 -   Add `Buttons` block
 -   Open link [settings](../resources/button-link-settings.png)
+-   Edit `Link to` field and add link
 -   Edit `Link Rel` field and add link rel e.g `noreferrer`
 -   Open link [settings](../resources/button-link-settings.png) again
 -   Expect link rel is saved
@@ -118,11 +120,11 @@
 
 -   Add `Buttons` block
 -   Open link [settings](../resources/button-link-settings.png)
--   Edit `Button URL` field and add link
+-   Edit `Link to` field and add link
 -   Switch on `Open in new tab`
 -   Edit `Link Rel` field and add rel
 -   Open button [options](../resources/button-options.png)
--   Expect fields `Button URL`, `Open in new tab`, `Link Rel` to have the same content as in link settings
+-   Expect fields `Link to`, `Open in new tab`, `Link Rel` to have the same content as in link settings
 
 --------------------------------------------------------------------------------
 
@@ -132,7 +134,7 @@
 
 -   Add `Buttons` block
 -   Open link [settings](../resources/button-link-settings.png)
--   Edit `Button URL` field and add link
+-   Edit `Link to` field and add link
 -   Switch on `Open in new tab`
 -   Edit `Link Rel` field and add rel
 -   Press `Remove link` button
@@ -234,7 +236,7 @@
 
 -   Add `Buttons` block
 -   Open link [settings](../resources/button-link-settings.png)
--   Edit `Button URL` field and add link
+-   Edit `Link to` field and add link
 -   Close bottom-sheet
 -   Expect toolbar link button is active
 
