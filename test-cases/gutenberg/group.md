@@ -31,7 +31,7 @@ Expected look:
 -   Add a `Group` block
 -   Nest some `Group` inside
 -   Select top-most `Group` block in hierarchy
--   Check if you are able to see `Group` placeholder of nested blocks wrapped with dashed border
+-   Check if you are able to see `Group` placeholder of nested blocks
 -   Go down in the hierarchy observing if margins is kept (the whole UI should remain the same)
 -   After selecting last `Group` you should be able to see it's `AppenderButton`
 
@@ -54,7 +54,9 @@ Expected look:
 -   Add a `Group` block
 -   Nest some blocks inside
 -   Check if each selected block gets solid blue border
--   Check if each first child gets dashed grey border
+-   Select parent block
+-   Check if the parent block gets a solid blue border
+-   Check if each nested block don't display a border
 
 Expected look:  
 ![BorderStyling](../resources/group-border-styling.png)
