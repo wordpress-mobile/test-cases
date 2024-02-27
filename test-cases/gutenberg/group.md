@@ -54,7 +54,9 @@ Expected look:
 -   Add a `Group` block
 -   Nest some blocks inside
 -   Check if each selected block gets solid blue border
--   Check if each first child gets dashed grey border
+-   Select parent block
+-   Check if the parent block gets a solid blue border
+-   Check if each nested block don't display a border
 
 Expected look:  
 ![BorderStyling](../resources/group-border-styling.png)
