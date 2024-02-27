@@ -31,7 +31,7 @@ Expected look:
 -   Add a `Group` block
 -   Nest some `Group` inside
 -   Select top-most `Group` block in hierarchy
--   Check if you are able to see `Group` placeholder of nested blocks wrapped with dashed border
+-   Check if you are able to see `Group` placeholder of nested blocks
 -   Go down in the hierarchy observing if margins is kept (the whole UI should remain the same)
 -   After selecting last `Group` you should be able to see it's `AppenderButton`
 
